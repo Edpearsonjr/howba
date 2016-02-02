@@ -1,0 +1,2052 @@
+<!DOCTYPE html><html data-version="the-magglio-475" itemscope itemtype="http://schema.org/website" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" lang="en"><head><title>NBA &amp; ABA Players with Last Names Starting with T | Basketball-Reference.com</title><link rel="dns-prefetch" href="http://d2ft4b0ve1aur1.cloudfront.net" /><link rel="dns-prefetch" href="http://m.bkref.com" />
+<link rel=subresource href="http://d2ft4b0ve1aur1.cloudfront.net/js-475/sr-bbr-min.js.jgz" /><script type="text/javascript">var sr_gzipEnabled = false; var sr_js_loader = new Array();</script><script type="text/javascript" src="http://d2ft4b0ve1aur1.cloudfront.net/js-100/sr.gzipcheck.js.jgz"></script><noscript><link type="text/css" rel="stylesheet" href="http://d2ft4b0ve1aur1.cloudfront.net/css-475/sr-bbr-min.css"></noscript><script type="text/javascript">
+(function () {var sr_css_file = 'http://d2ft4b0ve1aur1.cloudfront.net/css-475/sr-bbr-min.css';if (sr_gzipEnabled) {sr_css_file = 'http://d2ft4b0ve1aur1.cloudfront.net/css-475/sr-bbr-min-gz.css';}var head = document.getElementsByTagName("head")[0];if (head) {var scriptStyles = document.createElement("link");scriptStyles.rel = "stylesheet";scriptStyles.type = "text/css";scriptStyles.href = sr_css_file;head.appendChild(scriptStyles);}}());</script><!-- tiles, touch, favicons --><link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/apple-touch-icon-152x152-bbr-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/apple-touch-icon-144x144-bbr-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/apple-touch-icon-120x120-bbr-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/apple-touch-icon-114x114-bbr-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/apple-touch-icon-76x76-bbr-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/apple-touch-icon-72x72-bbr-precomposed.png"><link rel="apple-touch-icon-precomposed" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/apple-touch-icon-bbr-precomposed.png"><link rel=icon href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/favicon_bbr.png"><!--[if IE]><link rel="shortcut icon" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/favicon_bbr.ico"><![endif]--><meta name="msapplication-TileColor" content="#ffffff"/><meta name="msapplication-TileImage" content="http://d2ft4b0ve1aur1.cloudfront.net/images-475/ms-tile-144-bbr.png" /><link rel=search        type="application/opensearchdescription+xml" href="http://d2ft4b0ve1aur1.cloudfront.net/os-475/opensearch-bbr.xml" title="B-Ref Search"><!--[if lte IE 7 ]><style type="text/css">
+.uni_holder { display: none; }
+</style><![endif]--><!--[if lte IE 6]><style type="text/css">
+.hovermenu,.hovermenu_ajax,.sub_index,#quick_index {display:none!important}
+</style><![endif]-->
+<!--  ASYNCHRONOUS:googletag --><script type='text/javascript'>
+var googletag = googletag || {};googletag.cmd = googletag.cmd || [];(function() {var gads = document.createElement('script');gads.async = true;gads.type = 'text/javascript';var useSSL = 'https:' == document.location.protocol;gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';var node = document.getElementsByTagName('script')[0];node.parentNode.insertBefore(gads, node);})();</script><meta name=keywords content="players, t"><meta property="fb:admins"     content="34208645"><meta property="fb:page_id"    content="35120246404"><meta property="og:site_name"  content="Basketball-Reference.com"><meta property="og:image"      content="http://d2ft4b0ve1aur1.cloudfront.net/images-434/apple-touch-icon-152x152-bbr-precomposed.png"><meta itemprop=image         content="http://d2ft4b0ve1aur1.cloudfront.net/images-434/apple-touch-icon-152x152-bbr-precomposed.png"><meta name="twitter:card"         content="summary"><meta name="twitter:site"         content="@bball_ref"><meta name="twitter:creator"      content="@bball_ref"><meta name="twitter:title"        content="NBA &amp; ABA Players with Last Names Starting with T | Basketball-Reference.com"><meta name="twitter:description"  content="Stats and results for players, teams, leaders and scores from the first game ever to yesterday"><meta name="twitter:image"        content=""><meta name="twitter:url"          content="http://www.basketball-reference.com"><meta name="twitter:domain"       content="Basketball-Reference.com"></head><body onload=""><div id=page_container><div id=top_nav><!--BEGIN QUALTRICS SITE INTERCEPT-->
+<script type='text/javascript'>
+(function(){var g=function(e,h,f,g){
+this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g+ "&t=" + (new Date()).getTime();document.body&&document.body.appendChild(a)}};
+this.start=function(){var a=this;window.addEventListener?window.addEventListener("load",function(){a.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){a.go()})}};
+try{(new g(100,"r","QSI_S_SI_3CWPKrI10k7ANBX","//zncvfm2dltswdzell-farris.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_SIID=SI_3CWPKrI10k7ANBX&Q_LOC="+encodeURIComponent(window.location.href))).start()}catch(i){}})();
+</script><div id='SI_3CWPKrI10k7ANBX'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+<!--END SITE INTERCEPT-->
+
+<div id="sr_site_dir">
+ <a href="http://www.sports-reference.com">Sports-Reference</a>:
+ <a href="http://www.baseball-reference.com">Baseball</a> &#183;
+ <span class="bold_text">Basketball</span>
+(<a href="http://www.sports-reference.com/cbb/">college</a>) &#183;
+ <a href="http://www.pro-football-reference.com">Football</a>
+(<a href="http://www.sports-reference.com/cfb/">college</a>) &#183;
+ <a href="http://www.hockey-reference.com/">Hockey</a> &#183;
+ <a href="http://www.sports-reference.com/olympics/">Olympics</a> &#183;
+ <a href="http://www.sports-reference.com/blog/">S-R Blog</a> &#183;
+ <a href="http://www.sports-reference.com/feedback/">Question or Comment?</a>
+</div><!-- div#sr_site_dir -->
+
+<div id=site_header>
+ <div id=sr_header>
+  <div id=sr_header_right_float class="float_right clear_right">
+   <div class="float_right">
+    <div id="welcome" class="margin0 padding_bottom_half float_right poptip" tip="Review the details of your account"><span class="greeting"></span><a class="acct_external" href="/my/auth.cgi"></a>&nbsp;</div>
+    <div class="clear_both padding_bottom_half">
+     <span class="badge ui-corner-all         colors         like_a logged_out"  onclick="return sr_login_popup();" id="login_placeholder" style="display:none;"                                      >LOGIN<span id="loginform_container"></span></span>
+     <span class="badge ui-corner-all         colors         like_a logged_in"   onclick="return sr_logout();"                                                                                        >LOGOUT</span>
+     <span class="badge ui-corner-all tooltip disabled_badge like_a is_sponsor"  onclick="document.location.href='/my/auth.cgi?do=sponsor'"          tip="Sponsor a page on Basketball-Reference.com" >SPONSOR</span>
+     <span class="badge ui-corner-all tooltip disabled_badge like_a ad_free"     onclick="document.location.href='/my/auth.cgi?do=ad_free_browsing'" tip="Surf Sports Reference Ad Free">AD FREE</span>
+    <span>&nbsp;</span>
+    </div>
+   </div>
+
+   <div class="clearfix float_right clear_both">
+    <div class="padding_left_half float_right"><a class="sprite-twitter" title="Follow us on Twitter" href="http://twitter.com/bball_ref"></a><a class="sprite-facebook" title="Become a Fan on FaceBook" href="http://www.facebook.com/Basketball.Reference"></a><a class="sprite-youtube" title="Sports Reference Instructional Videos" href="http://www.youtube.com/user/sportsreference"></a></div>
+
+    <div class=float_right>
+     <form  id="f" name="f" action="/search/search.fcgi">
+      <input x-webkit-speech type="search" placeholder="click 'Tips' for shortcuts" id="search" name="search" class="search long typeahead">
+      <input type="hidden" name="results" value="" data-search-id>
+      <input type=submit value="Search" class="submit">
+      <a class="padding_left_half small_text" href="/about/findstuff.shtml?lid=homepage_tips">Tips</a>
+     </form>
+    </div>
+   </div>
+
+  </div><!-- div#sr_header_right_float -->
+ </div><!-- div#sr_header -->
+
+ <div class="float_left">
+  <div class="clear_left float_left padding_top padding_bottom_half"><a href="/?lid=homepage_logo"><img src="http://d2ft4b0ve1aur1.cloudfront.net/images-370/Basketball-Ref.png" width=464 height=73 border="0" alt="Basketball-Reference.com"></a>
+</div>
+ </div>
+
+</div><!-- div#site_header -->
+
+
+<div id=quick_index><ul class="hovermenu_ajax navbar"><li><a href="/play-index/">play index</a><ul class=li_margin id="header_playindex"></ul></li><li><a href="/boxscores/">box scores</a><ul id=header_boxscores></ul></li><li class=active><a href="/players/">players</a><ul class=li_margin id="header_players"></ul></li><li><a href="/teams/">teams</a><ul id=header_teams></ul></li><li><a href="/leagues/">seasons</a><ul class=li_margin id="header_leagues"></ul></li><li><a href="/coaches/">coaches</a><ul class=li_margin id="header_coaches"></ul></li><li><a href="/leaders/">leaders</a><ul class=li_margin id="header_leaders"></ul></li><li><a href="/awards/">awards</a><ul class=li_margin id="header_awards"></ul></li><li><a href="/playoffs/">playoffs</a><ul class=li_margin id="header_playoffs"></ul></li><li><a href="/draft/">draft</a><ul class=li_margin id="header_draft"></ul></li><li><a href="/euro/">euro</a><ul class=li_margin id="header_euro"></ul></li><li><a href="/dleague/">d-lg</a><ul class=li_margin id="header_dlg"></ul></li><li><a href="/olympics/">olympics</a><ul class=li_margin id="header_olympics"></ul></li><li><a href="#">more [+]</a><ul class=li_margin id="header_more_links"></ul></li></ul></div><!-- div#quick_index --><div id=you_are_here><p class=padding_left0><a class=mobile_link href="http://m.bkref.com/m?p=XXplayersXXtXX">Mobile Site</a> <span class=bold_text>You Are Here</span> &gt; <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop=url href="/"><span itemprop=title>BBR Home</span></a></span> &gt; <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop=url href="/players/"><span itemprop=title>Players</span></a></span> &gt; <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span class=bold_text><span itemprop=title>Last Names Starting with T</span></span></span></p></div><!-- div#quick_index --><div class="site_news"><p><span class="bold_text">News:</span> <span class="poptip" tip="We're excited to announce a new Play Index feature at College Basketball Reference, which allows users to search for results of all matchups between Division I schools since 1949-50: the Matchup Finder. There's a lot of cool new searches you can make with this tool, so let's show some examples: Find every meeting between two schools [&#8230;]">s-r blog:<a onClick="try { pageTracker._trackEvent('blog','click','area-yah'); } catch (err) {};"
+ href="http://www.sports-reference.com/blog/2016/01/find-any-college-basketball-matchup-since-1950/">Find Any College Basketball Matchup Since 1950</a> <span class="small_text"></span></span></p></div>
+</div><!-- div#top_nav -->
+<!-- div.#sr_bbr_728x90_atf1.advert728x90 -->
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/117033896/sr_bbr_728x90_atf', [728, 90], 'sr_bbr_728x90_atf1').addService(googletag.pubads());
+    googletag.enableServices();
+  });
+</script>
+<!-- /117033896/sr_bbr_728x90_atf -->
+<div class="clear_both x_small_text align_right"><a href="/my/auth.cgi?do=ad_free_browsing">Support us without the ads? Go Ad-Free!</a></div>
+<div id="sr_bbr_728x90_atf1" class="advert728x90">
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('sr_bbr_728x90_atf1'); });
+</script>
+</div>
+<div id="page_content">
+<h1>NBA &amp; ABA Players with Last Names Starting with T</h1>
+<p><a href="/players/a/">A</a>&nbsp;|&nbsp;<a href="/players/b/">B</a>&nbsp;|&nbsp;<a href="/players/c/">C</a>&nbsp;|&nbsp;<a href="/players/d/">D</a>&nbsp;|&nbsp;<a href="/players/e/">E</a>&nbsp;|&nbsp;<a href="/players/f/">F</a>&nbsp;|&nbsp;<a href="/players/g/">G</a>&nbsp;|&nbsp;<a href="/players/h/">H</a>&nbsp;|&nbsp;<a href="/players/i/">I</a>&nbsp;|&nbsp;<a href="/players/j/">J</a>&nbsp;|&nbsp;<a href="/players/k/">K</a>&nbsp;|&nbsp;<a href="/players/l/">L</a>&nbsp;|&nbsp;<a href="/players/m/">M</a>&nbsp;|&nbsp;<a href="/players/n/">N</a>&nbsp;|&nbsp;<a href="/players/o/">O</a>&nbsp;|&nbsp;<a href="/players/p/">P</a>&nbsp;|&nbsp;<a href="/players/q/">Q</a>&nbsp;|&nbsp;<a href="/players/r/">R</a>&nbsp;|&nbsp;<a href="/players/s/">S</a>&nbsp;|&nbsp;<span class="bold_text">T</span>&nbsp;|&nbsp;<a href="/players/u/">U</a>&nbsp;|&nbsp;<a href="/players/v/">V</a>&nbsp;|&nbsp;<a href="/players/w/">W</a>&nbsp;|&nbsp;<span class="light_text">X</span>&nbsp;|&nbsp;<a href="/players/y/">Y</a>&nbsp;|&nbsp;<a href="/players/z/">Z</a></p>
+<p>Active players are listed in <span class="bold_text">bold</span>.<br>
+Members of the Hall of Fame are marked with an asterisk (*).</p>
+<div class="table_heading">
+<h2 data-mobile-header="" style="">171 Players</h2>
+<div class="table_heading_text"></div>
+</div>
+<div class="table_container" id="div_players">
+<table class="sortable  stats_table" id="players">
+<colgroup><col><col><col><col><col><col><col><col></colgroup>
+<thead>
+<tr class="">
+  <th data-stat="player" align="left"  class="tooltip sort_default_asc" >Player</th>
+  <th data-stat="year_min" align="right"  class="tooltip sort_default_asc"  tip="First year">From</th>
+  <th data-stat="year_max" align="right"  class="tooltip sort_default_asc"  tip="Last year">To</th>
+  <th data-stat="pos" align="center"  class="tooltip sort_default_asc"  tip="Position">Pos</th>
+  <th data-stat="height" align="right"  class="tooltip sort_default_asc"  tip="Height">Ht</th>
+  <th data-stat="weight" align="right"  class="tooltip sort_default_asc"  tip="Weight">Wt</th>
+  <th data-stat="birth_date" align="left"  class="tooltip sort_default_asc" >Birth Date</th>
+  <th data-stat="college_name" align="left"  class="tooltip sort_default_asc" >College</th>
+</tr>
+</thead>
+<tbody>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tabakza01.html">Zan Tabak</a></td>
+   <td align="right" >1995</td>
+   <td align="right" >2001</td>
+   <td align="center" >C</td>
+   <td align="right"  csk="84.0">7-0</td>
+   <td align="right" >245</td>
+   <td align="left"  csk="19700615"><a href="/friv/birthdays.cgi?month=6&amp;day=15">June 15, 1970</a></td>
+   <td align="left" ></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tabusyu01.html">Yuta Tabuse</a></td>
+   <td align="right" >2005</td>
+   <td align="right" >2005</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="69.0">5-9</td>
+   <td align="right" >165</td>
+   <td align="left"  csk="19801005"><a href="/friv/birthdays.cgi?month=10&amp;day=5">October 5, 1980</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=byuh">Brigham Young University Hawaii</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/taftch01.html">Chris Taft</a></td>
+   <td align="right" >2006</td>
+   <td align="right" >2006</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="82.0">6-10</td>
+   <td align="right" >260</td>
+   <td align="left"  csk="19850310"><a href="/friv/birthdays.cgi?month=3&amp;day=10">March 10, 1985</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=pitt">University of Pittsburgh</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tanensi01.html">Sid Tanenbaum</a></td>
+   <td align="right" >1948</td>
+   <td align="right" >1949</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="72.0">6-0</td>
+   <td align="right" >160</td>
+   <td align="left"  csk="19251008"><a href="/friv/birthdays.cgi?month=10&amp;day=8">October 8, 1925</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=newyorku">New York University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tarladr01.html">Dragan Tarlac</a></td>
+   <td align="right" >2001</td>
+   <td align="right" >2001</td>
+   <td align="center" >C</td>
+   <td align="right"  csk="82.0">6-10</td>
+   <td align="right" >260</td>
+   <td align="left"  csk="19730509"><a href="/friv/birthdays.cgi?month=5&amp;day=9">May 9, 1973</a></td>
+   <td align="left" ></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tarplro01.html">Roy Tarpley</a></td>
+   <td align="right" >1987</td>
+   <td align="right" >1995</td>
+   <td align="center" >C-F</td>
+   <td align="right"  csk="83.0">6-11</td>
+   <td align="right" >230</td>
+   <td align="left"  csk="19641128"><a href="/friv/birthdays.cgi?month=11&amp;day=28">November 28, 1964</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=michigan">University of Michigan</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tartle01.html">Levern Tart</a></td>
+   <td align="right" >1968</td>
+   <td align="right" >1971</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >195</td>
+   <td align="left"  csk="19420601"><a href="/friv/birthdays.cgi?month=6&amp;day=1">June 1, 1942</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=bradley">Bradley University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tatumea01.html">Earl Tatum</a></td>
+   <td align="right" >1977</td>
+   <td align="right" >1980</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="77.0">6-5</td>
+   <td align="right" >185</td>
+   <td align="left"  csk="19530726"><a href="/friv/birthdays.cgi?month=7&amp;day=26">July 26, 1953</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=marquette">Marquette University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/tavarwa01.html">Walter Tavares</a></strong></td>
+   <td align="right" >2016</td>
+   <td align="right" >2016</td>
+   <td align="center" >C</td>
+   <td align="right"  csk="87.0">7-3</td>
+   <td align="right" >260</td>
+   <td align="left"  csk="19920322"><a href="/friv/birthdays.cgi?month=3&amp;day=22">March 22, 1992</a></td>
+   <td align="left" ></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tayloan01.html">Anthony Taylor</a></td>
+   <td align="right" >1989</td>
+   <td align="right" >1989</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >175</td>
+   <td align="left"  csk="19651130"><a href="/friv/birthdays.cgi?month=11&amp;day=30">November 30, 1965</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=oregon">University of Oregon</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/taylobr01.html">Brian Taylor</a></td>
+   <td align="right" >1973</td>
+   <td align="right" >1982</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >185</td>
+   <td align="left"  csk="19510609"><a href="/friv/birthdays.cgi?month=6&amp;day=9">June 9, 1951</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=princeton">Princeton University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/taylodo01.html">Donell Taylor</a></td>
+   <td align="right" >2006</td>
+   <td align="right" >2007</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >180</td>
+   <td align="left"  csk="19820726"><a href="/friv/birthdays.cgi?month=7&amp;day=26">July 26, 1982</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=uab">University of Alabama at Birmingham</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/taylofa01.html">Fatty Taylor</a></td>
+   <td align="right" >1970</td>
+   <td align="right" >1977</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="72.0">6-0</td>
+   <td align="right" >175</td>
+   <td align="left"  csk="19460313"><a href="/friv/birthdays.cgi?month=3&amp;day=13">March 13, 1946</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=lasalle">La Salle University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/taylofr01.html">Fred Taylor</a></td>
+   <td align="right" >1971</td>
+   <td align="right" >1972</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="77.0">6-5</td>
+   <td align="right" >180</td>
+   <td align="left"  csk="19480205"><a href="/friv/birthdays.cgi?month=2&amp;day=5">February 5, 1948</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=utpanam">University of Texas-Pan American</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tayloja01.html">Jay Taylor</a></td>
+   <td align="right" >1990</td>
+   <td align="right" >1990</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="75.0">6-3</td>
+   <td align="right" >190</td>
+   <td align="left"  csk="19671003"><a href="/friv/birthdays.cgi?month=10&amp;day=3">October 3, 1967</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=eillinois">Eastern Illinois University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tayloje01.html">Jeff Taylor</a></td>
+   <td align="right" >1983</td>
+   <td align="right" >1987</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >175</td>
+   <td align="left"  csk="19600101"><a href="/friv/birthdays.cgi?month=1&amp;day=1">January 1, 1960</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=txtech">Texas Tech University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/tayloje03.html">Jeffery Taylor</a></strong></td>
+   <td align="right" >2013</td>
+   <td align="right" >2015</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >225</td>
+   <td align="left"  csk="19890523"><a href="/friv/birthdays.cgi?month=5&amp;day=23">May 23, 1989</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=vandy">Vanderbilt University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/tayloje02.html">Jermaine Taylor</a></strong></td>
+   <td align="right" >2010</td>
+   <td align="right" >2011</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >210</td>
+   <td align="left"  csk="19861208"><a href="/friv/birthdays.cgi?month=12&amp;day=8">December 8, 1986</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=cflorida">University of Central Florida</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/taylojo01.html">Johnny Taylor</a></td>
+   <td align="right" >1998</td>
+   <td align="right" >2000</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >220</td>
+   <td align="left"  csk="19740604"><a href="/friv/birthdays.cgi?month=6&amp;day=4">June 4, 1974</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=utchat">University of Tennessee at Chattanooga</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/taylole01.html">Leonard Taylor</a></td>
+   <td align="right" >1990</td>
+   <td align="right" >1990</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >220</td>
+   <td align="left"  csk="19660502"><a href="/friv/birthdays.cgi?month=5&amp;day=2">May 2, 1966</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=california">University of California</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tayloma01.html">Maurice Taylor</a></td>
+   <td align="right" >1998</td>
+   <td align="right" >2007</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >260</td>
+   <td align="left"  csk="19761030"><a href="/friv/birthdays.cgi?month=10&amp;day=30">October 30, 1976</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=michigan">University of Michigan</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/taylomi01.html">Mike Taylor</a></td>
+   <td align="right" >2009</td>
+   <td align="right" >2009</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >165</td>
+   <td align="left"  csk="19860121"><a href="/friv/birthdays.cgi?month=1&amp;day=21">January 21, 1986</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=iowast">Iowa State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/taylool01.html">Oliver Taylor</a></td>
+   <td align="right" >1971</td>
+   <td align="right" >1974</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >194</td>
+   <td align="left"  csk="19470307"><a href="/friv/birthdays.cgi?month=3&amp;day=7">March 7, 1947</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=houston">University of Houston</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tayloro01.html">Ronald Taylor</a></td>
+   <td align="right" >1970</td>
+   <td align="right" >1972</td>
+   <td align="center" >C</td>
+   <td align="right"  csk="85.0">7-1</td>
+   <td align="right" >265</td>
+   <td align="left"  csk="19471121"><a href="/friv/birthdays.cgi?month=11&amp;day=21">November 21, 1947</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=usc">University of Southern California</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/tayloty01.html">Tyshawn Taylor</a></strong></td>
+   <td align="right" >2013</td>
+   <td align="right" >2014</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="75.0">6-3</td>
+   <td align="right" >185</td>
+   <td align="left"  csk="19900412"><a href="/friv/birthdays.cgi?month=4&amp;day=12">April 12, 1990</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=kansas">University of Kansas</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/taylovi01.html">Vince Taylor</a></td>
+   <td align="right" >1983</td>
+   <td align="right" >1983</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="77.0">6-5</td>
+   <td align="right" >180</td>
+   <td align="left"  csk="19600911"><a href="/friv/birthdays.cgi?month=9&amp;day=11">September 11, 1960</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=duke">Duke University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/teaglte01.html">Terry Teagle</a></td>
+   <td align="right" >1983</td>
+   <td align="right" >1993</td>
+   <td align="center" >F-G</td>
+   <td align="right"  csk="77.0">6-5</td>
+   <td align="right" >195</td>
+   <td align="left"  csk="19600410"><a href="/friv/birthdays.cgi?month=4&amp;day=10">April 10, 1960</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=baylor">Baylor University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/teaguje01.html">Jeff Teague</a></strong></td>
+   <td align="right" >2010</td>
+   <td align="right" >2016</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >186</td>
+   <td align="left"  csk="19880610"><a href="/friv/birthdays.cgi?month=6&amp;day=10">June 10, 1988</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=wake">Wake Forest University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/teaguma01.html">Marquis Teague</a></strong></td>
+   <td align="right" >2013</td>
+   <td align="right" >2014</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >189</td>
+   <td align="left"  csk="19930228"><a href="/friv/birthdays.cgi?month=2&amp;day=28">February 28, 1993</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=kentucky">University of Kentucky</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/teletmi01.html">Mirza Teletovic</a></strong></td>
+   <td align="right" >2013</td>
+   <td align="right" >2016</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >242</td>
+   <td align="left"  csk="19850918"><a href="/friv/birthdays.cgi?month=9&amp;day=18">September 18, 1985</a></td>
+   <td align="left" ></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/telfase01.html">Sebastian Telfair</a></strong></td>
+   <td align="right" >2005</td>
+   <td align="right" >2015</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="72.0">6-0</td>
+   <td align="right" >165</td>
+   <td align="left"  csk="19850609"><a href="/friv/birthdays.cgi?month=6&amp;day=9">June 9, 1985</a></td>
+   <td align="left" ></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/templco01.html">Collis Temple</a></td>
+   <td align="right" >1975</td>
+   <td align="right" >1975</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >220</td>
+   <td align="left"  csk="19521108"><a href="/friv/birthdays.cgi?month=11&amp;day=8">November 8, 1952</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=lsu">Louisiana State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/templga01.html">Garrett Temple</a></strong></td>
+   <td align="right" >2010</td>
+   <td align="right" >2016</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >195</td>
+   <td align="left"  csk="19860508"><a href="/friv/birthdays.cgi?month=5&amp;day=8">May 8, 1986</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=lsu">Louisiana State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/terreir01.html">Ira Terrell</a></td>
+   <td align="right" >1977</td>
+   <td align="right" >1979</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >200</td>
+   <td align="left"  csk="19540619"><a href="/friv/birthdays.cgi?month=6&amp;day=19">June 19, 1954</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=smethodist">Southern Methodist University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/terryca01.html">Carlos Terry</a></td>
+   <td align="right" >1981</td>
+   <td align="right" >1983</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="77.0">6-5</td>
+   <td align="right" >210</td>
+   <td align="left"  csk="19560622"><a href="/friv/birthdays.cgi?month=6&amp;day=22">June 22, 1956</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=winstsalst">Winston-Salem State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/terrych01.html">Chuck Terry</a></td>
+   <td align="right" >1973</td>
+   <td align="right" >1977</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >215</td>
+   <td align="left"  csk="19500927"><a href="/friv/birthdays.cgi?month=9&amp;day=27">September 27, 1950</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=longbeach">California State University, Long Beach</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/terrycl01.html">Claude Terry</a></td>
+   <td align="right" >1973</td>
+   <td align="right" >1978</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >195</td>
+   <td align="left"  csk="19500112"><a href="/friv/birthdays.cgi?month=1&amp;day=12">January 12, 1950</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=stanford">Stanford University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/terryja01.html">Jason Terry</a></strong></td>
+   <td align="right" >2000</td>
+   <td align="right" >2016</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >185</td>
+   <td align="left"  csk="19770915"><a href="/friv/birthdays.cgi?month=9&amp;day=15">September 15, 1977</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=arizona">University of Arizona</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/thabeha01.html">Hasheem Thabeet</a></strong></td>
+   <td align="right" >2010</td>
+   <td align="right" >2014</td>
+   <td align="center" >C</td>
+   <td align="right"  csk="87.0">7-3</td>
+   <td align="right" >263</td>
+   <td align="left"  csk="19870216"><a href="/friv/birthdays.cgi?month=2&amp;day=16">February 16, 1987</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=uconn">University of Connecticut</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thackto01.html">Tom Thacker</a></td>
+   <td align="right" >1964</td>
+   <td align="right" >1971</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >170</td>
+   <td align="left"  csk="19391102"><a href="/friv/birthdays.cgi?month=11&amp;day=2">November 2, 1939</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=cincy">University of Cincinnati</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thearfl01.html">Floyd Theard</a></td>
+   <td align="right" >1970</td>
+   <td align="right" >1970</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="73.0">6-1</td>
+   <td align="right" >170</td>
+   <td align="left"  csk="19440905"><a href="/friv/birthdays.cgi?month=9&amp;day=5">September 5, 1944</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=kentuckyst">Kentucky State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/theusre01.html">Reggie Theus</a></td>
+   <td align="right" >1979</td>
+   <td align="right" >1991</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >190</td>
+   <td align="left"  csk="19571013"><a href="/friv/birthdays.cgi?month=10&amp;day=13">October 13, 1957</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=unlv">University of Nevada, Las Vegas</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thibepe01.html">Peter Thibeaux</a></td>
+   <td align="right" >1985</td>
+   <td align="right" >1986</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >210</td>
+   <td align="left"  csk="19611003"><a href="/friv/birthdays.cgi?month=10&amp;day=3">October 3, 1961</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=stmarysca">Saint Mary's College of California</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thiebbi01.html">Bill Thieben</a></td>
+   <td align="right" >1957</td>
+   <td align="right" >1958</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >215</td>
+   <td align="left"  csk="19350328"><a href="/friv/birthdays.cgi?month=3&amp;day=28">March 28, 1935</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=hofstra">Hofstra University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thigpju01.html">Justus Thigpen</a></td>
+   <td align="right" >1970</td>
+   <td align="right" >1974</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="73.0">6-1</td>
+   <td align="right" >160</td>
+   <td align="left"  csk="19470813"><a href="/friv/birthdays.cgi?month=8&amp;day=13">August 13, 1947</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=weberst">Weber State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thirdda01.html">David Thirdkill</a></td>
+   <td align="right" >1983</td>
+   <td align="right" >1987</td>
+   <td align="center" >F-G</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >195</td>
+   <td align="left"  csk="19600412"><a href="/friv/birthdays.cgi?month=4&amp;day=12">April 12, 1960</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=bradley">Bradley University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/thomaad01.html">Adonis Thomas</a></strong></td>
+   <td align="right" >2014</td>
+   <td align="right" >2014</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >200</td>
+   <td align="left"  csk="19930325"><a href="/friv/birthdays.cgi?month=3&amp;day=25">March 25, 1993</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=memphis">University of Memphis</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomabi01.html">Billy Thomas</a></td>
+   <td align="right" >2005</td>
+   <td align="right" >2008</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >208</td>
+   <td align="left"  csk="19751223"><a href="/friv/birthdays.cgi?month=12&amp;day=23">December 23, 1975</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=kansas">University of Kansas</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomaca01.html">Carl Thomas</a></td>
+   <td align="right" >1992</td>
+   <td align="right" >1998</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >175</td>
+   <td align="left"  csk="19691003"><a href="/friv/birthdays.cgi?month=10&amp;day=3">October 3, 1969</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=emichigan">Eastern Michigan University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomach01.html">Charles Thomas</a></td>
+   <td align="right" >1992</td>
+   <td align="right" >1992</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="75.0">6-3</td>
+   <td align="right" >175</td>
+   <td align="left"  csk="19691003"><a href="/friv/birthdays.cgi?month=10&amp;day=3">October 3, 1969</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=emichigan">Eastern Michigan University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomaet01.html">Etan Thomas</a></td>
+   <td align="right" >2002</td>
+   <td align="right" >2011</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >256</td>
+   <td align="left"  csk="19780401"><a href="/friv/birthdays.cgi?month=4&amp;day=1">April 1, 1978</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=syracuse">Syracuse University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomair01.html">Irving Thomas</a></td>
+   <td align="right" >1991</td>
+   <td align="right" >1991</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >225</td>
+   <td align="left"  csk="19660102"><a href="/friv/birthdays.cgi?month=1&amp;day=2">January 2, 1966</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=floridast">Florida State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/thomais02.html">Isaiah Thomas</a></strong></td>
+   <td align="right" >2012</td>
+   <td align="right" >2016</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="69.0">5-9</td>
+   <td align="right" >185</td>
+   <td align="left"  csk="19890207"><a href="/friv/birthdays.cgi?month=2&amp;day=7">February 7, 1989</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=washington">University of Washington</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomais01.html">Isiah Thomas</a>*</td>
+   <td align="right" >1982</td>
+   <td align="right" >1994</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="73.0">6-1</td>
+   <td align="right" >180</td>
+   <td align="left"  csk="19610430"><a href="/friv/birthdays.cgi?month=4&amp;day=30">April 30, 1961</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=indiana">Indiana University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomaja01.html">Jamel Thomas</a></td>
+   <td align="right" >2000</td>
+   <td align="right" >2001</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >215</td>
+   <td align="left"  csk="19730325"><a href="/friv/birthdays.cgi?month=3&amp;day=25">March 25, 1973</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=providence">Providence College</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomaja02.html">James Thomas</a></td>
+   <td align="right" >2005</td>
+   <td align="right" >2006</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >235</td>
+   <td align="left"  csk="19801122"><a href="/friv/birthdays.cgi?month=11&amp;day=22">November 22, 1980</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=texas">University of Texas at Austin</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomaji01.html">Jim Thomas</a></td>
+   <td align="right" >1984</td>
+   <td align="right" >1991</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="75.0">6-3</td>
+   <td align="right" >190</td>
+   <td align="left"  csk="19601019"><a href="/friv/birthdays.cgi?month=10&amp;day=19">October 19, 1960</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=indiana">Indiana University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomajo01.html">Joe Thomas</a></td>
+   <td align="right" >1971</td>
+   <td align="right" >1971</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >205</td>
+   <td align="left"  csk="19480309"><a href="/friv/birthdays.cgi?month=3&amp;day=9">March 9, 1948</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=marquette">Marquette University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomajo02.html">John Thomas</a></td>
+   <td align="right" >1998</td>
+   <td align="right" >2006</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >265</td>
+   <td align="left"  csk="19750908"><a href="/friv/birthdays.cgi?month=9&amp;day=8">September 8, 1975</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=minnesota">University of Minnesota</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomake01.html">Kenny Thomas</a></td>
+   <td align="right" >2000</td>
+   <td align="right" >2010</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >261</td>
+   <td align="left"  csk="19770725"><a href="/friv/birthdays.cgi?month=7&amp;day=25">July 25, 1977</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=nmexico">University of New Mexico</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomaku01.html">Kurt Thomas</a></td>
+   <td align="right" >1996</td>
+   <td align="right" >2013</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >230</td>
+   <td align="left"  csk="19721004"><a href="/friv/birthdays.cgi?month=10&amp;day=4">October 4, 1972</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=txchrist">Texas Christian University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/thomala01.html">Lance Thomas</a></strong></td>
+   <td align="right" >2012</td>
+   <td align="right" >2016</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >235</td>
+   <td align="left"  csk="19880424"><a href="/friv/birthdays.cgi?month=4&amp;day=24">April 24, 1988</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=duke">Duke University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/thomama01.html">Malcolm Thomas</a></strong></td>
+   <td align="right" >2012</td>
+   <td align="right" >2015</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >225</td>
+   <td align="left"  csk="19881108"><a href="/friv/birthdays.cgi?month=11&amp;day=8">November 8, 1988</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=sandiegost">San Diego State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomaro01.html">Ronald Thomas</a></td>
+   <td align="right" >1973</td>
+   <td align="right" >1976</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >215</td>
+   <td align="left"  csk="19501119"><a href="/friv/birthdays.cgi?month=11&amp;day=19">November 19, 1950</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=louisville">University of Louisville</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomate01.html">Terry Thomas</a></td>
+   <td align="right" >1976</td>
+   <td align="right" >1976</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >220</td>
+   <td align="left"  csk="19530820"><a href="/friv/birthdays.cgi?month=8&amp;day=20">August 20, 1953</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=detroit">University of Detroit Mercy</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomati01.html">Tim Thomas</a></td>
+   <td align="right" >1998</td>
+   <td align="right" >2010</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="82.0">6-10</td>
+   <td align="right" >230</td>
+   <td align="left"  csk="19770226"><a href="/friv/birthdays.cgi?month=2&amp;day=26">February 26, 1977</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=villanova">Villanova University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/thomaty01.html">Tyrus Thomas</a></strong></td>
+   <td align="right" >2007</td>
+   <td align="right" >2015</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >215</td>
+   <td align="left"  csk="19860817"><a href="/friv/birthdays.cgi?month=8&amp;day=17">August 17, 1986</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=lsu">Louisiana State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomawi01.html">Willis Thomas</a></td>
+   <td align="right" >1968</td>
+   <td align="right" >1968</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >185</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=tennst">Tennessee State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomptr02.html">Trey Thompkins</a></td>
+   <td align="right" >2012</td>
+   <td align="right" >2012</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="82.0">6-10</td>
+   <td align="right" >245</td>
+   <td align="left"  csk="19900520"><a href="/friv/birthdays.cgi?month=5&amp;day=20">May 20, 1990</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=georgia">University of Georgia</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thompbe01.html">Bernard Thompson</a></td>
+   <td align="right" >1985</td>
+   <td align="right" >1989</td>
+   <td align="center" >F-G</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >210</td>
+   <td align="left"  csk="19620830"><a href="/friv/birthdays.cgi?month=8&amp;day=30">August 30, 1962</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=fresnost">California State University, Fresno</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thompbi01.html">Billy Thompson</a></td>
+   <td align="right" >1987</td>
+   <td align="right" >1992</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >195</td>
+   <td align="left"  csk="19631201"><a href="/friv/birthdays.cgi?month=12&amp;day=1">December 1, 1963</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=louisville">University of Louisville</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thompbr01.html">Brooks Thompson</a></td>
+   <td align="right" >1995</td>
+   <td align="right" >1998</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >193</td>
+   <td align="left"  csk="19700719"><a href="/friv/birthdays.cgi?month=7&amp;day=19">July 19, 1970</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=okstate">Oklahoma State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thompco01.html">Corny Thompson</a></td>
+   <td align="right" >1983</td>
+   <td align="right" >1983</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >225</td>
+   <td align="left"  csk="19600205"><a href="/friv/birthdays.cgi?month=2&amp;day=5">February 5, 1960</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=uconn">University of Connecticut</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thompda01.html">David Thompson</a>*</td>
+   <td align="right" >1976</td>
+   <td align="right" >1984</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >195</td>
+   <td align="left"  csk="19540713"><a href="/friv/birthdays.cgi?month=7&amp;day=13">July 13, 1954</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=ncstate">North Carolina State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thompdi01.html">Dijon Thompson</a></td>
+   <td align="right" >2006</td>
+   <td align="right" >2007</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >195</td>
+   <td align="left"  csk="19830223"><a href="/friv/birthdays.cgi?month=2&amp;day=23">February 23, 1983</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=ucla">University of California, Los Angeles</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thompge01.html">George Thompson</a></td>
+   <td align="right" >1970</td>
+   <td align="right" >1975</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >200</td>
+   <td align="left"  csk="19471129"><a href="/friv/birthdays.cgi?month=11&amp;day=29">November 29, 1947</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=marquette">Marquette University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/thompho01.html">Hollis Thompson</a></strong></td>
+   <td align="right" >2014</td>
+   <td align="right" >2016</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >206</td>
+   <td align="left"  csk="19910403"><a href="/friv/birthdays.cgi?month=4&amp;day=3">April 3, 1991</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=georgetown">Georgetown University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thompja01.html">Jack Thompson</a></td>
+   <td align="right" >1969</td>
+   <td align="right" >1969</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="73.0">6-1</td>
+   <td align="right" >185</td>
+   <td align="left"  csk="19460326"><a href="/friv/birthdays.cgi?month=3&amp;day=26">March 26, 1946</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=scarolina">University of South Carolina</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/thompja02.html">Jason Thompson</a></strong></td>
+   <td align="right" >2009</td>
+   <td align="right" >2016</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="83.0">6-11</td>
+   <td align="right" >250</td>
+   <td align="left"  csk="19860721"><a href="/friv/birthdays.cgi?month=7&amp;day=21">July 21, 1986</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=rider">Rider University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thompjo01.html">John Thompson</a>*</td>
+   <td align="right" >1965</td>
+   <td align="right" >1966</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="82.0">6-10</td>
+   <td align="right" >225</td>
+   <td align="left"  csk="19410902"><a href="/friv/birthdays.cgi?month=9&amp;day=2">September 2, 1941</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=providence">Providence College</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thompke01.html">Kevin Thompson</a></td>
+   <td align="right" >1994</td>
+   <td align="right" >1994</td>
+   <td align="center" >C-F</td>
+   <td align="right"  csk="83.0">6-11</td>
+   <td align="right" >260</td>
+   <td align="left"  csk="19710207"><a href="/friv/birthdays.cgi?month=2&amp;day=7">February 7, 1971</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=ncstate">North Carolina State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/thompkl01.html">Klay Thompson</a></strong></td>
+   <td align="right" >2012</td>
+   <td align="right" >2016</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >205</td>
+   <td align="left"  csk="19900208"><a href="/friv/birthdays.cgi?month=2&amp;day=8">February 8, 1990</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=washst">Washington State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thompla01.html">LaSalle Thompson</a></td>
+   <td align="right" >1983</td>
+   <td align="right" >1997</td>
+   <td align="center" >C-F</td>
+   <td align="right"  csk="82.0">6-10</td>
+   <td align="right" >245</td>
+   <td align="left"  csk="19610623"><a href="/friv/birthdays.cgi?month=6&amp;day=23">June 23, 1961</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=texas">University of Texas at Austin</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thompmy01.html">Mychal Thompson</a></td>
+   <td align="right" >1979</td>
+   <td align="right" >1991</td>
+   <td align="center" >C-F</td>
+   <td align="right"  csk="82.0">6-10</td>
+   <td align="right" >226</td>
+   <td align="left"  csk="19550130"><a href="/friv/birthdays.cgi?month=1&amp;day=30">January 30, 1955</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=minnesota">University of Minnesota</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thompmy02.html">Mychel Thompson</a></td>
+   <td align="right" >2012</td>
+   <td align="right" >2012</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >211</td>
+   <td align="left"  csk="19880601"><a href="/friv/birthdays.cgi?month=6&amp;day=1">June 1, 1988</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=pepperdine">Pepperdine University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thomppa01.html">Paul Thompson</a></td>
+   <td align="right" >1984</td>
+   <td align="right" >1986</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >210</td>
+   <td align="left"  csk="19610525"><a href="/friv/birthdays.cgi?month=5&amp;day=25">May 25, 1961</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=tulane">Tulane University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thompst01.html">Stephen Thompson</a></td>
+   <td align="right" >1992</td>
+   <td align="right" >1992</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >185</td>
+   <td align="left"  csk="19681202"><a href="/friv/birthdays.cgi?month=12&amp;day=2">December 2, 1968</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=syracuse">Syracuse University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/thomptr01.html">Tristan Thompson</a></strong></td>
+   <td align="right" >2012</td>
+   <td align="right" >2016</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >238</td>
+   <td align="left"  csk="19910313"><a href="/friv/birthdays.cgi?month=3&amp;day=13">March 13, 1991</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=texas">University of Texas at Austin</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thoresk01.html">Skip Thoren</a></td>
+   <td align="right" >1968</td>
+   <td align="right" >1970</td>
+   <td align="center" >C</td>
+   <td align="right"  csk="82.0">6-10</td>
+   <td align="right" >230</td>
+   <td align="left"  csk="19430405"><a href="/friv/birthdays.cgi?month=4&amp;day=5">April 5, 1943</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=illinois">University of Illinois at Urbana-Champaign</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thornro01.html">Rod Thorn</a></td>
+   <td align="right" >1964</td>
+   <td align="right" >1971</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >195</td>
+   <td align="left"  csk="19410523"><a href="/friv/birthdays.cgi?month=5&amp;day=23">May 23, 1941</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=wvirginia">West Virginia University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thornal01.html">Al Thornton</a></td>
+   <td align="right" >2008</td>
+   <td align="right" >2011</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >220</td>
+   <td align="left"  csk="19831207"><a href="/friv/birthdays.cgi?month=12&amp;day=7">December 7, 1983</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=floridast">Florida State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thornbo01.html">Bob Thornton</a></td>
+   <td align="right" >1986</td>
+   <td align="right" >1996</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="82.0">6-10</td>
+   <td align="right" >225</td>
+   <td align="left"  csk="19620710"><a href="/friv/birthdays.cgi?month=7&amp;day=10">July 10, 1962</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=ucirvine">University of California, Irvine</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thornda01.html">Dallas Thornton</a></td>
+   <td align="right" >1969</td>
+   <td align="right" >1970</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >190</td>
+   <td align="left"  csk="19460901"><a href="/friv/birthdays.cgi?month=9&amp;day=1">September 1, 1946</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=kywesleyan">Kentucky Wesleyan College</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/thornma01.html">Marcus Thornton</a></strong></td>
+   <td align="right" >2010</td>
+   <td align="right" >2016</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >205</td>
+   <td align="left"  csk="19870605"><a href="/friv/birthdays.cgi?month=6&amp;day=5">June 5, 1987</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=lsu">Louisiana State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thorpot01.html">Otis Thorpe</a></td>
+   <td align="right" >1985</td>
+   <td align="right" >2001</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >225</td>
+   <td align="left"  csk="19620805"><a href="/friv/birthdays.cgi?month=8&amp;day=5">August 5, 1962</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=providence">Providence College</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/threase01.html">Sedale Threatt</a></td>
+   <td align="right" >1984</td>
+   <td align="right" >1997</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >175</td>
+   <td align="left"  csk="19610910"><a href="/friv/birthdays.cgi?month=9&amp;day=10">September 10, 1961</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=wvtech">West Virginia University Institute of Technology</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thurmna01.html">Nate Thurmond</a>*</td>
+   <td align="right" >1964</td>
+   <td align="right" >1977</td>
+   <td align="center" >C-F</td>
+   <td align="right"  csk="83.0">6-11</td>
+   <td align="right" >225</td>
+   <td align="left"  csk="19410725"><a href="/friv/birthdays.cgi?month=7&amp;day=25">July 25, 1941</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=bowlgreen">Bowling Green State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/thursme01.html">Mel Thurston</a></td>
+   <td align="right" >1948</td>
+   <td align="right" >1948</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="72.0">6-0</td>
+   <td align="right" >175</td>
+   <td align="left"  csk="19190116"><a href="/friv/birthdays.cgi?month=1&amp;day=16">January 16, 1919</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=canisius">Canisius College</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tidriha01.html">Hal Tidrick</a></td>
+   <td align="right" >1949</td>
+   <td align="right" >1949</td>
+   <td align="center" >F-G</td>
+   <td align="right"  csk="73.0">6-1</td>
+   <td align="right" >190</td>
+   <td align="left"  csk="19150804"><a href="/friv/birthdays.cgi?month=8&amp;day=4">August 4, 1915</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=washjeffpa">Washington &amp; Jefferson College</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tiemada01.html">Dan Tieman</a></td>
+   <td align="right" >1963</td>
+   <td align="right" >1963</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="72.0">6-0</td>
+   <td align="right" >185</td>
+   <td align="left"  csk="19401130"><a href="/friv/birthdays.cgi?month=11&amp;day=30">November 30, 1940</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=thomasmore">Thomas More College</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tillida01.html">Darren Tillis</a></td>
+   <td align="right" >1983</td>
+   <td align="right" >1984</td>
+   <td align="center" >C-F</td>
+   <td align="right"  csk="83.0">6-11</td>
+   <td align="right" >215</td>
+   <td align="left"  csk="19600223"><a href="/friv/birthdays.cgi?month=2&amp;day=23">February 23, 1960</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=clevst">Cleveland State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tinglja01.html">Jack Tingle</a></td>
+   <td align="right" >1948</td>
+   <td align="right" >1949</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >205</td>
+   <td align="left"  csk="19241230"><a href="/friv/birthdays.cgi?month=12&amp;day=30">December 30, 1924</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=kentucky">University of Kentucky</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tinslge01.html">George Tinsley</a></td>
+   <td align="right" >1970</td>
+   <td align="right" >1972</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="77.0">6-5</td>
+   <td align="right" >205</td>
+   <td align="left"  csk="19460919"><a href="/friv/birthdays.cgi?month=9&amp;day=19">September 19, 1946</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=kywesleyan">Kentucky Wesleyan College</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/tinslja01.html">Jamaal Tinsley</a></strong></td>
+   <td align="right" >2002</td>
+   <td align="right" >2014</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="75.0">6-3</td>
+   <td align="right" >195</td>
+   <td align="left"  csk="19780228"><a href="/friv/birthdays.cgi?month=2&amp;day=28">February 28, 1978</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=iowast">Iowa State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tisdawa01.html">Wayman Tisdale</a></td>
+   <td align="right" >1986</td>
+   <td align="right" >1997</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >240</td>
+   <td align="left"  csk="19640609"><a href="/friv/birthdays.cgi?month=6&amp;day=9">June 9, 1964</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=oklahoma">University of Oklahoma</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/todormi01.html">Mike Todorovich</a></td>
+   <td align="right" >1950</td>
+   <td align="right" >1951</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="77.0">6-5</td>
+   <td align="right" >220</td>
+   <td align="left"  csk="19230611"><a href="/friv/birthdays.cgi?month=6&amp;day=11">June 11, 1923</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=wyoming">University of Wyoming</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tolbera01.html">Ray Tolbert</a></td>
+   <td align="right" >1982</td>
+   <td align="right" >1989</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >225</td>
+   <td align="left"  csk="19580910"><a href="/friv/birthdays.cgi?month=9&amp;day=10">September 10, 1958</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=indiana">Indiana University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tolbeto01.html">Tom Tolbert</a></td>
+   <td align="right" >1989</td>
+   <td align="right" >1995</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >235</td>
+   <td align="left"  csk="19651016"><a href="/friv/birthdays.cgi?month=10&amp;day=16">October 16, 1965</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=arizona">University of Arizona</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/tollian01.html">Anthony Tolliver</a></strong></td>
+   <td align="right" >2009</td>
+   <td align="right" >2016</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >240</td>
+   <td align="left"  csk="19850601"><a href="/friv/birthdays.cgi?month=6&amp;day=1">June 1, 1985</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=creighton">Creighton University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tolsode01.html">Dean Tolson</a></td>
+   <td align="right" >1975</td>
+   <td align="right" >1978</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >190</td>
+   <td align="left"  csk="19511125"><a href="/friv/birthdays.cgi?month=11&amp;day=25">November 25, 1951</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=arkansas">University of Arkansas</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tomjaru01.html">Rudy Tomjanovich</a></td>
+   <td align="right" >1971</td>
+   <td align="right" >1981</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >218</td>
+   <td align="left"  csk="19481124"><a href="/friv/birthdays.cgi?month=11&amp;day=24">November 24, 1948</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=michigan">University of Michigan</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/toneyan01.html">Andrew Toney</a></td>
+   <td align="right" >1981</td>
+   <td align="right" >1988</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="75.0">6-3</td>
+   <td align="right" >178</td>
+   <td align="left"  csk="19571123"><a href="/friv/birthdays.cgi?month=11&amp;day=23">November 23, 1957</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=ulala">University of Louisiana at Lafayette</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/toneyse01.html">Sedric Toney</a></td>
+   <td align="right" >1986</td>
+   <td align="right" >1994</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >178</td>
+   <td align="left"  csk="19620413"><a href="/friv/birthdays.cgi?month=4&amp;day=13">April 13, 1962</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=dayton">University of Dayton</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tonkoan01.html">Andy Tonkovich</a></td>
+   <td align="right" >1949</td>
+   <td align="right" >1949</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="73.0">6-1</td>
+   <td align="right" >185</td>
+   <td align="left"  csk="19221101"><a href="/friv/birthdays.cgi?month=11&amp;day=1">November 1, 1922</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=marshall">Marshall University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/toolsan01.html">Andy Toolson</a></td>
+   <td align="right" >1991</td>
+   <td align="right" >1996</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >210</td>
+   <td align="left"  csk="19660119"><a href="/friv/birthdays.cgi?month=1&amp;day=19">January 19, 1966</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=byu">Brigham Young University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/toomaja01.html">Jack Toomay</a></td>
+   <td align="right" >1948</td>
+   <td align="right" >1950</td>
+   <td align="center" >C-F</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >215</td>
+   <td align="left"  csk="19220809"><a href="/friv/birthdays.cgi?month=8&amp;day=9">August 9, 1922</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=pacific">University of the Pacific</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/toonebe01.html">Bernard Toone</a></td>
+   <td align="right" >1980</td>
+   <td align="right" >1980</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >210</td>
+   <td align="left"  csk="19560714"><a href="/friv/birthdays.cgi?month=7&amp;day=14">July 14, 1956</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=marquette">Marquette University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/torgoir01.html">Irv Torgoff</a></td>
+   <td align="right" >1947</td>
+   <td align="right" >1949</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >192</td>
+   <td align="left"  csk="19170306"><a href="/friv/birthdays.cgi?month=3&amp;day=6">March 6, 1917</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=longisland">Long Island University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tormobu01.html">Gene Tormohlen</a></td>
+   <td align="right" >1963</td>
+   <td align="right" >1970</td>
+   <td align="center" >C-F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >230</td>
+   <td align="left"  csk="19370512"><a href="/friv/birthdays.cgi?month=5&amp;day=12">May 12, 1937</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=tennessee">University of Tennessee</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/torreos01.html">Oscar Torres</a></td>
+   <td align="right" >2002</td>
+   <td align="right" >2003</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >210</td>
+   <td align="left"  csk="19761218"><a href="/friv/birthdays.cgi?month=12&amp;day=18">December 18, 1976</a></td>
+   <td align="left" ></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/toshebi01.html">Bill Tosheff</a></td>
+   <td align="right" >1952</td>
+   <td align="right" >1954</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="73.0">6-1</td>
+   <td align="right" >175</td>
+   <td align="left"  csk="19260602"><a href="/friv/birthdays.cgi?month=6&amp;day=2">June 2, 1926</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=indiana">Indiana University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/toughbo01.html">Bob Tough</a></td>
+   <td align="right" >1949</td>
+   <td align="right" >1950</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="72.0">6-0</td>
+   <td align="right" >185</td>
+   <td align="left"  csk="19200828"><a href="/friv/birthdays.cgi?month=8&amp;day=28">August 28, 1920</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=stjohns">St. John's University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/towemo01.html">Monte Towe</a></td>
+   <td align="right" >1976</td>
+   <td align="right" >1977</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="67.0">5-7</td>
+   <td align="right" >150</td>
+   <td align="left"  csk="19530927"><a href="/friv/birthdays.cgi?month=9&amp;day=27">September 27, 1953</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=ncstate">North Carolina State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/towerke01.html">Keith Tower</a></td>
+   <td align="right" >1994</td>
+   <td align="right" >1997</td>
+   <td align="center" >C-F</td>
+   <td align="right"  csk="83.0">6-11</td>
+   <td align="right" >250</td>
+   <td align="left"  csk="19700515"><a href="/friv/birthdays.cgi?month=5&amp;day=15">May 15, 1970</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=notredame">University of Notre Dame</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/towerbl01.html">Blackie Towery</a></td>
+   <td align="right" >1949</td>
+   <td align="right" >1950</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >210</td>
+   <td align="left"  csk="19200620"><a href="/friv/birthdays.cgi?month=6&amp;day=20">June 20, 1920</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=wkentucky">Western Kentucky University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/towneli01.html">Linton Townes</a></td>
+   <td align="right" >1983</td>
+   <td align="right" >1985</td>
+   <td align="center" >F-G</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >190</td>
+   <td align="left"  csk="19591130"><a href="/friv/birthdays.cgi?month=11&amp;day=30">November 30, 1959</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=jamesmad">James Madison University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/townska01.html">Karl-Anthony Towns</a></strong></td>
+   <td align="right" >2016</td>
+   <td align="right" >2016</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="84.0">7-0</td>
+   <td align="right" >244</td>
+   <td align="left"  csk="19951115"><a href="/friv/birthdays.cgi?month=11&amp;day=15">November 15, 1995</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=kentucky">University of Kentucky</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/townsra01.html">Raymond Townsend</a></td>
+   <td align="right" >1979</td>
+   <td align="right" >1982</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="75.0">6-3</td>
+   <td align="right" >175</td>
+   <td align="left"  csk="19551220"><a href="/friv/birthdays.cgi?month=12&amp;day=20">December 20, 1955</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=ucla">University of California, Los Angeles</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/trappge01.html">George Trapp</a></td>
+   <td align="right" >1972</td>
+   <td align="right" >1977</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >205</td>
+   <td align="left"  csk="19480711"><a href="/friv/birthdays.cgi?month=7&amp;day=11">July 11, 1948</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=longbeach">California State University, Long Beach</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/trappjo01.html">John Trapp</a></td>
+   <td align="right" >1969</td>
+   <td align="right" >1973</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >210</td>
+   <td align="left"  csk="19451002"><a href="/friv/birthdays.cgi?month=10&amp;day=2">October 2, 1945</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=unlv">University of Nevada, Las Vegas</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/traylro01.html">Robert Traylor</a></td>
+   <td align="right" >1999</td>
+   <td align="right" >2005</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >284</td>
+   <td align="left"  csk="19770201"><a href="/friv/birthdays.cgi?month=2&amp;day=1">February 1, 1977</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=michigan">University of Michigan</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/trentga01.html">Gary Trent</a></td>
+   <td align="right" >1996</td>
+   <td align="right" >2004</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >250</td>
+   <td align="left"  csk="19740922"><a href="/friv/birthdays.cgi?month=9&amp;day=22">September 22, 1974</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=ohio">Ohio University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/trepaje01.html">Jeff Trepagnier</a></td>
+   <td align="right" >2002</td>
+   <td align="right" >2004</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >200</td>
+   <td align="left"  csk="19790711"><a href="/friv/birthdays.cgi?month=7&amp;day=11">July 11, 1979</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=usc">University of Southern California</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tresvjo01.html">John Tresvant</a></td>
+   <td align="right" >1965</td>
+   <td align="right" >1973</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >215</td>
+   <td align="left"  csk="19391106"><a href="/friv/birthdays.cgi?month=11&amp;day=6">November 6, 1939</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=seattle">Seattle University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/triptdi01.html">Dick Triptow</a></td>
+   <td align="right" >1949</td>
+   <td align="right" >1950</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="72.0">6-0</td>
+   <td align="right" >170</td>
+   <td align="left"  csk="19221103"><a href="/friv/birthdays.cgi?month=11&amp;day=3">November 3, 1922</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=depaul">DePaul University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tripuke01.html">Kelly Tripucka</a></td>
+   <td align="right" >1982</td>
+   <td align="right" >1991</td>
+   <td align="center" >F-G</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >220</td>
+   <td align="left"  csk="19590216"><a href="/friv/birthdays.cgi?month=2&amp;day=16">February 16, 1959</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=notredame">University of Notre Dame</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/truitan01.html">Ansley Truitt</a></td>
+   <td align="right" >1973</td>
+   <td align="right" >1973</td>
+   <td align="center" >C</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >215</td>
+   <td align="left"  csk="19500824"><a href="/friv/birthdays.cgi?month=8&amp;day=24">August 24, 1950</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=california">University of California</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/trybace01.html">Cezary Trybanski</a></td>
+   <td align="right" >2003</td>
+   <td align="right" >2004</td>
+   <td align="center" >C</td>
+   <td align="right"  csk="86.0">7-2</td>
+   <td align="right" >240</td>
+   <td align="left"  csk="19790922"><a href="/friv/birthdays.cgi?month=9&amp;day=22">September 22, 1979</a></td>
+   <td align="left" ></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tsakaja01.html">Jake Tsakalidis</a></td>
+   <td align="right" >2001</td>
+   <td align="right" >2007</td>
+   <td align="center" >C</td>
+   <td align="right"  csk="86.0">7-2</td>
+   <td align="right" >285</td>
+   <td align="left"  csk="19790610"><a href="/friv/birthdays.cgi?month=6&amp;day=10">June 10, 1979</a></td>
+   <td align="left" ></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tschojo01.html">John Tschogl</a></td>
+   <td align="right" >1973</td>
+   <td align="right" >1975</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >206</td>
+   <td align="left"  csk="19500425"><a href="/friv/birthdays.cgi?month=4&amp;day=25">April 25, 1950</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=ucsb">University of California, Santa Barbara</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tsiorlo01.html">Lou Tsioropoulos</a></td>
+   <td align="right" >1957</td>
+   <td align="right" >1959</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="77.0">6-5</td>
+   <td align="right" >190</td>
+   <td align="left"  csk="19300831"><a href="/friv/birthdays.cgi?month=8&amp;day=31">August 31, 1930</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=kentucky">University of Kentucky</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/tskitni01.html">Nikoloz Tskitishvili</a></strong></td>
+   <td align="right" >2003</td>
+   <td align="right" >2006</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="84.0">7-0</td>
+   <td align="right" >225</td>
+   <td align="left"  csk="19830414"><a href="/friv/birthdays.cgi?month=4&amp;day=14">April 14, 1983</a></td>
+   <td align="left" ></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tuckeal01.html">Al Tucker</a></td>
+   <td align="right" >1968</td>
+   <td align="right" >1972</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >190</td>
+   <td align="left"  csk="19430224"><a href="/friv/birthdays.cgi?month=2&amp;day=24">February 24, 1943</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=okbaptist">Oklahoma Baptist University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tuckeal02.html">Alando Tucker</a></td>
+   <td align="right" >2008</td>
+   <td align="right" >2010</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >205</td>
+   <td align="left"  csk="19840211"><a href="/friv/birthdays.cgi?month=2&amp;day=11">February 11, 1984</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=wisconsin">University of Wisconsin</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tuckean01.html">Anthony Tucker</a></td>
+   <td align="right" >1995</td>
+   <td align="right" >1995</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >220</td>
+   <td align="left"  csk="19690404"><a href="/friv/birthdays.cgi?month=4&amp;day=4">April 4, 1969</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=wake">Wake Forest University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tuckeji01.html">Jim Tucker</a></td>
+   <td align="right" >1955</td>
+   <td align="right" >1957</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >185</td>
+   <td align="left"  csk="19321211"><a href="/friv/birthdays.cgi?month=12&amp;day=11">December 11, 1932</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=duquesne">Duquesne University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/tuckepj01.html">P.J. Tucker</a></strong></td>
+   <td align="right" >2007</td>
+   <td align="right" >2016</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >245</td>
+   <td align="left"  csk="19850505"><a href="/friv/birthdays.cgi?month=5&amp;day=5">May 5, 1985</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=texas">University of Texas at Austin</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tucketr01.html">Trent Tucker</a></td>
+   <td align="right" >1983</td>
+   <td align="right" >1993</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="77.0">6-5</td>
+   <td align="right" >193</td>
+   <td align="left"  csk="19591220"><a href="/friv/birthdays.cgi?month=12&amp;day=20">December 20, 1959</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=minnesota">University of Minnesota</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/turiaro01.html">Ronny Turiaf</a></strong></td>
+   <td align="right" >2006</td>
+   <td align="right" >2015</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="82.0">6-10</td>
+   <td align="right" >249</td>
+   <td align="left"  csk="19830113"><a href="/friv/birthdays.cgi?month=1&amp;day=13">January 13, 1983</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=gonzaga">Gonzaga University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/turkcmi01.html">Mirsad Turkcan</a></td>
+   <td align="right" >2000</td>
+   <td align="right" >2000</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >236</td>
+   <td align="left"  csk="19760607"><a href="/friv/birthdays.cgi?month=6&amp;day=7">June 7, 1976</a></td>
+   <td align="left" ></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/turkohe01.html">Hedo Turkoglu</a></td>
+   <td align="right" >2001</td>
+   <td align="right" >2015</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="82.0">6-10</td>
+   <td align="right" >220</td>
+   <td align="left"  csk="19790319"><a href="/friv/birthdays.cgi?month=3&amp;day=19">March 19, 1979</a></td>
+   <td align="left" ></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/turnean01.html">Andre Turner</a></td>
+   <td align="right" >1987</td>
+   <td align="right" >1992</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="71.0">5-11</td>
+   <td align="right" >160</td>
+   <td align="left"  csk="19641213"><a href="/friv/birthdays.cgi?month=12&amp;day=13">December 13, 1964</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=memphis">University of Memphis</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/turnebi01.html">Bill Turner</a></td>
+   <td align="right" >1968</td>
+   <td align="right" >1973</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >220</td>
+   <td align="left"  csk="19440218"><a href="/friv/birthdays.cgi?month=2&amp;day=18">February 18, 1944</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=akron">University of Akron</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/turneel01.html">Elston Turner</a></td>
+   <td align="right" >1982</td>
+   <td align="right" >1989</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="77.0">6-5</td>
+   <td align="right" >190</td>
+   <td align="left"  csk="19590610"><a href="/friv/birthdays.cgi?month=6&amp;day=10">June 10, 1959</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=olemiss">University of Mississippi</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/turneev01.html">Evan Turner</a></strong></td>
+   <td align="right" >2011</td>
+   <td align="right" >2016</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >220</td>
+   <td align="left"  csk="19881027"><a href="/friv/birthdays.cgi?month=10&amp;day=27">October 27, 1988</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=ohiost">Ohio State University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/turnega01.html">Gary Turner</a></td>
+   <td align="right" >1968</td>
+   <td align="right" >1968</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >200</td>
+   <td align="left" ></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=txchrist">Texas Christian University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/turnehe02.html">Henry Turner</a></td>
+   <td align="right" >1990</td>
+   <td align="right" >1995</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >200</td>
+   <td align="left"  csk="19660818"><a href="/friv/birthdays.cgi?month=8&amp;day=18">August 18, 1966</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=calstfull">California State University, Fullerton</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/turnehe01.html">Herschell Turner</a></td>
+   <td align="right" >1968</td>
+   <td align="right" >1968</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >195</td>
+   <td align="left"  csk="19380329"><a href="/friv/birthdays.cgi?month=3&amp;day=29">March 29, 1938</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=nebraska">University of Nebraska</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/turneja01.html">Jack Turner</a></td>
+   <td align="right" >1955</td>
+   <td align="right" >1955</td>
+   <td align="center" >F-G</td>
+   <td align="right"  csk="76.0">6-4</td>
+   <td align="right" >170</td>
+   <td align="left"  csk="19300629"><a href="/friv/birthdays.cgi?month=6&amp;day=29">June 29, 1930</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=wkentucky">Western Kentucky University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/turneja02.html">Jack Turner</a></td>
+   <td align="right" >1962</td>
+   <td align="right" >1962</td>
+   <td align="center" >G-F</td>
+   <td align="right"  csk="77.0">6-5</td>
+   <td align="right" >200</td>
+   <td align="left"  csk="19390605"><a href="/friv/birthdays.cgi?month=6&amp;day=5">June 5, 1939</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=louisville">University of Louisville</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/turneje01.html">Jeff Turner</a></td>
+   <td align="right" >1985</td>
+   <td align="right" >1996</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="81.0">6-9</td>
+   <td align="right" >230</td>
+   <td align="left"  csk="19620409"><a href="/friv/birthdays.cgi?month=4&amp;day=9">April 9, 1962</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=vandy">Vanderbilt University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/turnejo01.html">John Turner</a></td>
+   <td align="right" >1992</td>
+   <td align="right" >1992</td>
+   <td align="center" >F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >245</td>
+   <td align="left"  csk="19671130"><a href="/friv/birthdays.cgi?month=11&amp;day=30">November 30, 1967</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=phillips">Phillips University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/turnemy01.html">Myles Turner</a></strong></td>
+   <td align="right" >2016</td>
+   <td align="right" >2016</td>
+   <td align="center" >F-C</td>
+   <td align="right"  csk="83.0">6-11</td>
+   <td align="right" >243</td>
+   <td align="left"  csk="19960324"><a href="/friv/birthdays.cgi?month=3&amp;day=24">March 24, 1996</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=texas">University of Texas at Austin</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/turnewa01.html">Wayne Turner</a></td>
+   <td align="right" >2000</td>
+   <td align="right" >2000</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="74.0">6-2</td>
+   <td align="right" >190</td>
+   <td align="left"  csk="19760322"><a href="/friv/birthdays.cgi?month=3&amp;day=22">March 22, 1976</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=kentucky">University of Kentucky</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/turpime01.html">Melvin Turpin</a></td>
+   <td align="right" >1985</td>
+   <td align="right" >1990</td>
+   <td align="center" >C</td>
+   <td align="right"  csk="83.0">6-11</td>
+   <td align="right" >240</td>
+   <td align="left"  csk="19601228"><a href="/friv/birthdays.cgi?month=12&amp;day=28">December 28, 1960</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=kentucky">University of Kentucky</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/twardda01.html">Dave Twardzik</a></td>
+   <td align="right" >1973</td>
+   <td align="right" >1980</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="73.0">6-1</td>
+   <td align="right" >175</td>
+   <td align="left"  csk="19500920"><a href="/friv/birthdays.cgi?month=9&amp;day=20">September 20, 1950</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=olddom">Old Dominion University</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/twymaja01.html">Jack Twyman</a>*</td>
+   <td align="right" >1956</td>
+   <td align="right" >1966</td>
+   <td align="center" >F-G</td>
+   <td align="right"  csk="78.0">6-6</td>
+   <td align="right" >210</td>
+   <td align="left"  csk="19340511"><a href="/friv/birthdays.cgi?month=5&amp;day=11">May 11, 1934</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=cincy">University of Cincinnati</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tylerbj01.html">B.J. Tyler</a></td>
+   <td align="right" >1995</td>
+   <td align="right" >1995</td>
+   <td align="center" >G</td>
+   <td align="right"  csk="73.0">6-1</td>
+   <td align="right" >185</td>
+   <td align="left"  csk="19710430"><a href="/friv/birthdays.cgi?month=4&amp;day=30">April 30, 1971</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=texas">University of Texas at Austin</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><strong><a href="/players/t/tylerje01.html">Jeremy Tyler</a></strong></td>
+   <td align="right" >2012</td>
+   <td align="right" >2014</td>
+   <td align="center" >C</td>
+   <td align="right"  csk="82.0">6-10</td>
+   <td align="right" >260</td>
+   <td align="left"  csk="19910621"><a href="/friv/birthdays.cgi?month=6&amp;day=21">June 21, 1991</a></td>
+   <td align="left" ></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tylerte01.html">Terry Tyler</a></td>
+   <td align="right" >1979</td>
+   <td align="right" >1989</td>
+   <td align="center" >F-G</td>
+   <td align="right"  csk="79.0">6-7</td>
+   <td align="right" >215</td>
+   <td align="left"  csk="19561030"><a href="/friv/birthdays.cgi?month=10&amp;day=30">October 30, 1956</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=detroit">University of Detroit Mercy</a></td>
+</tr>
+<tr  class="">
+   <td align="left" ><a href="/players/t/tyrach01.html">Charlie Tyra</a></td>
+   <td align="right" >1958</td>
+   <td align="right" >1962</td>
+   <td align="center" >C-F</td>
+   <td align="right"  csk="80.0">6-8</td>
+   <td align="right" >230</td>
+   <td align="left"  csk="19350816"><a href="/friv/birthdays.cgi?month=8&amp;day=16">August 16, 1935</a></td>
+   <td align="left" ><a href="/friv/colleges.cgi?college=louisville">University of Louisville</a></td>
+</tr>
+</tbody>
+</table>
+</div><!-- div.table_container#div_xxxx -->
+</div>
+<!-- SR js files --><div id=sr_js></div><script type="text/javascript">
+(function () {var sr_js_file = 'http://d2ft4b0ve1aur1.cloudfront.net/js-475/sr-bbr-min.js';if (sr_gzipEnabled) {sr_js_file = 'http://d2ft4b0ve1aur1.cloudfront.net/js-475/sr-bbr-min.js.jgz';}var sr_script_tag = document.getElementById("sr_js");if (sr_script_tag) {var sr_script = document.createElement("script");sr_script.type = "text/javascript";sr_script.charset = "utf-8";sr_script.src = sr_js_file;sr_script_tag.appendChild(sr_script);}}());</script><!-- Google Analytics --><script>
+var sr_cookie = document.cookie;
+String.prototype.sr_isMatch = function(s){
+ return this.match(s)!==null
+}
+function getCookie(name) {
+ var prefix = name + "=";
+ var begin = sr_cookie.indexOf("; " + prefix);
+ if (begin == -1) {
+ begin = sr_cookie.indexOf(prefix);
+ if (begin != 0) return null;
+ }
+ else
+ {
+ begin += 2;
+ var end = document.cookie.indexOf(";", begin);
+ if (end == -1) {
+ end = sr_cookie.length;
+ }
+ }
+ return unescape(sr_cookie.substring(begin + prefix.length, end));
+}
+var sr_cookie = getCookie('SR_user') || '';
+var sr_is_ad_free = sr_cookie.sr_isMatch('Z6SON8tTdJid');
+var sr_is_user = sr_cookie !== null && sr_cookie !== '';
+var sr_seen_modal = getCookie('modal_ad') !== null;
+(function(i,s,o,g,r,a,m){
+ i['GoogleAnalyticsObject']=r;
+ i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+ a=s.createElement(o),m=s.getElementsByTagName(o)[0];
+ a.async=1;
+ a.src=g;
+ m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-1890630-2', 'auto');
+ga('require', 'linkid', 'linkid.js');
+ga('require', 'ecommerce', 'ecommerce.js');
+ga('set', 'dimension2',sr_is_ad_free);
+ga('set', 'dimension3',sr_is_user);
+ga('set', 'dimension4',sr_seen_modal);
+ga('send', 'pageview');
+var trackOutboundLink = function(el, url) {
+ ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+ function () {
+ if (el.target == '_blank') {
+ return true;
+ } else {
+ setTimeout(function() { document.location = url; }, 50);
+ return false;
+ }
+ }
+ });
+}
+/**
+ * Manual callback handler
+ * false == no scroll to track from previous page
+ */
+// The SR overall account.
+ga('create', 'UA-1890630-20', 'auto', {'name': 'combined_tracker', 'allowLinker': true });  // New tracker.
+ga('combined_tracker.send', 'pageview');
+// The SR overall account.
+ga('create', 'UA-1890630-9', 'auto', {'name': 'sr_tracker', 'allowLinker': true });  // New tracker.
+ga('sr_tracker.require', 'displayfeatures');
+ga('sr_tracker.set', 'dimension1','bbr');
+ga('sr_tracker.set', 'dimension2',sr_is_ad_free);
+ga('sr_tracker.set', 'dimension3',sr_is_user);
+ga('sr_tracker.set', 'dimension4',sr_seen_modal);
+ga('sr_tracker.send', 'pageview');
+var linker;
+// Cross browser way to listen for events.
+function addListener(element, type, callback) {
+ if (element.addEventListener) element.addEventListener(type, callback);
+ else if (element.attachEvent) element.attachEvent('on' + type, callback);
+}
+var sr_links = document.getElementsByClassName("sr_link");
+Array.prototype.forEach.call(sr_links, function(el) {
+ // Do stuff with the element
+ addListener(el, 'mousedown', decorateMe);
+ addListener(el, 'keydown',   decorateMe);
+});
+function decorateMe(event) {
+ event = event || window.event;                            // Cross browser hoops.
+ var target = event.target || event.srcElement;
+ if (target && target.href) {                              // Ensure this is a link.
+ ga(function(tracker) {
+ var linker = new window.gaplugins.Linker(tracker);
+ var output = linker.decorate(target);
+ });
+ }
+}
+</script><!-- End Google Analytics --><!-- Facebook, and plus one pixels and buttons --><script type="text/javascript">
+function sr_fire_buttons () {if (document.getElementById('sr_suppress_ads')) { return false; }// Facebook ///////////////////////////////////////////////
+window.fbAsyncInit = function() {FB.init({appId: '154659497934788', status: true, cookie: true, xfbml: true, channelUrl  : 'http://www.basketball-reference.com/inc/channel.php'});// track likes.
+FB.Event.subscribe('edge.create', function(targetUrl) {ga('send', 'social', 'facebook', 'like', targetUrl);});};var fb_root = document.getElementById('fb-root');if (fb_root)
+{var e = document.createElement('script');e.type = 'text/javascript';e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';e.async = true;fb_root.appendChild(e);}// plusone ///////////////////////////////////////////////
+var tag = document.createElement('script');tag.type = 'text/javascript';tag.async = true;tag.src = 'https://apis.google.com/js/plusone.js';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(tag, s);}</script><script type="text/javascript">
+setTimeout(function(){sr_fire_buttons();  }, 0);</script><script src="http://network.yardbarker.com/network/ybn_pixel/12488" type="text/javascript"></script><script type="text/javascript">
+(function () {if (document.getElementById('sr_suppress_ads')) { return false; }// Adiply rails ads
+var scr = document.createElement("script");scr.setAttribute('async', 'true');scr.type = "text/javascript";scr.src = "http://ad.adip.ly/dlvr/adiply_statmarg.min.js?site_id=SportsReference_AP&t=120";((document.getElementsByTagName('head') || [null])[0] ||
+document.getElementsByTagName('script')[0].parentNode).appendChild(scr);}());</script><script src="http://static.bbref.com/js/ads.js"></script><script type="text/javascript">
+if (typeof sr_test == 'undefined') {document.write('<img class=hidden src="http://static.spref.com/x.gif?obscured">');} else {document.write('<img class=hidden  src="http://static.spref.com/x.gif?seen">');}</script>
+
+<div id="site_footer">
+<div id="taboola-below-article-thumbnails"></div>
+<style type="text/css">#sr_pagebottom * { margin: 0px auto }</style>
+<script type="text/javascript">
+if ((/play-index/.test(location.pathname)) ||
+   (document.getElementById('sr_suppress_ads')))
+{
+}
+else if (location.pathname != '/') {
+   var choice = Math.random();
+   var company = '';
+   if (choice <= 0.10) {
+       !function (e, f, u) {
+       e.src = u;
+       f.parentNode.insertBefore(e, f);
+       }(document.createElement('script'),
+     document.getElementById('taboola-below-article-thumbnails'),
+     'http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
+
+       (adsbygoogle = window.adsbygoogle || []).push({});
+
+       //googletag.cmd.push(function() {
+       // googletag.defineSlot('/117033896/sr_pagebottom', [[970, 90],[728, 90]], 'sr_pagebottom').addService(googletag.pubads());
+       // googletag.pubads().set("adsense_channel_ids", "5516762052");
+       // googletag.enableServices();
+       // });
+       company = 'google';
+   } else {
+       // taboola
+       window._taboola = window._taboola || [];
+       _taboola.push({article:'auto'});
+       !function (e, f, u) {
+       e.async = 1;
+       e.src = u;
+       f.parentNode.insertBefore(e, f);
+       }(document.createElement('script'),
+     document.getElementsByTagName('script')[0],
+     'http://cdn.taboola.com/libtrc/sportsreference-network/loader.js');
+       
+       _taboola.push({
+           mode: 'thumbnails-b',
+           container: 'taboola-below-article-thumbnails',
+           placement: 'Below Article Thumbnails',
+           target_type: 'mix'
+           });
+       _taboola.push({flush: true});
+       company = 'taboola';
+   }
+
+   //document.write('<div class="xx_small_text">choice: '+choice+':'+company+'</div>');
+
+}
+else {
+    // for the front page.
+   googletag.cmd.push(function() {
+      googletag.defineSlot('/5702/yb_Sports_Reference', [728,90], 'sr_pagebottom').addService(googletag.pubads());
+      googletag.enableServices();
+  });
+}
+</script>
+
+<ins class="adsbygoogle"
+     style="display:inline-block;width:970px;height:90px"
+     data-ad-client="ca-pub-5319453360923253"
+     data-ad-slot="5975682851"></ins>
+
+<!-- sr_pagebottom -->
+<div id="sr_pagebottom" style="width:970px; height:90px;" class="margin_bottom">
+
+<script type="text/javascript">
+if ((/play-index/.test(location.pathname)) ||
+   (document.getElementById('sr_suppress_ads')))
+{
+}
+else if (location.pathname == '/') {
+   googletag.cmd.push(function() { googletag.display('sr_pagebottom'); });
+}
+</script>
+</div>
+
+
+<div id="sr_footer" class="margin_top">
+Copyright &copy; 2000-2016 <a href="http://www.sports-reference.com">Sports
+Reference LLC</a>. All rights reserved.
+
+<form class="inline margin_left" method="get" name="f_footer" action="/search/search.fcgi">
+<input x-webkit-speech type="text" id="search_footer" name="search" class="search long"> 
+<input type="submit" value="Search" class="submit">
+</form>
+
+<div class="margin_top large_text"><a href="http://www.sports-reference.com/feedback/">Question, Comment, Feedback or Correction?</a></div>
+
+<div class="margin_top">Tools: <a href="/linker/">Automatic Player Linker</a>&nbsp;|&nbsp;<a
+href="/friv/linkify.cgi">Basic Player Linker</a></div>
+
+<div class="center margin_top">
+<p>Current season data provided by SportsDirect Inc.</p>
+<a href="http://sportsdirectinc.com" rel="nofollow"><img src="http://d2ft4b0ve1aur1.cloudfront.net/images-436/sports-direct-275x35.png"></a>
+</div>
+
+<div class="blockquote clear_both margin_top">
+The NBA identifications are used with the permission of NBA Properties, Inc.
+</div>
+
+
+
+
+<div class="blockquote clear_both margin_top">
+<a href="http://www.sports-reference.com/">A Sports Reference Site</a>:
+<a href="/about/">About BBR</a>&nbsp;|
+<a href="http://www.sports-reference.com/privacy.shtml">Privacy Statement</a>&nbsp;|
+<a href="http://www.sports-reference.com/termsofuse.shtml">Conditions &amp; Terms of Service</a> | 
+<a href="http://www.sports-reference.com/data_use.shtml">Use of Data</a>
+</div>
+<div class="clear_both align_center large_text bold_text margin">Part of the <a rel="nofollow" href="http://www.foxsports.com/"><img alt="Fox Sports Engage Network" align="top" border="0" width="300" src="http://d3k2oh6evki4b7.cloudfront.net/images-012/engage.gif" height="33"></a> Network</div>
+</div><!-- div#sr_footer -->
+</div><!-- div#site_footer -->
+
+
+</div><!-- div#page_container -->
+
+</body><!-- SR -->
+</html>
