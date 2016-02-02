@@ -6,6 +6,7 @@ import urllib2 as urllib
 import string 
 from bs4 import BeautifulSoup
 from utils import pickleObject
+import re
 
 usefulConstants = constants()
 dataDir = usefulConstants["DATA_DIR"]	
@@ -58,10 +59,36 @@ def getPlayerUrlUsingBS4(directory):
 			elif i == 5:
 				weight = td.string 
 			elif i == 6:
-				dateOfBirth = "dd-mm-yyyy"
-				pass #This is for date of birth, needs some regex
+				# We would wanna store the date of birth as dd-mm-yyyy
+				# dd and mm is available in the href tag
+				# year is available in the innerHTML				
+				dobAnchorTag = td.find('a')
+				if dobAnchorTag:
+					year = dobAnchorTag.string.split(',')[1].strip()
+					href = dobAnchorTag['href'] 
+					pattern = r"""
+					^\D*					#This can start with anything
+					month=(\d{1,2})			# month needs to have either 1 or two digits
+					&						#ampersand is used in the GET call by the website to combine two query parameters
+					day=(\d{1,2})			# Day has to be a digit with either 1 or 2 digits
+					"""
+					match = re.search(pattern, href, re.VERBOSE)
+					if match:
+						groups = match.groups()
+						month = groups[0]
+						day = groups[1]
+					# I have not handled the else part here
+					# It seems like everyone's date of birth id indeed available
+					dateOfBirth = str(day) +  "-" + str(month) + "-" + str(year)
+				else:
+					dateOfBirth = 'NA'					
 			elif i == 7:
-				college = td.string 
+				collegeAnchorTag = td.find('a')
+				if collegeAnchorTag:
+					college = collegeAnchorTag.string 
+				else:
+					college = 'NA' 
+
 		player_dict = {'active': active, 'url': url, 'from': fromYear, 'to': toYear, 'position': position, 'height': height,
 						'weight': weight, 'dob': dateOfBirth, 'college': college}
 		players_initial_info.append(player_dict)
