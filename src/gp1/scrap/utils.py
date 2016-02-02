@@ -8,7 +8,7 @@ def constants():
 	constants = {
 	"WEBSITE_URL": "http://www.basketball-reference.com",
 	"BASEPLAYER_URL" : "http://www.basketball-reference.com/players/", #starting url for players
-	"SLEEP_FOR": 1, #program sleep for the entire project, before crawling the next time 
+	"SLEEP_FOR": 5, #program sleep for the entire project, before crawling the next time 
 	"DATA_DIR": "../data/"
 	}
 	return constants 
@@ -32,8 +32,8 @@ def writeFile(filename, string):
 def writeCsv(listOfDictionaries, filename):
 	'''
 		This takes in a list of dictionaries 
-		keys of a dictionary is the header 
-		the dictionaries are the rows 
+		keys of a dictionary is the header in csv
+		the dictionaries are the rows in csv
 	'''
 	if not filename.endswith('csv'):
 		print "Please provide a filename that ends with csv"
