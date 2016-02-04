@@ -84,7 +84,7 @@ class PlayerStatsInfoGenerator():
         active = ast.literal_eval(player["active"])
         position = player["position"]
         dob = player["dob"]
-        height = player["dob"]
+        height = player["height"]
 
         # We are getting the info for the active players only here. The structure of the html for inactive
         # players is different
@@ -92,7 +92,9 @@ class PlayerStatsInfoGenerator():
             html_for_player = self._getPlayerHtml(url)
             self._playerSoup = BeautifulSoup(html_for_player, "lxml")
             print "getting the basic info for the player: ", name
-            self._getBasicInfoOfActivePlayer()
+            basicInfoDict = self._getBasicInfoOfActivePlayer()
+            shootingHand = basicInfoDict["shootingHand"]
+            experience = basicInfoDict["experience"]
         else:
             pass #We can implement this based on the requirement
 
@@ -139,9 +141,13 @@ class PlayerStatsInfoGenerator():
         marginLeftHalfDiv =  playerInfoBox.findAll('div', {'class': 'margin_left_half'})[0]
         spans = marginLeftHalfDiv.find_all('span')
         for span in spans:
-            print span.string
+            string = unicode(span.string)
+            match = re.search('experience', string, re.IGNORECASE)
+            if match:
+                experience = span.nextSibling
+                experience = experience.replace("years", "").strip()
 
-
+        return dict(shootingHand = shootingHand, experience = experience)
 
 
 if __name__ == "__main__":

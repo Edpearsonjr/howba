@@ -1,6 +1,6 @@
 class Player():
     def __init__(self, name="NA", active="NA", url="NA", fromYear="NA", toYear="NA", position="NA",
-                 height="NA", weight="NA", dob="NA", college = "NA"):
+                 height="NA", weight="NA", dob="NA", college = "NA", shootingHand="NA", experience="NA"):
         self._name = name
         self._active = active
         self._url = url
@@ -11,7 +11,8 @@ class Player():
         self._weight = weight
         self._dob = dob
         self._college = college
-
+        self._shootingHand = shootingHand
+        self._experience = experience
 
     @property
     def name(self):
@@ -52,6 +53,14 @@ class Player():
     @property
     def college(self):
         return self._college
+
+    @property
+    def shootingHand(self):
+        return self._shootingHand
+
+    @property
+    def experience(self):
+        return self._experience
 
     @name.setter
     def name(self, name):
@@ -96,3 +105,11 @@ class Player():
     @college.setter
     def college(self, college):
         self._college = college
+
+    @shootingHand.setter
+    def shootingHand(self, shootingHand):
+        self._shootingHand = shootingHand
+
+    @experience.setter
+    def experience(self, experience):
+        self._experience = experience
