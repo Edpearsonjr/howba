@@ -2,35 +2,41 @@ from utils import constants
 from utils import writeFile
 from utils import sleepForAWhile
 from utils import writeCsv
+from utils import cleanHtmlForRegex
 import urllib2 as urllib
 import string 
 from bs4 import BeautifulSoup
-from utils import pickleObject
 import re
 import os 
 import sys
 import getopt
+from regex_definitions import *
 
 usefulConstants = constants()
 dataDir = usefulConstants["DATA_DIR"]	
 csvFolder = dataDir + "csv/"
 pickleFolder = dataDir + "pickled/"
+playerListsFolder = dataDir + "player_lists_html/"
 basePlayerUrl = usefulConstants["BASEPLAYER_URL"]
 baseWebsiteUrl = usefulConstants["WEBSITE_URL"]
 
+
 def getHtmlForPlayers(character):
-	'''
+	"""
 		get the html for all the players mentioned by character
-	'''	
+		:return:
+		:param character:
+	"""
 	url = basePlayerUrl + character
 	handle = urllib.urlopen(url)
-	html_players = handle.read() #Contains all the players beginnign with `character`
+	html_players = handle.read() #Contains all the players beginning with `character`
 	return html_players
 	
 def getPlayerUrlUsingBS4(directory):
-	'''
-		directory: Directory containing all the players-list files 
-	'''
+	"""
+		directory: Directory containing all the players-list files
+		:param directory:
+	"""
 	players_initial_info = [] #This list contains dictionaries
 	for (dirpath, dirnames, filenames) in os.walk(directory):		
 		for filename in filenames:
@@ -86,7 +92,7 @@ def getPlayerUrlUsingBS4(directory):
 									month = groups[0]
 									day = groups[1]
 								# I have not handled the else part here
-								# It seems like everyone's date of birth id indeed available
+								# It seems like everyone's date of birth is indeed available
 								dateOfBirth = str(day) +  "-" + str(month) + "-" + str(year)
 							else:
 								dateOfBirth = 'NA'					
@@ -104,11 +110,26 @@ def getPlayerUrlUsingBS4(directory):
 				print "Filenames without .txt extension are fad :p"
 	writeCsv(players_initial_info, csvFolder + "playersInitialInfo.csv")
 
+def getPlayerUsingRegEx(directory):
+    filename = playerListsFolder + "a-list.txt"
+    fileHandle = open(filename, "r")
+    html = fileHandle.read()
+    allTrsRegex = reGetAllTrInListPage()
+    alltrs = re.findall(allTrsRegex, html, re.VERBOSE | re.DOTALL)[0]
+    alltrs = alltrs.replace("\n", "").replace("\t", "")
+    innerHtmlRegex = reGetInnerHtmlWithinATrInListPage() #To get info within tr
+    tdRegex = reGetTdsWithinTrInListPage() #To get the info within tds
+    matchIterator = re.finditer(innerHtmlRegex, alltrs, re.VERBOSE)
+    for i, match in enumerate(matchIterator):
+        if i == 0:
+            tds = match.group(1)
+
+
+
 
 def main(argv):
 	try:
-		opts, args = getopt.getopt(argv, 'hlc')
-		print opts
+		opts, args = getopt.getopt(argv, 'hlcr')
 		if len(opts) == 0:
 			print "type python crawlplayers.py -h for help"
 			sys.exit(2)			
@@ -116,7 +137,6 @@ def main(argv):
 		print "To run the file use python crawlplayers.py -l -c as options"
 		sys.exit(2)
 	for opt, arg in opts:
-		print "opt", opt
 		if opt == "-h":
 			print "To run the file use python crawlplayers.py with -h or -i or both as options"
 			sys.exit()
@@ -125,15 +145,15 @@ def main(argv):
 				html = getHtmlForPlayers(letter)
 				filename = letter + "-list.txt"
 				print "writing file for: " + letter
-				writeFile(dataDir+"player_lists_html/"+filename, html)
+				writeFile(playerListsFolder + filename, html)
 				sleepForAWhile()
 		elif opt == "-c":
-			getPlayerUrlUsingBS4(dataDir+"player_lists_html/")
+			getPlayerUrlUsingBS4(playerListsFolder)
+		elif opt == "-r":
+			getPlayerUsingRegEx(playerListsFolder)
 		else:
 			print "type python crawlplayers.py -h for help"
 			sys.exit()
-
-
 
 if __name__ == "__main__":
 	main(sys.argv[1:])
