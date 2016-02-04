@@ -113,6 +113,7 @@ def getPlayerUsingRegEx(directory):
     allTds = reGetInnerHtmlWithinATrInListPage() # <tr> <td>..<td> </tr>
     actualContentRegex = reGetTdsWithinTrInListPage() # <td> something </td>
     contentOfAnchorTagRegEx = reGetInnerHtmlAnchorTag() #<a href = something>some content </a>
+    contentInsideStrongRegex = reGetIsStrongthere() # active players have <strong> something </strong>
     playersInitialInfo = []
 
     def getPlayersForAFilenameUsingRegex(filename):
@@ -132,6 +133,14 @@ def getPlayerUsingRegEx(directory):
                     tdContent = match.group(1)
                     if i==0:
                         # TODO: Still have to check if the strong tag is present
+                        if "<strong>" in tdContent:
+                            active = True
+                            match = re.search(contentInsideStrongRegex, tdContent, re.VERBOSE)
+                            if not match:
+                                print "the regex to obtain the innerHTML for strong failed"
+                            tdContent = match.group(1)
+                        else:
+                            active = False
                         match = re.search(contentOfAnchorTagRegEx, tdContent, re.VERBOSE)
                         playerUrl = baseWebsiteUrl + match.group(1)
                         name = match.group(2)
@@ -166,7 +175,7 @@ def getPlayerUsingRegEx(directory):
                         else:
                             college = 'NA'
 
-                playerDict = {'active': False, 'name': name, 'url': playerUrl, 'from': fromYear, 'to': toYear,
+                playerDict = {'active': active, 'name': name, 'url': playerUrl, 'from': fromYear, 'to': toYear,
                               'position': position,  'height': height, 'weight': weight, 'dob': dateOfBirth,
                               'college': college}
                 listOfDictionaries.append(playerDict)
@@ -174,18 +183,13 @@ def getPlayerUsingRegEx(directory):
         return listOfDictionaries
 
     for dirpath, dirnames, filenames in os.walk(directory):
-        print "dirpath: ", dirpath
         for filename in filenames:
             filename = dirpath + filename
-            print "Generating dictionaries for: ", filename
-            listOfDictionaries = getPlayersForAFilenameUsingRegex(filename)
-            playersInitialInfo.extend(listOfDictionaries)
+            if filename.endswith(".txt"):
+                print "Generating dictionaries for: ", filename
+                listOfDictionaries = getPlayersForAFilenameUsingRegex(filename)
+                playersInitialInfo.extend(listOfDictionaries)
     writeCsv(playersInitialInfo, csvFolder + "playersInitialInfoUsingRegex.csv")
-
-
-
-
-
 
 def main(argv):
 	try:
