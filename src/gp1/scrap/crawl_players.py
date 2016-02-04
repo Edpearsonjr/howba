@@ -19,7 +19,7 @@ pickleFolder = dataDir + "pickled/"
 playerListsFolder = dataDir + "player_lists_html/"
 basePlayerUrl = usefulConstants["BASEPLAYER_URL"]
 baseWebsiteUrl = usefulConstants["WEBSITE_URL"]
-
+correctDOBFromHrefRegex = reGetProperDoBFromHref()
 
 def getHtmlForPlayers(character):
 	"""
@@ -80,12 +80,7 @@ def getPlayerUrlUsingBS4(directory):
 							if dobAnchorTag:
 								year = dobAnchorTag.string.split(',')[1].strip()
 								href = dobAnchorTag['href'] 
-								pattern = r"""
-								^\D*					#This can start with anything
-								month=(\d{1,2})			# month needs to have either 1 or two digits
-								&						#ampersand is used in the GET call by the website to combine two query parameters
-								day=(\d{1,2})			# Day has to be a digit with either 1 or 2 digits
-								"""
+								pattern = correctDOBFromHrefRegex
 								match = re.search(pattern, href, re.VERBOSE)
 								if match:
 									groups = match.groups()
@@ -103,7 +98,8 @@ def getPlayerUrlUsingBS4(directory):
 							else:
 								college = 'NA' 
 
-					player_dict = {'active': active, 'url': url, 'from': fromYear, 'to': toYear, 'position': position, 'height': height,
+					player_dict = {'active': active,'name': name,  'url': url, 'from': fromYear, 'to': toYear,
+                                   'position': position, 'height': height,
 									'weight': weight, 'dob': dateOfBirth, 'college': college}
 					players_initial_info.append(player_dict)				
 			else:
@@ -111,18 +107,82 @@ def getPlayerUrlUsingBS4(directory):
 	writeCsv(players_initial_info, csvFolder + "playersInitialInfo.csv")
 
 def getPlayerUsingRegEx(directory):
-    filename = playerListsFolder + "a-list.txt"
-    fileHandle = open(filename, "r")
-    html = fileHandle.read()
+    # Getting all the regex at once
+    print "Getting the players using regex"
     allTrsRegex = reGetAllTrInListPage()
-    alltrs = re.findall(allTrsRegex, html, re.VERBOSE | re.DOTALL)[0]
-    alltrs = alltrs.replace("\n", "").replace("\t", "")
-    innerHtmlRegex = reGetInnerHtmlWithinATrInListPage() #To get info within tr
-    tdRegex = reGetTdsWithinTrInListPage() #To get the info within tds
-    matchIterator = re.finditer(innerHtmlRegex, alltrs, re.VERBOSE)
-    for i, match in enumerate(matchIterator):
-        if i == 0:
-            tds = match.group(1)
+    allTds = reGetInnerHtmlWithinATrInListPage() # <tr> <td>..<td> </tr>
+    actualContentRegex = reGetTdsWithinTrInListPage() # <td> something </td>
+    contentOfAnchorTagRegEx = reGetInnerHtmlAnchorTag() #<a href = something>some content </a>
+    playersInitialInfo = []
+
+    def getPlayersForAFilenameUsingRegex(filename):
+        fileHandle = open(filename, "r")
+        listOfDictionaries = []
+        html = fileHandle.read()
+        alltrs = re.findall(allTrsRegex, html, re.VERBOSE | re.DOTALL)
+        if len(alltrs) > 0: #Is there any table at all
+            alltrs = alltrs[0]
+            alltrs = alltrs.replace("\n", "").replace("\t", "")
+            matchIterator = re.finditer(allTds, alltrs, re.VERBOSE)
+            for i, match in enumerate(matchIterator):
+                tds = match.group(1)
+                tds = tds.replace("\n", "").replace("\t", "")
+                tdMatchIterator = re.finditer(actualContentRegex, tds, re.VERBOSE)
+                for i, match in enumerate(tdMatchIterator):
+                    tdContent = match.group(1)
+                    if i==0:
+                        # TODO: Still have to check if the strong tag is present
+                        match = re.search(contentOfAnchorTagRegEx, tdContent, re.VERBOSE)
+                        playerUrl = baseWebsiteUrl + match.group(1)
+                        name = match.group(2)
+                    elif i == 1:
+                        fromYear = tdContent
+                    elif i == 2:
+                        toYear = tdContent
+                    elif i == 3:
+                        position = tdContent
+                    elif i == 4:
+                        height = tdContent
+                    elif i == 5:
+                        weight = tdContent
+                    elif i == 6:
+                        # TODO: Have to get the date of birth here
+                        if len(tdContent) is not 0: #There is an anchor tag.. some of them dont have the dob
+                            match = re.search(contentOfAnchorTagRegEx,tdContent, re.VERBOSE)
+                            year = match.group(2).split(",")[1].strip()
+                            dobHref = match.group(1)
+                            match = re.search(correctDOBFromHrefRegex, dobHref, re.VERBOSE)
+                            if match:
+                                groups = match.groups()
+                                month = groups[0]
+                                day = groups[1]
+                                dateOfBirth = day + "-" + month + "-" + year
+                        else:
+                            dateOfBirth = 'NA'
+                    elif i == 7:
+                        if len(tdContent) is not 0:
+                            match = re.search(contentOfAnchorTagRegEx, tdContent, re.VERBOSE)
+                            college = match.group(2).strip()
+                        else:
+                            college = 'NA'
+
+                playerDict = {'active': False, 'name': name, 'url': playerUrl, 'from': fromYear, 'to': toYear,
+                              'position': position,  'height': height, 'weight': weight, 'dob': dateOfBirth,
+                              'college': college}
+                listOfDictionaries.append(playerDict)
+
+        return listOfDictionaries
+
+    for dirpath, dirnames, filenames in os.walk(directory):
+        print "dirpath: ", dirpath
+        for filename in filenames:
+            filename = dirpath + filename
+            print "Generating dictionaries for: ", filename
+            listOfDictionaries = getPlayersForAFilenameUsingRegex(filename)
+            playersInitialInfo.extend(listOfDictionaries)
+    writeCsv(playersInitialInfo, csvFolder + "playersInitialInfoUsingRegex.csv")
+
+
 
 
 
