@@ -106,6 +106,7 @@ def getPlayerUrlUsingBS4(directory):
 				print "Filenames without .txt extension are fad :p"
 	writeCsv(players_initial_info, csvFolder + "playersInitialInfo.csv")
 
+
 def getPlayerUsingRegEx(directory):
     # Getting all the regex at once
     print "Getting the players using regex"

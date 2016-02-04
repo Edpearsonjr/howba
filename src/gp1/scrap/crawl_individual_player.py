@@ -2,9 +2,11 @@ from bs4 import BeautifulSoup
 import csv
 import os
 import urllib2 as urllib
-
+import ast
+import httplib
 from Player import Player
 from utils import *
+import sys
 
 usefulConstants = constants()
 csvFolder = usefulConstants["CSV_FOLDER"]
@@ -63,8 +65,8 @@ class PlayerStatsInfoGenerator():
         :return:
         """
         for i, eachPlayer in enumerate(self.allPlayersBasicInfo):
-            if i == 0:
-                self.__makePlayer(eachPlayer)
+                if i < 15:
+                    self.__makePlayer(eachPlayer)
 
     def __makePlayer(self, player):
         """
@@ -79,13 +81,20 @@ class PlayerStatsInfoGenerator():
         name = player["name"]
         weight = player["weight"]
         to = player["to"]
-        active = player["active"]
+        active = ast.literal_eval(player["active"])
         position = player["position"]
         dob = player["dob"]
         height = player["dob"]
 
-        html_for_player = self._getPlayerHtml(url)
-        self._playerSoup = BeautifulSoup(html_for_player)
+        # We are getting the info for the active players only here. The structure of the html for inactive
+        # players is different
+        if active:
+            html_for_player = self._getPlayerHtml(url)
+            self._playerSoup = BeautifulSoup(html_for_player, "lxml")
+            print "getting the basic info for the player: ", name
+            self._getBasicInfoOfActivePlayer()
+        else:
+            pass #We can implement this based on the requirement
 
     def _getPlayerHtml(self, url):
         """
@@ -103,16 +112,38 @@ class PlayerStatsInfoGenerator():
             fileHandle = open(playersIndividualInfoFolder + filename)
             html = fileHandle.read()
         else:
-            print "contacting the website"
+            print "contacting the website for getting player info"
             try:
                 urlHandle = urllib.urlopen(url)
-            except IOError:
+            except httplib.BadStatusLine:
                 print "There is an error in opening the url"
-                return
+                sys.exit(2)
+
             html = urlHandle.read()
             writeFile(playersIndividualInfoFolder + filename, html)
             sleepForAWhile()
         return html
+
+    def _getBasicInfoOfActivePlayer(self):
+        """
+        This method makes use of the playerSoup and returns the basic info of the player that is not yet scrapped
+        some of the basic info like the position and name are already scrapped from the player list page
+        :return:
+        """
+
+        playerInfoBox = self._playerSoup.find('div', {'id': 'info_box'})
+        playerPaddingBottomHalfDiv = playerInfoBox.find('p', {'class': 'padding_bottom_half'})
+        shootingHandSpan = playerPaddingBottomHalfDiv.find_all('span')[1]
+        shootingHand = shootingHandSpan.nextSibling
+
+        marginLeftHalfDiv =  playerInfoBox.findAll('div', {'class': 'margin_left_half'})[0]
+        spans = marginLeftHalfDiv.find_all('span')
+        for span in spans:
+            print span.string
+
+
+
+
 if __name__ == "__main__":
     playerInfoGenerator = PlayerStatsInfoGenerator(csvFolder+"/playersInitialInfo.csv")
     playerInfoGenerator.generateInfo()

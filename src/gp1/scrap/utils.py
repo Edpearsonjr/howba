@@ -13,7 +13,7 @@ def constants():
                      CSV_FOLDER="../data/csv/",
                      PLAYER_LISTS_FOLDER = "../data/player_lists_html/",
                      PICKLED_FOLDER = "../data/pickled",
-                     PLAYERS_INDIVIDUAL_INFO_FOLDER= "../data/players_individual_info")
+                     PLAYERS_INDIVIDUAL_INFO_FOLDER= "../data/players_individual_info/")
     return constants
 
 
