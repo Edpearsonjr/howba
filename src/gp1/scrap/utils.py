@@ -9,7 +9,11 @@ def constants():
     constants = dict(WEBSITE_URL="http://www.basketball-reference.com",
                      BASEPLAYER_URL="http://www.basketball-reference.com/players/",
                      SLEEP_FOR=5,
-                     DATA_DIR="../data/")
+                     DATA_DIR="../data/",
+                     CSV_FOLDER="../data/csv/",
+                     PLAYER_LISTS_FOLDER = "../data/player_lists_html/",
+                     PICKLED_FOLDER = "../data/pickled",
+                     PLAYERS_INDIVIDUAL_INFO_FOLDER= "../data/players_individual_info")
     return constants
 
 
