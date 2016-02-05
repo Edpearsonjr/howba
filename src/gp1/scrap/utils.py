@@ -72,3 +72,24 @@ def cleanHtmlForRegex(html):
     """
     html = re.sub(r'\s*', '', html) #replacing all the white space characters and returning
     return html
+
+def scrapPlayerStatisticsTable(soup):
+    """
+    This takes a Beautiful Soup and then returns whatever the content is inside everyrow
+    :param soup:
+    :return:
+    """
+    tableContainerDiv = soup.find('div', {'class': 'table_container'})
+    table = tableContainerDiv.find('table')
+    tbody = table.find('tbody')
+    trs = tbody.find_all('tr')
+    statistics = []
+    for tr in trs:
+        tds = tr.find_all('td')
+        rowData = []
+        for td in tds:
+            if td.string:
+                rowData.append(td.string.encode('utf-8'))
+        statistics.append(rowData)
+
+    return statistics

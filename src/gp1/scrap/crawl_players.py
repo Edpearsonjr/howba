@@ -60,7 +60,7 @@ def getPlayerUrlUsingBS4(directory):
 							else:
 								active = False  
 								anchorTag = td.find('a')
-							name = anchorTag.string 
+		 					name = anchorTag.string
 							url =  baseWebsiteUrl + anchorTag['href']
 						elif i == 1:
 							fromYear = td.string 

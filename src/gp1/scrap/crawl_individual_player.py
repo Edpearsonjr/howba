@@ -1,17 +1,19 @@
-from bs4 import BeautifulSoup
-import csv
-import os
-import urllib2 as urllib
 import ast
 import httplib
-from Player import Player
-from utils import *
+import os
 import sys
+import urllib2 as urllib
+
+from bs4 import BeautifulSoup
+
+from utils import *
+
+from src.gp1.models.Player import Player
 
 usefulConstants = constants()
 csvFolder = usefulConstants["CSV_FOLDER"]
 playersIndividualInfoFolder = usefulConstants["PLAYERS_INDIVIDUAL_INFO_FOLDER"]
-
+player = Player()
 class PlayerStatsInfoGenerator():
     """
         This class takes in a csv file that contains the player information
@@ -93,6 +95,15 @@ class PlayerStatsInfoGenerator():
             self._playerSoup = BeautifulSoup(html_for_player, "lxml")
             print "getting the basic info for the player: ", name
             basicInfoDict = self._getBasicInfoOfActivePlayer()
+            playerTotalsStatistics = self._getPlayerStatistics('all_totals')
+            playerPerGameStatistics = self._getPlayerStatistics('all_per_game')
+            playerPer36MinuteStatistics = self._getPlayerStatistics('all_per_minute')
+            playerPer100PossessionStatistics = self._getPlayerStatistics('all_per_poss')
+            playerAdvandedStatistics = self._getPlayerStatistics('all_advanced')
+            playerShootingStatistics = self._getPlayerStatistics('all_shooting')
+            playerSalaries = self._getPlayerStatistics('all_salaries')
+            print playerSalaries 
+
             shootingHand = basicInfoDict["shootingHand"]
             experience = basicInfoDict["experience"]
         else:
@@ -148,6 +159,18 @@ class PlayerStatsInfoGenerator():
                 experience = experience.replace("years", "").strip()
 
         return dict(shootingHand = shootingHand, experience = experience)
+
+    def _getPlayerStatistics(self, divId):
+        """
+        Given the divid it will fetch the information contained in the table inside it
+        :param divId:
+        :return:
+        """
+        div = self._playerSoup.find('div', {'id': divId})
+        return scrapPlayerStatisticsTable(div)
+
+
+
 
 
 if __name__ == "__main__":

@@ -84,7 +84,7 @@ class Player():
 
     @toYear.setter
     def toYear(self, toYear):
-        self._toYear = toyear
+        self._toYear = toYear
 
     @position.setter
     def position(self, position):
