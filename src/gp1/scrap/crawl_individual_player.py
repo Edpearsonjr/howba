@@ -19,7 +19,6 @@ from src.gp1.models.Advanced import Advanced
 usefulConstants = constants()
 csvFolder = usefulConstants["CSV_FOLDER"]
 playersIndividualInfoFolder = usefulConstants["PLAYERS_INDIVIDUAL_INFO_FOLDER"]
-player = Player()
 class PlayerStatsInfoGenerator():
     """
         This class takes in a csv file that contains the player information
@@ -73,8 +72,8 @@ class PlayerStatsInfoGenerator():
         :return:
         """
         for i, eachPlayer in enumerate(self.allPlayersBasicInfo):
-                if i < 15:
                     player = self.__makePlayer(eachPlayer)
+
 
     def __makePlayer(self, player):
         """
@@ -99,7 +98,6 @@ class PlayerStatsInfoGenerator():
         if active:
             html_for_player = self._getPlayerHtml(url)
             self._playerSoup = BeautifulSoup(html_for_player, "lxml")
-            print "getting the basic info for the player: ", name
             basicInfoDict = self._getBasicInfoOfActivePlayer()
             playerTotalsStatistics = self._getPlayerStatistics('all_totals')
             playerPerGameStatistics = self._getPlayerStatistics('all_per_game')
@@ -108,6 +106,7 @@ class PlayerStatsInfoGenerator():
             playerAdvandedStatistics = self._getPlayerStatistics('all_advanced')
             playerSalaries = self._getPlayerStatistics('all_salaries')
 
+
             shootingHand = basicInfoDict["shootingHand"]
             experience = basicInfoDict["experience"]
             totals = self._getPlayerTotalsObjects(playerTotalsStatistics)
@@ -115,7 +114,10 @@ class PlayerStatsInfoGenerator():
             per36Minutes = self._getPer36MinutesObject(playerPer36MinuteStatistics)
             per100Possessions = self._getPer100PossessionObject(playerPer100PossessionStatistics)
             advanced = self._getAdvancedObject(playerAdvandedStatistics)
-            salary = self._getSalaryObject(playerSalaries)
+            if not playerSalaries:
+                salary = []
+            else:
+                salary = self._getSalaryObject(playerSalaries)
 
             #now constructing the player Object with all the information
             player = Player(name=name, active=active, url=url, fromYear=fromYear, toYear=toYear,
@@ -142,12 +144,12 @@ class PlayerStatsInfoGenerator():
         splitUrl = url.split('/')
         filename = splitUrl[len(splitUrl) - 1]
         if os.path.exists(playersIndividualInfoFolder + filename):
-            print "The file is already there"
             fileHandle = open(playersIndividualInfoFolder + filename)
             html = fileHandle.read()
         else:
-            print "contacting the website for getting player info"
+            print "contacting the website for", url
             try:
+
                 urlHandle = urllib.urlopen(url)
             except httplib.BadStatusLine:
                 print "There is an error in opening the url"
@@ -164,20 +166,31 @@ class PlayerStatsInfoGenerator():
         some of the basic info like the position and name are already scrapped from the player list page
         :return:
         """
+        shootingHand = None
+        experience = None
 
         playerInfoBox = self._playerSoup.find('div', {'id': 'info_box'})
         playerPaddingBottomHalfDiv = playerInfoBox.find('p', {'class': 'padding_bottom_half'})
-        shootingHandSpan = playerPaddingBottomHalfDiv.find_all('span')[1]
-        shootingHand = shootingHandSpan.nextSibling
-
-        marginLeftHalfDiv =  playerInfoBox.findAll('div', {'class': 'margin_left_half'})[0]
-        spans = marginLeftHalfDiv.find_all('span')
-        for span in spans:
+        shootingHandSpans = playerPaddingBottomHalfDiv.find_all('span')
+        for span in shootingHandSpans:
             string = unicode(span.string)
+            match = re.search('shoots', string, re.IGNORECASE)
+            if match:
+                shootingHand = span.nextSibling.strip()
             match = re.search('experience', string, re.IGNORECASE)
             if match:
                 experience = span.nextSibling
                 experience = experience.replace("years", "").strip()
+
+        if not (experience and shootingHand):
+            marginLeftHalfDiv =  playerInfoBox.findAll('div', {'class': 'margin_left_half'})[0]
+            spans = marginLeftHalfDiv.find_all('span')
+            for span in spans:
+                string = unicode(span.string)
+                match = re.search("experience", string, re.IGNORECASE)
+                if match:
+                    experience = span.nextSibling
+                    experience = experience.replace("years", "").strip()
 
         return dict(shootingHand = shootingHand, experience = experience)
 
@@ -188,7 +201,10 @@ class PlayerStatsInfoGenerator():
         :return:
         """
         div = self._playerSoup.find('div', {'id': divId})
-        return scrapPlayerStatisticsTable(div)
+        if not div:
+            return None
+        else:
+            return scrapPlayerStatisticsTable(div)
 
 
     def _getPlayerTotalsObjects(self, stats):

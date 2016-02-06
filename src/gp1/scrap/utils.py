@@ -8,7 +8,7 @@ def constants():
     """
     constants = dict(WEBSITE_URL="http://www.basketball-reference.com",
                      BASEPLAYER_URL="http://www.basketball-reference.com/players/",
-                     SLEEP_FOR=5,
+                     SLEEP_FOR=1,
                      DATA_DIR="../data/",
                      CSV_FOLDER="../data/csv/",
                      PLAYER_LISTS_FOLDER = "../data/player_lists_html/",
@@ -24,6 +24,7 @@ def sleepForAWhile(seconds = None):
     """
     if seconds is None:
         seconds = constants()["SLEEP_FOR"]
+    print "sleeping for:", seconds
     time.sleep(seconds)
 
 def writeFile(filename, string):
