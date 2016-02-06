@@ -1,6 +1,7 @@
 class Player():
     def __init__(self, name="NA", active="NA", url="NA", fromYear="NA", toYear="NA", position="NA",
-                 height="NA", weight="NA", dob="NA", college = "NA", shootingHand="NA", experience="NA"):
+                 height="NA", weight="NA", dob="NA", college = "NA", shootingHand="NA", experience="NA",
+                 totals=[], perGame=[], per36Minutes=[], per100Possessions=[], advanced=[], salary=[]):
         self._name = name
         self._active = active
         self._url = url
@@ -13,6 +14,12 @@ class Player():
         self._college = college
         self._shootingHand = shootingHand
         self._experience = experience
+        self._totals = totals
+        self._perGame = perGame
+        self._per36Minutes = per36Minutes
+        self._per100Possessions = per100Possessions
+        self._advanced = advanced
+        self._salary = salary
 
     @property
     def name(self):
@@ -61,6 +68,30 @@ class Player():
     @property
     def experience(self):
         return self._experience
+
+    @property
+    def totals(self):
+        return self._totals
+
+    @property
+    def perGame(self):
+        return self._perGame
+
+    @property
+    def per36Minutes(self):
+        return self._per36Minutes
+
+    @property
+    def per100Possessions(self):
+        return self._per100Possessions
+
+    @property
+    def advanced(self):
+        return self._advanced
+
+    @property
+    def salary(self):
+        return self._salary
 
     @name.setter
     def name(self, name):
@@ -113,3 +144,27 @@ class Player():
     @experience.setter
     def experience(self, experience):
         self._experience = experience
+
+    @totals.setter
+    def totals(self, totals):
+        self._totals = totals
+
+    @perGame.setter
+    def perGame(self, perGame):
+        return self._perGame
+
+    @per36Minutes.setter
+    def per36Minutes(self, per36Minutes):
+        self._per36Minutes = per36Minutes
+
+    @per100Possessions.setter
+    def per100Possessions(self, per100Possessions):
+        self._per100Possessions = per100Possessions
+
+    @advanced.setter
+    def adnvanced(self, advanced):
+        self._advanced = advanced
+
+    @salary.setter
+    def salary(self, salary):
+        self._salary = salary

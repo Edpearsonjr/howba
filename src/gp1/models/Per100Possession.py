@@ -1,10 +1,11 @@
-class Totals():
-    def __init__(self, season = 'NA', age='NA', team='NA', league='NA', positions='NA', games='NA', gamesStarted='NA',
+class Per100Possession():
+     def __init__(self, season = 'NA', age='NA', team='NA', league='NA', positions='NA', games='NA', gamesStarted='NA',
                  minutesPlayed='NA',fieldGoals='NA', fieldGoalsAverage='NA', fileGoalsPercentage='NA', threePoints='NA',
                  threePointsAverage='NA',threePointsPercentage='NA', twoPoints='NA', twoPointsAverage='NA',
-                 twoPointsPercentage='NA', effectiveFieldGoalPercentage='NA', freeThrows='NA', freeThrowsAverage='NA',
+                 twoPointsPercentage='NA', freeThrows='NA', freeThrowsAverage='NA',
                  freeThrowsPercentage='NA', offensiveRebounds='NA',defensiveRebounds='NA', totalRebounds='NA', assist='NA',
-                 steals='NA', blocks='NA', turnOvers='NA', personalFouls='NA', points='NA'):
+                 steals='NA', blocks='NA', turnOvers='NA', personalFouls='NA', points='NA', offensiveRating='NA',
+                 defensiveRating='NA'):
         self._season = season
         self._age = age
         self._team = team
@@ -22,7 +23,6 @@ class Totals():
         self._twoPoints = twoPoints
         self._twoPointsAverage = twoPointsAverage
         self._twoPointsPercentage = twoPointsPercentage
-        self._effectiveFieldGalPercentage = effectiveFieldGoalPercentage
         self._freeThrows = freeThrows
         self._freeThrowsAverage = freeThrowsAverage
         self._freeThrowsPercentage = freeThrowsPercentage
@@ -35,3 +35,5 @@ class Totals():
         self._turnOvers = turnOvers
         self._personalFouls = personalFouls
         self._points = points
+        self._offensiveRating = offensiveRating
+        self._defensiveRating = defensiveRating

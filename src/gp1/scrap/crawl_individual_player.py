@@ -9,6 +9,12 @@ from bs4 import BeautifulSoup
 from utils import *
 
 from src.gp1.models.Player import Player
+from src.gp1.models.Totals import Totals
+from src.gp1.models.PerGame import PerGame
+from src.gp1.models.Per36Minutes import Per36Minutes
+from src.gp1.models.Salary import Salary
+from src.gp1.models.Per100Possession import Per100Possession
+from src.gp1.models.Advanced import Advanced
 
 usefulConstants = constants()
 csvFolder = usefulConstants["CSV_FOLDER"]
@@ -68,7 +74,7 @@ class PlayerStatsInfoGenerator():
         """
         for i, eachPlayer in enumerate(self.allPlayersBasicInfo):
                 if i < 15:
-                    self.__makePlayer(eachPlayer)
+                    player = self.__makePlayer(eachPlayer)
 
     def __makePlayer(self, player):
         """
@@ -82,7 +88,7 @@ class PlayerStatsInfoGenerator():
         fromYear = player["from"]
         name = player["name"]
         weight = player["weight"]
-        to = player["to"]
+        toYear = player["to"]
         active = ast.literal_eval(player["active"])
         position = player["position"]
         dob = player["dob"]
@@ -100,12 +106,27 @@ class PlayerStatsInfoGenerator():
             playerPer36MinuteStatistics = self._getPlayerStatistics('all_per_minute')
             playerPer100PossessionStatistics = self._getPlayerStatistics('all_per_poss')
             playerAdvandedStatistics = self._getPlayerStatistics('all_advanced')
-            playerShootingStatistics = self._getPlayerStatistics('all_shooting')
             playerSalaries = self._getPlayerStatistics('all_salaries')
-            print playerSalaries 
 
             shootingHand = basicInfoDict["shootingHand"]
             experience = basicInfoDict["experience"]
+            totals = self._getPlayerTotalsObjects(playerTotalsStatistics)
+            perGame = self._getPerGameObject(playerPerGameStatistics)
+            per36Minutes = self._getPer36MinutesObject(playerPer36MinuteStatistics)
+            per100Possessions = self._getPer100PossessionObject(playerPer100PossessionStatistics)
+            advanced = self._getAdvancedObject(playerAdvandedStatistics)
+            salary = self._getSalaryObject(playerSalaries)
+
+            #now constructing the player Object with all the information
+            player = Player(name=name, active=active, url=url, fromYear=fromYear, toYear=toYear,
+                            position=position, height=height, weight=weight, dob=dob, college=college,
+                            shootingHand=shootingHand, experience=experience, totals=totals, perGame=perGame,
+                            per36Minutes=per36Minutes, per100Possessions= per100Possessions, advanced = advanced,
+                            salary=salary)
+
+            return player
+
+
         else:
             pass #We can implement this based on the requirement
 
@@ -170,7 +191,55 @@ class PlayerStatsInfoGenerator():
         return scrapPlayerStatisticsTable(div)
 
 
+    def _getPlayerTotalsObjects(self, stats):
+        """
+        This returns a list of the Totals obejcts
+        every row in totals is a Totals object
+        :param stats:
+        :return: a list of obejcts
+        """
+        totalObjects = []
+        for eachList in stats:
+            total = Totals(*eachList)
+            totalObjects.append(total)
 
+        return totalObjects
+
+    def _getPerGameObject(self, stats):
+        perGameObjects = []
+        for eachList in stats:
+            perGame = PerGame(*eachList)
+            perGameObjects.append(perGame)
+        return perGame
+
+    def _getPer36MinutesObject(self, stats):
+        per36MinutesObjects = []
+        for eachList in stats:
+            per36Minute = Per36Minutes(*eachList)
+            per36MinutesObjects.append(per36Minute)
+
+        return per36MinutesObjects
+
+    def _getSalaryObject(self, stats):
+        salaryObjects = []
+        for eachList in stats:
+            salary = Salary(*eachList)
+            salaryObjects.append(salary)
+        return salaryObjects
+
+    def _getPer100PossessionObject(self, stats):
+        per100PossessionObjects = []
+        for eachList in stats:
+            per100PossessionObject = Per100Possession(*eachList)
+            per100PossessionObjects.append(per100PossessionObject)
+        return per100PossessionObjects
+
+    def _getAdvancedObject(self, stats):
+        advancedObjects = []
+        for eachList in stats:
+            advancedObject = Advanced(*eachList)
+            advancedObjects.append(advancedObject)
+        return advancedObjects
 
 
 if __name__ == "__main__":
