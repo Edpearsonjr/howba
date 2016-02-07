@@ -1,9 +1,9 @@
 class PerGame():
     def __init__(self, season = 'NA', age='NA', team='NA', league='NA', positions='NA', games='NA', gamesStarted='NA',
-                 minutesPlayed='NA',fieldGoals='NA', fieldGoalsAverage='NA', fileGoalsPercentage='NA', threePoints='NA',
-                 threePointsAverage='NA',threePointsPercentage='NA', twoPoints='NA', twoPointsAverage='NA',
-                 twoPointsPercentage='NA', effectiveFieldGoalPercentage='NA', freeThrows='NA', freeThrowsAverage='NA',
-                 freeThrowsPercentage='NA', offensiveRebounds='NA',defensiveRebounds='NA', totalRebounds='NA', assist='NA',
+                 minutesPlayed='NA', fieldGoals='NA', fieldGoalsAttempted='NA', fileGoalsPercentage='NA', threePoints='NA',
+                 threePointsAttempted='NA', threePointsPercentage='NA', twoPoints='NA', twoPointsAttempted='NA',
+                 twoPointsPercentage='NA', effectiveFieldGoalPercentage='NA', freeThrows='NA', freeThrowsAttempted='NA',
+                 freeThrowsPercentage='NA', offensiveRebounds='NA', defensiveRebounds='NA', totalRebounds='NA', assist='NA',
                  steals='NA', blocks='NA', turnOvers='NA', personalFouls='NA', points='NA'):
         self._season = season
         self._age = age
@@ -14,17 +14,17 @@ class PerGame():
         self._gamesStarted = gamesStarted
         self._minutesPlayed = minutesPlayed
         self._fieldGoals = fieldGoals
-        self._fieldGoalsAverage = fieldGoalsAverage
+        self._fieldGoalsttempted = fieldGoalsAttempted
         self._fieldGoalsPercentage = fileGoalsPercentage
         self._threePoints = threePoints
-        self._threePointsAverage = threePointsAverage
+        self._threePointsAttempted = threePointsAttempted
         self._threePointsPercentage = threePointsPercentage
         self._twoPoints = twoPoints
-        self._twoPointsAverage = twoPointsAverage
+        self._twoPointsAttempted = twoPointsAttempted
         self._twoPointsPercentage = twoPointsPercentage
         self._effectiveFieldGalPercentage = effectiveFieldGoalPercentage
         self._freeThrows = freeThrows
-        self._freeThrowsAverage = freeThrowsAverage
+        self._freeThrowsAttempted = freeThrowsAttempted
         self._freeThrowsPercentage = freeThrowsPercentage
         self._offensiveRebounds =  offensiveRebounds
         self._defensiveRebounds = defensiveRebounds
