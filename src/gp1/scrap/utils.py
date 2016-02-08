@@ -8,6 +8,7 @@ def constants():
     """
     constants = dict(WEBSITE_URL="http://www.basketball-reference.com",
                      BASEPLAYER_URL="http://www.basketball-reference.com/players/",
+                     MVP_URL = "http://www.basketball-reference.com/awards/mvp.html",
                      SLEEP_FOR=1,
                      DATA_DIR="../data/",
                      CSV_FOLDER="../data/csv/",

@@ -15,9 +15,13 @@ if __name__ == "__main__":
     createBasicProfileSql = sqlFolder + "create_basic_profile.sql"
     createTotalTableSql = sqlFolder + "create_totals_table.sql"
     createSalaryTableSql = sqlFolder + "create_salary_tables.sql"
+    createMVPTableSql = sqlFolder + "create_mvp_table.sql"
+
     createTables(createBasicProfileSql)
     createTables(createTotalTableSql)
     createTables(createSalaryTableSql)
+    createTables(createMVPTableSql)
+
     connection.commit()
     connection.close()
 
