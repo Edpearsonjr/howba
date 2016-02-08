@@ -22,7 +22,7 @@ class Totals():
         self._twoPoints = twoPoints
         self._twoPointsAttempted = twoPointsAttempted
         self._twoPointsPercentage = twoPointsPercentage
-        self._effectiveFieldGalPercentage = effectiveFieldGoalPercentage
+        self._effectiveFieldGoalPercentage = effectiveFieldGoalPercentage
         self._freeThrows = freeThrows
         self._freeThrowsAttempted = freeThrowsAttempted
         self._freeThrowsPercentage = freeThrowsPercentage

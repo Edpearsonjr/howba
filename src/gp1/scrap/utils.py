@@ -12,8 +12,10 @@ def constants():
                      DATA_DIR="../data/",
                      CSV_FOLDER="../data/csv/",
                      PLAYER_LISTS_FOLDER = "../data/player_lists_html/",
-                     PICKLED_FOLDER = "../data/pickled",
-                     PLAYERS_INDIVIDUAL_INFO_FOLDER= "../data/players_individual_info/")
+                     PICKLED_FOLDER = "../data/pickled/",
+                     PLAYERS_INDIVIDUAL_INFO_FOLDER= "../data/players_individual_info/",
+                     DB_FILE = "../db/basketBall.db",
+                     SQL_FOLDER = "../db/sql/")
     return constants
 
 
@@ -64,6 +66,11 @@ def pickleObject(obj, filename):
     """
     filehandle = open(filename, 'wb')
     pickle.dump(obj, filehandle)
+
+def unpickle(filename):
+    fileHandle = open(filename, 'rb')
+    return pickle.load(fileHandle)
+
 
 def cleanHtmlForRegex(html):
     """

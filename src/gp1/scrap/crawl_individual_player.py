@@ -3,6 +3,7 @@ import httplib
 import os
 import sys
 import urllib2 as urllib
+import inspect
 
 from bs4 import BeautifulSoup
 
@@ -19,6 +20,7 @@ from src.gp1.models.Advanced import Advanced
 usefulConstants = constants()
 csvFolder = usefulConstants["CSV_FOLDER"]
 playersIndividualInfoFolder = usefulConstants["PLAYERS_INDIVIDUAL_INFO_FOLDER"]
+pickledPlayerFolder = usefulConstants["PICKLED_FOLDER"] + "players/"
 class PlayerStatsInfoGenerator():
     """
         This class takes in a csv file that contains the player information
@@ -72,7 +74,10 @@ class PlayerStatsInfoGenerator():
         :return:
         """
         for i, eachPlayer in enumerate(self.allPlayersBasicInfo):
-                    player = self.__makePlayer(eachPlayer)
+            player = self.__makePlayer(eachPlayer)
+            if player:
+                pickleObject(player, pickledPlayerFolder + player.name.strip().replace(" ", "") + ".pkl")
+
 
 
     def __makePlayer(self, player):
@@ -144,6 +149,7 @@ class PlayerStatsInfoGenerator():
         splitUrl = url.split('/')
         filename = splitUrl[len(splitUrl) - 1]
         if os.path.exists(playersIndividualInfoFolder + filename):
+            print "Getting the file from the disk"
             fileHandle = open(playersIndividualInfoFolder + filename)
             html = fileHandle.read()
         else:
