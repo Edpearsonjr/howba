@@ -7,24 +7,28 @@ usefulConstants = constants()
 pickledFolder = usefulConstants["PICKLED_FOLDER"]
 sqlFolder = usefulConstants["SQL_FOLDER"]
 
+def idGenerator():
+    i = 1
+    while True:
+        yield i
+        i = i+1
+
+
 def loadBasicPlayerInfo(playersInfoList):
-    print "loading the basic player info", len(playersInfoList)
+    print "loading the basic player info"
     insertSql = open(sqlFolder+"insert_into_basic_profile.sql").read()
-    print insertSql
     connection.executemany(insertSql, playersInfoList)
 
 
 def loadPlayerSalaryInfo(playersSalaryList):
     print "loading the player salary info"
     insertSql = open(sqlFolder+"insert_into_player_salary.sql").read()
-    print insertSql
     connection.executemany(insertSql, playersSalaryList)
 
 
 def loadPlayerTotalsInfo(playersTotalsList):
     print "loading the player totals info"
     insertSql = open(sqlFolder + "insert_into_players_totals.sql").read()
-    print insertSql
     connection.executemany(insertSql, playersTotalsList)
 
 
@@ -33,9 +37,11 @@ if __name__ == "__main__":
     playersInfoList = []
     playersTotalsList = []
     playersSalaryList = []
+    generator = idGenerator()
 
     for dirpath, dirnames, filenames in os.walk(playersPickled):
         for filename in filenames:
+            id = generator.next()
             filename = dirpath + filename
             print "loading for filename: ", filename
             player =  unpickle(filename)
@@ -50,7 +56,7 @@ if __name__ == "__main__":
                 else:
                     salary = salary.replace("$","").replace(",", "")
 
-                playersSalaryList.append((eachSalary._season, eachSalary._team, eachSalary._league,
+                playersSalaryList.append((id, eachSalary._season, eachSalary._team, eachSalary._league,
                                           int(salary)
                                          ))
             totals = player._totals
@@ -61,12 +67,12 @@ if __name__ == "__main__":
                     team = 'NA'
                 if len(league) > 3:
                     league = 'NA'
-
-                playersTotalsList.append((unicode(eachTotal._season), eachTotal._age, team, league,
+                print eachTotal._season
+                playersTotalsList.append((id, unicode(eachTotal._season), eachTotal._age, team, league,
                                           unicode(eachTotal._position), eachTotal._games, eachTotal._gamesStarted,
                                          eachTotal._minutesPlayed, eachTotal._fieldGoals, eachTotal._fieldGoalsAttempted,
-                                         eachTotal._threePoints, eachTotal._threePointsAttempted,
-                                         eachTotal._effectiveFieldGoalPercentage, eachTotal._freeThrows,
+                                         eachTotal._threePoints, eachTotal._threePointsAttempted, eachTotal._twoPoints,
+                                         eachTotal._twoPointsAttempted, eachTotal._effectiveFieldGoalPercentage, eachTotal._freeThrows,
                                          eachTotal._freeThrowsAttempted, eachTotal._offensiveRebounds,
                                          eachTotal._defensiveRebounds, eachTotal._assist, eachTotal._steals,
                                          eachTotal._blocks, eachTotal._turnOvers, eachTotal._personalFouls,

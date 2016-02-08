@@ -79,7 +79,6 @@ class PlayerStatsInfoGenerator():
                 pickleObject(player, pickledPlayerFolder + player.name.strip().replace(" ", "") + ".pkl")
 
 
-
     def __makePlayer(self, player):
         """
         This gives birth to a player :p :D

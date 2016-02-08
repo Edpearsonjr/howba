@@ -96,7 +96,10 @@ def scrapPlayerStatisticsTable(soup):
         tds = tr.find_all('td')
         rowData = []
         for td in tds:
-            if td.string:
+            anchorTag = td.find_all('a') #if there is an anchor tag then find it
+            if anchorTag:
+                rowData.append(anchorTag[0].string.encode('utf-8'))
+            elif td.string:
                 rowData.append(td.string.encode('utf-8'))
         statistics.append(rowData)
 
