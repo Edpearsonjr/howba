@@ -1,14 +1,18 @@
 import os
 import sys
+import csv
+
 from src.gp1.scrap.utils import *
 from src.gp1.db.connection import *
 from src.gp1.scrap.crawl_mvp import getMVPStats
 
 connection = getConnection()
+connection.text_factory = str
 
 usefulConstants = constants()
 pickledFolder = usefulConstants["PICKLED_FOLDER"]
 sqlFolder = usefulConstants["SQL_FOLDER"]
+csvFolder = usefulConstants["CSV_FOLDER"]
 playersPickled = pickledFolder + "players/"
 
 def idGenerator():
@@ -18,27 +22,11 @@ def idGenerator():
         i = i+1
 
 
-def loadBasicPlayerInfo(playersInfoList):
-    print "loading the basic player info"
-    insertSql = open(sqlFolder+"insert_into_basic_profile.sql").read()
-    connection.executemany(insertSql, playersInfoList)
+def loadTable(listOfTuples, insertSqlFilename):
+    print "loading the table in: ", insertSqlFilename
+    insertSql = open(sqlFolder + insertSqlFilename).read()
+    connection.executemany(insertSql, listOfTuples)
 
-
-def loadPlayerSalaryInfo(playersSalaryList):
-    print "loading the player salary info"
-    insertSql = open(sqlFolder+"insert_into_player_salary.sql").read()
-    connection.executemany(insertSql, playersSalaryList)
-
-
-def loadPlayerTotalsInfo(playersTotalsList):
-    print "loading the player totals info"
-    insertSql = open(sqlFolder + "insert_into_players_totals.sql").read()
-    connection.executemany(insertSql, playersTotalsList)
-
-def loadMVPData(playerMVPStats):
-    print "loading the player mvp information"
-    insertSql = open(sqlFolder + "insert_into_mvp.sql").read()
-    connection.executemany(insertSql, playerMVPStats)
 
 def getBasicPlayerInfoList():
     playersInfoList = []
@@ -112,6 +100,10 @@ def main():
     print "2. Load PLAYERS_SALARY table"
     print "3. Load PLAYERS_TOTALS table"
     print "4. Load MVP table"
+    print "5. Load TEAM_MAPPING table"
+    print "6. Load BASIC_FRANCHISE_INFO table"
+    print "7. Load SEASONS_FRANCHISES table"
+    print "8. Load STATS_INFO table"
     print "999. Exit"
     print "*" * 15
     choice = raw_input("Please enter a choice: ")
@@ -119,22 +111,47 @@ def main():
     print choice
     if choice == 1:
         basicPlayerInfoList = getBasicPlayerInfoList()
-        loadBasicPlayerInfo(basicPlayerInfoList)
+        loadTable(basicPlayerInfoList, "insert_into_basic_profile.sql")
         connection.commit()
 
     elif choice == 2:
         playersSalaryList = getPlayerSalaryInfoList()
-        loadPlayerSalaryInfo(playersSalaryList)
+        loadTable(playersSalaryList, "insert_into_player_salary.sql")
         connection.commit()
     elif choice == 3:
         playerTotalsList = getPlayerTotalsList()
-        loadPlayerTotalsInfo(playerTotalsList)
+        loadTable(playerTotalsList, "insert_into_players_totals.sql")
         connection.commit()
 
     elif choice == 4:
         mvpStats = getMVPStats()
-        loadMVPData(mvpStats)
+        loadTable(mvpStats, "insert_into_mvp.sql")
         connection.commit()
+
+    elif choice == 5:
+        csvfile = csvFolder + "team_mapping.csv"
+        teamMappingInfo = getListOfTuplesFromCsv(csvfile)
+        loadTable(teamMappingInfo, "insert_into_team_mapping.sql")
+        connection.commit()
+
+    elif choice == 6:
+        csvfile = csvFolder + "basic_team_franchise_info.csv"
+        teamFranchiseInfo = getListOfTuplesFromCsv(csvfile)
+        loadTable(teamFranchiseInfo, "insert_into_basic_franchise_info.sql")
+        connection.commit()
+
+    elif choice == 7:
+        csvFile = csvFolder + "seasons_franchises.csv"
+        seasonsFranchiseInfo = getListOfTuplesFromCsv(csvFile)
+        loadTable(seasonsFranchiseInfo, "insert_into_seasons_franchises.sql")
+        connection.commit()
+
+    elif choice == 8:
+        csvFile = csvFolder + "season_stats_info.csv"
+        seasonsStatsInfo = getListOfTuplesFromCsv(csvFile)
+        loadTable(seasonsStatsInfo, "insert_into_stats_info.sql")
+        connection.commit()
+
     elif choice == 999:
         sys.exit(1)
     else:

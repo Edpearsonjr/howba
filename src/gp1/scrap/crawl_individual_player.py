@@ -99,42 +99,41 @@ class PlayerStatsInfoGenerator():
 
         # We are getting the info for the active players only here. The structure of the html for inactive
         # players is different
-        if active:
-            html_for_player = self._getPlayerHtml(url)
-            self._playerSoup = BeautifulSoup(html_for_player, "lxml")
-            basicInfoDict = self._getBasicInfoOfActivePlayer()
-            playerTotalsStatistics = self._getPlayerStatistics('all_totals')
-            playerPerGameStatistics = self._getPlayerStatistics('all_per_game')
-            playerPer36MinuteStatistics = self._getPlayerStatistics('all_per_minute')
-            playerPer100PossessionStatistics = self._getPlayerStatistics('all_per_poss')
-            playerAdvandedStatistics = self._getPlayerStatistics('all_advanced')
-            playerSalaries = self._getPlayerStatistics('all_salaries')
+
+        html_for_player = self._getPlayerHtml(url)
+        self._playerSoup = BeautifulSoup(html_for_player, "lxml")
+        basicInfoDict = self._getBasicInfoOfActivePlayer()
+        playerTotalsStatistics = self._getPlayerStatistics('all_totals')
+        playerPerGameStatistics = self._getPlayerStatistics('all_per_game')
+        playerPer36MinuteStatistics = self._getPlayerStatistics('all_per_minute')
+        playerPer100PossessionStatistics = self._getPlayerStatistics('all_per_poss')
+        playerAdvandedStatistics = self._getPlayerStatistics('all_advanced')
+        playerSalaries = self._getPlayerStatistics('all_salaries')
 
 
-            shootingHand = basicInfoDict["shootingHand"]
-            experience = basicInfoDict["experience"]
-            totals = self._getPlayerTotalsObjects(playerTotalsStatistics)
-            perGame = self._getPerGameObject(playerPerGameStatistics)
-            per36Minutes = self._getPer36MinutesObject(playerPer36MinuteStatistics)
-            per100Possessions = self._getPer100PossessionObject(playerPer100PossessionStatistics)
-            advanced = self._getAdvancedObject(playerAdvandedStatistics)
-            if not playerSalaries:
-                salary = []
-            else:
-                salary = self._getSalaryObject(playerSalaries)
-
-            #now constructing the player Object with all the information
-            player = Player(name=name, active=active, url=url, fromYear=fromYear, toYear=toYear,
-                            position=position, height=height, weight=weight, dob=dob, college=college,
-                            shootingHand=shootingHand, experience=experience, totals=totals, perGame=perGame,
-                            per36Minutes=per36Minutes, per100Possessions= per100Possessions, advanced = advanced,
-                            salary=salary)
-
-            return player
-
-
+        shootingHand = basicInfoDict["shootingHand"]
+        experience = basicInfoDict["experience"]
+        totals = self._getPlayerTotalsObjects(playerTotalsStatistics) if playerTotalsStatistics else []
+        perGame = self._getPerGameObject(playerPerGameStatistics) if playerPerGameStatistics else []
+        per36Minutes = self._getPer36MinutesObject(playerPer36MinuteStatistics) if playerPer36MinuteStatistics else []
+        per100Possessions = self._getPer100PossessionObject(playerPer100PossessionStatistics) if playerPer100PossessionStatistics else []
+        advanced = self._getAdvancedObject(playerAdvandedStatistics) if playerAdvandedStatistics else []
+        if not playerSalaries:
+            salary = []
         else:
-            pass #We can implement this based on the requirement
+            salary = self._getSalaryObject(playerSalaries)
+
+        #now constructing the player Object with all the information
+        player = Player(name=name, active=active, url=url, fromYear=fromYear, toYear=toYear,
+                        position=position, height=height, weight=weight, dob=dob, college=college,
+                        shootingHand=shootingHand, experience=experience, totals=totals, perGame=perGame,
+                        per36Minutes=per36Minutes, per100Possessions= per100Possessions, advanced = advanced,
+                        salary=salary)
+
+        return player
+
+
+
 
     def _getPlayerHtml(self, url):
         """
@@ -171,24 +170,25 @@ class PlayerStatsInfoGenerator():
         some of the basic info like the position and name are already scrapped from the player list page
         :return:
         """
-        shootingHand = None
-        experience = None
+        shootingHand = 'NA'
+        experience = 'NA'
 
         playerInfoBox = self._playerSoup.find('div', {'id': 'info_box'})
         playerPaddingBottomHalfDiv = playerInfoBox.find('p', {'class': 'padding_bottom_half'})
-        shootingHandSpans = playerPaddingBottomHalfDiv.find_all('span')
-        for span in shootingHandSpans:
-            string = unicode(span.string)
-            match = re.search('shoots', string, re.IGNORECASE)
-            if match:
-                shootingHand = span.nextSibling.strip()
-            match = re.search('experience', string, re.IGNORECASE)
-            if match:
-                experience = span.nextSibling
-                experience = experience.replace("years", "").strip()
+        if playerPaddingBottomHalfDiv:
+            spans = playerPaddingBottomHalfDiv.find_all('span')
+            for span in spans:
+                string = unicode(span.string)
+                match = re.search('shoots', string, re.IGNORECASE)
+                if match:
+                    shootingHand = span.nextSibling.strip()
+                match = re.search('experience', string, re.IGNORECASE)
+                if match:
+                    experience = span.nextSibling.replace("years", "").strip()
 
-        if not (experience and shootingHand):
-            marginLeftHalfDiv =  playerInfoBox.findAll('div', {'class': 'margin_left_half'})[0]
+        marginLeftHalfDiv =  playerInfoBox.findAll('div', {'class': 'margin_left_half'})
+        if marginLeftHalfDiv:
+            marginLeftHalfDiv = marginLeftHalfDiv[0]
             spans = marginLeftHalfDiv.find_all('span')
             for span in spans:
                 string = unicode(span.string)

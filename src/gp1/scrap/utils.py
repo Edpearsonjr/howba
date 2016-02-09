@@ -2,6 +2,7 @@ import time
 import csv
 import pickle
 import re
+import csv
 def constants():
     """
         Contains some of the constants needed
@@ -105,3 +106,14 @@ def scrapPlayerStatisticsTable(soup):
         statistics.append(rowData)
 
     return statistics
+
+def getListOfTuplesFromCsv(csvfilename):
+    listOfTuples = []
+    with open(csvfilename, 'rb') as csvHandle:
+        teamMapping = csv.reader(csvHandle, delimiter=',')
+        next(teamMapping, None)
+        for everyRow in teamMapping:
+            everyRow = map(lambda x: str(x), everyRow)
+            listOfTuples.append(tuple(everyRow))
+    return listOfTuples
+
