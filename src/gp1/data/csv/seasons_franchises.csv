@@ -1,0 +1,1424 @@
+Lg,DRtg,Finish,Playoffs,Rel_DRtg,Pace,Season,Coaches,W/L%,L,SRS,Rel_ORtg,Top WS,W,Team,ORtg,Rel_Pace
+NBA,102.6,2,NA,-2.9,96.9,2015-16,M. Budenholzer (30-24),.556,24,1.84,-0.5,P. Millsap (7.1),30,AtlantaHawks,105.0,1.4
+NBA,103.1,1,Lost E. Conf. Finals,-2.5,93.9,2014-15,M. Budenholzer (60-22),.732,22,4.75,3.3,A. Horford (8.7),60,AtlantaHawks,108.9,0.0
+NBA,106.4,4,Lost E. Conf. 1st Rnd.,-0.3,94.6,2013-14,M. Budenholzer (38-44),.463,44,-0.88,-0.8,P. Millsap (6.7),38,AtlantaHawks,105.9,0.7
+NBA,104.4,2,Lost E. Conf. 1st Rnd.,-1.5,92.6,2012-13,L. Drew (44-38),.537,38,-0.08,-1.1,A. Horford (8.8),44,AtlantaHawks,104.8,0.6
+NBA,101.2,2,Lost E. Conf. 1st Rnd.,-3.4,90.2,2011-12,L. Drew (40-26),.606,26,2.67,0.3,J. Smith (6.8),40,AtlantaHawks,104.9,-1.1
+NBA,107.0,3,Lost E. Conf. Semis,-0.3,89.3,2010-11,L. Drew (44-38),.537,38,-1.10,-1.2,A. Horford (10.1),44,AtlantaHawks,106.1,-2.8
+NBA,106.7,2,Lost E. Conf. Semis,-0.9,90.1,2009-10,M. Woodson (53-29),.646,29,4.44,4.3,A. Horford (10.9),53,AtlantaHawks,111.9,-2.6
+NBA,107.6,2,Lost E. Conf. Semis,-0.7,89.6,2008-09,M. Woodson (47-35),.573,35,1.70,1.0,J. Johnson (7.6),47,AtlantaHawks,109.3,-2.1
+NBA,108.9,3,Lost E. Conf. 1st Rnd.,1.4,91.1,2007-08,M. Woodson (37-45),.451,45,-2.23,-0.6,J. Childress (7.6),37,AtlantaHawks,106.9,-1.3
+NBA,108.3,5,NA,1.8,90.0,2006-07,M. Woodson (30-52),.366,52,-4.86,-3.5,J. Childress (5.5),30,AtlantaHawks,103.0,-1.9
+NBA,111.6,5,NA,5.4,90.4,2005-06,M. Woodson (26-56),.317,56,-4.69,0.2,J. Johnson (6.0),26,AtlantaHawks,106.4,-0.1
+NBA,111.1,5,NA,5.0,91.4,2004-05,M. Woodson (13-69),.159,69,-9.62,-5.5,J. Childress (4.6),13,AtlantaHawks,100.6,0.5
+NBA,106.1,7,NA,3.2,90.8,2003-04,T. Stotts (28-54),.341,54,-5.00,-1.9,S. Abdur-Rahim (6.6),28,AtlantaHawks,101.0,0.7
+NBA,106.1,5,NA,2.5,91.0,2002-03,"L. Kruger (11-16), T. Stotts (24-31)",.427,47,-3.87,-1.3,S. Abdur-Rahim (9.7),35,AtlantaHawks,102.3,0.0
+NBA,106.4,6,NA,1.9,91.9,2001-02,L. Kruger (33-49),.402,49,-4.41,-2.7,J. Terry (8.6),33,AtlantaHawks,101.8,1.2
+NBA,104.3,7,NA,1.3,91.9,2000-01,L. Kruger (25-57),.305,57,-5.55,-4.3,J. Terry (6.5),25,AtlantaHawks,98.7,0.6
+NBA,107.9,7,NA,3.8,91.7,1999-00,L. Wilkens (28-54),.341,54,-5.41,-2.1,D. Mutombo (9.9),28,AtlantaHawks,102.0,-1.4
+NBA,97.1,2,Lost E. Conf. Semis,-5.1,85.3,1998-99,L. Wilkens (31-19),.620,19,2.82,-1.7,D. Mutombo (7.9),31,AtlantaHawks,100.5,-3.6
+NBA,104.3,4,Lost E. Conf. 1st Rnd.,-0.7,87.7,1997-98,L. Wilkens (50-32),.610,32,3.85,3.2,D. Mutombo (10.8),50,AtlantaHawks,108.2,-2.6
+NBA,102.3,2,Lost E. Conf. Semis,-4.4,86.8,1996-97,L. Wilkens (56-26),.683,26,5.52,1.8,M. Blaylock (12.5),56,AtlantaHawks,108.5,-3.3
+NBA,108.0,4,Lost E. Conf. Semis,0.4,89.6,1995-96,L. Wilkens (46-36),.561,36,1.29,1.8,M. Blaylock (9.0),46,AtlantaHawks,109.4,-2.2
+NBA,105.2,5,Lost E. Conf. 1st Rnd.,-3.1,89.8,1994-95,L. Wilkens (42-40),.512,40,1.06,-1.7,M. Blaylock (9.4),42,AtlantaHawks,106.6,-3.1
+NBA,101.7,1,Lost E. Conf. Semis,-4.6,94.2,1993-94,L. Wilkens (57-25),.695,25,4.94,0.9,M. Blaylock (10.2),57,AtlantaHawks,107.2,-0.9
+NBA,110.2,4,Lost E. Conf. 1st Rnd.,2.2,97.6,1992-93,B. Weiss (43-39),.524,39,-0.67,1.3,D. Wilkins (10.5),43,AtlantaHawks,109.3,0.8
+NBA,108.9,5,NA,0.7,97.8,1991-92,B. Weiss (38-44),.463,44,-1.15,-0.9,K. Willis (8.8),38,AtlantaHawks,107.3,1.2
+NBA,110.1,4,Lost E. Conf. 1st Rnd.,2.2,98.6,1990-91,B. Weiss (43-39),.524,39,0.72,3.0,D. Wilkins (11.4),43,AtlantaHawks,110.9,0.8
+NBA,111.9,6,NA,3.8,95.8,1989-90,M. Fratello (41-41),.500,41,0.64,4.9,D. Wilkins (11.1),41,AtlantaHawks,113.0,-2.5
+NBA,107.2,3,Lost E. Conf. 1st Rnd.,-0.6,98.3,1988-89,M. Fratello (52-30),.634,30,5.26,4.4,M. Malone (10.7),52,AtlantaHawks,112.2,-2.3
+NBA,107.6,3,Lost E. Conf. Semis,-0.4,96.4,1987-88,M. Fratello (50-32),.610,32,4.02,3.3,D. Wilkins (9.8),50,AtlantaHawks,111.3,-3.2
+NBA,105.2,1,Lost E. Conf. Semis,-3.1,97.4,1986-87,M. Fratello (57-25),.695,25,7.18,4.3,D. Wilkins (12.2),57,AtlantaHawks,112.6,-3.4
+NBA,105.6,2,Lost E. Conf. Semis,-1.6,100.0,1985-86,M. Fratello (50-32),.610,32,2.59,0.7,D. Wilkins (10.8),50,AtlantaHawks,107.9,-2.1
+NBA,107.3,5,NA,-0.6,99.8,1984-85,M. Fratello (34-48),.415,48,-1.14,-2.0,D. Wilkins (7.6),34,AtlantaHawks,105.9,-2.3
+NBA,106.9,3,Lost E. Conf. 1st Rnd.,-0.7,95.3,1983-84,M. Fratello (40-42),.488,42,-1.08,-2.1,D. Roundfield (7.1),40,AtlantaHawks,105.5,-6.1
+NBA,103.2,2,Lost E. Conf. 1st Rnd.,-1.5,98.9,1982-83,K. Loughery (43-39),.524,39,-0.72,-2.5,D. Roundfield (7.4),43,AtlantaHawks,102.2,-4.2
+NBA,104.6,2,Lost E. Conf. 1st Rnd.,-2.3,95.1,1981-82,K. Loughery (42-40),.512,40,0.81,-1.8,D. Roundfield (6.5),42,AtlantaHawks,105.1,-5.8
+NBA,107.3,4,NA,1.8,99.4,1980-81,"H. Brown (31-48), M. Fratello (0-3)",.378,51,-2.37,-1.2,D. Roundfield (7.0),31,AtlantaHawks,104.3,-2.4
+NBA,102.3,1,Lost E. Conf. Semis,-3.0,98.9,1979-80,H. Brown (50-32),.610,32,2.83,-0.1,T. Rollins (9.2),50,AtlantaHawks,105.2,-4.2
+NBA,103.6,3,Lost E. Conf. Semis,-0.2,102.5,1978-79,H. Brown (46-36),.561,36,1.92,1.8,J. Drew (8.9),46,AtlantaHawks,105.6,-3.3
+NBA,99.8,4,Lost E. Conf. 1st Rnd.,-1.1,103.3,1977-78,H. Brown (41-41),.500,41,-0.13,-1.2,J. Drew (8.9),41,AtlantaHawks,99.7,-3.4
+NBA,101.6,6,NA,2.1,104.6,1976-77,H. Brown (31-51),.378,51,-3.87,-1.7,J. Drew (7.9),31,AtlantaHawks,97.8,-1.9
+NBA,101.2,5,NA,2.9,103.6,1975-76,"C. Fitzsimmons (28-46), G. Tormohlen (1-7)",.354,53,-2.66,0.1,J. Drew (10.6),29,AtlantaHawks,98.4,-1.9
+NBA,99.5,4,NA,1.8,106.3,1974-75,C. Fitzsimmons (31-51),.378,51,-1.32,0.6,J. Drew (7.1),31,AtlantaHawks,98.3,1.8
+NBA,99.0,2,NA,1.3,110.8,1973-74,C. Fitzsimmons (35-47),.427,47,-1.47,0.0,L. Hudson (8.8),35,AtlantaHawks,97.7,3.0
+NBA,98.0,2,Lost E. Conf. Semis,1.2,113.8,1972-73,C. Fitzsimmons (46-36),.561,36,-0.15,1.2,L. Hudson (9.3),46,AtlantaHawks,98.0,3.1
+NBA,100.3,2,Lost E. Conf. Semis,2.4,110.7,1971-72,R. Guerin (36-46),.439,46,-1.94,0.8,W. Bellamy (10.3),36,AtlantaHawks,98.7,-1.3
+NBA,98.4,2,Lost E. Conf. Semis,1.2,117.2,1970-71,R. Guerin (36-46),.439,46,-1.30,-0.3,L. Hudson (7.9),36,AtlantaHawks,96.9,2.1
+NBA,101.9,1,Lost W. Div. Finals,2.9,114.4,1969-70,R. Guerin (48-34),.585,34,0.31,3.3,L. Hudson (11.1),48,AtlantaHawks,102.3,-2.7
+NBA,95.5,2,Lost W. Div. Finals,0.0,113.9,1968-69,R. Guerin (48-34),.585,34,2.06,1.9,L. Hudson (10.1),48,AtlantaHawks,97.4,-3.0
+NBA,96.0,1,Lost W. Div. Semis,-0.8,113.7,1967-68,R. Guerin (56-26),.683,26,2.37,1.6,Z. Beaty (11.8),56,StLouisHawks,98.4,-6.1
+NBA,97.4,2,Lost W. Div. Finals,1.3,117.7,1966-67,R. Guerin (39-42),.481,42,-1.44,0.0,L. Wilkens (7.6),39,StLouisHawks,96.1,-3.9
+NBA,96.1,3,Lost W. Div. Finals,1.2,116.6,1965-66,R. Guerin (36-44),.450,44,-0.50,0.7,Z. Beaty (10.3),36,StLouisHawks,95.6,-4.8
+NBA,91.8,2,Lost W. Div. Semis,-1.8,115.1,1964-65,"H. Gallatin (17-16), R. Guerin (28-19)",.563,35,2.68,0.9,Z. Beaty (10.8),45,StLouisHawks,94.5,-2.2
+NBA,94.0,2,Lost W. Div. Finals,-0.6,114.6,1963-64,H. Gallatin (46-34),.575,34,1.39,0.8,B. Pettit (14.9),46,StLouisHawks,95.4,1.4
+NBA,93.3,2,Lost W. Div. Finals,-2.6,115.6,1962-63,H. Gallatin (48-32),.600,32,1.38,-1.1,B. Pettit (14.3),48,StLouisHawks,94.8,0.6
+NBA,97.8,4,NA,4.2,124.6,1961-62,"P. Seymour (5-9), A. Levane (20-40), B. Pettit (4-2)",.363,51,-2.96,1.6,B. Pettit (11.5),29,StLouisHawks,95.2,3.3
+NBA,88.7,1,Lost Finals,-3.4,129.1,1960-61,P. Seymour (51-28),.646,28,2.99,-0.7,B. Pettit (14.9),51,StLouisHawks,91.4,5.6
+NBA,91.8,1,Lost Finals,0.7,120.0,1959-60,E. Macauley (46-29),.613,29,1.77,2.9,C. Hagan (11.8),46,StLouisHawks,94.0,-2.3
+NBA,90.1,1,Lost W. Div. Finals,-0.1,115.6,1958-59,"A. Phillip (6-4), E. Macauley (43-19)",.681,23,2.89,3.1,B. Pettit (14.8),49,StLouisHawks,93.3,3.6
+NBA,88.6,1,Won Finals,-0.2,119.5,1957-58,A. Hannum (41-31),.569,31,0.82,0.9,B. Pettit (11.0),41,StLouisHawks,89.7,2.5
+NBA,89.1,1,Lost Finals,0.2,108.3,1956-57,"R. Holzman (14-19), S. Martin (5-3), A. Hannum (15-16)",.472,38,-0.27,0.1,B. Pettit (11.6),34,StLouisHawks,89.0,3.4
+NBA,88.9,3,Lost W. Div. Finals,-1.4,109.4,1955-56,R. Holzman (33-39),.458,39,-1.42,-2.7,B. Pettit (13.8),33,StLouisHawks,87.6,6.6
+NBA,89.4,4,NA,-0.4,100.5,1954-55,R. Holzman (26-46),.361,46,-2.66,-3.4,B. Pettit (10.7),26,MilwaukeeHawks,86.4,2.4
+NBA,89.2,4,NA,1.7,84.2,1953-54,"A. Levane (11-35), R. Holzman (10-16)",.292,51,-4.55,-4.6,G. Ratkovicz (5.2),21,MilwaukeeHawks,82.9,0.6
+NBA,85.7,5,NA,-2.0,88.6,1952-53,A. Levane (27-44),.380,44,-2.49,-4.0,M. Hutchins (6.9),27,MilwaukeeHawks,84.0,8.1
+NBA,89.1,5,NA,2.2,90.7,1951-52,D. Moore (17-49),.258,49,-7.04,-6.5,D. Otten (5.6),17,MilwaukeeHawks,80.4,4.9
+NBA,84.4,5,NA,-0.7,103.9,1950-51,"D. McMillan (9-14), J. Logan (2-1), M. Todorovich (14-28)",.368,43,-3.22,-4.3,F. Brian (5.6),25,TriCitiesBlackhawks,80.8,18.4
+NBA,NA,3,Lost W. Div. Semis,NA,NA,1949-50,"R. Potter (1-6), R. Auerbach (28-29)",.453,35,-1.43,-4.3,D. Otten (5.2),29,TriCitiesBlackhawks,NA,NA
+NBA,101.6,2,NA,-3.9,98.6,2015-16,B. Stevens (31-22),.585,22,3.79,0.4,I. Thomas (6.5),31,BostonCeltics,105.9,3.1
+NBA,104.5,2,Lost E. Conf. 1st Rnd.,-1.1,95.8,2014-15,B. Stevens (40-42),.488,42,-0.40,-0.9,T. Zeller (6.5),40,BostonCeltics,104.7,1.9
+NBA,107.7,4,NA,1.0,93.3,2013-14,B. Stevens (25-57),.305,57,-4.97,-3.8,B. Bass (5.1),25,BostonCeltics,102.9,-0.6
+NBA,103.3,3,Lost E. Conf. 1st Rnd.,-2.6,91.7,2012-13,D. Rivers (41-40),.506,40,-0.62,-2.8,P. Pierce (7.2),41,BostonCeltics,103.1,-0.3
+NBA,98.2,1,Lost E. Conf. Finals,-6.4,90.4,2011-12,D. Rivers (39-27),.591,27,2.26,-3.6,P. Pierce (7.0),39,BostonCeltics,101.0,-0.9
+NBA,100.3,1,Lost E. Conf. Semis,-7.0,90.4,2010-11,D. Rivers (56-26),.683,26,4.83,-1.1,P. Pierce (11.6),56,BostonCeltics,106.2,-1.7
+NBA,103.8,1,Lost Finals,-3.8,91.6,2009-10,D. Rivers (50-32),.610,32,3.37,0.1,R. Rondo (9.6),50,BostonCeltics,107.7,-1.1
+NBA,102.3,1,Lost E. Conf. Semis,-6.0,90.4,2008-09,D. Rivers (62-20),.756,20,7.44,2.2,R. Allen (11.1),62,BostonCeltics,110.5,-1.3
+NBA,98.9,1,Won Finals,-8.6,90.9,2007-08,D. Rivers (66-16),.805,16,9.30,2.7,K. Garnett (12.9),66,BostonCeltics,110.2,-1.5
+NBA,106.9,5,NA,0.4,92.0,2006-07,D. Rivers (24-58),.293,58,-3.70,-3.3,A. Jefferson (6.6),24,BostonCeltics,103.2,0.1
+NBA,106.9,3,NA,0.7,92.2,2005-06,D. Rivers (33-49),.402,49,-1.59,-1.0,P. Pierce (11.5),33,BostonCeltics,105.2,1.7
+NBA,106.6,1,Lost E. Conf. 1st Rnd.,0.5,93.3,2004-05,D. Rivers (45-37),.549,37,0.35,1.4,P. Pierce (11.2),45,BostonCeltics,107.5,2.4
+NBA,103.7,4,Lost E. Conf. 1st Rnd.,0.8,93.2,2003-04,"J. O'Brien (22-24), J. Carroll (14-22)",.439,46,-1.99,-0.8,P. Pierce (7.1),36,BostonCeltics,102.1,3.1
+NBA,101.6,3,Lost E. Conf. Semis,-2.0,90.9,2002-03,J. O'Brien (44-38),.537,38,-0.75,-2.4,P. Pierce (10.1),44,BostonCeltics,101.2,-0.1
+NBA,101.0,2,Lost E. Conf. Finals,-3.5,92.5,2001-02,J. O'Brien (49-33),.598,33,1.75,-1.1,P. Pierce (12.9),49,BostonCeltics,103.4,1.8
+NBA,103.7,5,NA,0.7,92.6,2000-01,"R. Pitino (12-22), J. O'Brien (24-24)",.439,46,-2.40,-1.6,P. Pierce (10.4),36,BostonCeltics,101.4,1.3
+NBA,105.6,5,NA,1.5,94.6,1999-00,R. Pitino (35-47),.427,47,-1.00,0.7,P. Pierce (8.2),35,BostonCeltics,104.8,1.5
+NBA,102.4,5,NA,0.2,91.5,1998-99,R. Pitino (19-31),.380,31,-1.75,-1.8,P. Pierce (4.9),19,BostonCeltics,100.4,2.6
+NBA,105.4,6,NA,0.4,93.3,1997-98,R. Pitino (36-46),.439,46,-1.96,-2.4,D. Barros (5.6),36,BostonCeltics,102.6,3.0
+NBA,111.4,7,NA,4.7,95.8,1996-97,M. Carr (15-67),.183,67,-6.62,-2.8,D. Wesley (6.1),15,BostonCeltics,103.9,5.7
+NBA,109.9,5,NA,2.3,96.2,1995-96,M. Carr (33-49),.402,49,-3.37,-1.2,D. Wesley (6.3),33,BostonCeltics,106.4,4.4
+NBA,110.6,3,Lost E. Conf. 1st Rnd.,2.3,94.0,1994-95,C. Ford (35-47),.427,47,-1.92,0.3,D. Brown (6.8),35,BostonCeltics,108.6,1.1
+NBA,108.7,5,NA,2.4,95.6,1993-94,C. Ford (32-50),.390,50,-4.28,-2.1,D. Brown (6.4),32,BostonCeltics,104.2,0.5
+NBA,107.8,2,Lost E. Conf. 1st Rnd.,-0.2,94.9,1992-93,C. Ford (48-34),.585,34,0.93,0.7,R. Lewis (8.3),48,BostonCeltics,108.7,-1.9
+NBA,107.0,1,Lost E. Conf. Semis,-1.2,95.8,1991-92,C. Ford (51-31),.622,31,3.41,2.6,R. Lewis (9.1),51,BostonCeltics,110.8,-0.8
+NBA,106.7,1,Lost E. Conf. Semis,-1.2,98.5,1990-91,C. Ford (56-26),.683,26,5.22,4.7,R. Parish (10.0),56,BostonCeltics,112.6,0.7
+NBA,107.9,2,Lost E. Conf. 1st Rnd.,-0.2,98.2,1989-90,J. Rodgers (52-30),.634,30,3.23,3.9,K. McHale (11.1),52,BostonCeltics,112.0,-0.1
+NBA,109.6,3,Lost E. Conf. 1st Rnd.,1.8,98.1,1988-89,J. Rodgers (42-40),.512,40,1.26,3.0,R. Parish (10.5),42,BostonCeltics,110.8,-2.5
+NBA,109.4,1,Lost E. Conf. Finals,1.4,97.9,1987-88,K. Jones (57-25),.695,25,6.15,7.4,L. Bird (15.0),57,BostonCeltics,115.4,-1.7
+NBA,106.8,1,Lost Finals,-1.5,98.6,1986-87,K. Jones (59-23),.720,23,6.57,5.2,L. Bird (15.2),59,BostonCeltics,113.5,-2.2
+NBA,102.6,1,Won Finals,-4.6,101.2,1985-86,K. Jones (67-15),.817,15,9.06,4.6,L. Bird (15.8),67,BostonCeltics,111.8,-0.9
+NBA,106.3,1,Lost Finals,-1.6,101.6,1984-85,K. Jones (63-19),.768,19,6.47,4.9,L. Bird (15.7),63,BostonCeltics,112.8,-0.5
+NBA,104.4,1,Won Finals,-3.2,99.7,1983-84,K. Jones (62-20),.756,20,6.42,3.3,L. Bird (13.6),62,BostonCeltics,110.9,-1.7
+NBA,101.8,2,Lost E. Conf. Semis,-2.9,104.0,1982-83,B. Fitch (56-26),.683,26,5.34,2.2,L. Bird (14.0),56,BostonCeltics,106.9,0.9
+NBA,103.5,1,Lost E. Conf. Finals,-3.4,101.5,1981-82,B. Fitch (63-19),.768,19,6.35,2.9,L. Bird (12.5),63,BostonCeltics,109.8,0.6
+NBA,102.6,1,Won Finals,-2.9,100.8,1980-81,B. Fitch (62-20),.756,20,6.05,2.9,C. Maxwell (11.0),62,BostonCeltics,108.4,-1.0
+NBA,101.9,1,Lost E. Conf. Finals,-3.4,102.6,1979-80,B. Fitch (61-21),.744,21,7.37,4.1,C. Maxwell (12.2),61,BostonCeltics,109.4,-0.5
+NBA,106.4,5,NA,2.6,106.5,1978-79,"T. Sanders (2-12), D. Cowens (27-41)",.354,53,-4.78,-2.2,C. Maxwell (11.7),29,BostonCeltics,101.6,0.7
+NBA,100.9,3,NA,0.0,105.9,1977-78,"T. Heinsohn (11-23), T. Sanders (21-27)",.390,50,-1.86,-1.8,D. Cowens (10.8),32,BostonCeltics,99.1,-0.8
+NBA,98.3,2,Lost E. Conf. Semis,-1.2,107.5,1976-77,T. Heinsohn (44-38),.537,38,-1.90,-3.0,J. White (6.5),44,BostonCeltics,96.5,1.0
+NBA,96.7,1,Won Finals,-1.6,106.9,1975-76,T. Heinsohn (54-28),.659,28,2.25,0.6,D. Cowens (10.7),54,BostonCeltics,98.9,1.4
+NBA,94.7,1,Lost E. Conf. Finals,-3.0,106.1,1974-75,T. Heinsohn (60-22),.732,22,5.40,2.3,J. Havlicek (9.7),60,BostonCeltics,100.0,1.6
+NBA,95.1,1,Won Finals,-2.6,110.0,1973-74,T. Heinsohn (56-26),.683,26,3.42,0.9,J. Havlicek (9.7),56,BostonCeltics,98.6,2.2
+NBA,91.0,1,Lost E. Conf. Finals,-5.8,114.5,1972-73,T. Heinsohn (68-14),.829,14,7.35,1.3,J. Havlicek (12.1),68,BostonCeltics,98.1,3.8
+NBA,95.2,1,Lost E. Conf. Finals,-2.7,116.1,1971-72,T. Heinsohn (56-26),.683,26,4.38,1.4,J. Havlicek (12.4),56,BostonCeltics,99.3,4.1
+NBA,95.3,3,NA,-1.9,120.2,1970-71,T. Heinsohn (44-38),.537,38,2.30,-0.2,J. Havlicek (12.5),44,BostonCeltics,97.0,5.1
+NBA,98.9,6,NA,-0.1,117.5,1969-70,T. Heinsohn (34-48),.415,48,-1.60,-1.7,J. Havlicek (10.6),34,BostonCeltics,97.3,0.4
+NBA,89.1,4,Won Finals,-6.4,117.5,1968-69,B. Russell (48-34),.585,34,5.35,-1.7,B. Howell (11.3),48,BostonCeltics,93.8,0.6
+NBA,92.4,2,Won Finals,-4.4,121.1,1967-68,B. Russell (54-28),.659,28,3.87,-1.1,B. Howell (10.1),54,BostonCeltics,95.7,1.3
+NBA,91.0,2,Lost E. Div. Finals,-5.1,121.2,1966-67,B. Russell (60-21),.741,21,7.24,1.4,B. Russell (12.2),60,BostonCeltics,97.5,-0.4
+NBA,88.3,2,Won Finals,-6.6,122.0,1965-66,R. Auerbach (54-26),.675,26,4.34,-2.6,B. Russell (11.7),54,BostonCeltics,92.3,0.6
+NBA,84.2,1,Won Finals,-9.4,123.6,1964-65,R. Auerbach (62-18),.775,18,7.46,-2.7,B. Russell (16.9),62,BostonCeltics,90.9,6.3
+NBA,83.8,1,Won Finals,-10.8,125.0,1963-64,R. Auerbach (59-21),.738,21,6.93,-4.5,B. Russell (17.3),59,BostonCeltics,90.1,11.8
+NBA,87.4,1,Won Finals,-8.5,127.3,1962-63,R. Auerbach (58-22),.725,22,6.38,-2.9,B. Russell (13.5),58,BostonCeltics,93.0,12.3
+NBA,85.1,1,Won Finals,-8.5,130.8,1961-62,R. Auerbach (60-20),.750,20,8.25,-1.5,B. Russell (15.5),60,BostonCeltics,92.1,9.5
+NBA,84.5,1,Won Finals,-7.6,134.4,1960-61,R. Auerbach (57-22),.722,22,4.94,-3.4,B. Russell (13.0),57,BostonCeltics,88.7,10.9
+NBA,84.9,1,Won Finals,-6.2,136.3,1959-60,R. Auerbach (59-16),.787,16,7.62,-0.1,B. Russell (13.8),59,BostonCeltics,91.0,14.0
+NBA,84.5,1,Won Finals,-5.7,128.7,1958-59,R. Auerbach (52-20),.722,20,5.84,-0.7,B. Russell (12.9),52,BostonCeltics,89.5,16.7
+NBA,83.6,1,Lost Finals,-5.2,124.8,1957-58,R. Auerbach (49-23),.681,23,5.02,-0.8,B. Russell (11.3),49,BostonCeltics,88.0,7.8
+NBA,84.0,1,Won Finals,-4.9,118.0,1956-57,R. Auerbach (44-28),.611,28,4.78,-0.4,B. Sharman (10.4),44,BostonCeltics,88.5,13.1
+NBA,91.7,2,Lost E. Div. Semis,1.4,114.5,1955-56,R. Auerbach (39-33),.542,33,0.72,1.9,B. Sharman (8.8),39,BostonCeltics,92.2,11.7
+NBA,93.0,3,Lost E. Div. Finals,3.2,108.6,1954-55,R. Auerbach (36-36),.500,36,-0.03,3.2,E. Macauley (8.9),36,BostonCeltics,93.0,10.5
+NBA,90.0,3,Lost E. Div. Finals,2.5,93.0,1953-54,R. Auerbach (42-30),.583,30,1.97,5.0,E. Macauley (14.6),42,BostonCeltics,92.5,9.4
+NBA,89.3,3,Lost E. Div. Finals,1.6,94.7,1952-53,R. Auerbach (46-25),.648,25,1.94,3.7,E. Macauley (14.5),46,BostonCeltics,91.7,14.2
+NBA,86.4,2,Lost E. Div. Semis,-0.5,100.0,1951-52,R. Auerbach (39-27),.591,27,3.60,3.5,E. Macauley (13.8),39,BostonCeltics,90.4,14.2
+NBA,87.6,2,Lost E. Div. Semis,2.5,95.9,1950-51,R. Auerbach (39-30),.565,30,-0.41,2.2,E. Macauley (15.9),39,BostonCeltics,87.3,10.4
+NBA,NA,6,NA,NA,NA,1949-50,A. Julian (22-46),.324,46,-1.73,2.2,B. Kinney (4.8),22,BostonCeltics,NA,NA
+BAA,NA,5,NA,NA,NA,1948-49,A. Julian (25-35),.417,35,-2.76,2.2,J. Seminoff (5.4),25,BostonCeltics,NA,NA
+BAA,NA,3,Lost Quarterfinals,NA,NA,1947-48,J. Russell (20-28),.417,28,-3.76,2.2,E. Sadowski (9.3),20,BostonCeltics,NA,NA
+BAA,NA,5,NA,NA,NA,1946-47,J. Russell (22-38),.367,38,-4.45,2.2,C. Simmons (6.1),22,BostonCeltics,NA,NA
+NBA,108.9,4,NA,3.4,94.6,2015-16,"L. Hollins (10-27), T. Brown (4-12)",.264,39,-6.25,-4.0,B. Lopez (4.7),14,BrooklynNets,101.5,-0.9
+NBA,107.4,3,Lost E. Conf. 1st Rnd.,1.8,92.7,2014-15,L. Hollins (38-44),.463,44,-3.13,-1.2,B. Lopez (7.0),38,BrooklynNets,104.4,-1.2
+NBA,107.7,2,Lost E. Conf. Semis,1.0,91.4,2013-14,J. Kidd (44-38),.537,38,-1.58,0.0,D. Williams (5.4),44,BrooklynNets,106.7,-2.5
+NBA,106.2,2,Lost E. Conf. 1st Rnd.,0.3,88.8,2012-13,"A. Johnson (14-14), P. Carlesimo (35-19)",.598,33,1.25,2.3,D. Williams (10.9),49,BrooklynNets,108.2,-3.2
+NBA,109.6,5,NA,5.0,90.1,2011-12,A. Johnson (22-44),.333,44,-6.37,-1.7,K. Humphries (5.3),22,NewJerseyNets,102.9,-1.2
+NBA,109.9,4,NA,2.6,89.9,2010-11,A. Johnson (24-58),.293,58,-6.28,-4.2,B. Lopez (6.3),24,NewJerseyNets,103.1,-2.2
+NBA,110.5,5,NA,2.9,91.4,2009-10,"L. Frank (0-16), T. Barrise (0-2), K. Vandeweghe (12-52)",.146,70,-8.93,-7.0,B. Lopez (7.9),12,NewJerseyNets,100.6,-1.3
+NBA,111.0,3,NA,2.7,89.9,2008-09,L. Frank (34-48),.415,48,-2.31,0.0,V. Carter (7.5),34,NewJerseyNets,108.3,-1.8
+NBA,109.4,4,NA,1.9,91.5,2007-08,L. Frank (34-48),.415,48,-5.15,-3.5,V. Carter (7.7),34,NewJerseyNets,104.0,-0.9
+NBA,106.6,2,Lost E. Conf. Semis,0.1,91.4,2006-07,L. Frank (41-41),.500,41,-1.00,-0.8,V. Carter (10.5),41,NewJerseyNets,105.7,-0.5
+NBA,102.4,1,Lost E. Conf. Semis,-3.8,89.8,2005-06,L. Frank (49-33),.598,33,1.11,-2.3,R. Jefferson (11.7),49,NewJerseyNets,103.9,-0.7
+NBA,103.1,3,Lost E. Conf. 1st Rnd.,-3.0,89.1,2004-05,L. Frank (42-40),.512,40,-1.82,-4.7,V. Carter (8.5),42,NewJerseyNets,101.4,-1.8
+NBA,98.0,1,Lost E. Conf. Semis,-4.9,89.4,2003-04,"B. Scott (22-20), L. Frank (25-15)",.573,35,1.88,-2.1,R. Jefferson (11.0),47,NewJerseyNets,100.8,-0.7
+NBA,98.1,1,Lost Finals,-5.5,91.6,2002-03,B. Scott (49-33),.598,33,4.42,0.2,J. Kidd (11.3),49,NewJerseyNets,103.8,0.6
+NBA,99.5,1,Lost Finals,-5.0,91.8,2001-02,B. Scott (52-30),.634,30,3.67,-0.5,J. Kidd (8.9),52,NewJerseyNets,104.0,1.1
+NBA,105.5,6,NA,2.5,91.8,2000-01,B. Scott (26-56),.317,56,-5.30,-3.0,S. Marbury (7.8),26,NewJerseyNets,100.0,0.5
+NBA,106.3,6,NA,2.2,92.5,1999-00,D. Casey (31-51),.378,51,-1.18,1.0,S. Marbury (7.4),31,NewJerseyNets,105.1,-0.6
+NBA,103.6,7,NA,1.4,91.5,1998-99,"J. Calipari (3-17), D. Casey (13-17)",.320,34,-3.20,-2.7,S. Marbury (4.0),16,NewJerseyNets,99.5,2.6
+NBA,106.6,3,Lost E. Conf. 1st Rnd.,1.6,91.0,1997-98,J. Calipari (43-39),.524,39,1.88,3.3,K. Kittles (8.4),43,NewJerseyNets,108.3,0.7
+NBA,109.7,5,NA,3.0,92.4,1996-97,J. Calipari (26-56),.317,56,-3.89,-2.0,K. Gill (8.8),26,NewJerseyNets,104.7,2.3
+NBA,106.5,6,NA,-1.1,90.9,1995-96,B. Beard (30-52),.366,52,-4.14,-5.7,A. Gilliam (6.7),30,NewJerseyNets,101.9,-0.9
+NBA,108.6,5,NA,0.3,92.3,1994-95,B. Beard (30-52),.366,52,-3.28,-3.1,K. Anderson (6.8),30,NewJerseyNets,105.2,-0.6
+NBA,104.9,3,Lost E. Conf. 1st Rnd.,-1.4,95.5,1993-94,C. Daly (45-37),.549,37,2.11,0.9,D. Coleman (9.9),45,NewJerseyNets,107.2,0.4
+NBA,105.2,3,Lost E. Conf. 1st Rnd.,-2.8,96.0,1992-93,C. Daly (43-39),.524,39,1.20,-1.5,D. Coleman (9.5),43,NewJerseyNets,106.5,-0.8
+NBA,108.7,3,Lost E. Conf. 1st Rnd.,0.5,98.0,1991-92,B. Fitch (40-42),.488,42,-1.54,-1.2,D. Petrovic (7.7),40,NewJerseyNets,107.0,1.4
+NBA,107.4,5,NA,-0.5,99.3,1990-91,B. Fitch (26-56),.317,56,-4.53,-5.0,D. Coleman (5.8),26,NewJerseyNets,102.9,1.5
+NBA,108.6,6,NA,0.5,99.3,1989-90,B. Fitch (17-65),.207,65,-7.82,-7.4,S. Bowie (4.7),17,NewJerseyNets,100.7,1.0
+NBA,109.3,5,NA,1.5,100.1,1988-89,W. Reed (26-56),.317,56,-5.69,-4.8,L. Conner (6.2),26,NewJerseyNets,103.0,-0.5
+NBA,109.6,5,NA,1.6,98.6,1987-88,"D. Wohl (2-13), B. MacKinnon (10-29), W. Reed (7-21)",.232,63,-6.98,-6.6,B. Williams (7.6),19,NewJerseyNets,101.4,-1.0
+NBA,110.5,4,NA,2.2,101.8,1986-87,D. Wohl (24-58),.293,58,-4.42,-2.7,B. Williams (7.9),24,NewJerseyNets,105.6,1.0
+NBA,106.9,4,Lost E. Conf. 1st Rnd.,-0.3,103.3,1985-86,D. Wohl (39-43),.476,43,-1.39,-2.2,M. Gminski (9.2),39,NewJerseyNets,105.0,1.2
+NBA,107.7,3,Lost E. Conf. 1st Rnd.,-0.2,101.0,1984-85,S. Albeck (42-40),.512,40,0.64,0.0,M. Richardson (8.7),42,NewJerseyNets,107.9,-1.1
+NBA,105.0,4,Lost E. Conf. Semis,-2.6,103.0,1983-84,S. Albeck (45-37),.549,37,1.27,-1.5,D. Dawkins (7.9),45,NewJerseyNets,106.1,1.6
+NBA,98.9,3,Lost E. Conf. 1st Rnd.,-5.8,104.0,1982-83,"L. Brown (47-29), B. Blair (2-4)",.598,33,2.77,-3.1,B. Williams (11.4),49,NewJerseyNets,101.6,0.9
+NBA,102.3,3,Lost E. Conf. 1st Rnd.,-4.6,103.1,1981-82,L. Brown (44-38),.537,38,0.87,-3.9,B. Williams (8.9),44,NewJerseyNets,103.0,2.2
+NBA,106.7,5,NA,1.2,105.2,1980-81,"K. Loughery (12-23), B. MacKinnon (12-35)",.293,58,-5.15,-4.5,M. Newlin (6.1),24,NewJerseyNets,101.0,3.4
+NBA,102.5,5,NA,-2.8,106.1,1979-80,K. Loughery (34-48),.415,48,-0.98,-3.8,M. Newlin (6.5),34,NewJerseyNets,101.5,3.0
+NBA,101.8,3,Lost E. Conf. 1st Rnd.,-2.0,109.5,1978-79,K. Loughery (37-45),.451,45,-4.00,-5.8,B. King (6.5),37,NewJerseyNets,98.0,3.7
+NBA,100.2,5,NA,-0.7,110.9,1977-78,K. Loughery (24-58),.293,58,-5.61,-5.9,B. King (5.9),24,NewJerseyNets,95.0,4.2
+NBA,98.7,5,NA,-0.8,103.7,1976-77,K. Loughery (22-60),.268,60,-6.54,-7.3,J. Van Breda Kolff (4.5),22,NewYorkNets,92.2,-2.8
+ABA,101.7,2,Won Finals,-2.4,105.9,1975-76,K. Loughery (55-29),.655,29,2.56,0.3,J. Erving (17.7),55,NewYorkNets,104.4,-1.0
+ABA,98.9,2,Lost E. Div. Semis,-5.8,103.4,1974-75,K. Loughery (58-26),.690,26,6.58,1.6,J. Erving (17.6),58,NewYorkNets,106.3,0.3
+ABA,98.4,1,Won Finals,-4.6,105.0,1973-74,K. Loughery (55-29),.655,29,4.80,0.5,J. Erving (16.5),55,NewYorkNets,103.5,2.4
+ABA,105.0,4,Lost E. Div. Semis,3.2,104.5,1972-73,L. Carnesecca (30-54),.357,54,-5.80,-3.0,B. Paultz (5.6),30,NewYorkNets,98.8,-4.8
+ABA,101.9,3,Lost Finals,1.3,108.8,1971-72,L. Carnesecca (44-40),.524,40,0.21,1.7,R. Barry (11.1),44,NewYorkNets,102.3,-3.1
+ABA,103.5,3,Lost E. Div. Semis,-1.5,107.3,1970-71,L. Carnesecca (40-44),.476,44,-0.86,-2.0,R. Barry (8.1),40,NewYorkNets,103.0,-3.8
+ABA,101.5,4,Lost E. Div. Semis,-1.2,107.2,1969-70,Y. Larese (39-45),.464,45,-1.02,-2.0,L. Tart (10.9),39,NewYorkNets,100.7,-2.0
+ABA,106.3,5,NA,2.3,109.4,1968-69,M. Zaslofsky (17-61),.218,61,-7.89,-5.6,W. Simon (3.4),17,NewYorkNets,98.4,0.0
+ABA,103.7,5,NA,2.4,108.2,1967-68,M. Zaslofsky (36-42),.462,42,-1.13,0.9,D. Anderson (7.9),36,NewJerseyAmericans,102.2,1.2
+NBA,104.3,3,NA,-1.2,95.5,2015-16,S. Clifford (26-26),.500,26,0.96,-0.4,K. Walker (5.8),26,CharlotteHornets,105.1,0.0
+NBA,103.5,4,NA,-2.1,93.0,2014-15,S. Clifford (33-49),.402,49,-3.44,-5.5,A. Jefferson (4.7),33,CharlotteHornets,100.1,-0.9
+NBA,103.8,3,Lost E. Conf. 1st Rnd.,-2.9,92.4,2013-14,S. Clifford (43-39),.524,39,-0.89,-3.1,A. Jefferson (7.8),43,CharlotteBobcats,103.6,-1.5
+NBA,111.5,4,NA,5.6,91.5,2012-13,M. Dunlap (21-61),.256,61,-9.29,-4.4,K. Walker (4.8),21,CharlotteBobcats,101.5,-0.5
+NBA,110.4,5,NA,5.8,91.1,2011-12,P. Silas (7-59),.106,59,-13.96,-9.4,D. Brown (2.3),7,CharlotteBobcats,95.2,-0.2
+NBA,107.8,4,NA,0.5,89.6,2010-11,"L. Brown (9-19), P. Silas (25-29)",.415,48,-4.08,-3.9,D. Augustin (6.2),34,CharlotteBobcats,103.4,-2.5
+NBA,102.8,4,Lost E. Conf. 1st Rnd.,-4.8,90.4,2009-10,L. Brown (44-38),.537,38,1.30,-3.2,G. Wallace (11.5),44,CharlotteBobcats,104.4,-2.3
+NBA,106.1,4,NA,-2.2,88.3,2008-09,L. Brown (35-47),.427,47,-1.20,-3.6,G. Wallace (9.5),35,CharlotteBobcats,104.7,-3.4
+NBA,109.4,4,NA,1.9,91.8,2007-08,S. Vincent (32-50),.390,50,-4.49,-2.9,J. Richardson (7.4),32,CharlotteBobcats,104.6,-0.6
+NBA,107.6,4,NA,1.1,92.0,2006-07,B. Bickerstaff (33-49),.402,49,-3.97,-2.9,G. Wallace (7.7),33,CharlotteBobcats,103.6,0.1
+NBA,106.7,4,NA,0.5,93.4,2005-06,B. Bickerstaff (26-56),.317,56,-3.90,-3.7,G. Wallace (6.4),26,CharlotteBobcats,102.5,2.9
+NBA,107.5,4,NA,1.4,92.3,2004-05,B. Bickerstaff (18-64),.220,64,-6.15,-5.0,P. Brezec (4.9),18,CharlotteBobcats,101.1,1.4
+NBA,103.3,2,Lost E. Conf. Semis,-1.2,89.7,2001-02,P. Silas (44-38),.537,38,0.57,-0.2,P. Brown (8.2),44,CharlotteHornets,104.3,-1.0
+NBA,99.5,3,Lost E. Conf. Semis,-3.5,89.4,2000-01,P. Silas (46-36),.561,36,1.45,-1.2,B. Davis (8.9),46,CharlotteHornets,101.8,-1.9
+NBA,101.4,2,Lost E. Conf. 1st Rnd.,-2.7,93.9,1999-00,P. Silas (49-33),.598,33,2.33,0.2,E. Jones (10.1),49,CharlotteHornets,104.3,0.8
+NBA,102.4,5,NA,0.2,89.7,1998-99,"D. Cowens (4-11), P. Silas (22-13)",.520,24,0.63,0.1,D. Wesley (4.8),26,CharlotteHornets,102.3,0.8
+NBA,105.3,3,Lost E. Conf. Semis,0.3,89.4,1997-98,D. Cowens (51-31),.622,31,2.45,2.5,G. Rice (9.3),51,CharlotteHornets,107.5,-0.9
+NBA,108.9,4,Lost E. Conf. 1st Rnd.,2.2,88.6,1996-97,D. Cowens (54-28),.659,28,2.13,4.2,A. Mason (11.4),54,CharlotteHornets,110.9,-1.5
+NBA,111.8,6,NA,4.2,91.6,1995-96,A. Bristow (41-41),.500,41,-0.48,3.6,L. Johnson (10.1),41,CharlotteHornets,111.2,-0.2
+NBA,106.1,2,Lost E. Conf. 1st Rnd.,-2.2,91.2,1994-95,A. Bristow (50-32),.610,32,2.87,1.3,A. Mourning (9.4),50,CharlotteHornets,109.6,-1.7
+NBA,108.6,5,NA,2.3,97.5,1993-94,A. Bristow (41-41),.500,41,-0.23,2.1,H. Hawkins (6.5),41,CharlotteHornets,108.4,2.4
+NBA,109.7,3,Lost E. Conf. Semis,1.7,100.2,1992-93,A. Bristow (44-38),.537,38,-0.02,1.5,L. Johnson (9.6),44,CharlotteHornets,109.5,3.4
+NBA,110.9,7,NA,2.7,101.7,1991-92,A. Bristow (31-51),.378,51,-3.57,-1.1,L. Johnson (8.9),31,CharlotteHornets,107.1,5.1
+NBA,110.4,7,NA,2.5,97.3,1990-91,G. Littles (26-56),.317,56,-4.95,-2.9,M. Bogues (4.8),26,CharlotteHornets,105.0,-0.5
+NBA,109.9,7,NA,1.8,98.1,1989-90,"D. Harter (8-32), G. Littles (11-31)",.232,63,-7.00,-6.1,M. Bogues (6.7),19,CharlotteHornets,102.0,-0.2
+NBA,112.1,6,NA,4.3,100.3,1988-89,D. Harter (20-62),.244,62,-7.74,-4.1,K. Rambis (4.8),20,CharlotteHornets,103.7,-0.3
+NBA,104.0,3,NA,-1.5,96.0,2015-16,F. Hoiberg (27-24),.529,24,-0.12,-1.8,J. Butler (7.5),27,ChicagoBulls,103.7,0.5
+NBA,104.3,2,Lost E. Conf. Semis,-1.3,92.8,2014-15,T. Thibodeau (50-32),.610,32,2.54,1.9,J. Butler (11.2),50,ChicagoBulls,107.5,-1.1
+NBA,100.5,2,Lost E. Conf. 1st Rnd.,-6.2,90.2,2013-14,T. Thibodeau (48-34),.585,34,1.20,-4.2,J. Noah (11.2),48,ChicagoBulls,102.5,-3.7
+NBA,103.2,2,Lost E. Conf. Semis,-2.7,89.3,2012-13,T. Thibodeau (45-37),.549,37,-0.02,-2.4,J. Noah (7.3),45,ChicagoBulls,103.5,-2.7
+NBA,98.3,1,Lost E. Conf. 1st Rnd.,-6.3,89.1,2011-12,T. Thibodeau (50-16),.758,16,7.43,2.8,J. Noah (9.0),50,ChicagoBulls,107.4,-2.2
+NBA,100.3,1,Lost E. Conf. Finals,-7.0,90.4,2010-11,T. Thibodeau (62-20),.756,20,6.53,1.0,D. Rose (13.1),62,ChicagoBulls,108.3,-1.7
+NBA,105.3,3,Lost E. Conf. 1st Rnd.,-2.3,93.1,2009-10,V. Del Negro (41-41),.500,41,-1.64,-4.1,J. Noah (6.2),41,ChicagoBulls,103.5,0.4
+NBA,108.7,2,Lost E. Conf. 1st Rnd.,0.4,93.1,2008-09,V. Del Negro (41-41),.500,41,-0.16,0.1,B. Gordon (6.9),41,ChicagoBulls,108.4,1.4
+NBA,107.2,4,NA,-0.3,93.0,2007-08,"S. Skiles (9-16), P. Myers (0-1), J. Boylan (24-32)",.402,49,-3.19,-3.6,B. Gordon (5.1),33,ChicagoBulls,103.9,0.6
+NBA,99.6,3,Lost E. Conf. Semis,-6.9,93.6,2006-07,S. Skiles (49-33),.598,33,4.52,-1.6,L. Deng (11.3),49,ChicagoBulls,104.9,1.7
+NBA,103.4,4,Lost E. Conf. 1st Rnd.,-2.8,92.9,2005-06,S. Skiles (41-41),.500,41,0.51,-2.2,K. Hinrich (7.6),41,ChicagoBulls,104.0,2.4
+NBA,100.3,2,Lost E. Conf. 1st Rnd.,-5.8,92.4,2004-05,S. Skiles (47-35),.573,35,0.65,-4.7,T. Chandler (8.3),47,ChicagoBulls,101.4,1.5
+NBA,103.4,8,NA,0.5,92.2,2003-04,"B. Cartwright (4-10), P. Myers (0-2), S. Skiles (19-47)",.280,59,-6.69,-6.3,K. Hinrich (4.1),23,ChicagoBulls,96.6,2.1
+NBA,105.6,6,NA,2.0,93.5,2002-03,B. Cartwright (30-52),.366,52,-5.31,-3.4,D. Marshall (6.0),30,ChicagoBulls,100.2,2.5
+NBA,107.6,8,NA,3.1,90.5,2001-02,"T. Floyd (4-21), B. Berry (0-2), B. Cartwright (17-38)",.256,61,-8.52,-6.3,B. Miller (4.4),21,ChicagoBulls,98.2,-0.2
+NBA,107.3,8,NA,4.3,89.3,2000-01,T. Floyd (15-67),.183,67,-9.09,-5.8,E. Brand (6.1),15,ChicagoBulls,97.2,-2.0
+NBA,104.6,8,NA,0.5,89.4,1999-00,T. Floyd (17-65),.207,65,-9.23,-9.9,E. Brand (7.5),17,ChicagoBulls,94.2,-3.7
+NBA,103.0,8,NA,0.8,88.1,1998-99,T. Floyd (13-37),.260,37,-8.58,-9.8,D. Simpkins (2.9),13,ChicagoBulls,92.4,-0.8
+NBA,99.8,1,Won Finals,-5.2,89.0,1997-98,P. Jackson (62-20),.756,20,7.24,2.7,M. Jordan (15.8),62,ChicagoBulls,107.7,-1.3
+NBA,102.4,1,Won Finals,-4.3,90.0,1996-97,P. Jackson (69-13),.841,13,10.70,7.7,M. Jordan (18.3),69,ChicagoBulls,114.4,-0.1
+NBA,101.8,1,Won Finals,-5.8,91.1,1995-96,P. Jackson (72-10),.878,10,11.80,7.6,M. Jordan (20.4),72,ChicagoBulls,115.2,-0.7
+NBA,104.3,3,Lost E. Conf. Semis,-4.0,92.0,1994-95,P. Jackson (47-35),.573,35,4.32,1.2,S. Pippen (11.8),47,ChicagoBulls,109.5,-0.9
+NBA,102.7,2,Lost E. Conf. Semis,-3.6,91.9,1993-94,P. Jackson (55-27),.671,27,2.87,-0.2,S. Pippen (11.2),55,ChicagoBulls,106.1,-3.2
+NBA,106.1,1,Won Finals,-1.9,92.5,1992-93,P. Jackson (57-25),.695,25,6.19,4.9,M. Jordan (17.2),57,ChicagoBulls,112.9,-4.3
+NBA,104.5,1,Won Finals,-3.7,94.4,1991-92,P. Jackson (67-15),.817,15,10.07,7.3,M. Jordan (17.7),67,ChicagoBulls,115.5,-2.2
+NBA,105.2,1,Won Finals,-2.7,95.6,1990-91,P. Jackson (61-21),.744,21,8.57,6.7,M. Jordan (20.3),61,ChicagoBulls,114.6,-2.2
+NBA,109.0,2,Lost E. Conf. Finals,0.9,96.7,1989-90,P. Jackson (55-27),.671,27,2.74,4.2,M. Jordan (19.0),55,ChicagoBulls,112.3,-1.6
+NBA,107.7,5,Lost E. Conf. Finals,-0.1,97.0,1988-89,D. Collins (47-35),.573,35,2.13,1.3,M. Jordan (19.8),47,ChicagoBulls,109.1,-3.6
+NBA,105.5,2,Lost E. Conf. Semis,-2.5,95.5,1987-88,D. Collins (50-32),.610,32,3.76,1.0,M. Jordan (21.2),50,ChicagoBulls,109.0,-4.1
+NBA,107.6,5,Lost E. Conf. 1st Rnd.,-0.7,95.8,1986-87,D. Collins (40-42),.488,42,1.26,0.3,M. Jordan (16.9),40,ChicagoBulls,108.6,-5.0
+NBA,112.4,4,Lost E. Conf. 1st Rnd.,5.2,99.7,1985-86,S. Albeck (30-52),.366,52,-3.12,1.4,O. Woolridge (5.6),30,ChicagoBulls,108.6,-2.4
+NBA,109.6,3,Lost E. Conf. 1st Rnd.,1.7,99.4,1984-85,K. Loughery (38-44),.463,44,-0.50,0.8,M. Jordan (14.0),38,ChicagoBulls,108.7,-2.7
+NBA,107.5,5,NA,-0.1,99.8,1983-84,K. Loughery (27-55),.329,55,-4.69,-5.2,D. Greenwood (5.7),27,ChicagoBulls,102.4,-1.6
+NBA,108.0,4,NA,3.3,106.1,1982-83,P. Westhead (28-54),.341,54,-4.41,-1.3,R. Theus (6.5),28,ChicagoBulls,103.4,3.0
+NBA,108.6,5,NA,1.7,99.0,1981-82,"J. Sloan (19-32), P. Johnson (0-1), R. Thorn (15-15)",.415,48,-1.57,-0.3,A. Gilmore (12.1),34,ChicagoBulls,106.6,-1.9
+NBA,105.8,2,Lost E. Conf. Semis,0.3,100.6,1980-81,J. Sloan (45-37),.549,37,2.34,2.3,A. Gilmore (12.3),45,ChicagoBulls,107.8,-1.2
+NBA,107.0,4,NA,1.7,101.8,1979-80,J. Sloan (30-52),.366,52,-2.63,-1.0,R. Theus (6.9),30,ChicagoBulls,104.3,-1.3
+NBA,105.1,5,NA,1.3,102.9,1978-79,"L. Costello (20-36), S. Robertson (11-15)",.378,51,-3.78,-2.5,A. Gilmore (12.7),31,ChicagoBulls,101.3,-2.9
+NBA,102.9,3,NA,2.0,101.5,1977-78,E. Badger (40-42),.488,42,-0.79,1.1,A. Gilmore (11.5),40,ChicagoBulls,102.0,-5.2
+NBA,97.4,3,Lost W. Conf. 1st Rnd.,-2.1,100.0,1976-77,E. Badger (44-38),.537,38,0.92,-1.2,A. Gilmore (12.2),44,ChicagoBulls,98.3,-6.5
+NBA,98.0,4,NA,-0.3,100.3,1975-76,D. Motta (24-58),.293,58,-2.89,-3.1,M. Johnson (8.3),24,ChicagoBulls,95.2,-5.2
+NBA,94.4,1,Lost W. Conf. Finals,-3.3,99.7,1974-75,D. Motta (47-35),.573,35,2.88,-0.3,C. Walker (10.5),47,ChicagoBulls,97.4,-4.8
+NBA,93.6,2,Lost W. Conf. Finals,-4.1,105.0,1973-74,D. Motta (54-28),.659,28,3.20,-1.0,C. Walker (10.6),54,ChicagoBulls,96.7,-2.8
+NBA,95.6,2,Lost W. Conf. Semis,-1.2,104.5,1972-73,D. Motta (51-31),.622,31,3.43,2.1,C. Walker (10.9),51,ChicagoBulls,98.9,-6.2
+NBA,94.3,2,Lost W. Conf. Semis,-3.6,108.6,1971-72,D. Motta (57-25),.695,25,7.91,4.0,C. Walker (14.5),57,ChicagoBulls,101.9,-3.4
+NBA,95.7,2,Lost W. Conf. Semis,-1.5,109.7,1970-71,D. Motta (51-31),.622,31,5.47,3.3,C. Walker (10.9),51,ChicagoBulls,100.5,-5.4
+NBA,99.1,3,Lost W. Div. Semis,0.1,116.5,1969-70,D. Motta (39-43),.476,43,-1.71,-1.4,C. Walker (9.8),39,ChicagoBulls,97.6,-0.6
+NBA,94.0,5,NA,-1.5,113.4,1968-69,D. Motta (33-49),.402,49,-2.11,-3.5,B. Boozer (11.6),33,ChicagoBulls,92.0,-3.5
+NBA,97.5,4,Lost W. Div. Semis,0.7,115.7,1967-68,R. Kerr (29-53),.354,53,-3.76,-2.7,B. Boozer (10.6),29,ChicagoBulls,94.1,-4.1
+NBA,95.4,4,Lost W. Div. Semis,-0.7,122.2,1966-67,R. Kerr (33-48),.407,48,-3.37,-3.8,B. Boozer (9.4),33,ChicagoBulls,92.3,0.6
+NBA,103.0,1,NA,-2.5,92.9,2015-16,"T. Lue (7-3), D. Blatt (30-11)",.725,14,5.49,3.8,L. James (8.7),37,ClevelandCavaliers,109.3,-2.6
+NBA,106.3,1,Lost Finals,0.7,92.3,2014-15,D. Blatt (53-29),.646,29,4.08,5.5,K. Irving (10.4),53,ClevelandCavaliers,111.1,-1.6
+NBA,107.7,3,NA,1.0,93.1,2013-14,M. Brown (33-49),.402,49,-3.86,-2.5,K. Irving (6.7),33,ClevelandCavaliers,104.2,-0.8
+NBA,109.4,5,NA,3.5,92.3,2012-13,B. Scott (24-58),.293,58,-4.87,-1.6,K. Irving (5.3),24,ClevelandCavaliers,104.3,0.3
+NBA,108.9,5,NA,4.3,91.3,2011-12,B. Scott (21-45),.318,45,-7.34,-3.5,K. Irving (4.1),21,ClevelandCavaliers,101.1,0.0
+NBA,111.8,5,NA,4.5,93.0,2010-11,B. Scott (19-63),.232,63,-8.88,-5.1,R. Sessions (4.4),19,ClevelandCavaliers,102.2,0.9
+NBA,104.1,1,Lost E. Conf. Semis,-3.5,91.4,2009-10,M. Brown (61-21),.744,21,6.17,3.6,L. James (18.5),61,ClevelandCavaliers,111.2,-1.3
+NBA,102.4,1,Lost E. Conf. Finals,-5.9,88.7,2008-09,M. Brown (66-16),.805,16,8.68,4.1,L. James (20.3),66,ClevelandCavaliers,112.4,-3.0
+NBA,106.4,2,Lost E. Conf. Semis,-1.1,90.2,2007-08,M. Brown (45-37),.549,37,-0.53,-1.5,L. James (15.2),45,ClevelandCavaliers,106.0,-2.2
+NBA,101.3,2,Lost Finals,-5.2,90.8,2006-07,M. Brown (50-32),.610,32,3.33,-1.0,L. James (13.7),50,ClevelandCavaliers,105.5,-1.1
+NBA,105.4,2,Lost E. Conf. Semis,-0.8,89.8,2005-06,M. Brown (50-32),.610,32,2.17,1.6,L. James (16.3),50,ClevelandCavaliers,107.8,-0.7
+NBA,105.7,4,NA,-0.4,89.7,2004-05,"P. Silas (34-30), B. Malone (8-10)",.512,40,0.27,0.5,L. James (14.3),42,ClevelandCavaliers,106.6,-1.2
+NBA,104.2,5,NA,1.3,90.8,2003-04,P. Silas (35-47),.427,47,-3.07,-1.5,C. Boozer (9.4),35,ClevelandCavaliers,101.4,0.7
+NBA,106.7,8,NA,3.1,94.0,2002-03,"J. Lucas (8-34), K. Smart (9-31)",.207,65,-9.59,-7.1,C. Boozer (5.9),17,ClevelandCavaliers,96.5,3.0
+NBA,108.2,7,NA,3.7,90.3,2001-02,J. Lucas (29-53),.354,53,-3.52,0.1,A. Miller (10.3),29,ClevelandCavaliers,104.6,-0.4
+NBA,104.9,6,NA,1.9,91.2,2000-01,R. Wittman (30-52),.366,52,-4.48,-2.7,C. Weatherspoon (8.6),30,ClevelandCavaliers,100.3,-0.1
+NBA,104.0,6,NA,-0.1,95.7,1999-00,R. Wittman (32-50),.390,50,-3.64,-3.7,A. Miller (5.3),32,ClevelandCavaliers,100.4,2.6
+NBA,101.6,7,NA,-0.6,86.4,1998-99,M. Fratello (22-28),.440,28,-0.94,-2.6,S. Kemp (6.3),22,ClevelandCavaliers,99.6,-2.5
+NBA,99.1,5,Lost E. Conf. 1st Rnd.,-5.9,89.9,1997-98,M. Fratello (47-35),.573,35,3.06,-2.8,W. Person (10.3),47,ClevelandCavaliers,102.2,-0.4
+NBA,102.4,5,NA,-4.3,82.9,1996-97,M. Fratello (42-40),.512,40,2.32,-2.1,T. Brandon (10.8),42,ClevelandCavaliers,104.6,-7.2
+NBA,106.7,3,Lost E. Conf. 1st Rnd.,-0.9,82.3,1995-96,M. Fratello (47-35),.573,35,2.49,2.3,T. Brandon (12.7),47,ClevelandCavaliers,109.9,-9.5
+NBA,104.6,4,Lost E. Conf. 1st Rnd.,-3.7,84.8,1994-95,M. Fratello (43-39),.524,39,0.55,-3.0,T. Hill (6.9),43,ClevelandCavaliers,105.3,-8.1
+NBA,105.1,4,Lost E. Conf. 1st Rnd.,-1.2,91.7,1993-94,M. Fratello (47-35),.573,35,3.64,3.1,M. Price (10.0),47,ClevelandCavaliers,109.4,-3.4
+NBA,106.0,2,Lost E. Conf. Semis,-2.0,94.8,1992-93,L. Wilkens (54-28),.659,28,6.30,4.7,B. Daugherty (12.7),54,ClevelandCavaliers,112.7,-2.0
+NBA,108.2,2,Lost E. Conf. Finals,0.0,95.0,1991-92,L. Wilkens (57-25),.695,25,5.34,5.7,L. Nance (12.2),57,ClevelandCavaliers,113.9,-1.6
+NBA,108.7,6,NA,0.8,95.1,1990-91,L. Wilkens (33-49),.402,49,-2.33,-1.8,L. Nance (9.8),33,ClevelandCavaliers,106.1,-2.7
+NBA,107.2,4,Lost E. Conf. 1st Rnd.,-0.9,95.0,1989-90,L. Wilkens (42-40),.512,40,-0.62,-1.2,M. Price (10.1),42,ClevelandCavaliers,106.9,-3.3
+NBA,102.9,2,Lost E. Conf. 1st Rnd.,-4.9,98.0,1988-89,L. Wilkens (57-25),.695,25,7.95,2.8,M. Price (11.3),57,ClevelandCavaliers,110.6,-2.6
+NBA,106.0,5,Lost E. Conf. 1st Rnd.,-2.0,97.3,1987-88,L. Wilkens (42-40),.512,40,1.28,-1.2,M. Price (7.8),42,ClevelandCavaliers,106.8,-2.3
+NBA,106.4,6,NA,-1.9,101.3,1986-87,L. Wilkens (31-51),.378,51,-3.19,-5.7,H. Williams (7.5),31,ClevelandCavaliers,102.6,0.5
+NBA,108.3,5,NA,1.1,101.6,1985-86,"G. Karl (25-42), G. Littles (4-11)",.354,53,-2.19,-1.7,R. Hinson (7.4),29,ClevelandCavaliers,105.5,-0.5
+NBA,108.7,4,Lost E. Conf. 1st Rnd.,0.8,101.9,1984-85,G. Karl (36-46),.439,46,-2.27,-1.9,W. Free (6.0),36,ClevelandCavaliers,106.0,-0.2
+NBA,108.5,4,NA,0.9,97.4,1983-84,T. Nissalke (28-54),.341,54,-3.71,-3.5,W. Free (5.3),28,ClevelandCavaliers,104.1,-4.0
+NBA,106.8,5,NA,2.1,97.6,1982-83,T. Nissalke (23-59),.280,59,-6.78,-5.5,W. Free (4.6),23,ClevelandCavaliers,99.2,-5.5
+NBA,111.8,6,NA,4.9,99.3,1981-82,"D. Delaney (4-11), B. Kloppenburg (0-3), C. Daly (9-32), B. Musselman (2-21)",.183,67,-7.77,-3.6,J. Edwards (4.3),15,ClevelandCavaliers,103.3,-1.6
+NBA,109.1,5,NA,3.6,100.8,1980-81,"B. Musselman (25-46), D. Delaney (3-8)",.341,54,-4.15,-1.2,M. Mitchell (6.0),28,ClevelandCavaliers,104.3,-1.0
+NBA,106.4,5,NA,1.1,105.6,1979-80,S. Albeck (37-45),.451,45,0.43,1.4,D. Robisch (8.6),37,ClevelandCavaliers,106.7,2.5
+NBA,107.3,5,NA,3.5,102.7,1978-79,B. Fitch (30-52),.366,52,-3.57,-0.1,C. Russell (6.7),30,ClevelandCavaliers,103.7,-3.1
+NBA,99.4,3,Lost E. Conf. 1st Rnd.,-1.5,103.5,1977-78,B. Fitch (43-39),.524,39,0.44,-1.0,E. Smith (6.8),43,ClevelandCavaliers,99.9,-3.2
+NBA,98.9,4,Lost E. Conf. 1st Rnd.,-0.6,101.5,1976-77,B. Fitch (43-39),.524,39,1.08,0.5,J. Chones (5.9),43,ClevelandCavaliers,100.0,-5.0
+NBA,97.0,1,Lost E. Conf. Finals,-1.3,101.6,1975-76,B. Fitch (49-33),.598,33,2.34,1.2,J. Brewer (7.9),49,ClevelandCavaliers,99.5,-3.9
+NBA,98.0,3,NA,0.3,100.4,1974-75,B. Fitch (40-42),.488,42,-0.31,-0.1,D. Snyder (6.4),40,ClevelandCavaliers,97.6,-4.1
+NBA,100.1,4,NA,2.4,104.1,1973-74,B. Fitch (29-53),.354,53,-4.16,-1.7,L. Wilkens (6.5),29,ClevelandCavaliers,96.0,-3.7
+NBA,96.5,4,NA,-0.3,108.3,1972-73,B. Fitch (32-50),.390,50,-2.64,-2.8,L. Wilkens (9.5),32,ClevelandCavaliers,94.0,-2.4
+NBA,101.4,4,NA,3.5,111.5,1971-72,B. Fitch (23-59),.280,59,-7.90,-3.4,B. Beard (5.9),23,ClevelandCavaliers,94.5,-0.5
+NBA,102.4,4,NA,5.2,110.6,1970-71,B. Fitch (15-67),.183,67,-12.04,-4.9,W. Wesley (4.1),15,ClevelandCavaliers,92.3,-4.5
+NBA,105.7,3,NA,0.2,94.4,2015-16,R. Carlisle (29-25),.537,25,-0.74,-0.7,Z. Pachulia (4.6),29,DallasMavericks,104.8,-1.1
+NBA,106.4,4,Lost W. Conf. 1st Rnd.,0.8,95.2,2014-15,R. Carlisle (50-32),.610,32,3.36,3.9,T. Chandler (10.3),50,DallasMavericks,109.5,1.3
+NBA,108.7,4,Lost W. Conf. 1st Rnd.,2.0,93.5,2013-14,R. Carlisle (49-33),.598,33,2.91,4.5,D. Nowitzki (10.9),49,DallasMavericks,111.2,-0.4
+NBA,106.5,4,NA,0.6,94.1,2012-13,R. Carlisle (41-41),.500,41,-0.24,0.0,V. Carter (6.0),41,DallasMavericks,105.9,2.1
+NBA,102.3,3,Lost W. Conf. 1st Rnd.,-2.3,91.4,2011-12,R. Carlisle (36-30),.545,30,1.78,-1.3,D. Nowitzki (7.6),36,DallasMavericks,103.3,0.1
+NBA,105.0,2,Won Finals,-2.3,91.3,2010-11,R. Carlisle (57-25),.695,25,4.41,2.4,D. Nowitzki (11.1),57,DallasMavericks,109.7,-0.8
+NBA,106.3,1,Lost W. Conf. 1st Rnd.,-1.3,92.5,2009-10,R. Carlisle (55-27),.671,27,2.66,1.6,D. Nowitzki (12.3),55,DallasMavericks,109.2,-0.2
+NBA,108.4,3,Lost W. Conf. Semis,0.1,91.5,2008-09,R. Carlisle (50-32),.610,32,1.68,2.2,D. Nowitzki (10.9),50,DallasMavericks,110.5,-0.2
+NBA,106.1,4,Lost W. Conf. 1st Rnd.,-1.4,90.2,2007-08,A. Johnson (51-31),.622,31,4.70,3.6,D. Nowitzki (12.9),51,DallasMavericks,111.1,-2.2
+NBA,103.2,1,Lost W. Conf. 1st Rnd.,-3.3,89.5,2006-07,A. Johnson (67-15),.817,15,7.28,4.8,D. Nowitzki (16.3),67,DallasMavericks,111.3,-2.4
+NBA,105.0,2,Lost Finals,-1.2,87.8,2005-06,A. Johnson (60-22),.732,22,5.96,5.6,D. Nowitzki (17.7),60,DallasMavericks,111.8,-2.7
+NBA,104.1,2,Lost W. Conf. Semis,-2.0,92.7,2004-05,"D. Nelson (42-22), A. Johnson (16-2)",.707,24,5.86,4.2,D. Nowitzki (15.6),58,DallasMavericks,110.3,1.8
+NBA,107.4,3,Lost W. Conf. 1st Rnd.,4.5,93.2,2003-04,D. Nelson (52-30),.634,30,4.86,9.2,D. Nowitzki (11.5),52,DallasMavericks,112.1,3.1
+NBA,102.3,2,Lost W. Conf. Finals,-1.3,92.5,2002-03,D. Nelson (60-22),.732,22,7.90,7.1,D. Nowitzki (16.1),60,DallasMavericks,110.7,1.5
+NBA,107.7,2,Lost W. Conf. Semis,3.2,92.8,2001-02,D. Nelson (57-25),.695,25,4.41,7.7,D. Nowitzki (13.4),57,DallasMavericks,112.2,2.1
+NBA,102.6,3,Lost W. Conf. Semis,-0.4,93.2,2000-01,D. Nelson (53-29),.646,29,4.61,4.1,D. Nowitzki (14.6),53,DallasMavericks,107.1,1.9
+NBA,107.2,4,NA,3.1,94.9,1999-00,D. Nelson (40-42),.488,42,-0.29,2.5,M. Finley (8.3),40,DallasMavericks,106.6,1.8
+NBA,104.9,5,NA,2.7,89.0,1998-99,D. Nelson (19-31),.380,31,-2.50,0.1,M. Finley (5.4),19,DallasMavericks,102.3,0.1
+NBA,107.2,5,NA,2.2,89.9,1997-98,"J. Cleamons (4-12), D. Nelson (16-50)",.244,62,-6.33,-4.5,M. Finley (7.5),20,DallasMavericks,100.5,-0.4
+NBA,108.2,4,NA,1.5,89.0,1996-97,J. Cleamons (24-58),.293,58,-6.47,-5.6,A. Green (4.0),24,DallasMavericks,101.1,-1.1
+NBA,111.2,6,NA,3.6,95.4,1995-96,D. Motta (26-56),.317,56,-4.71,-1.5,G. McCloud (5.8),26,DallasMavericks,106.1,3.6
+NBA,110.6,5,NA,2.3,94.7,1994-95,D. Motta (36-46),.439,46,-2.39,-0.7,J. Mashburn (6.3),36,DallasMavericks,107.6,1.8
+NBA,109.6,6,NA,3.3,94.5,1993-94,Q. Buckner (13-69),.159,69,-8.19,-5.9,P. Jones (3.6),13,DallasMavericks,100.4,-0.6
+NBA,114.7,6,NA,6.7,99.5,1992-93,"R. Adubato (2-27), G. Heard (9-44)",.134,71,-14.68,-8.5,D. Harper (2.7),11,DallasMavericks,99.5,2.7
+NBA,111.1,5,NA,2.9,94.4,1991-92,R. Adubato (22-60),.268,60,-7.47,-5.2,R. Blackman (3.8),22,DallasMavericks,103.0,-2.2
+NBA,110.3,6,NA,2.4,94.2,1990-91,R. Adubato (28-54),.341,54,-4.27,-2.4,D. Harper (7.6),28,DallasMavericks,105.5,-3.6
+NBA,107.2,3,Lost W. Conf. 1st Rnd.,-0.9,94.5,1989-90,"J. MacLeod (5-6), R. Adubato (42-29)",.573,35,0.42,-0.9,D. Harper (9.9),47,DallasMavericks,107.2,-3.8
+NBA,108.6,4,NA,0.8,95.9,1988-89,J. MacLeod (38-44),.463,44,-1.79,-0.4,D. Harper (8.0),38,DallasMavericks,107.4,-4.7
+NBA,107.7,2,Lost W. Conf. Finals,-0.3,97.0,1987-88,J. MacLeod (53-29),.646,29,3.59,4.2,D. Harper (9.1),53,DallasMavericks,112.2,-2.6
+NBA,108.7,1,Lost W. Conf. 1st Rnd.,0.4,100.5,1986-87,D. Motta (55-27),.671,27,5.54,6.6,J. Donaldson (10.4),55,DallasMavericks,114.9,-0.3
+NBA,111.0,3,Lost W. Conf. Semis,3.8,102.2,1985-86,D. Motta (44-38),.537,38,0.70,4.9,S. Perkins (7.3),44,DallasMavericks,112.1,0.1
+NBA,109.3,3,Lost W. Conf. 1st Rnd.,1.4,98.8,1984-85,D. Motta (44-38),.537,38,1.80,3.6,B. Davis (7.4),44,DallasMavericks,111.5,-3.3
+NBA,109.6,2,Lost W. Conf. Semis,2.0,99.0,1983-84,D. Motta (43-39),.524,39,0.15,2.4,R. Blackman (9.8),43,DallasMavericks,110.0,-2.4
+NBA,109.8,4,NA,5.1,102.8,1982-83,D. Motta (38-44),.463,44,-0.70,4.7,B. Davis (7.3),38,DallasMavericks,109.4,-0.3
+NBA,110.4,5,NA,3.5,98.5,1981-82,D. Motta (28-54),.341,54,-4.48,-1.0,J. Vincent (5.6),28,DallasMavericks,105.9,-2.4
+NBA,110.8,6,NA,5.3,98.6,1980-81,D. Motta (15-67),.183,67,-8.33,-3.1,J. Spanarkel (5.5),15,DallasMavericks,102.4,-3.2
+NBA,108.3,4,NA,2.8,95.2,2015-16,M. Malone (21-32),.396,32,-2.35,-0.6,D. Gallinari (6.2),21,DenverNuggets,104.9,-0.3
+NBA,108.2,4,NA,2.6,96.1,2014-15,"B. Shaw (20-39), M. Hunt (10-13)",.366,52,-3.07,-1.1,T. Lawson (7.0),30,DenverNuggets,104.5,2.2
+NBA,108.2,4,NA,1.5,98.1,2013-14,B. Shaw (36-46),.439,46,-1.40,-0.7,K. Faried (6.5),36,DenverNuggets,106.0,4.2
+NBA,105.1,2,Lost W. Conf. 1st Rnd.,-0.8,95.1,2012-13,G. Karl (57-25),.695,25,5.37,4.5,K. Faried (7.8),57,DenverNuggets,110.4,3.1
+NBA,106.2,2,Lost W. Conf. 1st Rnd.,1.6,94.2,2011-12,G. Karl (38-28),.576,28,3.16,4.6,T. Lawson (6.9),38,DenverNuggets,109.2,2.9
+NBA,107.3,2,Lost W. Conf. 1st Rnd.,0.0,95.6,2010-11,G. Karl (50-32),.610,32,4.81,5.0,N. Hilario (9.6),50,DenverNuggets,112.3,3.5
+NBA,107.5,1,Lost W. Conf. 1st Rnd.,-0.1,94.8,2009-10,G. Karl (53-29),.646,29,4.15,4.2,N. Hilario (10.8),53,DenverNuggets,111.8,2.1
+NBA,106.8,1,Lost W. Conf. Finals,-1.5,94.3,2008-09,G. Karl (54-28),.659,28,3.13,2.1,C. Billups (9.9),54,DenverNuggets,110.4,2.6
+NBA,106.3,2,Lost W. Conf. 1st Rnd.,-1.2,99.7,2007-08,G. Karl (50-32),.610,32,3.74,2.5,A. Iverson (11.6),50,DenverNuggets,110.0,7.3
+NBA,105.9,2,Lost W. Conf. 1st Rnd.,-0.6,97.4,2006-07,G. Karl (45-37),.549,37,1.69,1.1,M. Camby (7.6),45,DenverNuggets,107.6,5.5
+NBA,105.2,1,Lost W. Conf. 1st Rnd.,-1.0,93.9,2005-06,G. Karl (44-38),.537,38,0.36,-0.7,C. Anthony (9.4),44,DenverNuggets,105.5,3.4
+NBA,103.9,2,Lost W. Conf. 1st Rnd.,-2.2,93.5,2004-05,"J. Bzdelik (13-15), M. Cooper (4-10), G. Karl (32-8)",.598,33,2.23,-0.1,A. Miller (7.0),49,DenverNuggets,106.0,2.6
+NBA,102.7,6,Lost W. Conf. 1st Rnd.,-0.2,93.3,2003-04,J. Bzdelik (43-39),.524,39,1.65,1.0,A. Miller (8.8),43,DenverNuggets,103.9,3.2
+NBA,101.3,7,NA,-2.3,91.0,2002-03,J. Bzdelik (17-65),.207,65,-7.41,-11.4,J. Howard (6.0),17,DenverNuggets,92.2,0.0
+NBA,107.8,6,NA,3.3,90.4,2001-02,"D. Issel (9-17), M. Evans (18-38)",.329,55,-5.19,-3.1,R. LaFrentz (4.5),27,DenverNuggets,101.4,-0.3
+NBA,106.3,6,NA,3.3,92.6,2000-01,D. Issel (40-42),.488,42,-1.83,0.7,A. McDyess (7.8),40,DenverNuggets,103.7,1.3
+NBA,105.8,5,NA,1.7,94.7,1999-00,D. Issel (35-47),.427,47,-1.76,-0.6,A. McDyess (6.2),35,DenverNuggets,103.5,1.6
+NBA,110.4,6,NA,8.2,90.5,1998-99,M. D'Antoni (14-36),.280,36,-6.67,0.9,D. Fortson (4.4),14,DenverNuggets,103.1,1.6
+NBA,112.1,7,NA,7.1,89.7,1997-98,B. Hanzlik (11-71),.134,71,-11.74,-6.0,A. Goldwire (3.0),11,DenverNuggets,99.0,-0.6
+NBA,111.2,5,NA,4.5,92.4,1996-97,"B. Bickerstaff (4-9), D. Motta (17-52)",.256,61,-6.40,-2.2,E. Johnson (5.2),21,DenverNuggets,104.5,2.3
+NBA,108.1,4,NA,0.5,92.2,1995-96,B. Bickerstaff (35-47),.427,47,-2.62,-2.4,D. Mutombo (7.6),35,DenverNuggets,105.2,0.4
+NBA,108.2,4,Lost W. Conf. 1st Rnd.,-0.1,91.5,1994-95,"D. Issel (18-16), G. Littles (3-13), B. Bickerstaff (20-12)",.500,41,0.96,0.8,D. Mutombo (8.7),41,DenverNuggets,109.1,-1.4
+NBA,102.3,4,Lost W. Conf. Semis,-4.0,96.1,1993-94,D. Issel (42-40),.512,40,1.54,-2.4,D. Mutombo (9.4),42,DenverNuggets,103.9,1.0
+NBA,106.3,4,NA,-1.7,99.8,1992-93,D. Issel (36-46),.439,46,-2.14,-3.4,D. Mutombo (8.8),36,DenverNuggets,104.6,3.0
+NBA,108.6,4,NA,0.4,98.6,1991-92,P. Westhead (24-58),.293,58,-7.59,-7.5,R. Williams (6.6),24,DenverNuggets,100.7,2.0
+NBA,114.7,7,NA,6.8,113.7,1990-91,P. Westhead (20-62),.244,62,-10.31,-2.7,M. Adams (6.3),20,DenverNuggets,105.2,15.9
+NBA,106.7,4,Lost W. Conf. 1st Rnd.,-1.4,105.4,1989-90,D. Moe (43-39),.524,39,1.56,-0.1,F. Lever (8.8),43,DenverNuggets,108.0,7.1
+NBA,107.1,3,Lost W. Conf. 1st Rnd.,-0.7,107.5,1988-89,D. Moe (44-38),.537,38,0.91,0.8,F. Lever (9.2),44,DenverNuggets,108.6,6.9
+NBA,106.3,1,Lost W. Conf. Semis,-1.7,105.5,1987-88,D. Moe (54-28),.659,28,3.32,2.1,F. Lever (10.4),54,DenverNuggets,110.1,5.9
+NBA,110.2,4,Lost W. Conf. 1st Rnd.,1.9,106.2,1986-87,D. Moe (37-45),.451,45,-1.14,1.0,F. Lever (9.7),37,DenverNuggets,109.3,5.4
+NBA,105.9,2,Lost W. Conf. Semis,-1.3,106.7,1985-86,D. Moe (47-35),.573,35,0.89,-0.1,A. English (9.8),47,DenverNuggets,107.1,4.6
+NBA,108.4,1,Lost W. Conf. Finals,0.5,107.6,1984-85,D. Moe (52-30),.634,30,2.05,2.8,C. Natt (10.2),52,DenverNuggets,110.7,5.5
+NBA,112.3,3,Lost W. Conf. 1st Rnd.,4.7,110.5,1983-84,D. Moe (38-44),.463,44,-1.27,3.7,K. Vandeweghe (10.3),38,DenverNuggets,111.3,9.1
+NBA,109.1,2,Lost W. Conf. Semis,4.4,112.1,1982-83,D. Moe (45-37),.549,37,0.27,5.0,K. Vandeweghe (11.0),45,DenverNuggets,109.7,9.0
+NBA,113.9,2,Lost W. Conf. 1st Rnd.,7.0,109.8,1981-82,D. Moe (46-36),.561,36,0.13,7.4,D. Issel (9.8),46,DenverNuggets,114.3,8.9
+NBA,109.8,4,NA,4.3,109.8,1980-81,"D. Walsh (11-20), D. Moe (26-25)",.451,45,-0.95,3.9,D. Issel (10.5),37,DenverNuggets,109.4,8.0
+NBA,107.6,3,NA,2.3,103.9,1979-80,D. Walsh (30-52),.366,52,-4.22,-1.9,D. Issel (11.5),30,DenverNuggets,103.4,0.8
+NBA,103.2,2,Lost W. Conf. 1st Rnd.,-0.6,105.9,1978-79,"L. Brown (28-25), D. Walsh (19-10)",.573,35,1.24,0.6,D. Issel (9.8),47,DenverNuggets,104.4,0.1
+NBA,101.5,1,Lost W. Conf. Finals,0.6,108.5,1977-78,L. Brown (48-34),.585,34,0.80,1.4,D. Thompson (12.7),48,DenverNuggets,102.3,1.8
+NBA,96.1,1,Lost W. Conf. Semis,-3.4,111.2,1976-77,L. Brown (50-32),.610,32,4.95,1.2,B. Jones (11.0),50,DenverNuggets,100.7,4.7
+ABA,103.4,1,Lost Finals,-0.7,111.2,1975-76,L. Brown (60-24),.714,24,5.45,4.6,D. Issel (12.5),60,DenverNuggets,108.7,4.3
+ABA,102.7,1,Lost W. Div. Finals,-2.0,107.6,1974-75,L. Brown (65-19),.774,19,6.63,4.7,B. Jones (10.2),65,DenverNuggets,109.4,4.5
+ABA,103.5,5,Lost W. Div. Tiebreaker,0.5,103.2,1973-74,A. Hannum (37-47),.440,47,-0.49,0.1,D. Robisch (9.1),37,DenverRockets,103.1,0.6
+ABA,100.1,3,Lost W. Div. Semis,-1.7,106.8,1972-73,A. Hannum (47-37),.560,37,2.80,1.3,W. Jabali (10.7),47,DenverRockets,103.1,-2.5
+ABA,99.5,4,Lost W. Div. Semis,-1.1,112.8,1971-72,A. Hannum (34-50),.405,50,-0.93,-2.2,R. Simpson (7.2),34,DenverRockets,98.4,0.9
+ABA,106.3,5,Lost W. Div. Tiebreaker,1.3,113.9,1970-71,"J. Belmont (3-10), S. Albeck (27-44)",.357,54,-3.15,-2.2,L. Cannon (7.2),30,DenverRockets,102.8,2.8
+ABA,102.2,1,Lost W. Div. Finals,-0.5,107.6,1969-70,"J. McLendon (9-19), J. Belmont (42-14)",.607,33,4.32,3.5,S. Haywood (17.1),51,DenverRockets,106.2,-1.6
+ABA,105.0,3,Lost W. Div. Semis,1.0,106.9,1968-69,B. Bass (44-34),.564,34,1.41,2.4,L. Jones (10.9),44,DenverRockets,106.4,-2.5
+ABA,97.9,3,Lost W. Div. Semis,-3.4,103.0,1967-68,B. Bass (45-33),.577,33,3.53,0.7,L. Jones (11.8),45,DenverRockets,102.0,-4.0
+NBA,104.3,4,NA,-1.2,95.4,2015-16,S. Van Gundy (27-26),.509,26,1.01,-0.1,R. Jackson (5.3),27,DetroitPistons,105.4,-0.1
+NBA,106.4,5,NA,0.8,92.8,2014-15,S. Van Gundy (32-50),.390,50,-1.39,-0.3,A. Drummond (7.7),32,DetroitPistons,105.3,-1.1
+NBA,109.7,4,NA,3.0,94.9,2013-14,"M. Cheeks (21-29), J. Loyer (8-24)",.354,53,-4.13,-0.8,A. Drummond (9.9),29,DetroitPistons,105.9,1.0
+NBA,108.1,4,NA,2.2,90.8,2012-13,L. Frank (29-53),.354,53,-4.33,-2.1,G. Monroe (5.9),29,DetroitPistons,103.8,-1.2
+NBA,106.3,4,NA,1.7,89.2,2011-12,L. Frank (25-41),.379,41,-5.19,-3.6,G. Monroe (7.0),25,DetroitPistons,101.0,-2.1
+NBA,111.7,4,NA,4.4,89.2,2010-11,J. Kuester (30-52),.366,52,-3.78,0.4,G. Monroe (6.6),30,DetroitPistons,107.7,-2.9
+NBA,111.4,5,NA,3.8,88.5,2009-10,J. Kuester (27-55),.329,55,-5.02,-2.0,B. Wallace (4.7),27,DetroitPistons,105.6,-4.2
+NBA,108.0,3,Lost E. Conf. 1st Rnd.,-0.3,86.7,2008-09,M. Curry (39-43),.476,43,-0.36,-0.9,T. Prince (6.2),39,DetroitPistons,107.4,-5.0
+NBA,102.9,1,Lost E. Conf. Finals,-4.6,87.3,2007-08,F. Saunders (59-23),.720,23,6.67,3.9,C. Billups (13.5),59,DetroitPistons,111.4,-5.1
+NBA,104.2,1,Lost E. Conf. Finals,-2.3,87.3,2006-07,F. Saunders (53-29),.646,29,3.69,2.4,C. Billups (11.4),53,DetroitPistons,108.9,-4.6
+NBA,103.1,1,Lost E. Conf. Finals,-3.1,86.8,2005-06,F. Saunders (64-18),.780,18,6.24,4.6,C. Billups (15.5),64,DetroitPistons,110.8,-3.7
+NBA,101.2,1,Lost Finals,-4.9,87.2,2004-05,L. Brown (54-28),.659,28,3.31,-0.5,C. Billups (12.1),54,DetroitPistons,105.6,-3.7
+NBA,95.4,2,Won Finals,-7.5,87.9,2003-04,L. Brown (54-28),.659,28,5.04,-0.9,C. Billups (11.3),54,DetroitPistons,102.0,-2.2
+NBA,99.9,1,Lost E. Conf. Finals,-3.7,86.8,2002-03,R. Carlisle (50-32),.610,32,2.97,0.5,B. Wallace (10.6),50,DetroitPistons,104.1,-4.2
+NBA,102.4,1,Lost E. Conf. Semis,-2.1,90.0,2001-02,R. Carlisle (50-32),.610,32,1.69,0.3,B. Wallace (11.6),50,DetroitPistons,104.8,-0.7
+NBA,101.8,5,NA,-1.2,94.7,2000-01,G. Irvine (32-50),.390,50,-2.08,-3.0,J. Stackhouse (9.2),32,DetroitPistons,100.0,3.4
+NBA,105.8,4,Lost E. Conf. 1st Rnd.,1.7,95.7,1999-00,"A. Gentry (28-30), G. Irvine (14-10)",.512,40,1.13,3.2,G. Hill (10.7),42,DetroitPistons,107.3,2.6
+NBA,100.3,3,Lost E. Conf. 1st Rnd.,-1.9,86.3,1998-99,A. Gentry (29-21),.580,21,3.97,2.0,G. Hill (7.3),29,DetroitPistons,104.2,-2.6
+NBA,103.5,6,NA,-1.5,88.2,1997-98,"D. Collins (21-24), A. Gentry (16-21)",.451,45,1.95,0.3,G. Hill (10.2),37,DetroitPistons,105.3,-2.1
+NBA,104.4,3,Lost E. Conf. 1st Rnd.,-2.3,84.5,1996-97,D. Collins (54-28),.659,28,5.45,3.9,G. Hill (14.6),54,DetroitPistons,110.6,-5.6
+NBA,105.1,5,Lost E. Conf. 1st Rnd.,-2.5,87.7,1995-96,D. Collins (46-36),.561,36,2.45,0.3,G. Hill (11.7),46,DetroitPistons,107.9,-4.1
+NBA,112.9,7,NA,4.6,93.2,1994-95,D. Chaney (28-54),.341,54,-7.08,-3.2,G. Hill (5.4),28,DetroitPistons,105.1,0.3
+NBA,110.9,7,NA,4.6,94.2,1993-94,D. Chaney (20-62),.244,62,-7.46,-3.6,T. Mills (6.3),20,DetroitPistons,102.7,-0.9
+NBA,108.9,6,NA,0.9,93.2,1992-93,R. Rothstein (40-42),.488,42,-1.10,-0.6,J. Dumars (9.1),40,DetroitPistons,107.4,-3.6
+NBA,105.3,3,Lost E. Conf. 1st Rnd.,-2.9,91.6,1991-92,C. Daly (48-34),.585,34,2.06,-0.7,D. Rodman (12.6),48,DetroitPistons,107.5,-5.0
+NBA,104.6,2,Lost E. Conf. Finals,-3.3,91.9,1990-91,C. Daly (50-32),.610,32,3.08,0.3,J. Dumars (9.9),50,DetroitPistons,108.2,-5.9
+NBA,103.5,1,Won Finals,-4.6,94.4,1989-90,C. Daly (59-23),.720,23,5.41,1.8,B. Laimbeer (10.1),59,DetroitPistons,109.9,-3.9
+NBA,104.7,1,Won Finals,-3.1,95.5,1988-89,C. Daly (63-19),.768,19,6.24,3.0,B. Laimbeer (9.0),63,DetroitPistons,110.8,-5.1
+NBA,105.3,1,Lost Finals,-2.7,98.3,1987-88,C. Daly (54-28),.659,28,5.46,2.5,A. Dantley (9.4),54,DetroitPistons,110.5,-1.3
+NBA,105.8,2,Lost E. Conf. Finals,-2.5,101.0,1986-87,C. Daly (52-30),.634,30,3.51,0.9,B. Laimbeer (10.5),52,DetroitPistons,109.2,0.2
+NBA,107.9,3,Lost E. Conf. 1st Rnd.,0.7,104.2,1985-86,C. Daly (46-36),.561,36,1.44,1.8,B. Laimbeer (9.2),46,DetroitPistons,109.0,2.1
+NBA,107.2,2,Lost E. Conf. Semis,-0.7,105.0,1984-85,C. Daly (46-36),.561,36,2.73,1.7,I. Thomas (11.2),46,DetroitPistons,109.6,2.9
+NBA,108.1,2,Lost E. Conf. 1st Rnd.,0.5,103.8,1983-84,C. Daly (49-33),.598,33,3.52,3.9,B. Laimbeer (10.8),49,DetroitPistons,111.5,2.4
+NBA,105.8,3,NA,1.1,105.8,1982-83,S. Robertson (37-45),.451,45,-0.17,0.7,B. Laimbeer (8.5),37,DetroitPistons,105.4,2.7
+NBA,106.6,3,NA,-0.3,104.3,1981-82,S. Robertson (39-43),.476,43,-0.63,-1.1,K. Tripucka (7.5),39,DetroitPistons,105.8,3.4
+NBA,104.3,6,NA,-1.2,101.2,1980-81,S. Robertson (21-61),.256,61,-5.58,-7.4,T. Tyler (6.4),21,DetroitPistons,98.1,-0.6
+NBA,108.8,6,NA,3.5,107.1,1979-80,"D. Vitale (4-8), R. Adubato (12-58)",.195,66,-7.57,-4.1,B. Lanier (4.2),16,DetroitPistons,101.2,4.0
+NBA,104.6,4,NA,0.8,107.2,1978-79,D. Vitale (30-52),.366,52,-2.60,-1.7,M. Carr (7.9),30,DetroitPistons,102.1,1.4
+NBA,101.5,4,NA,0.6,107.7,1977-78,"H. Brown (9-15), B. Kauffman (29-29)",.463,44,-1.22,-0.6,B. Lanier (10.1),38,DetroitPistons,100.3,1.0
+NBA,101.3,2,Lost W. Conf. 1st Rnd.,1.8,108.8,1976-77,H. Brown (44-38),.537,38,-1.00,0.8,B. Lanier (10.3),44,DetroitPistons,100.3,2.3
+NBA,100.2,2,Lost W. Conf. Semis,1.9,105.2,1975-76,"R. Scott (17-25), H. Brown (19-21)",.439,46,-1.18,0.9,B. Lanier (10.1),36,DetroitPistons,99.2,-0.3
+NBA,99.7,3,Lost W. Conf. 1st Rnd.,2.0,100.5,1974-75,R. Scott (40-42),.488,42,-1.19,0.6,B. Lanier (12.4),40,DetroitPistons,98.3,-4.0
+NBA,93.8,3,Lost W. Conf. Semis,-3.9,106.5,1973-74,R. Scott (52-30),.634,30,4.02,-0.1,B. Lanier (14.4),52,DetroitPistons,97.6,-1.3
+NBA,98.2,3,NA,1.4,111.5,1972-73,"E. Lloyd (2-5), R. Scott (38-37)",.488,42,0.54,1.6,B. Lanier (10.6),40,DetroitPistons,98.4,0.8
+NBA,102.2,4,NA,4.3,112.8,1971-72,"B. Van Breda Kolff (6-4), T. Dischinger (0-2), E. Lloyd (20-50)",.317,56,-6.11,-1.8,B. Lanier (8.4),26,DetroitPistons,96.1,0.8
+NBA,98.7,4,NA,1.5,111.3,1970-71,B. Van Breda Kolff (45-37),.549,37,-0.33,0.9,D. Bing (11.7),45,DetroitPistons,98.1,-3.8
+NBA,103.1,7,NA,4.1,111.6,1969-70,B. Van Breda Kolff (31-51),.378,51,-2.94,1.1,J. Walker (6.2),31,DetroitPistons,100.1,-5.5
+NBA,100.0,6,NA,4.5,116.8,1968-69,"D. Butcher (10-12), P. Seymour (22-38)",.390,50,-2.79,1.8,H. Hairston (7.0),32,DetroitPistons,97.3,-0.1
+NBA,98.4,4,Lost E. Div. Semis,1.6,122.0,1967-68,D. Butcher (40-42),.488,42,-1.70,-0.1,D. Bing (6.2),40,DetroitPistons,96.7,2.2
+NBA,95.4,5,NA,-0.7,121.5,1966-67,"D. DeBusschere (28-45), D. Butcher (2-6)",.370,51,-4.98,-5.2,D. DeBusschere (5.9),30,DetroitPistons,90.9,-0.1
+NBA,94.9,5,NA,0.0,123.4,1965-66,D. DeBusschere (22-58),.275,58,-6.07,-5.5,E. Miles (6.0),22,DetroitPistons,89.4,2.0
+NBA,93.3,4,NA,-0.3,119.2,1964-65,"C. Wolf (2-9), D. DeBusschere (29-40)",.388,49,-3.03,-3.1,T. Dischinger (10.3),31,DetroitPistons,90.5,1.9
+NBA,99.1,5,NA,4.5,115.9,1963-64,C. Wolf (23-57),.288,57,-6.77,-2.1,B. Howell (9.8),23,DetroitPistons,92.5,2.7
+NBA,97.3,3,Lost W. Div. Semis,1.4,120.3,1962-63,D. McGuire (34-46),.425,46,-3.38,-1.7,B. Howell (14.0),34,DetroitPistons,94.2,5.3
+NBA,94.2,3,Lost W. Div. Finals,0.6,124.1,1961-62,D. McGuire (37-43),.463,43,-1.72,-0.8,B. Howell (10.7),37,DetroitPistons,92.8,2.8
+NBA,95.6,3,Lost W. Div. Semis,3.5,126.0,1960-61,D. McGuire (34-45),.430,45,-2.11,1.7,B. Howell (11.7),34,DetroitPistons,93.8,2.5
+NBA,92.6,2,Lost W. Div. Semis,1.5,123.1,1959-60,"R. Rocha (13-21), D. McGuire (17-24)",.400,45,-3.45,-1.3,G. Shue (8.5),30,DetroitPistons,89.8,0.8
+NBA,89.4,3,Lost W. Div. Semis,-0.8,117.8,1958-59,R. Rocha (28-44),.389,44,-1.36,-1.8,D. McGuire (6.9),28,DetroitPistons,88.4,5.8
+NBA,90.1,2,Lost W. Div. Finals,1.3,118.8,1957-58,"C. Eckman (9-16), R. Rocha (24-23)",.458,39,-2.32,-0.6,G. Yardley (12.3),33,DetroitPistons,88.2,1.8
+NBA,91.0,3,Lost W. Div. Semis,2.1,107.7,1956-57,C. Eckman (34-38),.472,38,-2.18,-0.1,G. Yardley (10.0),34,FortWaynePistons,88.8,2.8
+NBA,90.0,1,Lost Finals,-0.3,103.2,1955-56,C. Eckman (37-35),.514,35,0.45,0.4,L. Foust (11.1),37,FortWaynePistons,90.7,0.4
+NBA,88.9,1,Lost Finals,-0.9,100.7,1954-55,C. Eckman (43-29),.597,29,2.01,1.4,L. Foust (13.3),43,FortWaynePistons,91.2,2.6
+NBA,87.2,3,Eliminated in W. Div. Rnd. Robin,-0.3,86.9,1953-54,P. Birch (40-32),.556,32,1.45,1.5,L. Foust (10.4),40,FortWaynePistons,89.0,3.3
+NBA,87.7,3,Lost W. Div. Finals,0.0,91.1,1952-53,P. Birch (36-33),.522,33,0.17,-0.4,L. Foust (6.3),36,FortWaynePistons,87.6,10.6
+NBA,87.9,4,Lost W. Div. Semis,1.0,90.1,1951-52,P. Birch (29-37),.439,37,-1.83,-1.3,L. Foust (7.1),29,FortWaynePistons,85.6,4.3
+NBA,83.8,3,Lost W. Div. Semis,-1.3,102.4,1950-51,M. Mendenhall (32-36),.471,36,-1.81,-3.1,F. Schaus (8.5),32,FortWaynePistons,82.0,16.9
+NBA,NA,3,Lost Central Div. Finals,NA,NA,1949-50,M. Mendenhall (40-28),.588,28,1.84,-3.1,F. Schaus (8.4),40,FortWaynePistons,NA,NA
+BAA,NA,5,NA,NA,NA,1948-49,"C. Bennett (0-6), C. Armstrong (22-32)",.367,38,-2.85,-3.1,R. Niemiera (4.8),22,FortWaynePistons,NA,NA
+NBA,102.3,1,NA,-3.2,99.6,2015-16,S. Kerr (46-4),.920,4,11.71,9.4,S. Curry (11.3),46,GoldenStateWarriors,114.9,4.1
+NBA,101.4,1,Won Finals,-4.2,98.3,2014-15,S. Kerr (67-15),.817,15,10.01,6.0,S. Curry (15.7),67,GoldenStateWarriors,111.6,4.4
+NBA,102.6,2,Lost W. Conf. 1st Rnd.,-4.1,96.2,2013-14,M. Jackson (51-31),.622,31,5.15,0.8,S. Curry (13.4),51,GoldenStateWarriors,107.5,2.3
+NBA,105.5,2,Lost W. Conf. Semis,-0.4,94.5,2012-13,M. Jackson (47-35),.573,35,1.32,0.5,S. Curry (11.2),47,GoldenStateWarriors,106.4,2.5
+NBA,109.1,4,NA,4.5,92.3,2011-12,M. Jackson (23-43),.348,43,-2.79,0.8,D. Lee (5.0),23,GoldenStateWarriors,105.4,1.0
+NBA,110.7,3,NA,3.4,94.8,2010-11,K. Smart (36-46),.439,46,-2.00,0.9,S. Curry (6.6),36,GoldenStateWarriors,108.2,2.7
+NBA,111.7,4,NA,4.1,100.4,2009-10,D. Nelson (26-56),.317,56,-3.28,0.5,C. Maggette (6.3),26,GoldenStateWarriors,108.1,7.7
+NBA,113.3,3,NA,5.0,98.2,2008-09,D. Nelson (29-53),.354,53,-3.80,1.2,A. Biedrins (5.4),29,GoldenStateWarriors,109.5,6.5
+NBA,109.5,3,NA,2.0,98.8,2007-08,D. Nelson (48-34),.585,34,2.38,4.3,M. Ellis (9.0),48,GoldenStateWarriors,111.8,6.4
+NBA,107.4,3,Lost W. Conf. Semis,0.9,99.2,2006-07,D. Nelson (42-40),.512,40,0.00,0.5,A. Biedrins (6.7),42,GoldenStateWarriors,107.0,7.3
+NBA,106.2,5,NA,0.0,93.3,2005-06,M. Montgomery (34-48),.415,48,-1.11,-1.4,J. Richardson (7.3),34,GoldenStateWarriors,104.8,2.8
+NBA,106.9,5,NA,0.8,93.3,2004-05,M. Montgomery (34-48),.415,48,-1.74,-1.4,J. Richardson (5.7),34,GoldenStateWarriors,104.7,2.4
+NBA,103.8,4,NA,0.9,89.8,2003-04,E. Musselman (37-45),.451,45,-0.07,0.1,E. Dampier (8.9),37,GoldenStateWarriors,103.0,-0.3
+NBA,109.5,6,NA,5.9,94.2,2002-03,E. Musselman (38-44),.463,44,-0.60,4.7,A. Jamison (8.5),38,GoldenStateWarriors,108.3,3.2
+NBA,108.5,7,NA,4.0,94.5,2001-02,"D. Cowens (8-15), B. Winters (13-46)",.256,61,-4.80,-1.7,A. Jamison (6.4),21,GoldenStateWarriors,102.8,3.8
+NBA,107.4,7,NA,4.4,94.1,2000-01,D. Cowens (17-65),.207,65,-8.11,-5.2,A. Jamison (6.7),17,GoldenStateWarriors,97.8,2.8
+NBA,108.4,6,NA,4.3,95.4,1999-00,"P. Carlesimo (6-21), G. St. Jean (13-42)",.232,63,-7.63,-4.3,D. Marshall (3.8),19,GoldenStateWarriors,99.8,2.3
+NBA,101.1,6,NA,-1.1,88.9,1998-99,P. Carlesimo (21-29),.420,29,-2.63,-3.8,D. Marshall (3.0),21,GoldenStateWarriors,98.4,0.0
+NBA,105.7,6,NA,0.7,91.4,1997-98,P. Carlesimo (19-63),.232,63,-9.20,-9.2,D. Marshall (4.2),19,GoldenStateWarriors,95.8,1.1
+NBA,112.2,7,NA,5.5,91.9,1996-97,R. Adelman (30-52),.366,52,-4.90,0.5,L. Sprewell (8.1),30,GoldenStateWarriors,107.2,1.8
+NBA,109.9,6,NA,2.3,93.4,1995-96,R. Adelman (36-46),.439,46,-1.42,0.8,B. Armstrong (7.0),36,GoldenStateWarriors,108.4,1.6
+NBA,112.2,6,NA,3.9,97.9,1994-95,"D. Nelson (14-31), B. Lanier (12-25)",.317,56,-4.90,-1.6,T. Hardaway (5.1),26,GoldenStateWarriors,106.7,5.0
+NBA,106.5,3,Lost W. Conf. 1st Rnd.,0.2,99.1,1993-94,D. Nelson (50-32),.610,32,1.76,2.0,L. Sprewell (8.0),50,GoldenStateWarriors,108.3,4.0
+NBA,110.2,6,NA,2.2,99.5,1992-93,D. Nelson (34-48),.415,48,-0.94,1.2,T. Hardaway (7.5),34,GoldenStateWarriors,109.2,2.7
+NBA,109.9,2,Lost W. Conf. 1st Rnd.,1.7,103.4,1991-92,D. Nelson (55-27),.671,27,3.77,5.4,C. Mullin (10.8),55,GoldenStateWarriors,113.6,6.8
+NBA,110.3,4,Lost W. Conf. Semis,2.4,103.6,1990-91,D. Nelson (44-38),.537,38,1.72,4.0,C. Mullin (12.2),44,GoldenStateWarriors,111.9,5.8
+NBA,112.6,5,NA,4.5,105.9,1989-90,D. Nelson (37-45),.451,45,-2.55,1.5,C. Mullin (10.2),37,GoldenStateWarriors,109.6,7.6
+NBA,107.7,4,Lost W. Conf. Semis,-0.1,107.3,1988-89,D. Nelson (43-39),.524,39,-0.59,-0.4,C. Mullin (10.6),43,GoldenStateWarriors,107.4,6.7
+NBA,112.9,5,NA,4.9,101.6,1987-88,"G. Karl (16-48), E. Gregory (4-14)",.244,62,-8.38,-3.3,R. Higgins (5.7),20,GoldenStateWarriors,104.7,2.0
+NBA,111.2,3,Lost W. Conf. Semis,2.9,101.7,1986-87,G. Karl (42-40),.512,40,-2.54,0.6,S. Floyd (10.0),42,GoldenStateWarriors,108.9,0.9
+NBA,111.6,6,NA,4.4,104.2,1985-86,J. Bach (30-52),.366,52,-3.59,1.1,S. Floyd (7.5),30,GoldenStateWarriors,108.3,2.1
+NBA,113.0,6,NA,5.1,103.2,1984-85,J. Bach (22-60),.268,60,-7.21,-1.9,P. Short (6.2),22,GoldenStateWarriors,106.0,1.1
+NBA,108.8,5,NA,1.2,103.3,1983-84,J. Bach (37-45),.451,45,-3.35,-2.1,P. Short (6.0),37,GoldenStateWarriors,105.5,1.9
+NBA,107.4,5,NA,2.7,104.0,1982-83,A. Attles (30-52),.366,52,-3.48,-0.8,J. Carroll (7.0),30,GoldenStateWarriors,103.9,0.9
+NBA,107.7,4,NA,0.8,101.4,1981-82,A. Attles (45-37),.549,37,0.80,1.9,B. King (8.7),45,GoldenStateWarriors,108.8,0.5
+NBA,109.7,4,NA,4.2,101.0,1980-81,A. Attles (39-43),.476,43,-1.41,3.0,B. King (9.1),39,GoldenStateWarriors,108.5,-0.8
+NBA,106.3,6,NA,1.0,100.5,1979-80,"A. Attles (18-43), J. Bach (6-15)",.293,58,-4.20,-3.3,S. Parker (6.8),24,GoldenStateWarriors,102.0,-2.6
+NBA,102.0,6,NA,-1.8,102.2,1978-79,A. Attles (38-44),.463,44,0.46,-1.4,J. Lucas (7.9),38,GoldenStateWarriors,102.4,-3.6
+NBA,99.3,5,NA,-1.6,106.0,1977-78,A. Attles (43-39),.524,39,0.41,-1.3,R. Barry (9.7),43,GoldenStateWarriors,99.6,-0.7
+NBA,99.5,3,Lost W. Conf. Semis,0.0,107.8,1976-77,A. Attles (46-36),.561,36,3.10,2.9,R. Barry (8.4),46,GoldenStateWarriors,102.4,1.3
+NBA,94.5,1,Lost W. Conf. Finals,-3.8,108.3,1975-76,A. Attles (59-23),.720,23,6.23,2.3,R. Barry (9.6),59,GoldenStateWarriors,100.6,2.8
+NBA,97.3,1,Won Finals,-0.4,107.6,1974-75,A. Attles (48-34),.585,34,2.86,2.7,R. Barry (12.7),48,GoldenStateWarriors,100.4,3.1
+NBA,98.4,2,NA,0.7,108.9,1973-74,A. Attles (44-38),.537,38,2.42,3.1,R. Barry (10.4),44,GoldenStateWarriors,100.8,1.1
+NBA,94.0,2,Lost W. Conf. Finals,-2.8,112.2,1972-73,A. Attles (47-35),.573,35,3.12,0.0,R. Barry (10.2),47,GoldenStateWarriors,96.8,1.5
+NBA,94.9,2,Lost W. Conf. Semis,-3.0,113.0,1971-72,A. Attles (51-31),.622,31,0.92,-2.3,J. Mullins (9.9),51,GoldenStateWarriors,95.6,1.0
+NBA,95.5,2,Lost W. Conf. Semis,-1.7,113.5,1970-71,A. Attles (41-41),.500,41,-0.83,-3.0,J. Lucas (10.5),41,SanFranciscoWarriors,94.2,-1.6
+NBA,98.6,6,NA,-0.4,116.3,1969-70,"G. Lee (22-30), A. Attles (8-22)",.366,52,-4.15,-4.2,J. Lucas (7.6),30,SanFranciscoWarriors,94.8,-0.8
+NBA,93.5,3,Lost W. Div. Semis,-2.0,117.1,1968-69,G. Lee (41-41),.500,41,-1.53,-3.3,J. Mullins (10.0),41,SanFranciscoWarriors,92.2,0.2
+NBA,94.6,3,Lost W. Div. Finals,-2.2,123.6,1967-68,B. Sharman (43-39),.524,39,-0.66,-2.7,R. LaRusso (8.6),43,SanFranciscoWarriors,94.1,3.8
+NBA,93.1,1,Lost Finals,-3.0,127.4,1966-67,B. Sharman (44-37),.543,37,2.58,-0.8,R. Barry (14.4),44,SanFranciscoWarriors,95.3,5.8
+NBA,94.8,4,NA,-0.1,124.6,1965-66,A. Hannum (35-45),.438,45,-2.36,-2.3,R. Barry (10.4),35,SanFranciscoWarriors,92.6,3.2
+NBA,92.8,5,NA,-0.8,119.7,1964-65,A. Hannum (17-63),.213,63,-5.49,-5.9,W. Chamberlain (7.5),17,SanFranciscoWarriors,87.7,2.4
+NBA,88.6,1,Lost Finals,-6.0,115.1,1963-64,A. Hannum (48-32),.600,32,4.41,-1.6,W. Chamberlain (25.0),48,SanFranciscoWarriors,93.0,1.9
+NBA,96.8,4,NA,0.9,123.2,1962-63,B. Feerick (31-49),.388,49,-1.86,-0.7,W. Chamberlain (20.9),31,SanFranciscoWarriors,95.2,8.2
+NBA,92.4,2,Lost E. Div. Finals,-1.2,131.1,1961-62,F. McGuire (49-31),.613,31,2.63,0.9,W. Chamberlain (23.1),49,PhiladelphiaWarriors,94.5,9.8
+NBA,90.5,2,Lost E. Div. Semis,-1.6,132.0,1960-61,N. Johnston (46-33),.582,33,0.89,-0.9,W. Chamberlain (18.8),46,PhiladelphiaWarriors,91.2,8.5
+NBA,86.8,2,Lost E. Div. Finals,-4.3,133.3,1959-60,N. Johnston (49-26),.653,26,2.77,-2.4,W. Chamberlain (17.0),49,PhiladelphiaWarriors,88.7,11.0
+NBA,89.3,4,NA,-0.9,118.4,1958-59,A. Cervi (32-40),.444,40,-2.29,-3.5,P. Arizin (13.0),32,PhiladelphiaWarriors,86.7,6.4
+NBA,88.4,3,Lost E. Div. Finals,-0.4,117.8,1957-58,G. Senesky (37-35),.514,35,0.21,-0.5,N. Johnston (11.3),37,PhiladelphiaWarriors,88.3,0.8
+NBA,90.9,3,Lost E. Div. Semis,2.0,108.0,1956-57,G. Senesky (37-35),.514,35,1.54,3.5,N. Johnston (13.7),37,PhiladelphiaWarriors,92.4,3.1
+NBA,90.7,1,Won Finals,0.4,108.5,1955-56,G. Senesky (45-27),.625,27,3.82,4.3,N. Johnston (13.9),45,PhiladelphiaWarriors,94.6,5.7
+NBA,89.9,4,NA,0.1,102.9,1954-55,E. Gottlieb (33-39),.458,39,-0.19,-0.2,N. Johnston (15.4),33,PhiladelphiaWarriors,89.6,4.8
+NBA,89.0,4,NA,1.5,89.4,1953-54,E. Gottlieb (29-43),.403,43,-1.89,-0.8,N. Johnston (18.3),29,PhiladelphiaWarriors,86.7,5.8
+NBA,91.4,5,NA,3.7,94.9,1952-53,E. Gottlieb (12-57),.174,57,-7.75,-4.1,N. Johnston (15.3),12,PhiladelphiaWarriors,83.9,14.4
+NBA,90.8,4,Lost E. Div. Semis,3.9,95.5,1951-52,E. Gottlieb (33-33),.500,33,-1.08,2.6,P. Arizin (16.0),33,PhiladelphiaWarriors,89.5,9.7
+NBA,81.0,1,Lost E. Div. Semis,-4.1,99.3,1950-51,E. Gottlieb (40-26),.606,26,3.40,-0.3,P. Arizin (13.7),40,PhiladelphiaWarriors,84.8,13.8
+NBA,NA,4,Lost E. Div. Semis,NA,NA,1949-50,E. Gottlieb (26-42),.382,42,-2.27,-0.3,L. Mogus (8.0),26,PhiladelphiaWarriors,NA,NA
+BAA,NA,4,Lost E. Div. Semis,NA,NA,1948-49,E. Gottlieb (28-32),.467,32,0.21,-0.3,E. Sadowski (10.7),28,PhiladelphiaWarriors,NA,NA
+BAA,NA,1,Lost Finals,NA,NA,1947-48,E. Gottlieb (27-21),.563,21,0.69,-0.3,H. Dallmar (7.0),27,PhiladelphiaWarriors,NA,NA
+BAA,NA,2,Won Finals,NA,NA,1946-47,E. Gottlieb (35-25),.583,25,3.16,-0.3,J. Fulks (16.3),35,PhiladelphiaWarriors,NA,NA
+NBA,108.4,4,NA,2.9,97.1,2015-16,"K. McHale (4-7), J. Bickerstaff (23-19)",.509,26,-1.27,1.5,J. Harden (7.8),27,HoustonRockets,107.0,1.6
+NBA,103.4,1,Lost W. Conf. Finals,-2.2,96.5,2014-15,K. McHale (56-26),.683,26,3.82,1.4,J. Harden (16.4),56,HoustonRockets,107.0,2.6
+NBA,106.3,2,Lost W. Conf. 1st Rnd.,-0.4,96.3,2013-14,K. McHale (54-28),.659,28,5.06,4.3,J. Harden (12.8),54,HoustonRockets,111.0,2.4
+NBA,106.1,3,Lost W. Conf. 1st Rnd.,0.2,96.1,2012-13,K. McHale (45-37),.549,37,3.69,3.8,J. Harden (12.8),45,HoustonRockets,109.7,4.1
+NBA,105.2,4,NA,0.6,91.7,2011-12,K. McHale (34-32),.515,32,0.57,0.9,G. Dragic (5.1),34,HoustonRockets,105.5,0.4
+NBA,109.0,5,NA,1.7,94.2,2010-11,R. Adelman (43-39),.524,39,2.37,4.0,K. Martin (9.5),43,HoustonRockets,111.3,2.1
+NBA,108.0,3,NA,0.4,94.0,2009-10,R. Adelman (42-40),.512,40,-0.02,0.0,L. Scola (6.3),42,HoustonRockets,107.6,1.3
+NBA,104.0,2,Lost W. Conf. Semis,-4.3,90.2,2008-09,R. Adelman (53-29),.646,29,3.73,0.1,Y. Ming (10.6),53,HoustonRockets,108.4,-1.5
+NBA,101.6,3,Lost W. Conf. 1st Rnd.,-5.9,90.4,2007-08,R. Adelman (55-27),.671,27,4.83,-0.7,Y. Ming (8.3),55,HoustonRockets,106.8,-2.0
+NBA,100.7,3,Lost W. Conf. 1st Rnd.,-5.8,90.7,2006-07,J. Van Gundy (52-30),.634,30,5.04,-0.5,S. Battier (9.0),52,HoustonRockets,106.0,-1.2
+NBA,103.3,5,NA,-2.9,88.0,2005-06,J. Van Gundy (34-48),.415,48,-1.30,-4.6,Y. Ming (8.6),34,HoustonRockets,101.6,-2.5
+NBA,101.7,3,Lost W. Conf. 1st Rnd.,-4.4,88.8,2004-05,J. Van Gundy (51-31),.622,31,4.27,0.1,T. McGrady (12.0),51,HoustonRockets,106.2,-2.1
+NBA,99.0,5,Lost W. Conf. 1st Rnd.,-3.9,87.8,2003-04,J. Van Gundy (45-37),.549,37,2.28,-2.0,Y. Ming (11.4),45,HoustonRockets,100.9,-2.3
+NBA,102.6,5,NA,-1.0,88.8,2002-03,R. Tomjanovich (43-39),.524,39,1.89,0.7,S. Francis (11.1),43,HoustonRockets,104.3,-2.2
+NBA,108.6,5,NA,4.1,88.2,2001-02,R. Tomjanovich (28-54),.341,54,-4.31,-1.4,C. Mobley (5.7),28,HoustonRockets,103.1,-2.5
+NBA,104.2,5,NA,1.2,90.4,2000-01,R. Tomjanovich (45-37),.549,37,2.71,3.7,S. Francis (12.2),45,HoustonRockets,106.7,-0.9
+NBA,105.7,6,NA,1.6,94.2,1999-00,R. Tomjanovich (34-48),.415,48,-0.57,0.7,S. Francis (6.4),34,HoustonRockets,104.8,1.1
+NBA,102.9,3,Lost W. Conf. 1st Rnd.,0.7,88.8,1998-99,R. Tomjanovich (31-19),.620,19,1.39,3.2,C. Barkley (6.8),31,HoustonRockets,105.4,-0.1
+NBA,108.6,4,Lost W. Conf. 1st Rnd.,3.6,91.0,1997-98,R. Tomjanovich (41-41),.500,41,-1.23,2.7,C. Barkley (8.6),41,HoustonRockets,107.7,0.7
+NBA,104.0,2,Lost W. Conf. Finals,-2.7,91.6,1996-97,R. Tomjanovich (57-25),.695,25,3.85,2.1,C. Barkley (9.4),57,HoustonRockets,108.8,1.5
+NBA,107.4,3,Lost W. Conf. Semis,-0.2,93.2,1995-96,R. Tomjanovich (48-34),.585,34,1.63,1.7,H. Olajuwon (9.7),48,HoustonRockets,109.3,1.4
+NBA,107.4,3,Won Finals,-0.9,94.2,1994-95,R. Tomjanovich (47-35),.573,35,2.32,1.4,H. Olajuwon (10.7),47,HoustonRockets,109.7,1.3
+NBA,101.4,1,Won Finals,-4.9,95.0,1993-94,R. Tomjanovich (58-24),.707,24,4.19,-0.4,H. Olajuwon (14.3),58,HoustonRockets,105.9,-0.1
+NBA,105.2,1,Lost W. Conf. Semis,-2.8,94.4,1992-93,R. Tomjanovich (55-27),.671,27,3.57,1.6,H. Olajuwon (15.8),55,HoustonRockets,109.6,-2.4
+NBA,108.0,3,NA,-0.2,95.1,1991-92,"D. Chaney (26-26), R. Tomjanovich (16-14)",.512,40,-1.94,-2.0,H. Olajuwon (9.8),42,HoustonRockets,106.2,-1.5
+NBA,103.9,3,Lost W. Conf. 1st Rnd.,-4.0,98.5,1990-91,D. Chaney (52-30),.634,30,3.27,-0.5,O. Thorpe (10.4),52,HoustonRockets,107.4,0.7
+NBA,103.4,5,Lost W. Conf. 1st Rnd.,-4.7,101.2,1989-90,D. Chaney (41-41),.500,41,1.71,-3.3,H. Olajuwon (11.2),41,HoustonRockets,104.8,2.9
+NBA,104.8,2,Lost W. Conf. 1st Rnd.,-3.0,101.8,1988-89,D. Chaney (45-37),.549,37,0.22,-2.1,H. Olajuwon (12.4),45,HoustonRockets,105.7,1.2
+NBA,105.7,4,Lost W. Conf. 1st Rnd.,-2.3,101.8,1987-88,B. Fitch (46-36),.561,36,0.82,-0.9,H. Olajuwon (10.7),46,HoustonRockets,107.1,2.2
+NBA,105.5,3,Lost W. Conf. Semis,-2.8,99.9,1986-87,B. Fitch (42-40),.512,40,0.60,-1.8,H. Olajuwon (10.9),42,HoustonRockets,106.5,-0.9
+NBA,107.6,1,Lost Finals,0.4,103.5,1985-86,B. Fitch (51-31),.622,31,2.10,2.9,H. Olajuwon (9.5),51,HoustonRockets,110.1,1.4
+NBA,106.3,2,Lost W. Conf. 1st Rnd.,-1.6,102.2,1984-85,B. Fitch (48-34),.585,34,1.38,0.0,H. Olajuwon (10.2),48,HoustonRockets,107.9,0.1
+NBA,108.2,6,NA,0.6,104.7,1983-84,B. Fitch (29-53),.354,53,-3.12,-2.3,R. Sampson (6.0),29,HoustonRockets,105.3,3.3
+NBA,108.3,6,NA,3.6,102.2,1982-83,D. Harris (14-68),.171,68,-11.12,-7.7,A. Leavell (3.8),14,HoustonRockets,97.0,-0.9
+NBA,108.3,3,Lost W. Conf. 1st Rnd.,1.4,97.2,1981-82,D. Harris (46-36),.561,36,-0.39,1.4,M. Malone (15.4),46,HoustonRockets,108.3,-3.7
+NBA,106.7,3,Lost Finals,1.2,100.5,1980-81,D. Harris (40-42),.488,42,-0.20,1.5,M. Malone (13.7),40,HoustonRockets,107.0,-1.3
+NBA,108.0,2,Lost E. Conf. Semis,2.7,101.2,1979-80,D. Harris (41-41),.500,41,0.27,2.8,M. Malone (11.9),41,HoustonRockets,108.1,-1.9
+NBA,107.7,2,Lost E. Conf. 1st Rnd.,3.9,103.8,1978-79,T. Nissalke (47-35),.573,35,0.92,4.9,M. Malone (14.1),47,HoustonRockets,108.7,-2.0
+NBA,106.1,6,NA,5.2,101.3,1977-78,T. Nissalke (28-54),.341,54,-3.83,1.3,C. Murphy (7.4),28,HoustonRockets,102.2,-5.4
+NBA,102.9,1,Lost E. Conf. Finals,3.4,101.3,1976-77,T. Nissalke (49-33),.598,33,1.44,5.0,R. Tomjanovich (10.4),49,HoustonRockets,104.5,-5.2
+NBA,101.8,3,NA,3.5,104.7,1975-76,J. Egan (40-42),.488,42,-0.71,2.8,C. Murphy (8.8),40,HoustonRockets,101.1,-0.8
+NBA,99.4,2,Lost E. Conf. Semis,1.7,102.9,1974-75,J. Egan (41-41),.500,41,0.84,2.7,R. Tomjanovich (10.1),41,HoustonRockets,100.4,-1.6
+NBA,100.5,3,NA,2.8,106.1,1973-74,J. Egan (32-50),.390,50,-0.34,2.6,R. Tomjanovich (12.8),32,HoustonRockets,100.3,-1.7
+NBA,99.4,3,NA,2.6,115.2,1972-73,"T. Winter (17-30), J. Egan (16-19)",.402,49,-1.81,1.1,R. Tomjanovich (6.9),33,HoustonRockets,97.9,4.5
+NBA,96.8,4,NA,-1.1,114.7,1971-72,T. Winter (34-48),.415,48,-1.22,-2.5,R. Tomjanovich (8.4),34,HoustonRockets,95.4,2.7
+NBA,95.5,3,NA,-1.7,118.5,1970-71,A. Hannum (40-42),.488,42,0.21,-2.0,S. Lantz (10.5),40,SanDiegoRockets,95.2,3.4
+NBA,96.8,7,NA,-2.2,125.1,1969-70,"J. McMahon (9-17), A. Hannum (18-38)",.329,55,-2.95,-4.6,E. Hayes (8.5),27,SanDiegoRockets,94.4,8.0
+NBA,92.8,4,Lost W. Div. Semis,-2.7,123.8,1968-69,J. McMahon (37-45),.451,45,-0.30,-2.8,E. Hayes (9.6),37,SanDiegoRockets,92.7,6.9
+NBA,98.8,6,NA,2.0,121.9,1967-68,J. McMahon (15-67),.183,67,-7.94,-5.0,D. Gambee (5.0),15,SanDiegoRockets,91.8,2.1
+NBA,101.8,2,NA,-3.7,97.0,2015-16,F. Vogel (28-24),.538,24,2.63,-0.9,P. George (5.9),28,IndianaPacers,104.6,1.5
+NBA,103.2,4,NA,-2.4,93.2,2014-15,F. Vogel (38-44),.463,44,-0.23,-2.1,G. Hill (5.4),38,IndianaPacers,103.5,-0.7
+NBA,99.3,1,Lost E. Conf. Finals,-7.4,92.5,2013-14,F. Vogel (56-26),.683,26,3.63,-2.6,P. George (10.8),56,IndianaPacers,104.1,-1.4
+NBA,99.8,1,Lost E. Conf. Finals,-6.1,90.2,2012-13,F. Vogel (49-32),.605,32,3.34,-1.6,G. Hill (9.7),49,IndianaPacers,104.3,-1.8
+NBA,103.1,2,Lost E. Conf. Semis,-1.5,90.7,2011-12,F. Vogel (42-24),.636,24,2.60,2.1,D. Granger (6.7),42,IndianaPacers,106.7,-0.6
+NBA,106.0,2,Lost E. Conf. 1st Rnd.,-1.3,94.7,2010-11,"J. O'Brien (17-27), F. Vogel (20-18)",.451,45,-1.38,-2.5,D. Granger (6.9),37,IndianaPacers,104.8,2.6
+NBA,106.8,4,NA,-0.8,97.1,2009-10,J. O'Brien (32-50),.390,50,-3.11,-3.9,T. Murphy (7.8),32,IndianaPacers,103.7,4.4
+NBA,109.2,4,NA,0.9,96.5,2008-09,J. O'Brien (36-46),.439,46,-0.76,-0.2,T. Murphy (8.5),36,IndianaPacers,108.1,4.8
+NBA,107.5,3,NA,0.0,97.7,2007-08,J. O'Brien (36-46),.439,46,-1.87,-1.5,M. Dunleavy (8.5),36,IndianaPacers,106.0,5.3
+NBA,105.5,4,NA,-1.0,92.4,2006-07,R. Carlisle (35-47),.427,47,-2.62,-3.6,D. Granger (6.5),35,IndianaPacers,102.9,0.5
+NBA,102.4,3,Lost E. Conf. 1st Rnd.,-3.8,89.7,2005-06,R. Carlisle (41-41),.500,41,1.62,-1.7,J. Foster (5.7),41,IndianaPacers,104.5,-0.8
+NBA,104.6,3,Lost E. Conf. Semis,-1.5,87.2,2004-05,R. Carlisle (44-38),.537,38,0.49,-0.6,R. Miller (6.6),44,IndianaPacers,105.5,-3.7
+NBA,97.2,1,Lost E. Conf. Finals,-5.7,87.5,2003-04,R. Carlisle (61-21),.744,21,4.93,0.9,J. O'Neal (9.0),61,IndianaPacers,103.8,-2.6
+NBA,100.8,2,Lost E. Conf. 1st Rnd.,-2.8,91.6,2002-03,I. Thomas (48-34),.585,34,2.79,1.0,J. O'Neal (10.5),48,IndianaPacers,104.6,0.6
+NBA,103.8,4,Lost E. Conf. 1st Rnd.,-0.7,91.9,2001-02,I. Thomas (42-40),.512,40,-0.07,-0.4,R. Miller (9.5),42,IndianaPacers,104.1,1.2
+NBA,102.2,4,Lost E. Conf. 1st Rnd.,-0.8,89.4,2000-01,I. Thomas (41-41),.500,41,-0.77,-1.0,R. Miller (10.3),41,IndianaPacers,102.0,-1.9
+NBA,103.6,1,Lost Finals,-0.5,93.1,1999-00,L. Bird (56-26),.683,26,4.15,4.4,R. Miller (10.1),56,IndianaPacers,108.5,0.0
+NBA,104.4,1,Lost E. Conf. Finals,2.2,86.4,1998-99,L. Bird (33-17),.660,17,3.86,6.5,R. Miller (6.4),33,IndianaPacers,108.7,-2.5
+NBA,101.6,2,Lost E. Conf. Finals,-3.4,87.9,1997-98,L. Bird (58-24),.707,24,6.25,3.4,R. Miller (12.0),58,IndianaPacers,108.4,-2.4
+NBA,104.7,6,NA,-2.0,89.0,1996-97,L. Brown (39-43),.476,43,1.49,-0.9,R. Miller (12.3),39,IndianaPacers,105.8,-1.1
+NBA,107.2,2,Lost E. Conf. 1st Rnd.,-0.4,89.3,1995-96,L. Brown (52-30),.634,30,3.11,3.2,R. Miller (10.3),52,IndianaPacers,110.8,-2.5
+NBA,105.6,1,Lost E. Conf. Finals,-2.7,90.0,1994-95,L. Brown (52-30),.634,30,3.35,1.3,R. Miller (11.4),52,IndianaPacers,109.6,-2.9
+NBA,104.2,3,Lost E. Conf. Finals,-2.1,93.3,1993-94,L. Brown (47-35),.573,35,3.26,1.5,R. Miller (11.7),47,IndianaPacers,107.8,-1.8
+NBA,110.1,5,Lost E. Conf. 1st Rnd.,2.1,96.0,1992-93,B. Hill (41-41),.500,41,1.77,3.9,R. Miller (11.3),41,IndianaPacers,111.9,-0.8
+NBA,109.9,4,Lost E. Conf. 1st Rnd.,1.7,99.0,1991-92,B. Hill (40-42),.488,42,1.85,3.5,R. Miller (11.0),40,IndianaPacers,111.7,2.4
+NBA,112.1,5,Lost E. Conf. 1st Rnd.,4.2,99.4,1990-91,"D. Versace (9-16), B. Hill (32-25)",.500,41,-0.37,3.8,R. Miller (12.5),41,IndianaPacers,111.7,1.6
+NBA,111.4,5,Lost E. Conf. 1st Rnd.,3.3,97.0,1989-90,D. Versace (42-40),.512,40,-0.18,3.4,R. Miller (12.1),42,IndianaPacers,111.5,-1.3
+NBA,111.0,6,NA,3.2,99.2,1988-89,"J. Ramsay (0-7), M. Daniels (0-2), G. Irvine (6-14), D. Versace (22-31)",.341,54,-3.00,-1.0,R. Miller (6.5),28,IndianaPacers,106.8,-1.4
+NBA,107.4,6,NA,-0.6,98.0,1987-88,J. Ramsay (38-44),.463,44,-0.18,-1.4,V. Fleming (8.4),38,IndianaPacers,106.6,-1.6
+NBA,106.6,4,Lost E. Conf. 1st Rnd.,-1.7,98.8,1986-87,J. Ramsay (41-41),.500,41,-0.17,-2.3,S. Stipanovich (9.0),41,IndianaPacers,106.0,-2.0
+NBA,105.9,6,NA,-1.3,100.9,1985-86,G. Irvine (26-56),.317,56,-2.66,-4.6,V. Fleming (6.9),26,IndianaPacers,102.6,-1.2
+NBA,108.4,6,NA,0.5,105.1,1984-85,G. Irvine (22-60),.268,60,-5.46,-5.4,C. Kellogg (6.1),22,IndianaPacers,102.5,3.0
+NBA,106.5,6,NA,-1.1,102.1,1983-84,J. McKinney (26-56),.317,56,-4.25,-5.8,C. Kellogg (7.0),26,IndianaPacers,101.8,0.7
+NBA,109.4,6,NA,4.7,103.9,1982-83,J. McKinney (20-62),.244,62,-5.36,-0.9,C. Kellogg (6.8),20,IndianaPacers,103.8,0.8
+NBA,104.6,4,NA,-2.3,98.7,1981-82,J. McKinney (35-47),.427,47,-1.49,-4.2,D. Buse (7.1),35,IndianaPacers,102.7,-2.2
+NBA,105.0,3,Lost E. Conf. 1st Rnd.,-0.5,100.9,1980-81,J. McKinney (44-38),.537,38,1.72,0.9,B. Knight (8.4),44,IndianaPacers,106.4,-0.9
+NBA,106.2,4,NA,0.9,104.4,1979-80,S. Leonard (37-45),.451,45,-0.54,0.2,M. Johnson (7.3),37,IndianaPacers,105.5,1.3
+NBA,104.5,4,NA,0.7,105.3,1978-79,S. Leonard (38-44),.463,44,-1.41,-0.8,J. Edwards (7.1),38,IndianaPacers,103.0,-0.5
+NBA,101.9,6,NA,1.0,108.2,1977-78,S. Leonard (31-51),.378,51,-2.37,-1.3,D. Roundfield (6.9),31,IndianaPacers,99.6,1.5
+NBA,101.0,5,NA,1.5,107.1,1976-77,S. Leonard (36-46),.439,46,-1.68,-0.2,B. Knight (10.7),36,IndianaPacers,99.3,0.6
+ABA,103.9,5,Lost 1st Rnd.,-0.2,107.7,1975-76,S. Leonard (39-45),.464,45,0.29,-0.4,D. Buse (10.6),39,IndianaPacers,103.7,0.8
+ABA,105.7,3,Lost Finals,1.0,105.1,1974-75,S. Leonard (45-39),.536,39,1.14,2.0,G. McGinnis (11.6),45,IndianaPacers,106.7,2.0
+ABA,100.9,2,Lost W. Div. Finals,-2.1,103.0,1973-74,S. Leonard (46-38),.548,38,0.68,-1.3,G. McGinnis (10.1),46,IndianaPacers,101.7,0.4
+ABA,98.8,2,Won Finals,-3.0,112.7,1972-73,S. Leonard (51-33),.607,33,1.97,-1.1,G. McGinnis (11.4),51,IndianaPacers,100.7,3.4
+ABA,98.7,2,Won Finals,-1.9,110.7,1971-72,S. Leonard (47-37),.560,37,2.72,0.5,M. Daniels (10.3),47,IndianaPacers,101.1,-1.2
+ABA,103.6,1,Lost W. Div. Finals,-1.4,108.1,1970-71,S. Leonard (58-26),.690,26,5.63,4.1,M. Daniels (11.4),58,IndianaPacers,109.1,-3.0
+ABA,102.2,1,Won Finals,-0.5,106.7,1969-70,S. Leonard (59-25),.702,25,2.67,2.7,R. Brown (13.3),59,IndianaPacers,105.4,-2.5
+ABA,102.6,1,Lost Finals,-1.4,111.4,1968-69,"L. Staverman (2-7), S. Leonard (42-27)",.564,34,3.35,2.3,R. Brown (10.0),44,IndianaPacers,106.3,2.0
+ABA,101.3,3,Lost E. Div. Semis,0.0,107.2,1967-68,L. Staverman (38-40),.487,40,0.50,0.2,F. Lewis (7.5),38,IndianaPacers,101.5,0.2
+NBA,103.5,2,NA,-2.0,95.9,2015-16,D. Rivers (35-17),.673,17,3.47,2.2,D. Jordan (7.6),35,LosAngelesClippers,107.7,0.4
+NBA,105.5,2,Lost W. Conf. Semis,-0.1,94.7,2014-15,D. Rivers (56-26),.683,26,6.80,6.8,C. Paul (16.1),56,LosAngelesClippers,112.4,0.8
+NBA,104.8,1,Lost W. Conf. Semis,-1.9,95.9,2013-14,D. Rivers (57-25),.695,25,7.27,5.4,B. Griffin (12.2),57,LosAngelesClippers,112.1,2.0
+NBA,103.6,1,Lost W. Conf. 1st Rnd.,-2.3,91.1,2012-13,V. Del Negro (56-26),.683,26,6.43,4.7,C. Paul (13.9),56,LosAngelesClippers,110.6,-0.9
+NBA,105.7,2,Lost W. Conf. Semis,1.1,89.2,2011-12,V. Del Negro (40-26),.606,26,2.82,3.9,C. Paul (12.7),40,LosAngelesClippers,108.5,-2.1
+NBA,108.7,4,NA,1.4,92.8,2010-11,V. Del Negro (32-50),.390,50,-2.71,-2.0,B. Griffin (9.8),32,LosAngelesClippers,105.3,0.7
+NBA,110.1,3,NA,2.5,92.6,2009-10,"M. Dunleavy (21-28), K. Hughes (8-25)",.354,53,-6.01,-4.3,M. Camby (4.6),29,LosAngelesClippers,103.3,-0.1
+NBA,111.7,4,NA,3.4,92.1,2008-09,M. Dunleavy (19-63),.232,63,-8.47,-6.0,M. Camby (5.2),19,LosAngelesClippers,102.3,0.4
+NBA,109.1,5,NA,1.6,92.1,2007-08,M. Dunleavy (23-59),.280,59,-6.56,-6.3,C. Maggette (6.9),23,LosAngelesClippers,101.2,-0.3
+NBA,105.6,4,NA,-0.9,90.8,2006-07,M. Dunleavy (40-42),.488,42,-0.07,-1.4,E. Brand (11.5),40,LosAngelesClippers,105.1,-1.1
+NBA,103.6,2,Lost W. Conf. Semis,-2.6,91.7,2005-06,M. Dunleavy (47-35),.573,35,1.75,-0.9,E. Brand (14.8),47,LosAngelesClippers,105.3,1.2
+NBA,106.4,3,NA,0.3,89.1,2004-05,M. Dunleavy (37-45),.451,45,-0.47,-0.6,E. Brand (10.6),37,LosAngelesClippers,105.5,-1.8
+NBA,108.5,7,NA,5.6,91.0,2003-04,M. Dunleavy (28-54),.341,54,-3.74,0.6,E. Brand (9.7),28,LosAngelesClippers,103.5,0.9
+NBA,106.8,7,NA,3.2,91.3,2002-03,"A. Gentry (19-39), D. Johnson (8-16)",.329,55,-3.45,-1.3,E. Brand (7.6),27,LosAngelesClippers,102.3,0.3
+NBA,106.0,5,NA,1.5,90.1,2001-02,A. Gentry (39-43),.476,43,-0.09,1.0,E. Brand (13.6),39,LosAngelesClippers,105.5,-0.6
+NBA,104.5,6,NA,1.5,89.6,2000-01,A. Gentry (31-51),.378,51,-2.23,-1.7,J. McInnis (6.9),31,LosAngelesClippers,101.3,-1.7
+NBA,110.1,7,NA,6.0,93.9,1999-00,"C. Ford (11-34), J. Todd (4-33)",.183,67,-10.73,-6.3,D. Anderson (3.3),15,LosAngelesClippers,97.8,0.8
+NBA,109.7,7,NA,7.5,89.5,1998-99,C. Ford (9-41),.180,41,-8.94,-2.2,T. Nesby (3.1),9,LosAngelesClippers,100.0,0.6
+NBA,111.2,7,NA,6.2,92.4,1997-98,B. Fitch (17-65),.207,65,-7.53,-1.7,L. Murray (4.9),17,LosAngelesClippers,103.3,2.1
+NBA,107.6,5,Lost W. Conf. 1st Rnd.,0.9,91.3,1996-97,B. Fitch (36-46),.439,46,-2.66,-1.6,L. Vaught (6.3),36,LosAngelesClippers,105.1,1.2
+NBA,110.3,7,NA,2.7,93.2,1995-96,B. Fitch (29-53),.354,53,-3.46,-1.1,L. Vaught (6.3),29,LosAngelesClippers,106.5,1.4
+NBA,111.1,7,NA,2.8,94.3,1994-95,B. Fitch (17-65),.207,65,-8.43,-6.8,L. Vaught (5.5),17,LosAngelesClippers,101.5,1.4
+NBA,108.6,7,NA,2.3,99.6,1993-94,B. Weiss (27-55),.329,55,-5.28,-3.4,L. Vaught (5.5),27,LosAngelesClippers,102.9,4.5
+NBA,107.1,4,Lost W. Conf. 1st Rnd.,-0.9,99.1,1992-93,L. Brown (41-41),.500,41,0.33,-0.6,M. Jackson (7.9),41,LosAngelesClippers,107.4,2.3
+NBA,104.7,5,Lost W. Conf. 1st Rnd.,-3.5,96.5,1991-92,"M. Schuler (21-24), M. Calvin (1-1), L. Brown (23-12)",.549,37,1.10,-2.4,D. Manning (9.8),45,LosAngelesClippers,105.8,-0.1
+NBA,106.5,6,NA,-1.4,99.9,1990-91,M. Schuler (31-51),.378,51,-3.16,-4.9,C. Smith (7.4),31,LosAngelesClippers,103.0,2.1
+NBA,107.4,6,NA,-0.7,99.2,1989-90,D. Casey (30-52),.366,52,-2.80,-4.1,C. Smith (9.4),30,LosAngelesClippers,104.0,0.9
+NBA,110.2,7,NA,2.4,104.4,1988-89,"G. Shue (10-28), D. Casey (11-33)",.256,61,-9.50,-7.0,B. Benjamin (5.1),21,LosAngelesClippers,100.8,3.8
+NBA,107.6,6,NA,-0.4,100.8,1987-88,G. Shue (17-65),.207,65,-10.24,-10.6,M. Cage (6.7),17,LosAngelesClippers,97.4,1.2
+NBA,112.3,6,NA,4.0,102.7,1986-87,D. Chaney (12-70),.146,70,-11.00,-7.1,M. Cage (7.2),12,LosAngelesClippers,101.2,1.9
+NBA,112.1,4,NA,4.9,102.7,1985-86,D. Chaney (32-50),.390,50,-6.83,-1.8,M. Johnson (5.9),32,LosAngelesClippers,105.4,0.6
+NBA,110.3,5,NA,2.4,100.9,1984-85,"J. Lynam (22-39), D. Chaney (9-12)",.378,51,-4.55,-2.1,D. Smith (8.0),31,LosAngelesClippers,105.8,-1.2
+NBA,112.4,6,NA,4.8,101.1,1983-84,J. Lynam (30-52),.366,52,-3.21,1.6,T. Cummings (7.5),30,SanDiegoClippers,109.2,-0.3
+NBA,109.3,6,NA,4.6,103.0,1982-83,P. Silas (25-57),.305,57,-4.61,0.0,T. Cummings (8.7),25,SanDiegoClippers,104.7,-0.1
+NBA,113.8,6,NA,6.9,101.4,1981-82,P. Silas (17-65),.207,65,-7.05,-0.3,J. Whitehead (5.3),17,SanDiegoClippers,106.6,0.5
+NBA,107.6,5,NA,2.1,100.2,1980-81,P. Silas (36-46),.439,46,-1.78,0.5,S. Nater (8.6),36,SanDiegoClippers,106.0,-1.6
+NBA,109.8,5,NA,4.5,101.4,1979-80,G. Shue (35-47),.427,47,-3.97,0.4,W. Free (8.0),35,SanDiegoClippers,105.7,-1.7
+NBA,107.9,5,NA,4.1,106.3,1978-79,G. Shue (43-39),.524,39,-1.76,2.4,W. Free (10.1),43,SanDiegoClippers,106.2,0.5
+NBA,103.8,4,NA,2.9,104.3,1977-78,C. Fitzsimmons (27-55),.329,55,-3.55,-0.6,R. Smith (7.9),27,BuffaloBraves,100.3,-2.4
+NBA,101.8,4,NA,2.3,107.3,1976-77,"T. Locke (16-30), B. MacKinnon (3-4), J. Mullaney (11-18)",.366,52,-4.28,-1.9,A. Dantley (9.8),30,BuffaloBraves,97.6,0.8
+NBA,98.2,3,Lost E. Conf. Semis,-0.1,108.2,1975-76,J. Ramsay (46-36),.561,36,0.85,0.7,B. McAdoo (12.3),46,BuffaloBraves,99.0,2.7
+NBA,97.8,2,Lost E. Conf. Semis,0.1,107.7,1974-75,J. Ramsay (49-33),.598,33,2.16,2.1,B. McAdoo (17.8),49,BuffaloBraves,99.8,3.2
+NBA,99.4,3,Lost E. Conf. Semis,1.7,111.6,1973-74,J. Ramsay (42-40),.512,40,-0.19,1.6,B. McAdoo (15.3),42,BuffaloBraves,99.3,3.8
+NBA,101.2,3,NA,4.4,110.9,1972-73,J. Ramsay (21-61),.256,61,-8.85,-3.9,B. Kauffman (7.9),21,BuffaloBraves,92.9,0.2
+NBA,102.1,4,NA,4.2,108.3,1971-72,"D. Schayes (0-1), J. McCarthy (22-59)",.268,60,-9.44,-4.3,B. Kauffman (8.0),22,BuffaloBraves,93.6,-3.7
+NBA,99.6,4,NA,2.4,111.9,1970-71,D. Schayes (22-60),.268,60,-8.02,-3.5,B. Kauffman (7.9),22,BuffaloBraves,93.7,-3.2
+NBA,110.2,5,NA,4.7,95.9,2015-16,B. Scott (11-43),.204,43,-8.81,-5.4,L. Williams (3.3),11,LosAngelesLakers,100.1,0.4
+NBA,110.6,5,NA,5.0,94.0,2014-15,B. Scott (21-61),.256,61,-6.17,-2.2,E. Davis (6.3),21,LosAngelesLakers,103.4,0.1
+NBA,110.6,5,NA,3.9,98.7,2013-14,M. D'Antoni (27-55),.329,55,-5.33,-2.5,J. Meeks (4.5),27,LosAngelesLakers,104.2,4.8
+NBA,106.6,3,Lost W. Conf. 1st Rnd.,0.7,94.4,2012-13,"M. Brown (1-4), B. Bickerstaff (4-1), M. D'Antoni (40-32)",.549,37,1.48,1.9,K. Bryant (10.9),45,LosAngelesLakers,107.8,2.4
+NBA,104.4,1,Lost W. Conf. Semis,-0.2,90.5,2011-12,M. Brown (41-25),.621,25,1.96,1.4,P. Gasol (8.3),41,LosAngelesLakers,106.0,-0.8
+NBA,104.3,1,Lost W. Conf. Semis,-3.0,90.7,2010-11,P. Jackson (57-25),.695,25,6.01,3.7,P. Gasol (14.7),57,LosAngelesLakers,111.0,-1.4
+NBA,103.7,1,Won Finals,-3.9,92.8,2009-10,P. Jackson (57-25),.695,25,4.78,1.2,P. Gasol (11.0),57,LosAngelesLakers,108.8,0.1
+NBA,104.7,1,Won Finals,-3.6,94.3,2008-09,P. Jackson (65-17),.793,17,7.11,4.5,P. Gasol (13.9),65,LosAngelesLakers,112.8,2.6
+NBA,105.5,1,Lost Finals,-2.0,95.6,2007-08,P. Jackson (57-25),.695,25,7.34,5.5,K. Bryant (13.8),57,LosAngelesLakers,113.0,3.2
+NBA,108.6,2,Lost W. Conf. 1st Rnd.,2.1,93.5,2006-07,P. Jackson (42-40),.512,40,0.24,2.1,K. Bryant (13.0),42,LosAngelesLakers,108.6,1.6
+NBA,105.7,3,Lost W. Conf. 1st Rnd.,-0.5,90.9,2005-06,P. Jackson (45-37),.549,37,2.53,2.2,K. Bryant (15.3),45,LosAngelesLakers,108.4,0.4
+NBA,111.4,4,NA,5.3,90.8,2004-05,"R. Tomjanovich (24-19), F. Hamblen (10-29)",.415,48,-2.32,2.0,K. Bryant (8.1),34,LosAngelesLakers,108.1,-0.1
+NBA,101.3,1,Lost Finals,-1.6,92.3,2003-04,P. Jackson (56-26),.683,26,4.35,2.6,K. Bryant (10.7),56,LosAngelesLakers,105.5,2.2
+NBA,104.7,2,Lost W. Conf. Semis,1.1,92.5,2002-03,P. Jackson (50-32),.610,32,2.71,3.6,K. Bryant (14.9),50,LosAngelesLakers,107.2,1.5
+NBA,101.7,2,Won Finals,-2.8,92.1,2001-02,P. Jackson (58-24),.707,24,7.15,4.9,S. O'Neal (13.2),58,LosAngelesLakers,109.4,1.4
+NBA,104.8,1,Won Finals,1.8,91.7,2000-01,P. Jackson (56-26),.683,26,3.74,5.4,S. O'Neal (14.9),56,LosAngelesLakers,108.4,0.4
+NBA,98.2,1,Won Finals,-5.9,93.3,1999-00,P. Jackson (67-15),.817,15,8.41,3.2,S. O'Neal (18.6),67,LosAngelesLakers,107.3,0.2
+NBA,104.3,2,Lost W. Conf. Semis,2.1,91.6,1998-99,"D. Harris (6-6), B. Bertka (1-0), K. Rambis (24-13)",.620,19,2.68,5.4,S. O'Neal (9.0),31,LosAngelesLakers,107.6,2.7
+NBA,103.7,2,Lost W. Conf. Finals,-1.3,93.6,1997-98,D. Harris (61-21),.744,21,6.88,6.9,S. O'Neal (10.2),61,LosAngelesLakers,111.9,3.3
+NBA,103.7,2,Lost W. Conf. Semis,-3.0,91.1,1996-97,D. Harris (56-26),.683,26,3.66,1.6,E. Jones (9.6),56,LosAngelesLakers,108.3,1.0
+NBA,106.6,2,Lost W. Conf. 1st Rnd.,-1.0,92.4,1995-96,D. Harris (53-29),.646,29,4.21,3.8,C. Ceballos (9.8),53,LosAngelesLakers,111.4,0.6
+NBA,109.4,3,Lost W. Conf. Semis,1.1,95.2,1994-95,D. Harris (48-34),.585,34,-0.01,0.8,V. Divac (9.5),48,LosAngelesLakers,109.1,2.3
+NBA,109.3,5,NA,3.0,95.5,1993-94,"R. Pfund (27-37), B. Bertka (1-1), M. Johnson (5-11)",.402,49,-3.93,-1.5,V. Divac (7.4),33,LosAngelesLakers,104.8,0.4
+NBA,108.9,5,Lost W. Conf. 1st Rnd.,0.9,96.2,1992-93,R. Pfund (39-43),.476,43,-1.20,-0.4,A. Green (8.6),39,LosAngelesLakers,107.6,-0.6
+NBA,108.9,6,Lost W. Conf. 1st Rnd.,0.7,92.5,1991-92,M. Dunleavy (43-39),.524,39,-0.95,-0.5,A. Green (8.8),43,LosAngelesLakers,107.7,-4.1
+NBA,105.0,2,Lost Finals,-2.9,94.1,1990-91,M. Dunleavy (58-24),.707,24,6.73,4.2,M. Johnson (15.4),58,LosAngelesLakers,112.1,-3.7
+NBA,107.0,1,Lost W. Conf. Semis,-1.1,96.3,1989-90,P. Riley (63-19),.768,19,6.74,5.9,M. Johnson (16.5),63,LosAngelesLakers,114.0,-2.0
+NBA,106.7,1,Lost Finals,-1.1,100.1,1988-89,P. Riley (57-25),.695,25,6.38,6.0,M. Johnson (16.1),57,LosAngelesLakers,113.8,-0.5
+NBA,107.3,1,Won Finals,-0.7,99.1,1987-88,P. Riley (62-20),.756,20,4.81,5.1,M. Johnson (10.9),62,LosAngelesLakers,113.1,-0.5
+NBA,106.5,1,Won Finals,-1.8,101.6,1986-87,P. Riley (65-17),.793,17,8.32,7.3,M. Johnson (15.9),65,LosAngelesLakers,115.6,0.8
+NBA,105.8,1,Lost W. Conf. Finals,-1.4,102.7,1985-86,P. Riley (62-20),.756,20,6.84,6.1,M. Johnson (12.1),62,LosAngelesLakers,113.3,0.6
+NBA,107.0,1,Won Finals,-0.9,103.2,1984-85,P. Riley (62-20),.756,20,6.48,6.2,M. Johnson (12.7),62,LosAngelesLakers,114.1,1.1
+NBA,107.3,1,Lost Finals,-0.3,103.7,1983-84,P. Riley (54-28),.659,28,3.32,3.3,M. Johnson (10.2),54,LosAngelesLakers,110.9,2.3
+NBA,105.2,1,Lost Finals,0.5,103.8,1982-83,P. Riley (58-24),.707,24,5.06,5.8,M. Johnson (12.5),58,LosAngelesLakers,110.5,0.7
+NBA,105.5,1,Won Finals,-1.4,103.1,1981-82,"P. Westhead (7-4), P. Riley (50-21)",.695,25,4.37,3.3,M. Johnson (12.9),57,LosAngelesLakers,110.2,2.2
+NBA,103.9,2,Lost W. Conf. 1st Rnd.,-1.6,102.7,1980-81,P. Westhead (54-28),.659,28,3.27,2.1,K. Abdul-Jabbar (14.3),54,LosAngelesLakers,107.6,0.9
+NBA,103.9,1,Won Finals,-1.4,104.1,1979-80,"J. McKinney (10-4), P. Westhead (50-18)",.732,22,5.40,4.2,K. Abdul-Jabbar (14.8),60,LosAngelesLakers,109.5,1.0
+NBA,103.2,3,Lost W. Conf. Semis,-0.6,105.9,1978-79,J. West (47-35),.573,35,2.95,2.3,K. Abdul-Jabbar (14.4),47,LosAngelesLakers,106.1,0.1
+NBA,100.8,4,Lost W. Conf. 1st Rnd.,-0.1,106.1,1977-78,J. West (45-37),.549,37,2.59,2.4,K. Abdul-Jabbar (12.1),45,LosAngelesLakers,103.3,-0.6
+NBA,98.9,1,Lost W. Conf. Finals,-0.6,104.7,1976-77,J. West (53-29),.646,29,2.64,1.9,K. Abdul-Jabbar (17.8),53,LosAngelesLakers,101.4,-1.8
+NBA,98.8,4,NA,0.5,108.0,1975-76,B. Sharman (40-42),.488,42,0.18,0.6,K. Abdul-Jabbar (17.0),40,LosAngelesLakers,98.9,2.5
+NBA,99.9,5,NA,2.2,106.4,1974-75,B. Sharman (30-52),.366,52,-3.94,-1.6,H. Hairston (7.0),30,LosAngelesLakers,96.1,1.9
+NBA,96.6,1,Lost W. Conf. Semis,-1.1,111.7,1973-74,B. Sharman (47-35),.573,35,0.85,-0.3,H. Hairston (9.3),47,LosAngelesLakers,97.4,3.9
+NBA,91.8,1,Lost Finals,-5.0,112.0,1972-73,B. Sharman (60-22),.732,22,8.16,2.6,W. Chamberlain (18.2),60,LosAngelesLakers,99.4,1.3
+NBA,92.6,1,Won Finals,-5.3,116.9,1971-72,B. Sharman (69-13),.841,13,11.65,5.2,W. Chamberlain (15.8),69,LosAngelesLakers,103.1,4.9
+NBA,96.1,1,Lost W. Conf. Finals,-1.1,115.7,1970-71,J. Mullaney (48-34),.585,34,3.27,1.6,J. West (12.8),48,LosAngelesLakers,98.8,0.6
+NBA,97.4,2,Lost Finals,-1.6,113.9,1969-70,J. Mullaney (46-36),.561,36,1.76,0.1,J. West (15.2),46,LosAngelesLakers,99.1,-3.2
+NBA,94.9,1,Lost Finals,-0.6,112.6,1968-69,B. Van Breda Kolff (55-27),.671,27,3.84,3.0,W. Chamberlain (14.7),55,LosAngelesLakers,98.5,-4.3
+NBA,97.0,2,Lost Finals,0.2,118.1,1967-68,B. Van Breda Kolff (52-30),.634,30,4.99,4.9,J. West (9.6),52,LosAngelesLakers,101.7,-1.7
+NBA,97.1,3,Lost W. Div. Semis,1.0,123.0,1966-67,F. Schaus (36-45),.444,45,0.31,1.3,J. West (11.7),36,LosAngelesLakers,97.4,1.4
+NBA,95.7,1,Lost Finals,0.8,121.2,1965-66,F. Schaus (45-35),.563,35,2.76,3.4,J. West (17.1),45,LosAngelesLakers,98.3,-0.2
+NBA,95.8,1,Lost Finals,2.2,113.9,1964-65,F. Schaus (49-31),.613,31,1.70,3.8,J. West (16.7),49,LosAngelesLakers,97.4,-3.4
+NBA,97.0,3,Lost W. Div. Semis,2.4,111.6,1963-64,F. Schaus (42-38),.525,38,0.87,3.3,J. West (14.0),42,LosAngelesLakers,97.9,-1.6
+NBA,94.7,1,Lost Finals,-1.2,117.8,1962-63,F. Schaus (53-27),.663,27,2.67,1.5,E. Baylor (14.4),53,LosAngelesLakers,97.4,2.8
+NBA,93.3,1,Lost Finals,-0.3,123.3,1961-62,F. Schaus (54-26),.675,26,1.80,1.4,J. West (12.9),54,LosAngelesLakers,95.0,2.0
+NBA,90.9,2,Lost W. Div. Finals,-1.2,124.9,1960-61,F. Schaus (36-43),.456,43,-0.11,-1.3,E. Baylor (14.8),36,LosAngelesLakers,90.8,1.4
+NBA,91.2,3,Lost W. Div. Finals,0.1,121.2,1959-60,"J. Castellani (11-25), J. Pollard (14-25)",.333,50,-4.14,-3.4,E. Baylor (11.5),25,MinneapolisLakers,87.7,-1.1
+NBA,91.9,2,Lost Finals,1.7,115.5,1958-59,J. Kundla (33-39),.458,39,-1.42,0.6,E. Baylor (9.8),33,MinneapolisLakers,90.8,3.5
+NBA,93.3,4,NA,4.5,118.8,1957-58,"G. Mikan (9-30), J. Kundla (10-23)",.264,53,-5.78,-0.8,V. Mikkelsen (6.5),19,MinneapolisLakers,88.0,1.8
+NBA,89.2,2,Lost W. Div. Finals,0.3,114.8,1956-57,J. Kundla (34-38),.472,38,-0.89,-0.4,C. Lovellette (8.2),34,MinneapolisLakers,88.5,9.9
+NBA,92.4,2,Lost W. Div. Semis,2.1,108.0,1955-56,J. Kundla (33-39),.458,39,-0.92,1.2,C. Lovellette (8.1),33,MinneapolisLakers,91.5,5.2
+NBA,88.6,2,Lost W. Div. Finals,-1.2,105.5,1954-55,J. Kundla (40-32),.556,32,0.96,-0.1,V. Mikkelsen (10.9),40,MinneapolisLakers,89.7,7.4
+NBA,83.5,1,Won Finals,-4.0,93.5,1953-54,J. Kundla (46-26),.639,26,2.71,-0.7,G. Mikan (12.7),46,MinneapolisLakers,86.8,9.9
+NBA,83.6,1,Won Finals,-4.1,93.7,1952-53,J. Kundla (48-22),.686,22,5.54,2.1,G. Mikan (14.6),48,MinneapolisLakers,90.1,13.2
+NBA,79.3,2,Won Finals,-7.6,97.2,1951-52,J. Kundla (40-26),.606,26,5.28,-1.6,G. Mikan (14.4),40,MinneapolisLakers,85.3,11.4
+NBA,80.7,1,Lost W. Div. Finals,-4.4,94.8,1950-51,J. Kundla (44-24),.647,24,4.79,1.3,G. Mikan (23.4),44,MinneapolisLakers,86.4,9.3
+NBA,NA,1,Won Finals,NA,NA,1949-50,J. Kundla (51-17),.750,17,8.25,1.3,G. Mikan (21.1),51,MinneapolisLakers,NA,NA
+BAA,NA,2,Won Finals,NA,NA,1948-49,J. Kundla (44-16),.733,16,6.80,1.3,G. Mikan (20.9),44,MinneapolisLakers,NA,NA
+NBA,105.7,2,NA,0.2,92.9,2015-16,D. Joerger (30-22),.577,22,-1.07,-1.1,M. Conley (4.2),30,MemphisGrizzlies,104.4,-2.6
+NBA,102.2,2,Lost W. Conf. Semis,-3.4,92.0,2014-15,D. Joerger (55-27),.671,27,3.62,0.1,M. Gasol (10.2),55,MemphisGrizzlies,105.7,-1.9
+NBA,104.6,3,Lost W. Conf. 1st Rnd.,-2.1,89.9,2013-14,D. Joerger (50-32),.610,32,2.18,-0.4,M. Conley (8.2),50,MemphisGrizzlies,106.3,-4.0
+NBA,100.3,2,Lost W. Conf. Finals,-5.6,88.4,2012-13,L. Hollins (56-26),.683,26,4.32,-1.0,M. Gasol (11.5),56,MemphisGrizzlies,104.9,-3.6
+NBA,101.8,2,Lost W. Conf. 1st Rnd.,-2.8,90.8,2011-12,L. Hollins (41-25),.621,25,2.43,-0.6,M. Gasol (8.2),41,MemphisGrizzlies,104.0,-0.5
+NBA,105.1,4,Lost W. Conf. Semis,-2.2,91.9,2010-11,L. Hollins (46-36),.561,36,2.55,0.3,Z. Randolph (10.5),46,MemphisGrizzlies,107.6,-0.2
+NBA,109.9,4,NA,2.3,93.6,2009-10,L. Hollins (40-42),.488,42,-1.39,0.7,Z. Randolph (9.7),40,MemphisGrizzlies,108.3,0.9
+NBA,109.5,5,NA,1.2,90.1,2008-09,"M. Iavaroni (11-30), J. Davis (0-2), L. Hollins (13-26)",.293,58,-5.23,-4.8,M. Gasol (6.4),24,MemphisGrizzlies,103.5,-1.6
+NBA,111.4,5,NA,3.9,95.3,2007-08,M. Iavaroni (22-60),.268,60,-5.76,-2.5,M. Miller (5.0),22,MemphisGrizzlies,105.0,2.9
+NBA,112.3,5,NA,5.8,93.6,2006-07,"M. Fratello (6-24), T. Barone (16-36)",.268,60,-4.44,0.4,P. Gasol (6.9),22,MemphisGrizzlies,106.9,1.7
+NBA,101.6,3,Lost W. Conf. 1st Rnd.,-4.6,86.3,2005-06,M. Fratello (49-33),.598,33,3.74,-0.3,P. Gasol (12.0),49,MemphisGrizzlies,105.9,-4.2
+NBA,102.9,4,Lost W. Conf. 1st Rnd.,-3.2,88.5,2004-05,"H. Brown (5-7), L. Hollins (0-4), M. Fratello (40-26)",.549,37,2.64,-0.6,S. Battier (7.8),45,MemphisGrizzlies,105.5,-2.4
+NBA,102.2,4,Lost W. Conf. 1st Rnd.,-0.7,91.4,2003-04,H. Brown (50-32),.610,32,2.95,1.9,J. Posey (10.0),50,MemphisGrizzlies,104.8,1.3
+NBA,107.3,6,NA,3.7,92.7,2002-03,"S. Lowe (0-8), H. Brown (28-46)",.341,54,-2.60,0.3,P. Gasol (8.5),28,MemphisGrizzlies,103.9,1.7
+NBA,106.3,7,NA,1.8,91.1,2001-02,S. Lowe (23-59),.280,59,-6.74,-6.3,P. Gasol (7.6),23,MemphisGrizzlies,98.2,0.4
+NBA,105.8,7,NA,2.8,91.7,2000-01,S. Lowe (23-59),.280,59,-4.94,-3.4,S. Abdur-Rahim (8.5),23,VancouverGrizzlies,99.6,0.4
+NBA,108.5,7,NA,4.4,91.0,1999-00,"B. Hill (4-18), L. Hollins (18-42)",.268,60,-5.10,-1.8,S. Abdur-Rahim (8.8),22,VancouverGrizzlies,102.3,-2.1
+NBA,107.9,7,NA,5.7,89.0,1998-99,B. Hill (8-42),.160,42,-8.94,-3.8,S. Abdur-Rahim (4.6),8,VancouverGrizzlies,98.4,0.1
+NBA,112.0,6,NA,7.0,92.1,1997-98,B. Hill (19-63),.232,63,-7.47,-0.9,S. Abdur-Rahim (6.9),19,VancouverGrizzlies,104.1,1.8
+NBA,111.8,7,NA,5.1,88.4,1996-97,"B. Winters (8-35), S. Jackson (6-33)",.171,68,-10.17,-6.4,G. Anthony (3.5),14,VancouverGrizzlies,100.3,-1.7
+NBA,108.5,7,NA,0.9,91.0,1995-96,B. Winters (15-67),.183,67,-9.55,-10.0,G. Anthony (4.8),15,VancouverGrizzlies,97.6,-0.8
+NBA,103.0,1,NA,-2.5,92.5,2015-16,E. Spoelstra (29-23),.558,23,-0.07,-2.4,C. Bosh (6.7),29,MiamiHeat,103.1,-3.0
+NBA,106.7,3,NA,1.1,90.9,2014-15,E. Spoelstra (37-45),.451,45,-2.92,-1.7,L. Deng (5.4),37,MiamiHeat,103.9,-3.0
+NBA,105.8,1,Lost Finals,-0.9,91.2,2013-14,E. Spoelstra (54-28),.659,28,4.15,4.2,L. James (15.9),54,MiamiHeat,110.9,-2.7
+NBA,103.7,1,Won Finals,-2.2,90.7,2012-13,E. Spoelstra (66-16),.805,16,7.03,6.4,L. James (19.3),66,MiamiHeat,112.3,-1.3
+NBA,100.2,1,Won Finals,-4.4,91.2,2011-12,E. Spoelstra (46-20),.697,20,5.72,2.0,L. James (14.5),46,MiamiHeat,106.6,-0.1
+NBA,103.5,1,Lost Finals,-3.8,90.9,2010-11,E. Spoelstra (58-24),.707,24,6.76,4.4,L. James (15.6),58,MiamiHeat,111.7,-1.2
+NBA,104.1,3,Lost E. Conf. 1st Rnd.,-3.5,89.6,2009-10,E. Spoelstra (47-35),.573,35,1.99,-1.0,D. Wade (13.0),47,MiamiHeat,106.6,-3.1
+NBA,107.6,3,Lost E. Conf. 1st Rnd.,-0.7,89.9,2008-09,E. Spoelstra (43-39),.524,39,0.49,-0.5,D. Wade (14.7),43,MiamiHeat,107.8,-1.8
+NBA,110.0,5,NA,2.5,90.2,2007-08,P. Riley (15-67),.183,67,-8.53,-7.0,D. Wade (3.3),15,MiamiHeat,100.5,-2.2
+NBA,105.3,1,Lost E. Conf. 1st Rnd.,-1.2,89.9,2006-07,P. Riley (44-38),.537,38,-1.21,-2.2,D. Wade (8.8),44,MiamiHeat,104.3,-2.0
+NBA,104.5,1,Won Finals,-1.7,91.6,2005-06,"S. Van Gundy (11-10), P. Riley (41-20)",.634,30,3.59,2.5,D. Wade (14.4),52,MiamiHeat,108.7,1.1
+NBA,103.1,1,Lost E. Conf. Finals,-3.0,90.8,2004-05,S. Van Gundy (59-23),.720,23,5.77,4.1,D. Wade (11.0),59,MiamiHeat,110.2,-0.1
+NBA,101.7,2,Lost E. Conf. Semis,-1.2,88.0,2003-04,S. Van Gundy (42-40),.512,40,-0.13,-0.7,E. Jones (9.1),42,MiamiHeat,102.2,-2.1
+NBA,102.4,7,NA,-1.2,87.8,2002-03,P. Riley (25-57),.305,57,-5.13,-6.9,B. Grant (7.7),25,MiamiHeat,96.7,-3.2
+NBA,100.2,6,NA,-4.3,87.4,2001-02,P. Riley (36-46),.439,46,-1.84,-6.0,E. Jones (10.5),36,MiamiHeat,98.5,-3.3
+NBA,98.5,2,Lost E. Conf. 1st Rnd.,-4.5,87.1,2000-01,P. Riley (50-32),.610,32,1.73,-1.9,A. Mason (11.6),50,MiamiHeat,101.1,-4.2
+NBA,101.0,1,Lost E. Conf. Semis,-3.1,89.7,1999-00,P. Riley (52-30),.634,30,2.75,0.4,A. Mourning (12.9),52,MiamiHeat,104.5,-3.4
+NBA,98.9,1,Lost E. Conf. 1st Rnd.,-3.3,84.8,1998-99,P. Riley (33-17),.660,17,5.11,2.5,A. Mourning (7.9),33,MiamiHeat,104.7,-4.1
+NBA,102.0,1,Lost E. Conf. 1st Rnd.,-3.0,87.9,1997-98,P. Riley (55-27),.671,27,5.09,2.6,T. Hardaway (11.7),55,MiamiHeat,107.6,-2.4
+NBA,100.6,1,Lost E. Conf. Finals,-6.1,88.2,1996-97,P. Riley (61-21),.744,21,5.56,0.1,T. Hardaway (12.9),61,MiamiHeat,106.8,-1.9
+NBA,103.8,3,Lost E. Conf. 1st Rnd.,-3.8,91.1,1995-96,P. Riley (42-40),.512,40,1.46,-2.3,A. Mourning (9.9),42,MiamiHeat,105.3,-0.7
+NBA,109.9,4,NA,1.6,92.9,1994-95,"K. Loughery (17-29), A. Gentry (15-21)",.390,50,-1.85,-0.1,G. Rice (10.0),32,MiamiHeat,108.2,0.0
+NBA,106.7,4,Lost E. Conf. 1st Rnd.,0.4,93.8,1993-94,K. Loughery (42-40),.512,40,2.40,3.2,G. Rice (10.2),42,MiamiHeat,109.5,-1.3
+NBA,108.9,5,NA,0.9,94.6,1992-93,K. Loughery (36-46),.439,46,-0.93,-0.3,G. Long (6.5),36,MiamiHeat,107.7,-2.2
+NBA,110.9,4,Lost E. Conf. 1st Rnd.,2.7,97.7,1991-92,K. Loughery (38-44),.463,44,-3.94,-1.5,G. Rice (7.9),38,MiamiHeat,106.7,1.1
+NBA,108.1,6,NA,0.2,99.3,1990-91,R. Rothstein (24-58),.293,58,-5.91,-5.9,S. Douglas (5.4),24,MiamiHeat,102.0,1.5
+NBA,108.9,5,NA,0.8,101.0,1989-90,R. Rothstein (18-64),.220,64,-9.59,-8.8,S. Douglas (4.4),18,MiamiHeat,99.3,2.7
+NBA,109.0,6,NA,1.2,99.1,1988-89,R. Rothstein (15-67),.183,67,-11.13,-10.0,G. Long (4.6),15,MiamiHeat,97.8,-1.5
+NBA,109.2,5,NA,3.7,93.7,2015-16,J. Kidd (20-32),.385,32,-4.69,-1.7,G. Monroe (5.2),20,MilwaukeeBucks,103.8,-1.8
+NBA,102.2,3,Lost E. Conf. 1st Rnd.,-3.4,94.1,2014-15,J. Kidd (41-41),.500,41,-0.09,-2.9,K. Middleton (6.7),41,MilwaukeeBucks,102.7,0.2
+NBA,111.8,5,NA,5.1,91.8,2013-14,L. Drew (15-67),.183,67,-8.41,-3.7,J. Henson (3.3),15,MilwaukeeBucks,103.0,-2.1
+NBA,105.2,3,Lost E. Conf. 1st Rnd.,-0.7,94.7,2012-13,"S. Skiles (16-16), J. Boylan (22-28)",.463,44,-1.83,-2.3,E. Ilyasova (6.7),38,MilwaukeeBucks,103.6,2.7
+NBA,105.2,3,NA,0.6,93.7,2011-12,S. Skiles (31-35),.470,35,-0.23,0.9,E. Ilyasova (6.4),31,MilwaukeeBucks,105.5,2.4
+NBA,102.5,3,NA,-4.8,89.8,2010-11,S. Skiles (35-47),.427,47,-1.02,-5.7,A. Bogut (5.4),35,MilwaukeeBucks,101.6,-2.3
+NBA,103.1,2,Lost E. Conf. 1st Rnd.,-4.5,91.7,2009-10,S. Skiles (46-36),.561,36,1.37,-2.7,A. Bogut (7.5),46,MilwaukeeBucks,104.9,-1.0
+NBA,107.9,5,NA,-0.4,92.6,2008-09,S. Skiles (34-48),.415,48,-0.88,-1.6,R. Jefferson (6.6),34,MilwaukeeBucks,106.7,0.9
+NBA,112.8,5,NA,5.3,91.3,2007-08,L. Krystkowiak (26-56),.317,56,-6.92,-2.2,M. Redd (5.8),26,MilwaukeeBucks,105.3,-1.1
+NBA,111.7,5,NA,5.2,92.3,2006-07,"T. Stotts (23-41), L. Krystkowiak (5-13)",.341,54,-4.43,0.5,M. Redd (6.1),28,MilwaukeeBucks,107.0,0.4
+NBA,107.4,5,Lost E. Conf. 1st Rnd.,1.2,91.2,2005-06,T. Stotts (40-42),.488,42,-1.07,0.1,M. Redd (10.8),40,MilwaukeeBucks,106.3,0.7
+NBA,109.8,5,NA,3.7,90.8,2004-05,T. Porter (30-52),.366,52,-3.09,0.5,M. Redd (6.2),30,MilwaukeeBucks,106.6,-0.1
+NBA,105.4,4,Lost E. Conf. 1st Rnd.,2.5,91.6,2003-04,T. Porter (41-41),.500,41,0.42,3.6,M. Redd (9.7),41,MilwaukeeBucks,106.5,1.5
+NBA,108.6,4,Lost E. Conf. 1st Rnd.,5.0,90.4,2002-03,G. Karl (42-40),.512,40,-0.24,5.2,S. Cassell (9.6),42,MilwaukeeBucks,108.8,-0.6
+NBA,107.1,5,NA,2.6,90.2,2001-02,G. Karl (41-41),.500,41,-0.62,2.4,R. Allen (8.9),41,MilwaukeeBucks,106.9,-0.5
+NBA,104.6,1,Lost E. Conf. Finals,1.6,92.1,2000-01,G. Karl (52-30),.634,30,3.14,5.8,R. Allen (13.7),52,MilwaukeeBucks,108.8,0.8
+NBA,107.9,5,Lost E. Conf. 1st Rnd.,3.8,92.7,1999-00,G. Karl (42-40),.512,40,-0.06,4.1,R. Allen (10.1),42,MilwaukeeBucks,108.2,-0.4
+NBA,103.0,4,Lost E. Conf. 1st Rnd.,0.8,87.0,1998-99,G. Karl (28-22),.560,22,1.66,2.7,R. Allen (5.2),28,MilwaukeeBucks,104.9,-1.9
+NBA,105.6,7,NA,0.6,90.2,1997-98,C. Ford (36-46),.439,46,-1.33,-1.5,R. Allen (7.0),36,MilwaukeeBucks,103.5,-0.1
+NBA,108.3,7,NA,1.6,89.5,1996-97,C. Ford (33-49),.402,49,-1.38,-0.5,V. Baker (8.3),33,MilwaukeeBucks,106.2,-0.6
+NBA,111.5,7,NA,3.9,90.2,1995-96,M. Dunleavy (25-57),.305,57,-4.92,-2.0,V. Baker (6.2),25,MilwaukeeBucks,105.6,-1.6
+NBA,110.9,6,NA,2.6,92.7,1994-95,M. Dunleavy (34-48),.415,48,-4.30,-2.1,V. Baker (5.8),34,MilwaukeeBucks,106.2,-0.2
+NBA,109.3,6,NA,3.0,94.5,1993-94,M. Dunleavy (20-62),.244,62,-6.24,-3.8,E. Murdock (7.2),20,MilwaukeeBucks,102.5,-0.6
+NBA,110.1,7,NA,2.1,96.1,1992-93,M. Dunleavy (28-54),.341,54,-3.26,-1.8,E. Murdock (6.1),28,MilwaukeeBucks,106.2,-0.7
+NBA,110.6,6,NA,2.4,95.5,1991-92,"D. Harris (8-9), F. Hamblen (23-42)",.378,51,-1.46,0.6,M. Malone (7.8),31,MilwaukeeBucks,108.8,-1.1
+NBA,107.2,3,Lost E. Conf. 1st Rnd.,-0.7,96.1,1990-91,D. Harris (48-34),.585,34,2.33,1.8,J. Humphries (8.6),48,MilwaukeeBucks,109.7,-1.7
+NBA,108.1,3,Lost E. Conf. 1st Rnd.,0.0,98.0,1989-90,D. Harris (44-38),.537,38,-1.06,-0.8,J. Humphries (7.6),44,MilwaukeeBucks,107.3,-0.3
+NBA,106.4,4,Lost E. Conf. Semis,-1.4,98.6,1988-89,D. Harris (49-33),.598,33,4.11,2.3,J. Sikma (8.1),49,MilwaukeeBucks,110.1,-2.0
+NBA,107.6,4,Lost E. Conf. 1st Rnd.,-0.4,97.6,1987-88,D. Harris (42-40),.512,40,1.21,0.2,J. Sikma (9.4),42,MilwaukeeBucks,108.2,-2.0
+NBA,105.6,3,Lost E. Conf. Semis,-2.7,100.3,1986-87,D. Nelson (50-32),.610,32,4.04,1.2,R. Pierce (9.4),50,MilwaukeeBucks,109.5,-0.5
+NBA,102.7,1,Lost E. Conf. Finals,-4.5,102.1,1985-86,D. Nelson (57-25),.695,25,8.69,4.2,S. Moncrief (11.7),57,MilwaukeeBucks,111.4,0.0
+NBA,103.6,1,Lost E. Conf. Semis,-4.3,99.7,1984-85,D. Nelson (59-23),.720,23,6.69,2.6,S. Moncrief (11.2),59,MilwaukeeBucks,110.5,-2.4
+NBA,103.6,1,Lost E. Conf. Finals,-4.0,96.9,1983-84,D. Nelson (50-32),.610,32,4.04,0.2,S. Moncrief (12.7),50,MilwaukeeBucks,107.8,-4.5
+NBA,101.4,1,Lost E. Conf. Finals,-3.3,100.0,1982-83,D. Nelson (51-31),.622,31,4.32,1.1,S. Moncrief (13.2),51,MilwaukeeBucks,105.8,-3.1
+NBA,102.3,1,Lost E. Conf. Semis,-4.6,100.0,1981-82,D. Nelson (55-27),.671,27,5.38,0.8,S. Moncrief (13.4),55,MilwaukeeBucks,107.7,-0.9
+NBA,101.8,1,Lost E. Conf. Semis,-3.7,103.6,1980-81,D. Nelson (60-22),.732,22,7.14,3.2,M. Johnson (11.2),60,MilwaukeeBucks,108.7,1.8
+NBA,102.9,1,Lost W. Conf. Semis,-2.4,102.4,1979-80,D. Nelson (49-33),.598,33,3.57,1.5,M. Johnson (11.5),49,MilwaukeeBucks,106.8,-0.7
+NBA,104.0,3,NA,0.2,106.5,1978-79,D. Nelson (38-44),.463,44,2.12,2.2,M. Johnson (12.2),38,MilwaukeeBucks,106.0,0.7
+NBA,102.4,2,Lost W. Conf. Semis,1.5,108.7,1977-78,D. Nelson (44-38),.537,38,-0.59,0.9,M. Johnson (10.6),44,MilwaukeeBucks,101.8,2.0
+NBA,102.9,6,NA,3.4,108.3,1976-77,"L. Costello (3-15), D. Nelson (27-37)",.366,52,-2.99,0.5,S. Nater (6.9),30,MilwaukeeBucks,100.0,1.8
+NBA,98.7,1,Lost W. Conf. 1st Rnd.,0.4,103.9,1975-76,L. Costello (38-44),.463,44,-1.55,-1.0,B. Dandridge (9.0),38,MilwaukeeBucks,97.3,-1.6
+NBA,97.8,4,NA,0.1,102.1,1974-75,L. Costello (38-44),.463,44,0.25,0.3,K. Abdul-Jabbar (12.9),38,MilwaukeeBucks,98.0,-2.4
+NBA,93.6,1,Lost Finals,-4.1,105.4,1973-74,L. Costello (59-23),.720,23,7.61,3.5,K. Abdul-Jabbar (18.4),59,MilwaukeeBucks,101.2,-2.4
+NBA,91.1,1,Lost W. Conf. Semis,-5.7,108.3,1972-73,L. Costello (60-22),.732,22,7.84,1.8,K. Abdul-Jabbar (21.9),60,MilwaukeeBucks,98.6,-2.4
+NBA,92.6,1,Lost W. Conf. Finals,-5.3,111.2,1971-72,L. Costello (63-19),.768,19,10.70,4.7,K. Abdul-Jabbar (25.4),63,MilwaukeeBucks,102.6,-0.8
+NBA,93.1,1,Won Finals,-4.1,113.4,1970-71,L. Costello (66-16),.805,16,11.92,6.7,K. Abdul-Jabbar (22.3),66,MilwaukeeBucks,103.9,-1.7
+NBA,98.1,2,Lost E. Div. Finals,-0.9,115.8,1969-70,L. Costello (56-26),.683,26,4.25,3.1,K. Abdul-Jabbar (13.8),56,MilwaukeeBucks,102.1,-1.3
+NBA,98.2,7,NA,2.7,117.5,1968-69,L. Costello (27-55),.329,55,-5.07,-1.6,J. McGlocklin (7.9),27,MilwaukeeBucks,93.9,0.6
+NBA,108.9,5,NA,3.4,94.5,2015-16,S. Mitchell (16-37),.302,37,-3.79,-0.6,K. Towns (5.2),16,MinnesotaTimberwolves,104.9,-1.0
+NBA,112.2,5,NA,6.6,94.4,2014-15,F. Saunders (16-66),.195,66,-8.00,-2.7,G. Dieng (4.9),16,MinnesotaTimberwolves,102.9,0.5
+NBA,106.2,3,NA,-0.5,97.3,2013-14,R. Adelman (40-42),.488,42,3.10,2.2,K. Love (14.3),40,MinnesotaTimberwolves,108.9,3.4
+NBA,105.4,5,NA,-0.5,92.8,2012-13,R. Adelman (31-51),.378,51,-1.83,-3.0,N. Pekovic (6.7),31,MinnesotaTimberwolves,102.9,0.8
+NBA,106.6,5,NA,2.0,93.3,2011-12,R. Adelman (26-40),.394,40,-1.83,-0.3,K. Love (10.0),26,MinnesotaTimberwolves,104.3,2.0
+NBA,111.1,5,NA,3.8,96.5,2010-11,K. Rambis (17-65),.207,65,-5.97,-3.1,K. Love (11.4),17,MinnesotaTimberwolves,104.2,4.4
+NBA,111.6,5,NA,4.0,96.1,2009-10,K. Rambis (15-67),.183,67,-9.06,-5.9,K. Love (4.9),15,MinnesotaTimberwolves,101.7,3.4
+NBA,111.4,4,NA,3.1,91.6,2008-09,"R. Wittman (4-15), K. McHale (20-43)",.293,58,-4.74,-2.2,K. Love (5.3),24,MinnesotaTimberwolves,106.1,-0.1
+NBA,111.2,4,NA,3.7,91.9,2007-08,R. Wittman (22-60),.268,60,-6.26,-3.7,A. Jefferson (7.7),22,MinnesotaTimberwolves,103.8,-0.5
+NBA,107.9,4,NA,1.4,91.0,2006-07,"D. Casey (20-20), R. Wittman (12-30)",.390,50,-3.16,-2.6,K. Garnett (10.7),32,MinnesotaTimberwolves,103.9,-0.9
+NBA,104.5,4,NA,-1.7,88.8,2005-06,D. Casey (33-49),.402,49,-1.75,-3.8,K. Garnett (14.9),33,MinnesotaTimberwolves,102.4,-1.7
+NBA,106.6,3,NA,0.5,89.1,2004-05,"F. Saunders (25-26), K. McHale (19-12)",.537,38,1.73,2.1,K. Garnett (16.1),44,MinnesotaTimberwolves,108.2,-1.8
+NBA,99.7,1,Lost W. Conf. Finals,-3.2,89.0,2003-04,F. Saunders (58-24),.707,24,5.86,3.0,K. Garnett (18.3),58,MinnesotaTimberwolves,105.9,-1.1
+NBA,103.8,3,Lost W. Conf. 1st Rnd.,0.2,91.9,2002-03,F. Saunders (51-31),.622,31,2.46,2.5,K. Garnett (15.6),51,MinnesotaTimberwolves,106.1,0.9
+NBA,105.3,3,Lost W. Conf. 1st Rnd.,0.8,90.5,2001-02,F. Saunders (50-32),.610,32,3.58,4.5,K. Garnett (12.8),50,MinnesotaTimberwolves,109.0,-0.2
+NBA,103.7,4,Lost W. Conf. 1st Rnd.,0.7,91.8,2000-01,F. Saunders (47-35),.573,35,1.81,2.2,K. Garnett (11.8),47,MinnesotaTimberwolves,105.2,0.5
+NBA,103.4,3,Lost W. Conf. 1st Rnd.,-0.7,91.8,1999-00,F. Saunders (50-32),.610,32,2.67,2.0,K. Garnett (11.6),50,MinnesotaTimberwolves,106.1,-1.3
+NBA,101.5,4,Lost W. Conf. 1st Rnd.,-0.7,91.0,1998-99,F. Saunders (25-25),.500,25,-0.17,-0.3,K. Garnett (5.4),25,MinnesotaTimberwolves,101.9,2.1
+NBA,107.1,3,Lost W. Conf. 1st Rnd.,2.1,92.6,1997-98,F. Saunders (45-37),.549,37,0.17,2.8,K. Garnett (9.6),45,MinnesotaTimberwolves,107.8,2.3
+NBA,107.1,3,Lost W. Conf. 1st Rnd.,0.4,90.7,1996-97,F. Saunders (40-42),.488,42,-1.82,-1.2,K. Garnett (7.3),40,MinnesotaTimberwolves,105.5,0.6
+NBA,109.8,5,NA,2.2,93.5,1995-96,"B. Blair (6-14), F. Saunders (20-42)",.317,56,-5.14,-3.5,T. Gugliotta (5.3),26,MinnesotaTimberwolves,104.1,1.7
+NBA,112.4,6,NA,4.1,91.4,1994-95,B. Blair (21-61),.256,61,-8.22,-5.7,C. Laettner (6.2),21,MinnesotaTimberwolves,102.6,-1.5
+NBA,109.2,5,NA,2.9,94.7,1993-94,S. Lowe (20-62),.244,62,-6.55,-4.4,M. Williams (5.6),20,MinnesotaTimberwolves,101.9,-0.4
+NBA,111.8,5,NA,3.8,93.8,1992-93,"J. Rodgers (6-23), S. Lowe (13-40)",.232,63,-7.62,-4.4,M. Williams (7.6),19,MinnesotaTimberwolves,103.6,-3.0
+NBA,112.4,6,NA,4.2,95.1,1991-92,J. Rodgers (15-67),.183,67,-6.85,-3.2,D. West (4.6),15,MinnesotaTimberwolves,105.0,-1.5
+NBA,110.9,5,NA,3.0,92.3,1990-91,B. Musselman (29-53),.354,53,-3.75,-1.2,P. Richardson (5.9),29,MinnesotaTimberwolves,106.7,-5.5
+NBA,108.2,6,NA,0.1,91.1,1989-90,B. Musselman (22-60),.268,60,-3.60,-4.5,T. Corbin (6.8),22,MinnesotaTimberwolves,103.6,-7.2
+NBA,108.7,5,NA,3.2,96.0,2015-16,A. Gentry (19-32),.373,32,-2.32,0.4,A. Davis (5.4),19,NewOrleansPelicans,105.9,0.5
+NBA,107.3,5,Lost W. Conf. 1st Rnd.,1.7,91.4,2014-15,M. Williams (45-37),.549,37,1.13,2.6,A. Davis (14.0),45,NewOrleansPelicans,108.2,-2.5
+NBA,110.1,5,NA,3.4,92.2,2013-14,M. Williams (34-48),.415,48,-1.98,0.5,A. Davis (10.4),34,NewOrleansPelicans,107.2,-1.7
+NBA,110.1,5,NA,4.2,88.5,2012-13,M. Williams (27-55),.329,55,-3.12,-0.2,R. Anderson (6.5),27,NewOrleansHornets,105.7,-3.5
+NBA,105.1,5,NA,0.5,88.3,2011-12,M. Williams (21-45),.318,45,-3.11,-3.7,J. Jack (3.8),21,NewOrleansHornets,100.9,-3.0
+NBA,105.2,3,Lost W. Conf. 1st Rnd.,-2.1,88.7,2010-11,M. Williams (46-36),.561,36,1.28,-1.1,C. Paul (13.9),46,NewOrleansHornets,106.2,-3.4
+NBA,110.1,5,NA,2.5,92.6,2009-10,"B. Scott (3-6), J. Bower (34-39)",.451,45,-2.27,-0.2,D. West (7.5),37,NewOrleansHornets,107.4,-0.1
+NBA,107.0,4,Lost W. Conf. 1st Rnd.,-1.3,87.8,2008-09,B. Scott (49-33),.598,33,1.41,0.4,C. Paul (18.3),49,NewOrleansHornets,108.7,-3.9
+NBA,105.7,1,Lost W. Conf. Semis,-1.8,89.9,2007-08,B. Scott (56-26),.683,26,5.46,4.0,C. Paul (17.8),56,NewOrleansHornets,111.5,-2.5
+NBA,106.5,4,NA,0.0,90.2,2006-07,B. Scott (39-43),.476,43,-1.19,-1.7,C. Paul (8.8),39,NewOrleansOklahomaCityHornets,104.8,-1.7
+NBA,106.8,4,NA,0.6,89.0,2005-06,B. Scott (38-44),.463,44,-2.51,-2.5,C. Paul (10.4),38,NewOrleansOklahomaCityHornets,103.7,-1.5
+NBA,107.7,5,NA,1.6,87.6,2004-05,B. Scott (18-64),.220,64,-6.30,-6.4,P. Brown (6.9),18,NewOrleansHornets,99.7,-3.3
+NBA,102.4,3,Lost E. Conf. 1st Rnd.,-0.5,89.1,2003-04,T. Floyd (41-41),.500,41,-0.72,-0.6,P. Brown (8.1),41,NewOrleansHornets,102.3,-1.0
+NBA,101.6,3,Lost E. Conf. 1st Rnd.,-2.0,89.4,2002-03,P. Silas (47-35),.573,35,1.52,0.3,P. Brown (10.2),47,NewOrleansHornets,103.9,-1.6
+NBA,107.2,3,NA,1.7,93.4,2015-16,D. Fisher (23-31),.426,31,-2.00,-0.5,C. Anthony (4.0),23,NewYorkKnicks,105.0,-2.1
+NBA,110.0,5,NA,4.4,91.2,2014-15,D. Fisher (17-65),.207,65,-9.50,-5.7,C. Anthony (2.9),17,NewYorkKnicks,99.9,-2.7
+NBA,109.1,3,NA,2.4,90.3,2013-14,M. Woodson (37-45),.451,45,-1.40,1.6,C. Anthony (10.7),37,NewYorkKnicks,108.3,-3.6
+NBA,106.3,1,Lost E. Conf. Semis,0.4,89.8,2012-13,M. Woodson (54-28),.659,28,3.73,5.2,C. Anthony (9.5),54,NewYorkKnicks,111.1,-2.2
+NBA,101.0,2,Lost E. Conf. 1st Rnd.,-3.6,93.2,2011-12,"M. D'Antoni (18-24), M. Woodson (18-6)",.545,30,2.39,-0.2,T. Chandler (9.5),36,NewYorkKnicks,104.4,1.9
+NBA,110.1,2,Lost E. Conf. 1st Rnd.,2.8,95.6,2010-11,M. D'Antoni (42-40),.512,40,0.48,3.6,A. Stoudemire (8.0),42,NewYorkKnicks,110.9,3.5
+NBA,111.6,3,NA,4.0,94.0,2009-10,M. D'Antoni (29-53),.354,53,-4.01,0.0,D. Lee (10.3),29,NewYorkKnicks,107.6,1.3
+NBA,110.8,5,NA,2.5,96.7,2008-09,M. D'Antoni (32-50),.390,50,-2.33,-0.2,D. Lee (9.0),32,NewYorkKnicks,108.1,5.0
+NBA,111.9,5,NA,4.4,91.6,2007-08,I. Thomas (23-59),.280,59,-6.55,-2.8,D. Lee (7.4),23,NewYorkKnicks,104.7,-0.8
+NBA,108.8,4,NA,2.3,90.8,2006-07,I. Thomas (33-49),.402,49,-3.06,-0.8,D. Lee (6.9),33,NewYorkKnicks,105.7,-1.1
+NBA,111.0,5,NA,4.8,90.8,2005-06,L. Brown (23-59),.280,59,-6.30,-2.2,J. Crawford (4.5),23,NewYorkKnicks,104.0,0.3
+NBA,108.9,5,NA,2.8,90.7,2004-05,"L. Wilkens (17-22), H. Williams (16-27)",.402,49,-2.72,0.1,S. Marbury (11.7),33,NewYorkKnicks,106.2,-0.2
+NBA,103.3,3,Lost E. Conf. 1st Rnd.,0.4,89.5,2003-04,"D. Chaney (15-24), H. Williams (1-0), L. Wilkens (23-19)",.476,43,-1.97,-1.2,S. Marbury (5.5),39,NewYorkKnicks,101.7,-0.6
+NBA,106.2,6,NA,2.6,90.7,2002-03,D. Chaney (37-45),.451,45,-1.61,1.1,A. Houston (7.2),37,NewYorkKnicks,104.7,-0.3
+NBA,105.9,7,NA,1.4,89.7,2001-02,"J. Van Gundy (10-9), D. Chaney (20-43)",.366,52,-4.15,-3.0,K. Thomas (6.5),30,NewYorkKnicks,101.5,-1.0
+NBA,98.2,3,Lost E. Conf. 1st Rnd.,-4.8,86.7,2000-01,J. Van Gundy (48-34),.585,34,1.98,-1.8,M. Camby (10.3),48,NewYorkKnicks,101.2,-4.6
+NBA,100.9,2,Lost E. Conf. Finals,-3.2,89.2,1999-00,J. Van Gundy (50-32),.610,32,1.30,-1.6,A. Houston (8.6),50,NewYorkKnicks,102.5,-3.9
+NBA,97.5,4,Lost Finals,-4.7,86.9,1998-99,J. Van Gundy (27-23),.540,23,1.45,-3.6,L. Johnson (4.9),27,NewYorkKnicks,98.6,-2.0
+NBA,100.3,2,Lost E. Conf. Semis,-4.7,88.2,1997-98,J. Van Gundy (43-39),.524,39,2.74,-2.0,C. Ward (7.1),43,NewYorkKnicks,103.0,-2.1
+NBA,101.0,2,Lost E. Conf. Semis,-5.7,90.5,1996-97,J. Van Gundy (57-25),.695,25,3.31,-2.3,P. Ewing (9.8),57,NewYorkKnicks,104.4,0.4
+NBA,103.5,2,Lost E. Conf. Semis,-4.1,91.0,1995-96,"D. Nelson (34-25), J. Van Gundy (13-10)",.573,35,2.24,-1.6,A. Mason (11.3),47,NewYorkKnicks,106.0,-0.8
+NBA,103.8,2,Lost E. Conf. Semis,-4.5,91.2,1994-95,P. Riley (55-27),.671,27,2.78,-1.1,P. Ewing (9.6),55,NewYorkKnicks,107.2,-1.7
+NBA,98.2,1,Lost Finals,-8.1,92.8,1993-94,P. Riley (57-25),.695,25,6.48,-0.6,P. Ewing (13.1),57,NewYorkKnicks,105.7,-2.3
+NBA,99.7,1,Lost E. Conf. Finals,-8.3,94.5,1992-93,P. Riley (60-22),.732,22,5.87,-1.9,P. Ewing (10.6),60,NewYorkKnicks,106.1,-2.3
+NBA,104.2,2,Lost E. Conf. Semis,-4.0,92.9,1991-92,P. Riley (51-31),.622,31,3.67,0.1,P. Ewing (13.0),51,NewYorkKnicks,108.3,-3.7
+NBA,107.3,3,Lost E. Conf. 1st Rnd.,-0.6,95.0,1990-91,"S. Jackson (7-8), J. MacLeod (32-35)",.476,43,-0.43,-0.8,P. Ewing (10.0),39,NewYorkKnicks,107.1,-2.8
+NBA,108.0,3,Lost E. Conf. Semis,-0.1,98.2,1989-90,S. Jackson (45-37),.549,37,0.78,1.3,P. Ewing (13.5),45,NewYorkKnicks,109.4,-0.1
+NBA,107.5,1,Lost E. Conf. Semis,-0.3,104.4,1988-89,R. Pitino (52-30),.634,30,3.62,3.3,P. Ewing (10.9),52,NewYorkKnicks,111.1,3.8
+NBA,106.4,3,Lost E. Conf. 1st Rnd.,-1.6,99.1,1987-88,R. Pitino (38-44),.463,44,0.14,-2.1,P. Ewing (8.1),38,NewYorkKnicks,105.9,-0.5
+NBA,111.1,5,NA,2.8,98.5,1986-87,"H. Brown (4-12), B. Hill (20-46)",.293,58,-5.42,-3.5,B. Cartwright (5.8),24,NewYorkKnicks,104.8,-2.3
+NBA,105.2,5,NA,-2.0,98.6,1985-86,H. Brown (23-59),.280,59,-4.82,-7.7,T. Tucker (4.0),23,NewYorkKnicks,99.5,-3.5
+NBA,109.6,5,NA,1.7,99.5,1984-85,H. Brown (24-58),.293,58,-4.09,-3.0,B. King (7.1),24,NewYorkKnicks,104.9,-2.6
+NBA,103.1,3,Lost E. Conf. Semis,-4.5,99.0,1983-84,H. Brown (47-35),.573,35,3.79,-0.6,B. King (12.1),47,NewYorkKnicks,107.0,-2.4
+NBA,99.9,4,Lost E. Conf. Semis,-4.8,97.0,1982-83,H. Brown (44-38),.537,38,2.58,-2.3,B. Cartwright (10.1),44,NewYorkKnicks,102.4,-6.1
+NBA,108.6,5,NA,1.7,99.5,1981-82,R. Holzman (33-49),.402,49,-2.15,-0.9,M. Lucas (7.4),33,NewYorkKnicks,106.0,-1.4
+NBA,104.4,3,Lost E. Conf. 1st Rnd.,-1.1,101.0,1980-81,R. Holzman (50-32),.610,32,2.00,0.5,B. Cartwright (10.0),50,NewYorkKnicks,106.0,-0.8
+NBA,107.5,4,NA,2.2,106.5,1979-80,R. Holzman (39-43),.476,43,-0.96,1.2,B. Cartwright (9.7),39,NewYorkKnicks,106.5,3.4
+NBA,105.4,4,NA,1.6,104.9,1978-79,"W. Reed (6-8), R. Holzman (25-43)",.378,51,-3.29,-1.6,T. Knight (5.7),31,NewYorkKnicks,102.2,-0.9
+NBA,102.2,2,Lost E. Conf. Semis,1.3,109.7,1977-78,W. Reed (43-39),.524,39,-0.53,0.8,B. McAdoo (10.9),43,NewYorkKnicks,101.7,3.0
+NBA,100.1,3,NA,0.6,108.1,1976-77,R. Holzman (40-42),.488,42,0.01,0.6,B. McAdoo (7.9),40,NewYorkKnicks,100.1,1.6
+NBA,99.2,4,NA,0.9,104.1,1975-76,R. Holzman (38-44),.463,44,-1.05,-0.3,E. Monroe (7.2),38,NewYorkKnicks,98.0,-1.4
+NBA,98.3,3,Lost E. Conf. 1st Rnd.,0.6,103.1,1974-75,R. Holzman (40-42),.488,42,-0.92,-0.6,W. Frazier (10.8),40,NewYorkKnicks,97.1,-1.4
+NBA,94.7,2,Lost E. Conf. Finals,-3.0,103.5,1973-74,R. Holzman (49-33),.598,33,2.42,-0.3,W. Frazier (10.9),49,NewYorkKnicks,97.4,-4.3
+NBA,92.5,2,Won Finals,-4.3,105.9,1972-73,R. Holzman (57-25),.695,25,6.07,2.1,W. Frazier (13.0),57,NewYorkKnicks,98.9,-4.8
+NBA,96.3,2,Lost Finals,-1.6,108.0,1971-72,R. Holzman (48-34),.585,34,2.28,0.6,W. Frazier (14.5),48,NewYorkKnicks,98.5,-4.0
+NBA,93.3,1,Lost E. Conf. Finals,-3.9,112.2,1970-71,R. Holzman (52-30),.634,30,5.05,0.6,W. Frazier (15.6),52,NewYorkKnicks,97.8,-2.9
+NBA,92.4,1,Won Finals,-6.6,114.3,1969-70,R. Holzman (60-22),.732,22,8.42,1.3,W. Frazier (15.0),60,NewYorkKnicks,100.3,-2.8
+NBA,93.3,3,Lost E. Div. Finals,-2.2,112.4,1968-69,R. Holzman (54-28),.659,28,5.48,2.9,W. Reed (14.7),54,NewYorkKnicks,98.4,-4.5
+NBA,96.5,3,Lost E. Div. Semis,-0.3,117.2,1967-68,"D. McGuire (15-22), R. Holzman (28-17)",.524,39,1.78,1.3,W. Bellamy (11.1),43,NewYorkKnicks,98.1,-2.6
+NBA,100.5,4,Lost E. Div. Semis,4.4,118.5,1966-67,D. McGuire (36-45),.444,45,-2.74,1.8,W. Bellamy (8.8),36,NewYorkKnicks,97.9,-3.1
+NBA,99.9,4,NA,5.0,118.9,1965-66,"H. Gallatin (6-15), D. McGuire (24-35)",.375,50,-2.31,2.9,W. Bellamy (8.9),30,NewYorkKnicks,97.8,-2.5
+NBA,96.4,4,NA,2.8,113.5,1964-65,"E. Donovan (12-26), H. Gallatin (19-23)",.388,49,-3.26,-0.4,W. Reed (5.5),31,NewYorkKnicks,93.2,-3.8
+NBA,101.2,4,NA,6.6,117.1,1963-64,E. Donovan (22-58),.275,58,-5.91,0.8,B. McGill (4.5),22,NewYorkKnicks,95.4,3.9
+NBA,99.7,4,NA,3.8,117.5,1962-63,E. Donovan (21-59),.263,59,-6.20,-2.4,R. Guerin (7.2),21,NewYorkKnicks,93.5,2.5
+NBA,95.0,4,NA,1.4,125.6,1961-62,E. Donovan (29-51),.363,51,-3.98,-2.4,R. Guerin (12.1),29,NewYorkKnicks,91.2,4.3
+NBA,97.1,4,NA,5.0,122.9,1960-61,C. Braun (21-58),.266,58,-5.43,-0.2,W. Naulls (5.7),21,NewYorkKnicks,91.9,-0.6
+NBA,94.9,4,NA,3.8,125.9,1959-60,"A. Levane (8-19), C. Braun (19-29)",.360,48,-1.43,1.9,K. Sears (8.8),27,NewYorkKnicks,93.0,3.6
+NBA,92.7,2,Lost E. Div. Semis,2.5,118.0,1958-59,A. Levane (40-32),.556,32,0.49,2.8,K. Sears (13.3),40,NewYorkKnicks,93.0,6.0
+NBA,90.8,4,NA,2.0,121.5,1957-58,V. Boryla (35-37),.486,37,1.35,2.9,K. Sears (10.0),35,NewYorkKnicks,91.7,4.5
+NBA,90.7,4,NA,1.8,110.5,1956-57,V. Boryla (36-36),.500,36,0.07,1.7,H. Gallatin (8.1),36,NewYorkKnicks,90.6,5.6
+NBA,92.8,4,Lost E. Div. Third Place Tiebreaker,2.5,106.5,1955-56,"J. Lapchick (26-25), V. Boryla (9-12)",.486,37,-0.20,2.1,K. Sears (6.2),35,NewYorkKnicks,92.4,3.7
+NBA,90.1,2,Lost E. Div. Semis,0.3,101.8,1954-55,J. Lapchick (38-34),.528,34,0.11,0.4,H. Gallatin (8.3),38,NewYorkKnicks,90.2,3.7
+NBA,89.4,1,Eliminated in E. Div. Rnd. Robin,1.9,87.4,1953-54,J. Lapchick (44-28),.611,28,-0.16,1.8,H. Gallatin (11.8),44,NewYorkKnicks,89.3,3.8
+NBA,85.0,1,Lost Finals,-2.7,93.1,1952-53,J. Lapchick (47-23),.671,23,4.39,2.5,H. Gallatin (11.3),47,NewYorkKnicks,90.5,12.6
+NBA,87.9,3,Lost Finals,1.0,94.9,1951-52,J. Lapchick (37-29),.561,29,0.67,1.8,H. Gallatin (8.9),37,NewYorkKnicks,88.7,9.1
+NBA,87.6,3,Lost Finals,2.5,94.8,1950-51,J. Lapchick (36-30),.545,30,0.49,2.9,H. Gallatin (7.6),36,NewYorkKnicks,88.0,9.3
+NBA,NA,2,Lost E. Div. Finals,NA,NA,1949-50,J. Lapchick (40-28),.588,28,2.53,2.9,H. Gallatin (7.8),40,NewYorkKnicks,NA,NA
+BAA,NA,2,Lost E. Div. Finals,NA,NA,1948-49,J. Lapchick (32-28),.533,28,1.24,2.9,B. Palmer (7.2),32,NewYorkKnicks,NA,NA
+BAA,NA,2,Lost Quarterfinals,NA,NA,1947-48,J. Lapchick (26-22),.542,22,2.30,2.9,B. Palmer (7.4),26,NewYorkKnicks,NA,NA
+BAA,NA,3,Lost Semis,NA,NA,1946-47,N. Cohalan (33-27),.550,27,0.58,2.9,O. Schectman (4.3),33,NewYorkKnicks,NA,NA
+NBA,104.8,1,NA,-0.7,96.5,2015-16,B. Donovan (39-14),.736,14,6.72,7.5,K. Durant (9.7),39,OklahomaCityThunder,113.0,1.0
+NBA,105.5,2,NA,-0.1,95.7,2014-15,S. Brooks (45-37),.549,37,2.47,2.2,R. Westbrook (10.6),45,OklahomaCityThunder,107.8,1.8
+NBA,103.9,1,Lost W. Conf. Finals,-2.8,95.4,2013-14,S. Brooks (59-23),.720,23,6.66,3.8,K. Durant (19.2),59,OklahomaCityThunder,110.5,1.5
+NBA,102.6,1,Lost W. Conf. Semis,-3.3,93.3,2012-13,S. Brooks (60-22),.732,22,9.15,6.5,K. Durant (18.9),60,OklahomaCityThunder,112.4,1.3
+NBA,103.2,1,Lost Finals,-1.4,93.0,2011-12,S. Brooks (47-19),.712,19,6.44,5.2,K. Durant (12.2),47,OklahomaCityThunder,109.8,1.7
+NBA,107.2,1,Lost W. Conf. Finals,-0.1,92.7,2010-11,S. Brooks (55-27),.671,27,3.81,3.9,K. Durant (12.0),55,OklahomaCityThunder,111.2,0.6
+NBA,104.6,4,Lost W. Conf. 1st Rnd.,-3.0,93.1,2009-10,S. Brooks (50-32),.610,32,3.55,0.7,K. Durant (16.1),50,OklahomaCityThunder,108.3,0.4
+NBA,109.4,5,NA,1.1,93.6,2008-09,"P. Carlesimo (1-12), S. Brooks (22-47)",.280,59,-6.04,-5.4,K. Durant (7.9),23,OklahomaCityThunder,102.9,1.9
+NBA,109.5,5,NA,2.0,96.3,2007-08,P. Carlesimo (20-62),.244,62,-8.04,-7.0,N. Collison (4.5),20,SeattleSuperSonics,100.5,3.9
+NBA,110.3,5,NA,3.8,91.8,2006-07,B. Hill (31-51),.378,51,-2.45,0.7,R. Lewis (7.6),31,SeattleSuperSonics,107.2,-0.1
+NBA,114.4,3,NA,8.2,91.6,2005-06,"B. Weiss (13-17), B. Hill (22-30)",.427,47,-2.88,4.9,R. Allen (9.5),35,SeattleSuperSonics,111.1,1.1
+NBA,109.6,1,Lost W. Conf. Semis,3.5,87.9,2004-05,N. McMillan (52-30),.634,30,2.59,6.1,R. Allen (10.7),52,SeattleSuperSonics,112.2,-3.0
+NBA,108.0,5,NA,5.1,89.9,2003-04,N. McMillan (37-45),.451,45,0.02,4.4,R. Allen (6.9),37,SeattleSuperSonics,107.3,-0.2
+NBA,103.9,5,NA,0.3,88.0,2002-03,N. McMillan (40-42),.488,42,0.37,0.1,R. Lewis (7.8),40,SeattleSuperSonics,103.7,-3.0
+NBA,105.6,4,Lost W. Conf. 1st Rnd.,1.1,89.0,2001-02,N. McMillan (45-37),.549,37,3.24,4.4,G. Payton (12.6),45,SeattleSuperSonics,108.9,-1.7
+NBA,105.6,5,NA,2.6,91.6,2000-01,"P. Westphal (6-9), N. McMillan (38-29)",.537,38,0.55,2.6,G. Payton (10.8),44,SeattleSuperSonics,105.6,0.3
+NBA,104.6,4,Lost W. Conf. 1st Rnd.,0.5,93.4,1999-00,P. Westphal (45-37),.549,37,1.17,1.5,G. Payton (13.9),45,SeattleSuperSonics,105.6,0.3
+NBA,106.2,5,NA,4.0,89.6,1998-99,P. Westphal (25-25),.500,25,-1.43,2.8,G. Payton (7.2),25,SeattleSuperSonics,105.0,0.7
+NBA,103.6,1,Lost W. Conf. Semis,-1.4,89.8,1997-98,G. Karl (61-21),.744,21,6.33,6.6,G. Payton (12.5),61,SeattleSuperSonics,111.6,-0.5
+NBA,102.7,1,Lost W. Conf. Semis,-4.0,90.3,1996-97,G. Karl (57-25),.695,25,6.91,4.5,G. Payton (12.9),57,SeattleSuperSonics,111.2,0.2
+NBA,102.1,1,Lost Finals,-5.5,93.8,1995-96,G. Karl (64-18),.780,18,7.40,2.7,G. Payton (11.5),64,SeattleSuperSonics,110.3,2.0
+NBA,106.3,2,Lost W. Conf. 1st Rnd.,-2.0,95.5,1994-95,G. Karl (57-25),.695,25,7.91,6.5,D. Schrempf (12.9),57,SeattleSuperSonics,114.8,2.6
+NBA,101.5,1,Lost W. Conf. 1st Rnd.,-4.8,95.1,1993-94,G. Karl (63-19),.768,19,8.68,4.8,S. Kemp (11.7),63,SeattleSuperSonics,111.1,0.0
+NBA,104.9,2,Lost W. Conf. Finals,-3.1,96.0,1992-93,G. Karl (55-27),.671,27,6.66,4.3,S. Kemp (9.1),55,SeattleSuperSonics,112.3,-0.8
+NBA,108.8,4,Lost W. Conf. Semis,0.6,95.4,1991-92,"K. Jones (18-18), B. Kloppenburg (2-2), G. Karl (27-15)",.573,35,1.86,2.5,R. Pierce (7.8),47,SeattleSuperSonics,110.7,-1.2
+NBA,108.5,5,Lost W. Conf. 1st Rnd.,0.6,96.2,1990-91,K. Jones (41-41),.500,41,1.31,1.8,D. McKey (6.4),41,SeattleSuperSonics,109.7,-1.6
+NBA,109.8,4,NA,1.7,95.3,1989-90,B. Bickerstaff (41-41),.500,41,1.40,2.8,M. Cage (6.8),41,SeattleSuperSonics,110.9,-3.0
+NBA,108.6,3,Lost W. Conf. Semis,0.8,100.1,1988-89,B. Bickerstaff (47-35),.573,35,2.44,3.7,D. Ellis (10.8),47,SeattleSuperSonics,111.5,-0.5
+NBA,108.1,3,Lost W. Conf. 1st Rnd.,0.1,100.2,1987-88,B. Bickerstaff (44-38),.537,38,1.29,2.2,D. Ellis (9.0),44,SeattleSuperSonics,110.2,0.6
+NBA,110.3,4,Lost W. Conf. Finals,2.0,101.8,1986-87,B. Bickerstaff (39-43),.476,43,0.08,2.4,D. Ellis (9.3),39,SeattleSuperSonics,110.7,1.0
+NBA,106.0,5,NA,-1.2,97.4,1985-86,B. Bickerstaff (31-51),.378,51,-0.47,-1.3,J. Sikma (7.8),31,SeattleSuperSonics,105.9,-4.7
+NBA,108.2,4,NA,0.3,99.3,1984-85,L. Wilkens (31-51),.378,51,-5.44,-5.1,J. Sikma (8.3),31,SeattleSuperSonics,102.8,-2.8
+NBA,108.1,3,Lost W. Conf. 1st Rnd.,0.5,99.7,1983-84,L. Wilkens (42-40),.512,40,-0.34,0.3,J. Sikma (9.7),42,SeattleSuperSonics,107.9,-1.7
+NBA,102.8,3,Lost W. Conf. 1st Rnd.,-1.9,103.2,1982-83,L. Wilkens (48-34),.585,34,2.88,1.2,J. Sikma (9.8),48,SeattleSuperSonics,105.9,0.1
+NBA,102.3,2,Lost W. Conf. Semis,-4.6,100.0,1981-82,L. Wilkens (52-30),.634,30,3.69,-0.5,J. Sikma (12.6),52,SeattleSuperSonics,106.4,-0.9
+NBA,104.8,6,NA,-0.7,100.3,1980-81,L. Wilkens (34-48),.415,48,-1.84,-2.3,J. Sikma (8.0),34,SeattleSuperSonics,103.2,-1.5
+NBA,101.2,2,Lost W. Conf. Finals,-4.1,101.8,1979-80,L. Wilkens (56-26),.683,26,4.24,0.5,G. Williams (11.6),56,SeattleSuperSonics,105.8,-1.3
+NBA,100.1,1,Won Finals,-3.7,103.4,1978-79,L. Wilkens (52-30),.634,30,2.69,-1.1,J. Sikma (8.8),52,SeattleSuperSonics,102.7,-2.4
+NBA,97.7,3,Lost Finals,-3.2,104.8,1977-78,"B. Hopkins (5-17), L. Wilkens (42-18)",.573,35,1.48,-1.7,M. Webster (8.7),47,SeattleSuperSonics,99.2,-1.9
+NBA,98.2,4,NA,-1.3,106.8,1976-77,B. Russell (40-42),.488,42,-1.43,-2.8,F. Brown (6.1),40,SeattleSuperSonics,96.7,0.3
+NBA,98.6,2,Lost W. Conf. Semis,0.3,107.7,1975-76,B. Russell (43-39),.524,39,-0.15,0.0,F. Brown (8.8),43,SeattleSuperSonics,98.3,2.2
+NBA,97.7,2,Lost W. Conf. Semis,0.0,105.5,1974-75,B. Russell (43-39),.524,39,-1.19,-1.0,F. Brown (7.9),43,SeattleSuperSonics,96.7,1.0
+NBA,99.1,3,NA,1.4,110.2,1973-74,B. Russell (36-46),.439,46,-2.29,-0.9,S. Haywood (9.7),36,SeattleSuperSonics,96.8,2.4
+NBA,99.1,4,NA,2.3,110.0,1972-73,"T. Nissalke (13-32), B. Buckwalter (13-24)",.317,56,-5.33,-3.0,S. Haywood (10.2),26,SeattleSuperSonics,93.8,-0.7
+NBA,98.1,3,NA,0.2,110.5,1971-72,L. Wilkens (47-35),.573,35,0.86,0.6,L. Wilkens (9.6),47,SeattleSuperSonics,98.5,-1.5
+NBA,100.1,4,NA,2.9,116.5,1970-71,L. Wilkens (38-44),.463,44,-1.53,1.2,D. Snyder (10.0),38,SeattleSuperSonics,98.4,1.4
+NBA,102.1,5,NA,3.1,116.4,1969-70,L. Wilkens (36-46),.439,46,-2.43,1.0,D. Snyder (6.0),36,SeattleSuperSonics,100.0,-0.7
+NBA,98.8,6,NA,3.3,117.4,1968-69,A. Bianchi (30-52),.366,52,-4.68,-0.8,L. Wilkens (9.0),30,SeattleSuperSonics,94.7,0.5
+NBA,100.6,5,NA,3.8,123.9,1967-68,A. Bianchi (23-59),.280,59,-6.00,-1.4,B. Rule (6.4),23,SeattleSuperSonics,95.4,4.1
+NBA,105.2,4,NA,-0.3,94.3,2015-16,S. Skiles (23-28),.451,28,-1.52,-1.7,N. Vucevic (4.0),23,OrlandoMagic,103.8,-1.2
+NBA,107.7,5,NA,2.1,93.8,2014-15,"J. Vaughn (15-37), J. Borrego (10-20)",.305,57,-5.87,-4.0,N. Vucevic (7.0),25,OrlandoMagic,101.6,-0.1
+NBA,107.4,5,NA,0.7,93.6,2013-14,J. Vaughn (23-59),.280,59,-5.88,-5.0,A. Afflalo (5.3),23,OrlandoMagic,101.7,-0.3
+NBA,109.1,5,NA,3.2,92.2,2012-13,J. Vaughn (20-62),.244,62,-7.12,-4.3,N. Vucevic (5.7),20,OrlandoMagic,101.6,0.2
+NBA,104.1,3,Lost E. Conf. 1st Rnd.,-0.5,89.0,2011-12,S. Van Gundy (37-29),.561,29,0.46,0.4,R. Anderson (8.9),37,OrlandoMagic,105.0,-2.3
+NBA,102.0,2,Lost E. Conf. 1st Rnd.,-5.3,91.2,2010-11,S. Van Gundy (52-30),.634,30,4.92,0.6,D. Howard (14.4),52,OrlandoMagic,107.9,-0.9
+NBA,103.3,1,Lost E. Conf. Finals,-4.3,92.0,2009-10,S. Van Gundy (59-23),.720,23,7.12,3.8,D. Howard (13.2),59,OrlandoMagic,111.4,-0.7
+NBA,101.9,1,Lost Finals,-6.4,92.3,2008-09,S. Van Gundy (59-23),.720,23,6.48,0.9,D. Howard (13.8),59,OrlandoMagic,109.2,0.6
+NBA,105.5,1,Lost E. Conf. Semis,-2.0,93.4,2007-08,S. Van Gundy (52-30),.634,30,4.79,3.8,D. Howard (12.9),52,OrlandoMagic,111.3,1.0
+NBA,104.1,3,Lost E. Conf. 1st Rnd.,-2.4,89.9,2006-07,B. Hill (40-42),.488,42,0.35,-1.6,D. Howard (9.7),40,OrlandoMagic,104.9,-2.0
+NBA,107.5,3,NA,1.3,88.3,2005-06,B. Hill (36-46),.439,46,-1.26,0.1,D. Howard (8.6),36,OrlandoMagic,106.3,-2.2
+NBA,107.3,3,NA,1.2,94.7,2004-05,"J. Davis (31-33), C. Jent (5-13)",.439,46,-2.52,-1.2,D. Howard (7.3),36,OrlandoMagic,104.9,3.8
+NBA,110.4,7,NA,7.5,90.8,2003-04,"D. Rivers (1-10), J. Davis (20-51)",.256,61,-7.25,-0.2,T. McGrady (8.4),21,OrlandoMagic,102.7,0.7
+NBA,105.0,4,Lost E. Conf. 1st Rnd.,1.4,93.1,2002-03,D. Rivers (42-40),.512,40,-0.39,1.6,T. McGrady (16.1),42,OrlandoMagic,105.2,2.1
+NBA,105.3,3,Lost E. Conf. 1st Rnd.,0.8,93.2,2001-02,D. Rivers (44-38),.537,38,1.25,2.5,T. McGrady (11.5),44,OrlandoMagic,107.0,2.5
+NBA,102.1,4,Lost E. Conf. 1st Rnd.,-0.9,93.2,2000-01,D. Rivers (43-39),.524,39,0.39,0.2,T. McGrady (12.2),43,OrlandoMagic,103.2,1.9
+NBA,101.7,4,NA,-2.4,97.3,1999-00,D. Rivers (41-41),.500,41,0.43,-1.7,D. Armstrong (8.0),41,OrlandoMagic,102.4,4.2
+NBA,97.4,2,Lost E. Conf. 1st Rnd.,-4.8,88.8,1998-99,C. Daly (33-17),.660,17,3.11,-1.9,D. Armstrong (6.4),33,OrlandoMagic,100.3,-0.1
+NBA,103.8,5,NA,-1.2,87.1,1997-98,C. Daly (41-41),.500,41,-0.53,-2.4,B. Outlaw (7.6),41,OrlandoMagic,102.6,-3.2
+NBA,106.0,3,Lost E. Conf. 1st Rnd.,-0.7,88.3,1996-97,"B. Hill (24-25), R. Adubato (21-12)",.549,37,-0.07,-1.1,A. Hardaway (8.1),45,OrlandoMagic,105.6,-1.8
+NBA,106.9,1,Lost E. Conf. Finals,-0.7,91.8,1995-96,B. Hill (60-22),.732,22,5.40,5.3,A. Hardaway (14.4),60,OrlandoMagic,112.9,0.0
+NBA,107.8,1,Lost Finals,-0.5,95.1,1994-95,B. Hill (57-25),.695,25,6.44,6.8,S. O'Neal (14.0),57,OrlandoMagic,115.1,2.2
+NBA,106.7,2,Lost E. Conf. 1st Rnd.,0.4,95.2,1993-94,B. Hill (50-32),.610,32,3.68,4.5,S. O'Neal (16.9),50,OrlandoMagic,110.8,0.1
+NBA,107.1,4,NA,-0.9,96.3,1992-93,M. Guokas (41-41),.500,41,1.35,0.5,S. O'Neal (10.4),41,OrlandoMagic,108.5,-0.5
+NBA,110.5,7,NA,2.3,98.0,1991-92,M. Guokas (21-61),.256,61,-6.52,-4.7,T. Catledge (4.6),21,OrlandoMagic,103.5,1.4
+NBA,109.9,4,NA,2.0,99.5,1990-91,M. Guokas (31-51),.378,51,-3.79,-2.0,S. Skiles (7.0),31,OrlandoMagic,105.9,1.7
+NBA,114.3,7,NA,6.2,104.1,1989-90,M. Guokas (18-64),.220,64,-8.73,-2.3,O. Smith (3.3),18,OrlandoMagic,105.8,5.8
+NBA,106.9,5,NA,1.4,97.6,2015-16,B. Brown (8-44),.154,44,-9.73,-9.1,N. Noel (2.2),8,Philadelphiaers,96.4,2.1
+NBA,104.8,4,NA,-0.8,95.7,2014-15,B. Brown (18-64),.220,64,-9.04,-10.1,N. Noel (4.0),18,Philadelphiaers,95.5,1.8
+NBA,109.9,5,NA,3.2,99.2,2013-14,B. Brown (19-63),.232,63,-10.66,-7.3,T. Young (3.5),19,Philadelphiaers,99.4,5.3
+NBA,105.7,4,NA,-0.2,91.0,2012-13,D. Collins (34-48),.415,48,-3.51,-3.9,T. Young (7.4),34,Philadelphiaers,102.0,-1.0
+NBA,99.2,3,Lost E. Conf. Semis,-5.4,89.7,2011-12,D. Collins (35-31),.530,31,3.59,-0.7,A. Iguodala (7.3),35,Philadelphiaers,103.9,-1.6
+NBA,105.0,3,Lost E. Conf. 1st Rnd.,-2.3,91.7,2010-11,D. Collins (41-41),.500,41,1.01,-0.7,E. Brand (9.4),41,Philadelphiaers,106.6,-0.4
+NBA,110.3,4,NA,2.7,91.6,2009-10,E. Jordan (27-55),.329,55,-3.93,-1.5,A. Iguodala (6.7),27,Philadelphiaers,106.1,-1.1
+NBA,107.8,2,Lost E. Conf. 1st Rnd.,-0.5,90.0,2008-09,"M. Cheeks (9-14), T. DiLeo (32-27)",.500,41,0.16,-0.4,A. Iguodala (9.2),41,Philadelphiaers,107.9,-1.7
+NBA,106.0,3,Lost E. Conf. 1st Rnd.,-1.5,90.4,2007-08,M. Cheeks (40-42),.488,42,0.19,-1.1,A. Iguodala (9.6),40,Philadelphiaers,106.4,-2.0
+NBA,106.9,3,NA,0.4,90.7,2006-07,M. Cheeks (35-47),.427,47,-3.26,-2.9,A. Iguodala (7.7),35,Philadelphiaers,103.6,-1.2
+NBA,108.1,2,NA,1.9,92.7,2005-06,M. Cheeks (38-44),.463,44,-2.10,-0.2,A. Iverson (10.6),38,Philadelphiaers,106.0,2.2
+NBA,104.3,2,Lost E. Conf. 1st Rnd.,-1.8,94.9,2004-05,J. O'Brien (43-39),.524,39,-1.07,-2.6,A. Iverson (9.0),43,Philadelphiaers,103.5,4.0
+NBA,101.9,5,NA,-1.0,88.0,2003-04,"R. Ayers (21-31), C. Ford (12-18)",.402,49,-2.95,-3.8,S. Dalembert (6.9),33,Philadelphiaers,99.1,-2.1
+NBA,102.5,2,Lost E. Conf. Semis,-1.1,91.4,2002-03,L. Brown (48-34),.585,34,1.76,1.4,A. Iverson (9.2),48,Philadelphiaers,105.0,0.4
+NBA,100.3,4,Lost E. Conf. 1st Rnd.,-4.2,88.9,2001-02,L. Brown (43-39),.524,39,1.27,-2.4,D. Mutombo (9.6),43,Philadelphiaers,102.1,-1.8
+NBA,98.9,1,Lost Finals,-4.1,90.6,2000-01,L. Brown (56-26),.683,26,3.64,0.6,A. Iverson (11.8),56,Philadelphiaers,103.6,-0.7
+NBA,100.0,3,Lost E. Conf. Semis,-4.1,92.7,1999-00,L. Brown (49-33),.598,33,1.02,-2.6,A. Iverson (6.9),49,Philadelphiaers,101.5,-0.4
+NBA,97.6,3,Lost E. Conf. Semis,-4.6,88.6,1998-99,L. Brown (28-22),.560,22,2.56,-2.3,A. Iverson (7.2),28,Philadelphiaers,99.9,-0.3
+NBA,105.4,7,NA,0.4,90.4,1997-98,L. Brown (31-51),.378,51,-1.89,-2.2,A. Iverson (9.0),31,Philadelphiaers,102.8,0.1
+NBA,111.4,6,NA,4.7,95.3,1996-97,J. Davis (22-60),.268,60,-5.89,-2.1,C. Weatherspoon (5.0),22,Philadelphiaers,104.6,5.2
+NBA,113.0,7,NA,5.4,92.2,1995-96,J. Lucas (18-64),.220,64,-9.45,-5.4,C. Weatherspoon (5.8),18,Philadelphiaers,102.2,0.4
+NBA,109.7,6,NA,1.4,91.0,1994-95,J. Lucas (24-58),.293,58,-5.06,-4.2,D. Barros (12.7),24,Philadelphiaers,104.1,-1.9
+NBA,109.7,6,NA,3.4,95.7,1993-94,F. Carter (25-57),.305,57,-7.37,-4.6,C. Weatherspoon (6.0),25,Philadelphiaers,101.7,0.6
+NBA,110.4,6,NA,2.4,98.5,1992-93,"D. Moe (19-37), F. Carter (7-19)",.317,56,-5.25,-3.4,H. Hawkins (8.5),26,Philadelphiaers,104.6,1.7
+NBA,109.7,5,NA,1.5,93.7,1991-92,J. Lynam (35-47),.427,47,-1.34,0.1,C. Barkley (12.3),35,Philadelphiaers,108.3,-2.9
+NBA,108.1,2,Lost E. Conf. Semis,0.2,95.7,1990-91,J. Lynam (44-38),.537,38,-0.39,0.0,C. Barkley (13.4),44,Philadelphiaers,107.9,-2.1
+NBA,108.4,1,Lost E. Conf. Semis,0.3,96.5,1989-90,J. Lynam (53-29),.646,29,4.23,5.4,C. Barkley (17.3),53,Philadelphiaers,113.5,-1.8
+NBA,111.5,2,Lost E. Conf. 1st Rnd.,3.7,98.5,1988-89,J. Lynam (46-36),.561,36,1.68,5.2,C. Barkley (16.1),46,Philadelphiaers,113.0,-2.1
+NBA,110.3,4,NA,2.3,96.0,1987-88,"M. Guokas (20-23), J. Lynam (16-23)",.439,46,-0.79,0.8,C. Barkley (16.7),36,Philadelphiaers,108.8,-3.6
+NBA,108.5,2,Lost E. Conf. 1st Rnd.,0.2,97.3,1986-87,M. Guokas (45-37),.549,37,0.11,0.0,C. Barkley (12.0),45,Philadelphiaers,108.3,-3.5
+NBA,106.3,2,Lost E. Conf. Semis,-0.9,100.5,1985-86,M. Guokas (54-28),.659,28,2.46,1.4,C. Barkley (10.8),54,Philadelphiaers,108.6,-1.6
+NBA,107.3,2,Lost E. Conf. Finals,-0.6,100.8,1984-85,B. Cunningham (58-24),.707,24,4.17,3.4,M. Malone (11.9),58,Philadelphiaers,111.3,-1.3
+NBA,104.6,2,Lost E. Conf. 1st Rnd.,-3.0,99.6,1983-84,B. Cunningham (52-30),.634,30,2.39,-0.8,J. Erving (10.1),52,Philadelphiaers,106.8,-1.8
+NBA,100.9,1,Won Finals,-3.8,102.7,1982-83,B. Cunningham (65-17),.793,17,7.53,3.6,M. Malone (15.1),65,Philadelphiaers,108.3,-0.4
+NBA,103.9,2,Lost Finals,-3.0,100.6,1981-82,B. Cunningham (58-24),.707,24,5.74,2.7,J. Erving (13.3),58,Philadelphiaers,109.6,-0.3
+NBA,99.5,2,Lost E. Conf. Finals,-6.0,103.4,1980-81,B. Cunningham (62-20),.756,20,7.76,1.5,J. Erving (13.8),62,Philadelphiaers,107.0,1.6
+NBA,101.0,2,Lost Finals,-4.3,103.0,1979-80,B. Cunningham (59-23),.720,23,4.04,-0.3,J. Erving (12.5),59,Philadelphiaers,105.0,-0.1
+NBA,100.3,2,Lost E. Conf. Semis,-3.5,106.7,1978-79,B. Cunningham (47-35),.573,35,1.74,-1.8,J. Erving (7.9),47,Philadelphiaers,102.0,0.9
+NBA,100.3,1,Lost E. Conf. Finals,-0.6,108.4,1977-78,"G. Shue (2-4), B. Cunningham (53-23)",.671,27,4.87,4.1,J. Erving (9.1),55,Philadelphiaers,105.0,1.7
+NBA,97.6,1,Lost Finals,-1.9,108.3,1976-77,G. Shue (50-32),.610,32,3.78,1.7,J. Erving (11.5),50,Philadelphiaers,101.2,1.8
+NBA,98.0,2,Lost E. Conf. 1st Rnd.,-0.3,107.5,1975-76,G. Shue (46-36),.561,36,0.33,-0.1,D. Collins (10.0),46,Philadelphiaers,98.2,2.0
+NBA,98.8,4,NA,1.1,103.4,1974-75,G. Shue (34-48),.415,48,-2.60,-1.9,D. Collins (7.7),34,Philadelphiaers,95.8,-1.1
+NBA,99.0,4,NA,1.3,108.3,1973-74,G. Shue (25-57),.305,57,-5.94,-4.6,S. Mix (8.2),25,Philadelphiaers,93.1,0.5
+NBA,100.6,4,NA,3.8,115.2,1972-73,"R. Rubin (4-47), K. Loughery (5-26)",.110,73,-11.50,-6.6,J. Block (3.4),9,Philadelphiaers,90.2,4.5
+NBA,99.5,3,NA,1.6,115.8,1971-72,J. Ramsay (30-52),.366,52,-3.44,-1.5,B. Cunningham (8.3),30,Philadelphiaers,96.4,3.8
+NBA,97.5,2,Lost E. Conf. Semis,0.3,115.7,1970-71,J. Ramsay (47-35),.573,35,1.81,1.6,A. Clark (11.4),47,Philadelphiaers,98.8,0.6
+NBA,97.7,4,Lost E. Div. Semis,-1.3,120.9,1969-70,J. Ramsay (42-40),.512,40,3.32,1.5,B. Cunningham (10.3),42,Philadelphiaers,100.5,3.8
+NBA,93.9,2,Lost E. Div. Semis,-1.6,120.4,1968-69,J. Ramsay (55-27),.671,27,4.79,2.6,H. Greer (9.9),55,Philadelphiaers,98.1,3.5
+NBA,91.2,1,Lost E. Div. Finals,-5.6,124.3,1967-68,A. Hannum (62-20),.756,20,7.96,1.3,W. Chamberlain (20.4),62,Philadelphiaers,98.1,4.5
+NBA,93.9,1,Won Finals,-2.2,122.9,1966-67,A. Hannum (68-13),.840,13,8.50,5.4,W. Chamberlain (21.9),68,Philadelphiaers,101.5,1.3
+NBA,91.5,1,Lost E. Div. Finals,-3.4,122.8,1965-66,D. Schayes (55-25),.688,25,4.16,0.4,W. Chamberlain (21.4),55,Philadelphiaers,95.3,1.4
+NBA,94.2,3,Lost E. Div. Finals,0.6,119.1,1964-65,D. Schayes (40-40),.500,40,-0.13,0.5,W. Chamberlain (7.6),40,Philadelphiaers,94.1,1.8
+NBA,97.5,3,Lost E. Div. Semis,2.9,119.4,1963-64,D. Schayes (34-46),.425,46,-3.75,-0.8,H. Greer (8.1),34,Philadelphiaers,93.8,6.2
+NBA,95.3,2,Lost E. Div. Semis,-0.6,123.3,1962-63,A. Hannum (48-32),.600,32,3.40,2.5,H. Greer (8.2),48,SyracuseNationals,98.4,8.3
+NBA,91.6,3,Lost E. Div. Semis,-2.0,128.8,1961-62,A. Hannum (41-39),.513,39,2.24,-0.2,H. Greer (8.5),41,SyracuseNationals,93.4,7.5
+NBA,91.9,3,Lost E. Div. Finals,-0.2,129.1,1960-61,A. Hannum (38-41),.481,41,1.93,1.5,L. Costello (8.6),38,SyracuseNationals,93.6,5.6
+NBA,91.0,3,Lost E. Div. Semis,-0.1,127.2,1959-60,P. Seymour (45-30),.600,30,2.77,2.0,D. Schayes (9.5),45,SyracuseNationals,93.1,4.9
+NBA,89.2,3,Lost E. Div. Finals,-1.0,121.0,1958-59,P. Seymour (35-37),.486,37,3.74,2.3,D. Schayes (9.4),35,SyracuseNationals,92.5,9.0
+NBA,88.1,2,Lost E. Div. Semis,-0.7,119.1,1957-58,P. Seymour (41-31),.569,31,2.18,1.1,D. Schayes (13.7),41,SyracuseNationals,89.9,2.1
+NBA,89.5,2,Lost E. Div. Finals,0.6,112.3,1956-57,"A. Cervi (4-8), P. Seymour (34-26)",.528,34,-1.03,-0.6,D. Schayes (12.5),38,SyracuseNationals,88.3,7.4
+NBA,88.0,3,Lost E. Div. Finals,-2.3,108.5,1955-56,A. Cervi (35-37),.486,37,0.17,-2.3,D. Schayes (11.8),35,SyracuseNationals,88.0,5.7
+NBA,86.2,1,Won Finals,-3.6,103.6,1954-55,A. Cervi (43-29),.597,29,1.23,-2.3,D. Schayes (12.0),43,SyracuseNationals,87.5,5.5
+NBA,83.0,2,Lost Finals,-4.5,93.5,1953-54,A. Cervi (42-30),.583,30,4.27,0.7,D. Schayes (14.8),42,SyracuseNationals,88.2,9.9
+NBA,86.0,2,Lost E. Div. Semis,-1.7,92.8,1952-53,A. Cervi (47-24),.662,24,3.62,2.6,D. Schayes (13.1),47,SyracuseNationals,90.6,12.3
+NBA,84.6,1,Lost E. Div. Finals,-2.3,96.1,1951-52,A. Cervi (40-26),.606,26,3.94,2.3,D. Schayes (8.5),40,SyracuseNationals,89.2,10.3
+NBA,85.9,4,Lost E. Div. Finals,0.8,98.1,1950-51,A. Cervi (32-34),.485,34,0.62,1.3,D. Schayes (10.3),32,SyracuseNationals,86.4,12.6
+NBA,NA,1,Lost Finals,NA,NA,1949-50,A. Cervi (51-13),.797,13,6.48,1.3,D. Schayes (12.8),51,SyracuseNationals,NA,NA
+NBA,109.0,4,NA,3.5,97.6,2015-16,"E. Watson (0-4), J. Hornacek (14-35)",.264,39,-5.49,-2.8,E. Bledsoe (2.5),14,PhoenixSuns,102.7,2.1
+NBA,106.2,3,NA,0.6,96.3,2014-15,J. Hornacek (39-43),.476,43,-0.38,-0.3,E. Bledsoe (7.0),39,PhoenixSuns,105.3,2.4
+NBA,106.7,3,NA,0.0,95.8,2013-14,J. Hornacek (48-34),.585,34,3.02,2.8,G. Dragic (10.3),48,PhoenixSuns,109.5,1.9
+NBA,108.1,5,NA,2.2,93.4,2012-13,"A. Gentry (13-28), L. Hunter (12-29)",.305,57,-5.75,-4.7,G. Dragic (5.7),25,PhoenixSuns,101.2,1.4
+NBA,106.5,3,NA,1.9,92.6,2011-12,A. Gentry (33-33),.500,33,0.29,1.6,M. Gortat (7.6),33,PhoenixSuns,106.2,1.3
+NBA,110.4,2,NA,3.1,94.4,2010-11,A. Gentry (40-42),.488,42,-0.46,2.2,S. Nash (7.9),40,PhoenixSuns,109.5,2.3
+NBA,110.2,2,Lost W. Conf. Finals,2.6,95.3,2009-10,A. Gentry (54-28),.659,28,4.67,7.7,A. Stoudemire (10.7),54,PhoenixSuns,115.3,2.6
+NBA,111.6,2,NA,3.3,96.0,2008-09,"T. Porter (28-23), A. Gentry (18-13)",.561,36,1.62,5.3,S. O'Neal (7.8),46,PhoenixSuns,113.6,4.3
+NBA,108.1,2,Lost W. Conf. 1st Rnd.,0.6,96.7,2007-08,M. D'Antoni (55-27),.671,27,5.14,5.8,A. Stoudemire (14.6),55,PhoenixSuns,113.3,4.3
+NBA,106.4,1,Lost W. Conf. Semis,-0.1,95.6,2006-07,M. D'Antoni (61-21),.744,21,7.28,7.4,S. Nash (12.6),61,PhoenixSuns,113.9,3.7
+NBA,105.8,1,Lost W. Conf. Finals,-0.4,95.8,2005-06,M. D'Antoni (54-28),.659,28,5.48,5.3,S. Marion (14.6),54,PhoenixSuns,111.5,5.3
+NBA,107.1,1,Lost W. Conf. Finals,1.0,95.9,2004-05,M. D'Antoni (62-20),.756,20,7.08,8.4,A. Stoudemire (14.6),62,PhoenixSuns,114.5,5.0
+NBA,105.5,6,NA,2.6,92.6,2003-04,"F. Johnson (8-13), M. D'Antoni (21-40)",.354,53,-2.94,-1.5,S. Marion (9.1),29,PhoenixSuns,101.4,2.5
+NBA,102.5,4,Lost W. Conf. 1st Rnd.,-1.1,91.5,2002-03,F. Johnson (44-38),.537,38,1.57,0.1,S. Marion (13.0),44,PhoenixSuns,103.7,0.5
+NBA,104.0,6,NA,-0.5,91.4,2001-02,"S. Skiles (25-26), F. Johnson (11-20)",.439,46,-0.30,-1.2,S. Marion (9.8),36,PhoenixSuns,103.3,0.7
+NBA,98.0,3,Lost W. Conf. 1st Rnd.,-5.0,93.1,2000-01,S. Skiles (51-31),.622,31,2.63,-2.7,S. Marion (11.7),51,PhoenixSuns,100.3,1.8
+NBA,99.0,3,Lost W. Conf. Semis,-5.1,94.0,1999-00,"D. Ainge (13-7), S. Skiles (40-22)",.646,29,5.24,0.5,C. Robinson (9.6),53,PhoenixSuns,104.6,0.9
+NBA,103.3,3,Lost W. Conf. 1st Rnd.,1.1,90.0,1998-99,D. Ainge (27-23),.540,23,2.15,3.6,J. Kidd (8.1),27,PhoenixSuns,105.8,1.1
+NBA,101.8,3,Lost W. Conf. 1st Rnd.,-3.2,91.4,1997-98,D. Ainge (56-26),.683,26,4.44,2.4,A. McDyess (9.4),56,PhoenixSuns,107.4,1.1
+NBA,108.6,4,Lost W. Conf. 1st Rnd.,1.9,93.2,1996-97,"C. Fitzsimmons (0-8), D. Ainge (40-34)",.488,42,0.21,2.6,K. Johnson (11.7),40,PhoenixSuns,109.3,3.1
+NBA,110.0,4,Lost W. Conf. 1st Rnd.,2.4,93.2,1995-96,"P. Westphal (14-19), C. Fitzsimmons (27-22)",.500,41,0.28,2.7,C. Barkley (10.5),41,PhoenixSuns,110.3,1.4
+NBA,110.4,1,Lost W. Conf. Semis,2.1,95.9,1994-95,P. Westphal (59-23),.720,23,3.86,6.2,C. Barkley (10.6),59,PhoenixSuns,114.5,3.0
+NBA,106.8,2,Lost W. Conf. Semis,0.5,96.7,1993-94,P. Westphal (56-26),.683,26,4.68,5.4,A. Green (9.3),56,PhoenixSuns,111.7,1.6
+NBA,106.7,1,Lost Finals,-1.3,99.8,1992-93,P. Westphal (62-20),.756,20,6.27,5.3,C. Barkley (14.4),62,PhoenixSuns,113.3,3.0
+NBA,106.2,3,Lost W. Conf. Semis,-2.0,99.4,1991-92,C. Fitzsimmons (53-29),.646,29,5.68,3.9,J. Hornacek (11.6),53,PhoenixSuns,112.1,2.8
+NBA,106.1,3,Lost W. Conf. 1st Rnd.,-1.8,101.0,1990-91,C. Fitzsimmons (55-27),.671,27,6.49,4.7,K. Johnson (12.7),55,PhoenixSuns,112.6,3.2
+NBA,106.2,3,Lost W. Conf. Finals,-1.9,100.7,1989-90,C. Fitzsimmons (54-28),.659,28,7.09,5.0,K. Johnson (11.6),54,PhoenixSuns,113.1,2.4
+NBA,105.7,2,Lost W. Conf. Finals,-2.1,104.5,1988-89,C. Fitzsimmons (55-27),.671,27,6.84,5.3,K. Johnson (12.2),55,PhoenixSuns,113.1,3.9
+NBA,111.4,4,NA,3.4,101.2,1987-88,J. Wetzel (28-54),.341,54,-4.80,-1.0,J. Hornacek (5.0),28,PhoenixSuns,107.0,1.6
+NBA,110.3,5,NA,2.0,102.0,1986-87,"J. MacLeod (22-34), D. Van Arsdale (14-12)",.439,46,-2.63,-0.3,L. Nance (10.2),36,PhoenixSuns,108.0,1.2
+NBA,107.2,3,NA,0.0,104.8,1985-86,J. MacLeod (32-50),.390,50,-3.16,-2.9,L. Nance (8.4),32,PhoenixSuns,104.3,2.7
+NBA,106.8,3,Lost W. Conf. 1st Rnd.,-1.1,102.5,1984-85,J. MacLeod (36-46),.439,46,-2.34,-3.2,L. Nance (7.9),36,PhoenixSuns,104.7,0.4
+NBA,108.0,4,Lost W. Conf. Finals,0.4,101.4,1983-84,J. MacLeod (41-41),.500,41,0.65,1.3,L. Nance (9.8),41,PhoenixSuns,108.9,0.0
+NBA,100.1,2,Lost W. Conf. 1st Rnd.,-4.6,101.6,1982-83,J. MacLeod (53-29),.646,29,4.61,0.4,L. Nance (10.5),53,PhoenixSuns,105.1,-1.5
+NBA,102.4,3,Lost W. Conf. Semis,-4.5,99.5,1981-82,J. MacLeod (46-36),.561,36,3.05,-1.1,K. Macy (9.2),46,PhoenixSuns,105.8,-1.4
+NBA,99.4,1,Lost W. Conf. Semis,-6.1,104.7,1980-81,J. MacLeod (57-25),.695,25,4.83,-0.9,D. Johnson (8.4),57,PhoenixSuns,104.6,2.9
+NBA,102.2,3,Lost W. Conf. Semis,-3.1,104.8,1979-80,J. MacLeod (55-27),.671,27,3.25,0.3,P. Westphal (10.5),55,PhoenixSuns,105.6,1.7
+NBA,102.4,2,Lost W. Conf. Finals,-1.4,108.5,1978-79,J. MacLeod (50-32),.610,32,3.55,1.9,P. Westphal (10.4),50,PhoenixSuns,105.7,2.7
+NBA,97.0,2,Lost W. Conf. 1st Rnd.,-3.9,111.4,1977-78,J. MacLeod (49-33),.598,33,3.50,-0.6,W. Davis (10.1),49,PhoenixSuns,100.3,4.7
+NBA,97.5,5,NA,-2.0,106.6,1976-77,J. MacLeod (34-48),.415,48,0.64,-1.4,P. Westphal (9.6),34,PhoenixSuns,98.1,0.1
+NBA,97.9,3,Lost Finals,-0.4,105.6,1975-76,J. MacLeod (42-40),.512,40,0.59,0.2,P. Westphal (9.6),42,PhoenixSuns,98.5,0.1
+NBA,98.6,4,NA,0.9,104.3,1974-75,J. MacLeod (32-50),.390,50,-2.36,-1.3,C. Perry (7.6),32,PhoenixSuns,96.4,-0.2
+NBA,101.3,4,NA,3.6,109.6,1973-74,J. MacLeod (30-52),.366,52,-3.20,0.4,D. Van Arsdale (7.0),30,PhoenixSuns,98.1,1.8
+NBA,99.5,3,NA,2.7,113.0,1972-73,"B. Van Breda Kolff (3-4), J. Colangelo (35-40)",.463,44,-0.96,1.6,D. Van Arsdale (8.7),38,PhoenixSuns,98.4,2.3
+NBA,96.5,3,NA,-1.4,113.7,1971-72,C. Fitzsimmons (49-33),.598,33,5.57,3.4,P. Silas (11.0),49,PhoenixSuns,101.3,1.7
+NBA,96.6,3,NA,-0.6,115.3,1970-71,C. Fitzsimmons (48-34),.585,34,2.33,1.0,D. Van Arsdale (10.2),48,PhoenixSuns,98.2,0.2
+NBA,103.1,4,Lost W. Div. Semis,4.1,116.7,1969-70,"R. Kerr (15-23), J. Colangelo (24-20)",.476,43,-1.66,2.6,C. Hawkins (10.2),39,PhoenixSuns,101.6,-0.4
+NBA,101.1,7,NA,5.6,118.4,1968-69,R. Kerr (16-66),.195,66,-8.26,-1.7,D. Van Arsdale (5.6),16,PhoenixSuns,93.8,1.5
+NBA,106.7,3,NA,1.2,95.0,2015-16,T. Stotts (26-27),.491,27,-0.09,1.5,D. Lillard (5.5),26,PortlandTrailBlazers,107.0,-0.5
+NBA,103.7,1,Lost W. Conf. 1st Rnd.,-1.9,94.2,2014-15,T. Stotts (51-31),.622,31,4.41,2.6,D. Lillard (10.6),51,PortlandTrailBlazers,108.2,0.3
+NBA,107.4,2,Lost W. Conf. Semis,0.7,94.9,2013-14,T. Stotts (54-28),.659,28,4.44,4.8,D. Lillard (9.6),54,PortlandTrailBlazers,111.5,1.0
+NBA,109.2,4,NA,3.3,91.4,2012-13,T. Stotts (33-49),.402,49,-2.53,-0.1,L. Aldridge (7.2),33,PortlandTrailBlazers,105.8,-0.6
+NBA,106.4,4,NA,1.8,91.2,2011-12,"N. McMillan (20-23), K. Canales (8-15)",.424,38,-0.22,1.1,L. Aldridge (7.0),28,PortlandTrailBlazers,105.7,-0.1
+NBA,107.1,3,Lost W. Conf. 1st Rnd.,-0.2,87.9,2010-11,N. McMillan (48-34),.585,34,1.85,1.5,L. Aldridge (11.1),48,PortlandTrailBlazers,108.8,-4.2
+NBA,107.1,3,Lost W. Conf. 1st Rnd.,-0.5,87.7,2009-10,N. McMillan (50-32),.610,32,3.18,3.2,B. Roy (9.1),50,PortlandTrailBlazers,110.8,-5.0
+NBA,107.8,2,Lost W. Conf. 1st Rnd.,-0.5,86.6,2008-09,N. McMillan (54-28),.659,28,5.00,5.6,B. Roy (13.5),54,PortlandTrailBlazers,113.9,-5.1
+NBA,108.4,3,NA,0.9,87.9,2007-08,N. McMillan (41-41),.500,41,-0.52,-0.2,B. Roy (8.0),41,PortlandTrailBlazers,107.3,-4.5
+NBA,109.9,3,NA,3.4,88.3,2006-07,N. McMillan (32-50),.390,50,-3.78,-1.4,Z. Randolph (5.7),32,PortlandTrailBlazers,105.1,-3.6
+NBA,111.9,5,NA,5.7,87.6,2005-06,N. McMillan (21-61),.256,61,-8.91,-5.1,S. Blake (2.8),21,PortlandTrailBlazers,101.1,-2.9
+NBA,107.7,4,NA,1.6,89.8,2004-05,"M. Cheeks (22-33), K. Pritchard (5-22)",.329,55,-3.45,-2.9,D. Stoudamire (5.7),27,PortlandTrailBlazers,103.2,-1.1
+NBA,105.1,3,NA,2.2,86.2,2003-04,M. Cheeks (41-41),.500,41,-0.58,0.8,Z. Randolph (7.1),41,PortlandTrailBlazers,103.7,-3.9
+NBA,102.6,3,Lost W. Conf. 1st Rnd.,-1.0,89.4,2002-03,M. Cheeks (50-32),.610,32,2.97,1.9,R. Wallace (8.5),50,PortlandTrailBlazers,105.5,-1.6
+NBA,104.0,3,Lost W. Conf. 1st Rnd.,-0.5,89.3,2001-02,M. Cheeks (49-33),.598,33,3.21,2.9,R. Wallace (9.7),49,PortlandTrailBlazers,107.4,-1.4
+NBA,101.8,4,Lost W. Conf. 1st Rnd.,-1.2,89.1,2000-01,M. Dunleavy (50-32),.610,32,4.52,3.5,R. Wallace (11.0),50,PortlandTrailBlazers,106.5,-2.2
+NBA,100.8,2,Lost W. Conf. Finals,-3.3,89.9,1999-00,M. Dunleavy (59-23),.720,23,6.36,3.8,S. Smith (10.4),59,PortlandTrailBlazers,107.9,-3.2
+NBA,97.7,1,Lost W. Conf. Finals,-4.5,89.2,1998-99,M. Dunleavy (35-15),.700,15,5.67,2.6,B. Grant (5.9),35,PortlandTrailBlazers,104.8,0.3
+NBA,102.4,4,Lost W. Conf. 1st Rnd.,-2.6,90.0,1997-98,M. Dunleavy (46-36),.561,36,0.83,-1.0,A. Sabonis (9.7),46,PortlandTrailBlazers,104.0,-0.3
+NBA,103.3,3,Lost W. Conf. 1st Rnd.,-3.4,90.9,1996-97,P. Carlesimo (49-33),.598,33,3.56,1.2,K. Anderson (12.4),49,PortlandTrailBlazers,107.9,0.8
+NBA,103.5,3,Lost W. Conf. 1st Rnd.,-4.1,92.6,1995-96,P. Carlesimo (44-38),.537,38,2.21,-1.6,A. Sabonis (8.4),44,PortlandTrailBlazers,106.0,0.8
+NBA,105.7,4,Lost W. Conf. 1st Rnd.,-2.6,93.8,1994-95,P. Carlesimo (44-38),.537,38,3.80,1.4,C. Robinson (8.7),44,PortlandTrailBlazers,109.7,0.9
+NBA,105.5,4,Lost W. Conf. 1st Rnd.,-0.8,98.8,1993-94,R. Adelman (47-35),.573,35,2.60,1.8,R. Strickland (9.3),47,PortlandTrailBlazers,108.1,3.7
+NBA,105.2,3,Lost W. Conf. 1st Rnd.,-2.8,99.1,1992-93,R. Adelman (51-31),.622,31,2.92,0.3,T. Porter (8.8),51,PortlandTrailBlazers,108.3,2.3
+NBA,104.2,1,Lost Finals,-4.0,99.0,1991-92,R. Adelman (57-25),.695,25,6.94,3.2,C. Drexler (12.8),57,PortlandTrailBlazers,111.4,2.4
+NBA,104.3,1,Lost W. Conf. Finals,-3.6,100.5,1990-91,R. Adelman (63-19),.768,19,8.47,4.9,T. Porter (13.0),63,PortlandTrailBlazers,112.8,2.7
+NBA,104.4,2,Lost Finals,-3.7,102.3,1989-90,R. Adelman (59-23),.720,23,6.48,2.4,T. Porter (11.7),59,PortlandTrailBlazers,110.5,4.0
+NBA,108.0,5,Lost W. Conf. 1st Rnd.,0.2,103.9,1988-89,"M. Schuler (25-22), R. Adelman (14-21)",.476,43,0.92,1.6,C. Drexler (12.6),39,PortlandTrailBlazers,109.4,3.3
+NBA,107.4,2,Lost W. Conf. 1st Rnd.,-0.6,103.6,1987-88,M. Schuler (53-29),.646,29,3.59,3.8,C. Drexler (13.2),53,PortlandTrailBlazers,111.8,4.0
+NBA,108.6,2,Lost W. Conf. 1st Rnd.,0.3,105.0,1986-87,M. Schuler (49-33),.598,33,2.57,3.2,K. Vandeweghe (10.8),49,PortlandTrailBlazers,111.5,4.2
+NBA,108.2,2,Lost W. Conf. 1st Rnd.,1.0,104.5,1985-86,J. Ramsay (40-42),.488,42,0.61,2.0,K. Vandeweghe (9.9),40,PortlandTrailBlazers,109.2,2.4
+NBA,107.2,2,Lost W. Conf. Semis,-0.7,103.5,1984-85,J. Ramsay (42-40),.512,40,2.80,2.5,K. Vandeweghe (8.4),42,PortlandTrailBlazers,110.4,1.4
+NBA,107.7,2,Lost W. Conf. 1st Rnd.,0.1,101.1,1983-84,J. Ramsay (48-34),.585,34,3.13,3.6,J. Paxson (9.5),48,PortlandTrailBlazers,111.2,-0.3
+NBA,103.9,4,Lost W. Conf. Semis,-0.8,101.0,1982-83,J. Ramsay (46-36),.561,36,1.88,1.3,J. Paxson (10.2),46,PortlandTrailBlazers,106.0,-2.1
+NBA,108.2,5,NA,1.3,100.5,1981-82,J. Ramsay (42-40),.512,40,0.39,1.9,C. Natt (9.3),42,PortlandTrailBlazers,108.8,-0.4
+NBA,105.7,3,Lost W. Conf. 1st Rnd.,0.2,103.0,1980-81,J. Ramsay (45-37),.549,37,0.52,1.0,J. Paxson (7.7),45,PortlandTrailBlazers,106.5,1.2
+NBA,104.3,4,Lost W. Conf. 1st Rnd.,-1.0,98.6,1979-80,J. Ramsay (38-44),.463,44,-0.87,-1.9,K. Washington (9.1),38,PortlandTrailBlazers,103.4,-4.5
+NBA,103.1,4,Lost W. Conf. 1st Rnd.,-0.7,103.4,1978-79,J. Ramsay (45-37),.549,37,1.12,0.5,T. Owens (10.4),45,PortlandTrailBlazers,104.3,-2.4
+NBA,97.2,1,Lost W. Conf. Semis,-3.7,104.2,1977-78,J. Ramsay (58-24),.707,24,5.92,2.2,B. Walton (8.4),58,PortlandTrailBlazers,103.1,-2.5
+NBA,98.0,2,Won Finals,-1.5,108.0,1976-77,J. Ramsay (49-33),.598,33,5.39,3.7,B. Walton (10.2),49,PortlandTrailBlazers,103.2,1.5
+NBA,97.6,5,NA,-0.7,107.7,1975-76,L. Wilkens (37-45),.451,45,-1.11,-1.9,S. Wicks (7.1),37,PortlandTrailBlazers,96.4,2.2
+NBA,97.7,3,NA,0.0,104.7,1974-75,L. Wilkens (38-44),.463,44,0.27,0.4,S. Wicks (9.7),38,PortlandTrailBlazers,98.1,0.2
+NBA,102.6,5,NA,4.9,108.5,1973-74,J. McCloskey (27-55),.329,55,-4.30,0.5,S. Wicks (5.6),27,PortlandTrailBlazers,98.2,0.7
+NBA,101.5,5,NA,4.7,110.4,1972-73,J. McCloskey (21-61),.256,61,-5.67,-0.9,S. Wicks (5.6),21,PortlandTrailBlazers,95.9,-0.3
+NBA,103.1,5,NA,5.2,112.3,1971-72,"R. Todd (12-44), S. Inman (6-20)",.220,64,-8.84,-3.4,D. Schlueter (6.3),18,PortlandTrailBlazers,94.5,0.3
+NBA,99.1,5,NA,1.9,120.6,1970-71,R. Todd (29-53),.354,53,-6.20,-1.8,G. Petrie (6.2),29,PortlandTrailBlazers,95.4,5.5
+NBA,108.0,3,NA,2.5,100.0,2015-16,G. Karl (21-31),.404,31,-1.69,0.4,D. Cousins (3.7),21,SacramentoKings,105.9,4.5
+NBA,109.2,4,NA,3.6,95.4,2014-15,"M. Malone (11-13), T. Corbin (7-21), G. Karl (11-19)",.354,53,-3.07,-0.3,R. Gay (6.1),29,SacramentoKings,105.3,1.5
+NBA,108.8,4,NA,2.1,94.4,2013-14,M. Malone (28-54),.341,54,-2.08,-1.0,D. Cousins (7.9),28,SacramentoKings,105.7,0.5
+NBA,111.4,4,NA,5.5,93.6,2012-13,K. Smart (28-54),.341,54,-4.26,0.3,I. Thomas (5.0),28,SacramentoKings,106.2,1.6
+NBA,109.8,5,NA,5.2,94.7,2011-12,"P. Westphal (2-5), K. Smart (20-39)",.333,44,-4.95,-0.8,I. Thomas (4.3),22,SacramentoKings,103.8,3.4
+NBA,109.0,5,NA,1.7,95.2,2010-11,P. Westphal (24-58),.293,58,-4.80,-3.8,B. Udrih (7.2),24,SacramentoKings,103.5,3.1
+NBA,109.9,5,NA,2.3,94.0,2009-10,P. Westphal (25-57),.305,57,-4.06,-2.3,B. Udrih (5.5),25,SacramentoKings,105.3,1.3
+NBA,114.7,5,NA,6.4,94.2,2008-09,"R. Theus (6-18), K. Natt (11-47)",.207,65,-8.60,-2.8,K. Martin (4.7),17,SacramentoKings,105.5,2.5
+NBA,109.9,4,NA,2.4,94.7,2007-08,R. Theus (38-44),.463,44,-1.86,0.0,K. Martin (8.4),38,SacramentoKings,107.5,2.3
+NBA,108.0,5,NA,1.5,94.8,2006-07,E. Musselman (33-49),.402,49,-1.35,-0.3,K. Martin (10.2),33,SacramentoKings,106.2,2.9
+NBA,105.0,4,Lost W. Conf. 1st Rnd.,-1.2,91.9,2005-06,R. Adelman (44-38),.537,38,1.61,0.5,B. Miller (9.1),44,SacramentoKings,106.7,1.4
+NBA,108.2,2,Lost W. Conf. 1st Rnd.,2.1,93.0,2004-05,R. Adelman (50-32),.610,32,2.56,4.4,B. Miller (8.6),50,SacramentoKings,110.5,2.1
+NBA,104.9,2,Lost W. Conf. Semis,2.0,92.8,2003-04,R. Adelman (55-27),.671,27,5.41,7.4,P. Stojakovic (13.5),55,SacramentoKings,110.3,2.7
+NBA,99.1,1,Lost W. Conf. Semis,-4.5,95.4,2002-03,R. Adelman (59-23),.720,23,6.68,2.3,P. Stojakovic (10.1),59,SacramentoKings,105.9,4.4
+NBA,101.1,1,Lost W. Conf. Finals,-3.4,95.6,2001-02,R. Adelman (61-21),.744,21,7.61,4.5,P. Stojakovic (9.9),61,SacramentoKings,109.0,4.9
+NBA,99.6,2,Lost W. Conf. Semis,-3.4,94.4,2000-01,R. Adelman (55-27),.671,27,6.07,2.6,C. Webber (11.0),55,SacramentoKings,105.6,3.1
+NBA,102.1,5,Lost W. Conf. 1st Rnd.,-2.0,99.3,1999-00,R. Adelman (44-38),.537,38,3.04,0.9,C. Webber (10.7),44,SacramentoKings,105.0,6.2
+NBA,103.1,4,Lost W. Conf. 1st Rnd.,0.9,96.0,1998-99,R. Adelman (27-23),.540,23,-0.89,0.5,V. Divac (5.2),27,SacramentoKings,102.7,7.1
+NBA,106.9,5,NA,1.9,92.1,1997-98,E. Jordan (27-55),.329,55,-5.83,-4.2,M. Richmond (7.9),27,SacramentoKings,100.8,1.8
+NBA,108.7,6,NA,2.0,91.0,1996-97,"G. St. Jean (28-39), E. Jordan (6-9)",.415,48,-3.64,-1.7,M. Richmond (10.8),34,SacramentoKings,105.0,0.9
+NBA,109.1,5,Lost W. Conf. 1st Rnd.,1.5,93.4,1995-96,G. St. Jean (39-43),.476,43,-2.62,-1.4,M. Richmond (9.3),39,SacramentoKings,106.2,1.6
+NBA,106.5,5,NA,-1.8,92.3,1994-95,G. St. Jean (39-43),.476,43,-0.74,-2.8,M. Richmond (8.0),39,SacramentoKings,105.5,-0.6
+NBA,109.2,6,NA,2.9,97.5,1993-94,G. St. Jean (28-54),.341,54,-5.32,-3.0,M. Richmond (6.4),28,SacramentoKings,103.3,2.4
+NBA,109.6,7,NA,1.6,100.8,1992-93,G. St. Jean (25-57),.305,57,-3.00,-1.5,W. Tisdale (4.5),25,SacramentoKings,106.5,4.0
+NBA,109.9,7,NA,1.7,99.6,1991-92,"D. Motta (7-18), R. Hughes (22-35)",.354,53,-5.63,-4.3,M. Richmond (4.9),29,SacramentoKings,103.9,3.0
+NBA,109.1,7,NA,1.2,94.7,1990-91,D. Motta (25-57),.305,57,-6.27,-5.9,A. Carr (5.4),25,SacramentoKings,102.0,-3.1
+NBA,110.0,7,NA,1.9,96.7,1989-90,"J. Reynolds (7-21), D. Motta (16-38)",.280,59,-4.41,-3.3,R. McCray (7.9),23,SacramentoKings,104.8,-1.6
+NBA,110.0,6,NA,2.2,100.5,1988-89,J. Reynolds (27-55),.329,55,-5.35,-3.3,H. Pressley (4.8),27,SacramentoKings,104.5,-0.1
+NBA,112.1,6,NA,4.1,100.9,1987-88,"B. Russell (17-41), J. Reynolds (7-17)",.293,58,-5.84,-1.5,O. Thorpe (8.1),24,SacramentoKings,106.5,1.3
+NBA,112.1,5,NA,3.8,101.3,1986-87,"P. Johnson (14-32), J. Reynolds (15-21)",.354,53,-3.34,0.6,O. Thorpe (9.0),29,SacramentoKings,108.9,0.5
+NBA,109.2,5,Lost W. Conf. 1st Rnd.,2.0,102.0,1985-86,P. Johnson (37-45),.451,45,-3.19,-1.0,R. Theus (6.4),37,SacramentoKings,106.2,-0.1
+NBA,112.1,6,NA,4.2,104.4,1984-85,"J. McKinney (1-8), P. Johnson (30-43)",.378,51,-2.71,1.6,L. Thompson (5.3),31,KansasCityKings,109.5,2.3
+NBA,108.0,4,Lost W. Conf. 1st Rnd.,0.4,102.9,1983-84,C. Fitzsimmons (38-44),.463,44,-1.62,-1.1,E. Johnson (5.6),38,KansasCityKings,106.5,1.5
+NBA,104.9,3,NA,0.2,106.6,1982-83,C. Fitzsimmons (45-37),.549,37,1.04,1.5,M. Woodson (7.8),45,KansasCityKings,106.2,3.5
+NBA,107.2,4,NA,0.3,101.8,1981-82,C. Fitzsimmons (30-52),.366,52,-3.25,-2.7,M. Woodson (5.3),30,KansasCityKings,104.2,0.9
+NBA,104.7,2,Lost W. Conf. Finals,-0.8,101.3,1980-81,C. Fitzsimmons (40-42),.488,42,-0.49,-0.8,R. King (8.3),40,KansasCityKings,104.7,-0.5
+NBA,101.0,2,Lost W. Conf. 1st Rnd.,-4.3,103.2,1979-80,C. Fitzsimmons (47-35),.573,35,2.82,-1.3,O. Birdsong (8.6),47,KansasCityKings,104.0,0.1
+NBA,101.9,1,Lost W. Conf. Semis,-1.9,107.3,1978-79,C. Fitzsimmons (48-34),.585,34,2.73,0.7,O. Birdsong (8.8),48,KansasCityKings,104.5,1.5
+NBA,102.2,5,NA,1.3,108.2,1977-78,"P. Johnson (13-24), L. Staverman (18-27)",.378,51,-1.76,-0.4,S. Wedman (7.8),31,KansasCityKings,100.5,1.5
+NBA,99.6,4,NA,0.1,106.4,1976-77,P. Johnson (40-42),.488,42,0.93,1.0,R. Boone (8.1),40,KansasCityKings,100.5,-0.1
+NBA,100.1,3,NA,1.8,105.7,1975-76,P. Johnson (31-51),.378,51,-2.83,-0.9,T. Archibald (8.0),31,KansasCityKings,97.4,0.2
+NBA,97.1,2,Lost W. Conf. Semis,-0.6,104.4,1974-75,P. Johnson (44-38),.537,38,-0.16,-0.9,T. Archibald (11.2),44,KansasCityOmahaKings,96.8,-0.1
+NBA,99.5,4,NA,1.8,106.1,1973-74,"B. Cousy (6-14), D. Young (0-4), P. Johnson (27-31)",.402,49,-3.24,-1.7,S. Lacey (7.7),33,KansasCityOmahaKings,96.0,-1.7
+NBA,102.4,4,NA,5.6,107.3,1972-73,B. Cousy (36-46),.439,46,-2.36,2.9,T. Archibald (14.2),36,KansasCityOmahaKings,99.7,-3.4
+NBA,101.6,3,NA,3.7,109.5,1971-72,B. Cousy (30-52),.366,52,-4.13,0.1,T. Archibald (12.9),30,CincinnatiRoyals,98.0,-2.5
+NBA,99.8,3,NA,2.6,118.5,1970-71,B. Cousy (33-49),.402,49,-2.96,-0.1,J. Green (9.5),33,CincinnatiRoyals,97.1,3.4
+NBA,100.4,5,NA,1.4,118.5,1969-70,B. Cousy (36-46),.439,46,-2.55,-1.0,O. Robertson (11.4),36,CincinnatiRoyals,98.0,1.4
+NBA,101.1,5,NA,5.6,113.6,1968-69,E. Jucker (41-41),.500,41,-0.83,4.7,O. Robertson (12.9),41,CincinnatiRoyals,100.2,-3.3
+NBA,101.8,5,NA,5.0,114.6,1967-68,E. Jucker (39-43),.476,43,-0.64,4.3,O. Robertson (12.3),39,CincinnatiRoyals,101.1,-5.2
+NBA,98.6,3,Lost E. Div. Semis,2.5,118.6,1966-67,J. McMahon (39-42),.481,42,-0.23,2.3,O. Robertson (17.4),39,CincinnatiRoyals,98.4,-3.0
+NBA,96.5,3,Lost E. Div. Semis,1.6,120.4,1965-66,J. McMahon (45-35),.563,35,1.03,2.6,O. Robertson (16.9),45,CincinnatiRoyals,97.5,-1.0
+NBA,96.0,2,Lost E. Div. Semis,2.4,115.8,1964-65,J. McMahon (48-32),.600,32,2.04,4.4,O. Robertson (17.0),48,CincinnatiRoyals,98.0,-1.5
+NBA,94.5,2,Lost E. Div. Finals,-0.1,115.9,1963-64,J. McMahon (55-25),.688,25,4.43,4.3,O. Robertson (20.6),55,CincinnatiRoyals,98.9,2.7
+NBA,98.3,3,Lost E. Div. Finals,2.4,119.0,1962-63,C. Wolf (42-38),.525,38,1.24,3.5,O. Robertson (16.8),42,CincinnatiRoyals,99.4,4.0
+NBA,96.9,2,Lost W. Div. Semis,3.3,124.9,1961-62,C. Wolf (43-37),.538,37,1.28,4.7,O. Robertson (15.6),43,CincinnatiRoyals,98.3,3.6
+NBA,98.4,4,NA,6.3,122.8,1960-61,C. Wolf (33-46),.418,46,-3.04,3.5,O. Robertson (13.2),33,CincinnatiRoyals,95.6,-0.7
+NBA,96.5,4,NA,5.4,121.6,1959-60,T. Marshall (19-56),.253,56,-5.92,0.2,J. Twyman (8.3),19,CincinnatiRoyals,91.3,-0.7
+NBA,95.0,4,NA,4.8,116.4,1958-59,"B. Wanzer (3-15), T. Marshall (16-38)",.264,53,-7.89,-2.7,J. Twyman (7.3),19,CincinnatiRoyals,87.5,4.4
+NBA,87.6,3,Lost W. Div. Semis,-1.2,117.3,1957-58,B. Wanzer (33-39),.458,39,-1.47,-2.3,C. Lovellette (10.1),33,CincinnatiRoyals,86.5,0.3
+NBA,86.9,4,NA,-2.0,109.4,1956-57,B. Wanzer (31-41),.431,41,-2.08,-4.0,J. Twyman (8.8),31,RochesterRoyals,84.9,4.5
+NBA,87.9,4,NA,-2.4,111.7,1955-56,B. Wanzer (31-41),.431,41,-2.61,-5.0,M. Stokes (6.0),31,RochesterRoyals,85.3,8.9
+NBA,92.3,3,Lost W. Div. Semis,2.5,99.5,1954-55,L. Harrison (29-43),.403,43,-1.43,0.9,J. Coleman (6.2),29,RochesterRoyals,90.7,1.4
+NBA,84.0,2,Lost W. Div. Finals,-3.5,90.9,1953-54,L. Harrison (44-28),.611,28,2.24,-0.9,B. Wanzer (9.1),44,RochesterRoyals,86.6,7.3
+NBA,86.9,2,Lost W. Div. Semis,-0.8,94.1,1952-53,L. Harrison (44-26),.629,26,2.62,1.8,B. Wanzer (7.9),44,RochesterRoyals,89.8,13.6
+NBA,88.1,1,Lost W. Div. Finals,1.2,92.7,1951-52,L. Harrison (41-25),.621,25,2.92,4.7,B. Wanzer (11.4),41,RochesterRoyals,91.6,6.9
+NBA,86.2,2,Won Finals,1.1,92.3,1950-51,L. Harrison (41-27),.603,27,2.54,4.2,A. Risen (9.3),41,RochesterRoyals,89.3,6.8
+NBA,NA,2,Lost Central Div. Semis,NA,NA,1949-50,L. Harrison (51-17),.750,17,7.72,4.2,B. Wanzer (10.5),51,RochesterRoyals,NA,NA
+BAA,NA,1,Lost W. Div. Finals,NA,NA,1948-49,L. Harrison (45-15),.750,15,6.12,4.2,A. Risen (10.6),45,RochesterRoyals,NA,NA
+NBA,97.1,1,NA,-8.4,94.2,2015-16,G. Popovich (43-8),.843,8,12.08,5.8,K. Leonard (9.4),43,SanAntonioSpurs,111.3,-1.3
+NBA,102.0,2,Lost W. Conf. 1st Rnd.,-3.6,93.8,2014-15,G. Popovich (55-27),.671,27,6.34,2.9,T. Duncan (9.6),55,SanAntonioSpurs,108.5,-0.1
+NBA,102.4,1,Won Finals,-4.3,95.0,2013-14,G. Popovich (62-20),.756,20,8.00,3.8,K. Leonard (7.7),62,SanAntonioSpurs,110.5,1.1
+NBA,101.6,1,Lost Finals,-4.3,94.2,2012-13,G. Popovich (58-24),.707,24,6.67,2.4,T. Parker (9.3),58,SanAntonioSpurs,108.3,2.2
+NBA,103.2,1,Lost W. Conf. Finals,-1.4,92.9,2011-12,G. Popovich (50-16),.758,16,7.28,6.3,T. Parker (7.1),50,SanAntonioSpurs,110.9,1.6
+NBA,105.6,1,Lost W. Conf. 1st Rnd.,-1.7,92.3,2010-11,G. Popovich (61-21),.744,21,5.86,4.5,M. Ginobili (9.9),61,SanAntonioSpurs,111.8,0.2
+NBA,104.5,2,Lost W. Conf. Semis,-3.1,91.7,2009-10,G. Popovich (50-32),.610,32,5.07,2.4,T. Duncan (10.9),50,SanAntonioSpurs,110.0,-1.0
+NBA,104.3,1,Lost W. Conf. 1st Rnd.,-4.0,88.4,2008-09,G. Popovich (54-28),.659,28,3.36,0.2,T. Duncan (10.1),54,SanAntonioSpurs,108.5,-3.3
+NBA,101.8,2,Lost W. Conf. Finals,-5.7,88.8,2007-08,G. Popovich (56-26),.683,26,5.10,-0.3,M. Ginobili (11.1),56,SanAntonioSpurs,107.2,-3.6
+NBA,99.9,2,Won Finals,-6.6,89.8,2006-07,G. Popovich (58-24),.707,24,8.35,2.7,T. Duncan (13.0),58,SanAntonioSpurs,109.2,-2.1
+NBA,99.6,1,Lost W. Conf. Semis,-6.6,88.5,2005-06,G. Popovich (63-19),.768,19,6.69,1.1,T. Duncan (10.8),63,SanAntonioSpurs,107.3,-2.0
+NBA,98.8,1,Won Finals,-7.3,88.9,2004-05,G. Popovich (59-23),.720,23,7.84,1.4,T. Duncan (11.2),59,SanAntonioSpurs,107.5,-2.0
+NBA,94.1,2,Lost W. Conf. Semis,-8.8,89.2,2003-04,G. Popovich (57-25),.695,25,7.51,-0.7,T. Duncan (13.1),57,SanAntonioSpurs,102.2,-0.9
+NBA,99.7,1,Won Finals,-3.9,90.0,2002-03,G. Popovich (60-22),.732,22,5.65,2.0,T. Duncan (16.5),60,SanAntonioSpurs,105.6,-1.0
+NBA,99.7,1,Lost W. Conf. Semis,-4.8,90.0,2001-02,G. Popovich (58-24),.707,24,6.28,2.0,T. Duncan (17.8),58,SanAntonioSpurs,106.5,-0.7
+NBA,98.0,1,Lost W. Conf. Finals,-5.0,89.6,2000-01,G. Popovich (58-24),.707,24,7.92,3.6,T. Duncan (13.2),58,SanAntonioSpurs,106.6,-1.7
+NBA,98.6,2,Lost W. Conf. 1st Rnd.,-5.5,90.8,1999-00,G. Popovich (53-29),.646,29,5.92,0.9,T. Duncan (13.0),53,SanAntonioSpurs,105.0,-2.3
+NBA,95.0,1,Won Finals,-7.2,88.6,1998-99,G. Popovich (37-13),.740,13,7.12,1.8,T. Duncan (8.7),37,SanAntonioSpurs,104.0,-0.3
+NBA,99.4,2,Lost W. Conf. Semis,-5.6,88.4,1997-98,G. Popovich (56-26),.683,26,3.30,-1.2,D. Robinson (13.8),56,SanAntonioSpurs,103.8,-1.9
+NBA,112.3,6,NA,5.6,87.3,1996-97,"B. Hill (3-15), G. Popovich (17-47)",.244,62,-7.93,-3.4,W. Perdue (4.4),20,SanAntonioSpurs,103.3,-2.8
+NBA,103.5,1,Lost W. Conf. Semis,-4.1,93.3,1995-96,B. Hill (59-23),.720,23,5.98,2.6,D. Robinson (18.3),59,SanAntonioSpurs,110.2,1.5
+NBA,105.4,1,Lost W. Conf. Finals,-2.9,94.6,1994-95,B. Hill (62-20),.756,20,5.90,3.4,D. Robinson (17.5),62,SanAntonioSpurs,111.7,1.7
+NBA,104.6,2,Lost W. Conf. 1st Rnd.,-1.7,90.1,1993-94,J. Lucas (55-27),.671,27,5.05,4.1,D. Robinson (20.0),55,SanAntonioSpurs,110.4,-5.0
+NBA,106.8,2,Lost W. Conf. Semis,-1.2,95.4,1992-93,"J. Tarkanian (9-11), R. Hughes (1-0), J. Lucas (39-22)",.598,33,2.21,1.6,D. Robinson (13.2),49,SanAntonioSpurs,109.6,-1.4
+NBA,104.1,2,Lost W. Conf. 1st Rnd.,-4.1,96.2,1991-92,"L. Brown (21-17), B. Bass (26-18)",.573,35,2.81,-0.7,D. Robinson (13.9),47,SanAntonioSpurs,107.5,-0.4
+NBA,103.3,1,Lost W. Conf. 1st Rnd.,-4.6,98.6,1990-91,L. Brown (55-27),.671,27,4.30,-0.1,D. Robinson (17.0),55,SanAntonioSpurs,107.8,0.8
+NBA,104.2,1,Lost W. Conf. Semis,-3.9,98.5,1989-90,L. Brown (56-26),.683,26,3.58,-0.4,D. Robinson (15.1),56,SanAntonioSpurs,107.7,0.2
+NBA,107.9,5,NA,0.1,104.1,1988-89,L. Brown (21-61),.256,61,-7.45,-6.9,W. Anderson (4.9),21,SanAntonioSpurs,100.9,3.5
+NBA,112.8,5,Lost W. Conf. 1st Rnd.,4.8,104.4,1987-88,B. Weiss (31-51),.378,51,-5.02,0.2,A. Robertson (5.8),31,SanAntonioSpurs,108.2,4.8
+NBA,110.8,6,NA,2.5,101.7,1986-87,B. Weiss (28-54),.341,54,-5.09,-2.4,D. Greenwood (6.2),28,SanAntonioSpurs,105.9,0.9
+NBA,108.2,6,Lost W. Conf. 1st Rnd.,1.0,103.8,1985-86,C. Fitzsimmons (35-47),.427,47,-2.06,-0.7,A. Robertson (8.6),35,SanAntonioSpurs,106.5,1.7
+NBA,109.0,5,Lost W. Conf. 1st Rnd.,1.1,103.9,1984-85,C. Fitzsimmons (41-41),.500,41,0.63,2.0,A. Gilmore (10.5),41,SanAntonioSpurs,109.9,1.8
+NBA,111.4,5,NA,3.8,106.5,1983-84,"M. McHone (11-20), B. Bass (26-25)",.451,45,-0.50,3.6,A. Gilmore (6.7),37,SanAntonioSpurs,111.2,5.1
+NBA,106.6,1,Lost W. Conf. Finals,1.9,103.3,1982-83,S. Albeck (53-29),.646,29,3.10,5.4,A. Gilmore (11.0),53,SanAntonioSpurs,110.1,0.2
+NBA,107.6,1,Lost W. Conf. Finals,0.7,102.5,1981-82,S. Albeck (48-34),.585,34,1.79,3.0,G. Gervin (10.7),48,SanAntonioSpurs,109.9,1.6
+NBA,105.7,1,Lost W. Conf. Semis,0.2,102.9,1980-81,S. Albeck (52-30),.634,30,2.18,3.0,G. Gervin (10.5),52,SanAntonioSpurs,108.5,1.1
+NBA,109.0,3,Lost E. Conf. 1st Rnd.,3.7,109.5,1979-80,"D. Moe (33-33), B. Bass (8-8)",.500,41,-0.24,3.3,G. Gervin (10.6),41,SanAntonioSpurs,108.6,6.4
+NBA,102.4,1,Lost E. Conf. Finals,-1.4,110.6,1978-79,D. Moe (48-34),.585,34,4.97,3.3,G. Gervin (11.4),48,SanAntonioSpurs,107.1,4.8
+NBA,101.4,1,Lost E. Conf. Semis,0.5,109.0,1977-78,D. Moe (52-30),.634,30,3.20,3.6,G. Gervin (12.0),52,SanAntonioSpurs,104.5,2.3
+NBA,102.0,3,Lost E. Conf. 1st Rnd.,2.5,111.8,1976-77,D. Moe (44-38),.537,38,0.53,3.0,G. Gervin (10.5),44,SanAntonioSpurs,102.5,5.3
+ABA,103.6,3,Lost Semis,-0.5,106.8,1975-76,B. Bass (50-34),.595,34,3.82,3.4,J. Silas (13.1),50,SanAntonioSpurs,107.5,-0.1
+ABA,105.4,2,Lost W. Div. Semis,0.7,102.9,1974-75,"T. Nissalke (18-10), B. Bass (33-23)",.607,33,3.89,4.8,G. Gervin (10.0),51,SanAntonioSpurs,109.5,-0.2
+ABA,100.8,3,Lost W. Div. Semis,-2.2,95.0,1973-74,T. Nissalke (45-39),.536,39,0.74,-1.3,J. Silas (7.9),45,SanAntonioSpurs,101.7,-7.6
+ABA,105.1,5,NA,3.3,108.6,1972-73,"B. McCarthy (24-48), D. Brown (4-8)",.333,56,-3.79,-0.7,J. Silas (7.4),28,DallasChaparrals,101.1,-0.7
+ABA,99.6,3,Lost W. Div. Semis,-1.0,103.4,1971-72,T. Nissalke (42-42),.500,42,0.26,-0.9,D. Freeman (8.9),42,DallasChaparrals,99.7,-8.5
+ABA,107.7,4,Lost W. Div. Semis,2.7,114.3,1970-71,"M. Williams (5-14), B. Blakeley (25-40)",.357,54,-2.21,0.1,J. Beasley (6.8),30,TexasChaparrals,105.1,3.2
+ABA,103.6,2,Lost W. Div. Semis,0.9,113.1,1969-70,"C. Hagan (22-21), M. Williams (23-18)",.536,39,2.13,2.6,G. Combs (8.6),45,DallasChaparrals,105.3,3.9
+ABA,104.8,4,Lost W. Div. Semis,0.8,105.8,1968-69,C. Hagan (41-37),.526,37,-0.31,0.2,J. Beasley (8.1),41,DallasChaparrals,104.2,-3.6
+ABA,102.5,2,Lost W. Div. Finals,1.2,105.0,1967-68,C. Hagan (46-32),.590,32,0.98,2.4,J. Beasley (8.9),46,DallasChaparrals,103.7,-2.0
+NBA,103.5,1,NA,-2.0,93.3,2015-16,D. Casey (35-16),.686,16,4.02,2.9,K. Lowry (8.2),35,TorontoRaptors,108.4,-2.2
+NBA,107.7,1,Lost E. Conf. 1st Rnd.,2.1,92.8,2014-15,D. Casey (49-33),.598,33,2.45,5.4,J. Valanciunas (8.2),49,TorontoRaptors,111.0,-1.1
+NBA,105.3,1,Lost E. Conf. 1st Rnd.,-1.4,91.8,2013-14,D. Casey (48-34),.585,34,2.55,2.1,K. Lowry (11.7),48,TorontoRaptors,108.8,-2.1
+NBA,107.5,5,NA,1.6,90.4,2012-13,D. Casey (34-48),.415,48,-1.96,0.0,A. Johnson (7.3),34,TorontoRaptors,105.9,-1.6
+NBA,104.5,4,NA,-0.1,89.3,2011-12,D. Casey (23-43),.348,43,-3.67,-3.8,J. Calderon (5.1),23,TorontoRaptors,100.8,-2.0
+NBA,112.9,5,NA,5.6,92.9,2010-11,J. Triano (22-60),.268,60,-6.28,-1.2,A. Johnson (5.6),22,TorontoRaptors,106.1,0.8
+NBA,113.2,2,NA,5.6,93.1,2009-10,J. Triano (40-42),.488,42,-1.83,3.7,C. Bosh (9.6),40,TorontoRaptors,111.3,0.4
+NBA,110.0,4,NA,1.7,92.0,2008-09,"S. Mitchell (8-9), J. Triano (25-40)",.402,49,-2.54,-1.3,C. Bosh (9.7),33,TorontoRaptors,107.0,0.3
+NBA,107.0,2,Lost E. Conf. 1st Rnd.,-0.5,90.2,2007-08,S. Mitchell (41-41),.500,41,2.47,2.7,J. Calderon (10.2),41,TorontoRaptors,110.2,-2.2
+NBA,106.0,1,Lost E. Conf. 1st Rnd.,-0.5,92.6,2006-07,S. Mitchell (47-35),.573,35,0.61,0.5,C. Bosh (9.6),47,TorontoRaptors,107.0,0.7
+NBA,112.7,4,NA,6.5,91.1,2005-06,S. Mitchell (27-55),.329,55,-3.03,3.3,C. Bosh (9.8),27,TorontoRaptors,109.5,0.6
+NBA,108.7,4,NA,2.6,92.7,2004-05,S. Mitchell (33-49),.402,49,-1.81,0.8,C. Bosh (6.8),33,TorontoRaptors,106.9,1.8
+NBA,100.4,6,NA,-2.5,86.8,2003-04,K. O'Neill (33-49),.402,49,-3.42,-5.9,D. Marshall (9.8),33,TorontoRaptors,97.0,-3.3
+NBA,107.0,7,NA,3.4,89.9,2002-03,L. Wilkens (24-58),.293,58,-6.10,-3.1,A. Williams (5.5),24,TorontoRaptors,100.5,-1.1
+NBA,103.1,3,Lost E. Conf. 1st Rnd.,-1.4,88.8,2001-02,L. Wilkens (42-40),.512,40,-0.71,-1.9,V. Carter (7.0),42,TorontoRaptors,102.6,-1.9
+NBA,103.4,2,Lost E. Conf. Semis,0.4,90.9,2000-01,L. Wilkens (47-35),.573,35,1.69,2.9,V. Carter (12.9),47,TorontoRaptors,105.9,-0.4
+NBA,104.9,3,Lost E. Conf. 1st Rnd.,0.8,92.5,1999-00,B. Carter (45-37),.549,37,-0.46,0.6,V. Carter (11.8),45,TorontoRaptors,104.7,-0.6
+NBA,103.9,6,NA,1.7,88.8,1998-99,B. Carter (23-27),.460,27,-1.32,-0.2,V. Carter (5.0),23,TorontoRaptors,102.0,-0.1
+NBA,111.0,8,NA,6.0,92.6,1997-98,"D. Walker (11-38), B. Carter (5-28)",.195,66,-8.33,-3.8,D. Christie (4.0),16,TorontoRaptors,101.2,2.3
+NBA,108.0,8,NA,1.3,90.6,1996-97,D. Walker (30-52),.366,52,-2.56,-2.1,D. Stoudamire (7.6),30,TorontoRaptors,104.6,0.5
+NBA,111.8,8,NA,4.2,93.2,1995-96,B. Malone (21-61),.256,61,-7.20,-3.8,T. Murray (4.9),21,TorontoRaptors,103.8,1.4
+NBA,104.3,2,NA,-1.2,90.6,2015-16,Q. Snyder (25-25),.500,25,1.47,0.4,G. Hayward (5.6),25,UtahJazz,105.9,-4.9
+NBA,104.9,3,NA,-0.7,90.4,2014-15,Q. Snyder (38-44),.463,44,0.71,-0.5,R. Gobert (9.3),38,UtahJazz,105.1,-3.5
+NBA,111.3,5,NA,4.6,91.4,2013-14,T. Corbin (25-57),.305,57,-6.27,-3.2,D. Favors (5.1),25,UtahJazz,103.5,-2.5
+NBA,106.8,3,NA,0.9,90.9,2012-13,T. Corbin (43-39),.524,39,0.30,0.8,A. Jefferson (7.7),43,UtahJazz,106.7,-1.1
+NBA,106.1,3,Lost W. Conf. 1st Rnd.,1.5,91.4,2011-12,T. Corbin (36-30),.545,30,0.92,2.2,P. Millsap (7.8),36,UtahJazz,106.8,0.1
+NBA,110.1,4,NA,2.8,91.0,2010-11,"J. Sloan (31-23), T. Corbin (8-20)",.476,43,-1.44,0.8,A. Jefferson (7.8),39,UtahJazz,108.1,-1.1
+NBA,105.0,2,Lost W. Conf. Semis,-2.6,93.8,2009-10,J. Sloan (53-29),.646,29,5.33,3.1,D. Williams (10.3),53,UtahJazz,110.7,1.1
+NBA,107.3,3,Lost W. Conf. 1st Rnd.,-1.0,93.1,2008-09,J. Sloan (48-34),.585,34,2.31,1.8,D. Williams (8.4),48,UtahJazz,110.1,1.4
+NBA,106.5,1,Lost W. Conf. Semis,-1.0,93.2,2007-08,J. Sloan (54-28),.659,28,6.86,6.3,D. Williams (11.3),54,UtahJazz,113.8,0.8
+NBA,107.0,1,Lost W. Conf. Finals,0.5,91.6,2006-07,J. Sloan (51-31),.622,31,3.06,3.6,C. Boozer (9.9),51,UtahJazz,110.1,-0.3
+NBA,107.0,2,NA,0.8,87.8,2005-06,J. Sloan (41-41),.500,41,-2.49,-2.1,M. Okur (9.3),41,UtahJazz,104.1,-2.7
+NBA,109.5,5,NA,3.4,88.4,2004-05,J. Sloan (26-56),.317,56,-3.74,-1.4,M. Okur (7.0),26,UtahJazz,104.7,-2.5
+NBA,103.3,7,NA,0.4,86.6,2003-04,J. Sloan (42-40),.512,40,-0.53,-1.0,A. Kirilenko (11.6),42,UtahJazz,101.9,-3.5
+NBA,102.8,4,Lost W. Conf. 1st Rnd.,-0.8,89.3,2002-03,J. Sloan (47-35),.573,35,2.76,1.9,K. Malone (11.1),47,UtahJazz,105.5,-1.7
+NBA,104.6,4,Lost W. Conf. 1st Rnd.,0.1,90.3,2001-02,J. Sloan (44-38),.537,38,1.21,1.1,J. Stockton (10.7),44,UtahJazz,105.6,-0.4
+NBA,102.4,2,Lost W. Conf. 1st Rnd.,-0.6,89.8,2000-01,J. Sloan (53-29),.646,29,5.00,4.6,K. Malone (13.1),53,UtahJazz,107.6,-1.5
+NBA,102.3,1,Lost W. Conf. Semis,-1.8,89.6,1999-00,J. Sloan (55-27),.671,27,4.52,3.2,K. Malone (15.3),55,UtahJazz,107.3,-3.5
+NBA,98.4,2,Lost W. Conf. Semis,-3.8,87.0,1998-99,J. Sloan (37-13),.740,13,5.54,3.6,K. Malone (9.6),37,UtahJazz,105.8,-1.9
+NBA,105.4,1,Lost Finals,0.4,89.2,1997-98,J. Sloan (62-20),.756,20,5.73,7.7,K. Malone (16.4),62,UtahJazz,112.7,-1.1
+NBA,104.0,1,Lost Finals,-2.7,90.0,1996-97,J. Sloan (64-18),.780,18,7.97,6.9,K. Malone (16.7),64,UtahJazz,113.6,-0.1
+NBA,106.1,2,Lost W. Conf. Finals,-1.5,90.0,1995-96,J. Sloan (55-27),.671,27,6.25,5.7,K. Malone (15.1),55,UtahJazz,113.3,-1.8
+NBA,105.7,2,Lost W. Conf. 1st Rnd.,-2.6,92.6,1994-95,J. Sloan (60-22),.732,22,7.76,6.0,J. Stockton (13.9),60,UtahJazz,114.3,-0.3
+NBA,104.1,3,Lost W. Conf. Finals,-2.2,93.1,1993-94,J. Sloan (53-29),.646,29,4.10,2.3,K. Malone (13.4),53,UtahJazz,108.6,-2.0
+NBA,107.4,3,Lost W. Conf. 1st Rnd.,-0.6,96.5,1992-93,J. Sloan (47-35),.573,35,1.74,1.6,K. Malone (15.4),47,UtahJazz,109.6,-0.3
+NBA,105.6,1,Lost W. Conf. Finals,-2.6,95.5,1991-92,J. Sloan (55-27),.671,27,5.70,4.0,K. Malone (15.1),55,UtahJazz,112.2,-1.1
+NBA,105.1,2,Lost W. Conf. Semis,-2.8,95.3,1990-91,J. Sloan (54-28),.659,28,3.18,0.7,K. Malone (15.5),54,UtahJazz,108.6,-2.5
+NBA,105.4,2,Lost W. Conf. 1st Rnd.,-2.7,96.1,1989-90,J. Sloan (55-27),.671,27,4.82,2.2,K. Malone (15.9),55,UtahJazz,110.3,-2.2
+NBA,101.5,1,Lost W. Conf. 1st Rnd.,-6.3,98.0,1988-89,"F. Layden (11-6), J. Sloan (40-25)",.622,31,4.01,-1.2,J. Stockton (15.6),51,UtahJazz,106.6,-2.6
+NBA,103.1,3,Lost W. Conf. Semis,-4.9,101.5,1987-88,F. Layden (47-35),.573,35,2.96,-1.2,J. Stockton (14.1),47,UtahJazz,106.8,1.9
+NBA,103.7,2,Lost W. Conf. 1st Rnd.,-4.6,103.2,1986-87,F. Layden (44-38),.537,38,0.04,-4.2,K. Malone (6.9),44,UtahJazz,104.1,2.4
+NBA,104.6,4,Lost W. Conf. 1st Rnd.,-2.6,103.3,1985-86,F. Layden (42-40),.512,40,-0.67,-3.0,A. Dantley (12.8),42,UtahJazz,104.2,1.2
+NBA,103.4,4,Lost W. Conf. Semis,-4.5,105.1,1984-85,F. Layden (41-41),.500,41,-0.33,-4.6,A. Dantley (8.0),41,UtahJazz,103.3,3.0
+NBA,108.0,1,Lost W. Conf. Semis,0.4,104.9,1983-84,F. Layden (45-37),.549,37,0.81,1.4,A. Dantley (14.6),45,UtahJazz,109.0,3.5
+NBA,105.1,5,NA,0.4,107.3,1982-83,F. Layden (30-52),.366,52,-4.22,-3.5,R. Green (6.6),30,UtahJazz,101.2,4.2
+NBA,111.7,6,NA,4.8,103.9,1981-82,"T. Nissalke (8-12), F. Layden (17-45)",.305,57,-5.63,-0.7,A. Dantley (12.6),25,UtahJazz,106.2,3.0
+NBA,109.4,5,NA,3.9,97.7,1980-81,T. Nissalke (28-54),.341,54,-5.99,-2.1,A. Dantley (13.6),28,UtahJazz,103.4,-4.1
+NBA,110.4,5,NA,5.1,97.6,1979-80,T. Nissalke (24-58),.293,58,-5.71,-1.1,A. Dantley (10.5),24,UtahJazz,104.2,-5.5
+NBA,105.4,6,NA,1.6,108.6,1978-79,E. Baylor (26-56),.317,56,-5.97,-4.2,R. Kelley (8.6),26,NewOrleansJazz,99.6,2.8
+NBA,100.6,5,NA,-0.3,108.3,1977-78,E. Baylor (39-43),.476,43,-1.80,-2.0,T. Robinson (6.5),39,NewOrleansJazz,98.9,1.6
+NBA,99.7,5,NA,0.2,107.2,1976-77,"B. Van Breda Kolff (14-12), E. Baylor (21-35)",.427,47,-2.68,-2.5,P. Maravich (6.4),35,NewOrleansJazz,97.0,0.7
+NBA,97.4,4,NA,-0.9,106.7,1975-76,B. Van Breda Kolff (38-44),.463,44,-0.74,-1.7,P. Maravich (7.1),38,NewOrleansJazz,96.6,1.2
+NBA,99.7,5,NA,2.0,109.4,1974-75,"S. Robertson (1-14), E. Baylor (0-1), B. Van Breda Kolff (22-44)",.280,59,-7.30,-5.2,P. Maravich (3.9),23,NewOrleansJazz,92.5,4.9
+NBA,107.6,5,NA,2.1,98.0,2015-16,R. Wittman (22-27),.449,27,-1.89,-0.6,M. Gortat (3.3),22,WashingtonWizards,104.9,2.5
+NBA,103.0,2,Lost E. Conf. Semis,-2.6,93.7,2014-15,R. Wittman (46-36),.561,36,0.17,-1.9,M. Gortat (8.6),46,WashingtonWizards,103.7,-0.2
+NBA,104.6,2,Lost E. Conf. Semis,-2.1,93.2,2013-14,R. Wittman (44-38),.537,38,0.48,-0.7,M. Gortat (8.1),44,WashingtonWizards,106.0,-0.7
+NBA,103.0,3,NA,-2.9,92.2,2012-13,R. Wittman (29-53),.354,53,-2.78,-5.7,M. Webster (6.3),29,WashingtonWizards,100.2,0.2
+NBA,106.2,4,NA,1.6,92.5,2011-12,"F. Saunders (2-15), R. Wittman (18-31)",.303,46,-5.14,-3.6,J. Wall (3.5),20,WashingtonWizards,101.0,1.2
+NBA,110.2,5,NA,2.9,93.8,2010-11,F. Saunders (23-59),.280,59,-7.30,-4.9,J. McGee (5.3),23,WashingtonWizards,102.4,1.7
+NBA,109.4,5,NA,1.8,91.6,2009-10,F. Saunders (26-56),.317,56,-4.72,-3.4,B. Haywood (4.5),26,WashingtonWizards,104.2,-1.1
+NBA,113.6,5,NA,5.3,91.0,2008-09,"E. Jordan (1-10), E. Tapscott (18-53)",.232,63,-6.98,-2.9,A. Jamison (8.1),19,WashingtonWizards,105.4,-0.7
+NBA,109.6,2,Lost E. Conf. 1st Rnd.,2.1,89.5,2007-08,E. Jordan (43-39),.524,39,-0.61,1.7,A. Jamison (9.2),43,WashingtonWizards,109.2,-2.9
+NBA,110.6,2,Lost E. Conf. 1st Rnd.,4.1,94.1,2006-07,E. Jordan (41-41),.500,41,-0.80,3.6,G. Arenas (10.8),41,WashingtonWizards,110.1,2.2
+NBA,107.3,2,Lost E. Conf. 1st Rnd.,1.1,92.3,2005-06,E. Jordan (42-40),.512,40,1.57,3.1,G. Arenas (13.6),42,WashingtonWizards,109.3,1.8
+NBA,107.5,2,Lost E. Conf. Semis,1.4,93.3,2004-05,E. Jordan (45-37),.549,37,-0.71,1.1,G. Arenas (11.5),45,WashingtonWizards,107.2,2.4
+NBA,104.8,6,NA,1.9,92.2,2003-04,E. Jordan (25-57),.305,57,-6.12,-4.1,K. Brown (4.9),25,WashingtonWizards,98.8,2.1
+NBA,104.1,5,NA,0.5,88.2,2002-03,D. Collins (37-45),.451,45,-1.47,-0.6,C. Laettner (6.6),37,WashingtonWizards,103.0,-2.8
+NBA,106.4,5,NA,1.9,88.3,2001-02,D. Collins (37-45),.451,45,-1.58,0.3,C. Whitney (6.5),37,WashingtonWizards,104.8,-2.4
+NBA,107.8,7,NA,4.8,92.7,2000-01,L. Hamilton (19-63),.232,63,-6.75,-2.4,M. Smith (3.6),19,WashingtonWizards,100.6,1.4
+NBA,107.0,7,NA,2.9,92.7,1999-00,"G. Heard (14-30), D. Walker (15-23)",.354,53,-3.47,-0.6,M. Richmond (5.2),29,WashingtonWizards,103.5,-0.4
+NBA,103.7,6,NA,1.5,89.8,1998-99,"B. Bickerstaff (13-19), J. Brovelli (5-13)",.360,32,-1.75,-1.0,R. Strickland (4.1),18,WashingtonWizards,101.2,0.9
+NBA,104.5,4,NA,-0.5,91.8,1997-98,B. Bickerstaff (42-40),.512,40,1.11,0.2,C. Webber (8.3),42,WashingtonWizards,105.2,1.5
+NBA,104.9,4,Lost E. Conf. 1st Rnd.,-1.8,92.4,1996-97,"J. Lynam (22-24), B. Staak (0-1), B. Bickerstaff (22-13)",.537,38,1.77,-0.1,C. Webber (9.3),44,WashingtonBullets,106.6,2.3
+NBA,107.6,4,NA,0.0,93.7,1995-96,J. Lynam (39-43),.476,43,0.99,1.1,G. Muresan (8.0),39,WashingtonBullets,108.7,1.9
+NBA,111.3,7,NA,3.0,94.5,1994-95,J. Lynam (21-61),.256,61,-5.56,-2.9,S. Skiles (4.5),21,WashingtonBullets,105.4,1.6
+NBA,112.2,7,NA,5.9,95.9,1993-94,W. Unseld (24-58),.293,58,-7.13,-1.8,D. MacLean (5.6),24,WashingtonBullets,104.5,0.8
+NBA,110.8,7,NA,2.8,97.7,1992-93,W. Unseld (22-60),.268,60,-6.49,-4.4,H. Grant (5.0),22,WashingtonBullets,103.6,0.9
+NBA,108.4,6,NA,0.2,97.7,1991-92,W. Unseld (25-57),.305,57,-4.35,-4.3,P. Ellison (6.9),25,WashingtonBullets,103.9,1.1
+NBA,108.1,4,NA,0.2,97.5,1990-91,W. Unseld (30-52),.366,52,-4.84,-4.9,H. Grant (6.7),30,WashingtonBullets,103.0,-0.3
+NBA,109.7,4,NA,1.6,99.4,1989-90,W. Unseld (31-51),.378,51,-2.43,-0.6,D. Walker (6.3),31,WashingtonBullets,107.5,1.1
+NBA,108.5,4,NA,0.7,100.8,1988-89,W. Unseld (40-42),.488,42,-1.77,-1.4,J. Williams (6.9),40,WashingtonBullets,106.4,0.2
+NBA,107.2,2,Lost E. Conf. 1st Rnd.,-0.8,98.1,1987-88,"K. Loughery (8-19), W. Unseld (30-25)",.463,44,-0.16,-1.5,M. Malone (9.2),38,WashingtonBullets,106.5,-1.5
+NBA,107.0,3,Lost E. Conf. 1st Rnd.,-1.3,100.2,1986-87,K. Loughery (42-40),.512,40,-1.02,-2.6,M. Malone (9.4),42,WashingtonBullets,105.7,-0.6
+NBA,104.8,3,Lost E. Conf. 1st Rnd.,-2.4,99.1,1985-86,"G. Shue (32-37), K. Loughery (7-6)",.476,43,-1.28,-4.2,J. Malone (6.1),39,WashingtonBullets,103.0,-3.0
+NBA,104.6,4,Lost E. Conf. 1st Rnd.,-3.3,100.3,1984-85,G. Shue (40-42),.488,42,0.15,-3.6,G. Ballard (6.0),40,WashingtonBullets,104.3,-1.8
+NBA,107.2,5,Lost E. Conf. 1st Rnd.,-0.4,97.4,1983-84,G. Shue (35-47),.427,47,-2.36,-3.4,J. Ruland (9.3),35,WashingtonBullets,104.2,-4.0
+NBA,99.3,5,NA,-5.4,99.4,1982-83,G. Shue (42-40),.512,40,0.20,-5.6,J. Ruland (10.1),42,WashingtonBullets,99.1,-3.7
+NBA,102.5,4,Lost E. Conf. Semis,-4.4,99.4,1981-82,G. Shue (43-39),.524,39,1.06,-3.6,G. Ballard (9.4),43,WashingtonBullets,103.3,-1.5
+NBA,102.7,4,NA,-2.8,102.4,1980-81,G. Shue (39-43),.476,43,0.42,-2.8,G. Ballard (6.9),39,WashingtonBullets,102.7,0.6
+NBA,105.7,3,Lost E. Conf. 1st Rnd.,0.4,102.6,1979-80,D. Motta (39-43),.476,43,-2.27,-2.1,W. Unseld (8.4),39,WashingtonBullets,103.2,-0.5
+NBA,102.7,1,Lost Finals,-1.1,106.5,1978-79,D. Motta (54-28),.659,28,4.75,3.6,E. Hayes (9.4),54,WashingtonBullets,107.4,0.7
+NBA,100.5,2,Won Finals,-0.4,108.1,1977-78,D. Motta (44-38),.537,38,0.82,0.4,E. Hayes (8.3),44,WashingtonBullets,101.3,1.4
+NBA,98.4,2,Lost E. Conf. Semis,-1.1,105.9,1976-77,D. Motta (48-34),.585,34,0.90,-0.2,E. Hayes (12.1),48,WashingtonBullets,99.3,-0.6
+NBA,95.3,2,Lost E. Conf. Semis,-3.0,104.3,1975-76,K. Jones (48-34),.585,34,2.20,-0.8,W. Unseld (9.5),48,WashingtonBullets,97.5,-1.2
+NBA,91.3,1,Lost Finals,-6.4,106.1,1974-75,K. Jones (60-22),.732,22,6.53,0.3,E. Hayes (12.5),60,WashingtonBullets,98.0,1.6
+NBA,94.2,1,Lost E. Conf. Semis,-3.5,106.3,1973-74,K. Jones (47-35),.573,35,1.19,-2.1,E. Hayes (10.6),47,CapitalBullets,95.6,-1.5
+NBA,93.3,1,Lost E. Conf. Semis,-3.5,108.7,1972-73,G. Shue (52-30),.634,30,2.85,-0.5,M. Riordan (11.1),52,BaltimoreBullets,96.3,-2.0
+NBA,97.6,1,Lost E. Conf. Semis,-0.3,110.5,1971-72,G. Shue (38-44),.463,44,-1.26,-1.4,A. Clark (10.7),38,BaltimoreBullets,96.5,-1.5
+NBA,95.7,1,Lost Finals,-1.5,116.5,1970-71,G. Shue (42-40),.512,40,0.91,-1.0,W. Unseld (10.0),42,BaltimoreBullets,96.2,1.4
+NBA,96.9,3,Lost E. Div. Semis,-2.1,121.0,1969-70,G. Shue (50-32),.610,32,1.94,-0.3,W. Unseld (11.1),50,BaltimoreBullets,98.7,3.9
+NBA,91.7,1,Lost E. Div. Semis,-3.8,121.8,1968-69,G. Shue (57-25),.695,25,4.05,-0.3,W. Unseld (10.8),57,BaltimoreBullets,95.2,4.9
+NBA,96.6,6,NA,-0.2,121.5,1967-68,G. Shue (36-46),.439,46,-0.23,-0.6,E. Monroe (9.3),36,BaltimoreBullets,96.2,1.7
+NBA,98.6,5,NA,2.5,123.0,1966-67,"M. Farmer (1-8), B. Jeannette (3-13), G. Shue (16-40)",.247,61,-5.87,-2.7,G. Johnson (5.0),20,BaltimoreBullets,93.4,1.4
+NBA,96.8,2,Lost W. Div. Semis,1.9,123.1,1965-66,P. Seymour (38-42),.475,42,-1.06,0.9,B. Howell (8.7),38,BaltimoreBullets,95.8,1.7
+NBA,98.7,3,Lost W. Div. Finals,5.1,116.2,1964-65,B. Jeannette (37-43),.463,43,-1.97,3.2,W. Bellamy (12.1),37,BaltimoreBullets,96.8,-1.1
+NBA,96.6,4,NA,2.0,117.0,1963-64,S. Leonard (31-49),.388,49,-1.59,0.4,W. Bellamy (14.4),31,BaltimoreBullets,95.0,3.8
+NBA,101.1,5,NA,5.2,112.2,1962-63,"J. McMahon (12-26), S. Leonard (13-29)",.313,55,-3.63,1.6,W. Bellamy (13.7),25,ChicagoZephyrs,97.5,-2.8
+NBA,96.9,5,NA,3.3,122.9,1961-62,J. Pollard (18-62),.225,62,-7.54,-3.6,W. Bellamy (16.3),18,ChicagoPackers,90.0,1.6

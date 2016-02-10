@@ -240,7 +240,8 @@ p102
 I01
 sS'_shootingHand'
 p103
-NsS'_name'
+g20
+sS'_name'
 p104
 S'Nerlens Noel'
 p105
