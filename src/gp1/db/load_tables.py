@@ -35,7 +35,7 @@ def getBasicPlayerInfoList():
             filename = dirpath + filename
             print "returning basic profile info for  filename: ", filename
             player =  unpickle(filename)
-            playersInfoList.append((player._name, player._dob, player._height, player._weight, player._fromYear,
+            playersInfoList.append((player._name, player._active, player._dob, player._height, player._weight, player._fromYear,
                                     player._toYear, player._position, player._shootingHand, player._college,
                                     player._url))
     return playersInfoList
