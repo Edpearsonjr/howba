@@ -1,3 +1,15 @@
+def reGetCorrectTable():
+    """
+    return the reg to find the table with an id of players
+    :return: regex
+    """
+    pattern = r"""
+    <table.*?id="players">
+    (.*?)                       #Grab anything that is inbetwen <table id="players">and </table>
+    </table>
+    """
+    return pattern
+
 def reGetAllTrInListPage():
     """
     return the regex to get all the trs in the player list page
@@ -31,7 +43,7 @@ def reGetTdsWithinTrInListPage():
     """
     pattern = """
         <td.*?>             # This signifies the beginning of the td tag
-        (.*?)               #Grab everything between teh td tag
+        (.*?)               #Grab everything between the td tag
         </td>               #end of the <td> tag
         """
     return pattern
