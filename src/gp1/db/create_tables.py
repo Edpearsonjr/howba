@@ -20,10 +20,11 @@ if __name__ == "__main__":
     createBasicFranchiseInfoSql = sqlFolder + "create_basic_franchise_info.sql"
     createSeasonsFranchises = sqlFolder + "create_seasons_franchises.sql"
     createStatsInfo = sqlFolder + "create_stats_info.sql"
+    createTeamSalaryInfo  = sqlFolder + "create_team_salary.sql"
 
     createSqls = [createBasicProfileSql, createTotalTableSql, createSalaryTableSql, createMVPTableSql,
                   createTeamMappingSql, createBasicFranchiseInfoSql, createSeasonsFranchises,
-                  createStatsInfo]
+                  createStatsInfo, createTeamSalaryInfo]
 
     for eachSql in createSqls:
         createTables(eachSql)

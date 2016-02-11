@@ -104,6 +104,7 @@ def main():
     print "6. Load BASIC_FRANCHISE_INFO table"
     print "7. Load SEASONS_FRANCHISES table"
     print "8. Load STATS_INFO table"
+    print "9. Load TEAM_SALARY table"
     print "999. Exit"
     print "*" * 15
     choice = raw_input("Please enter a choice: ")
@@ -150,6 +151,12 @@ def main():
         csvFile = csvFolder + "season_stats_info.csv"
         seasonsStatsInfo = getListOfTuplesFromCsv(csvFile)
         loadTable(seasonsStatsInfo, "insert_into_stats_info.sql")
+        connection.commit()
+
+    elif choice == 9:
+        csvFile = csvFolder + "team_sal_info.csv"
+        teamSalaryStats = getListOfTuplesFromCsv(csvFile)
+        loadTable(teamSalaryStats, "insert_into_team_salary.sql")
         connection.commit()
 
     elif choice == 999:
