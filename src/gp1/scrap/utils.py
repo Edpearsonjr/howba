@@ -1,8 +1,12 @@
-import time 
-import csv
+import time
 import pickle
 import re
 import csv
+import os
+
+cwd =  os.getcwd()
+gp1RootDirectory = os.path.join(cwd) + "/"
+
 def constants():
     """
         Contains some of the constants needed
@@ -11,13 +15,13 @@ def constants():
                      BASEPLAYER_URL="http://www.basketball-reference.com/players/",
                      MVP_URL = "http://www.basketball-reference.com/awards/mvp.html",
                      SLEEP_FOR=1,
-                     DATA_DIR="../data/",
-                     CSV_FOLDER="../data/csv/",
-                     PLAYER_LISTS_FOLDER = "../data/player_lists_html/",
-                     PICKLED_FOLDER = "../data/pickled/",
-                     PLAYERS_INDIVIDUAL_INFO_FOLDER= "../data/players_individual_info/",
-                     DB_FILE = "../db/basketBall.db",
-                     SQL_FOLDER = "../db/sql/")
+                     DATA_DIR=gp1RootDirectory + "data/",
+                     CSV_FOLDER= gp1RootDirectory + "data/csv/",
+                     PLAYER_LISTS_FOLDER = gp1RootDirectory + "data/player_lists_html/",
+                     PICKLED_FOLDER = gp1RootDirectory + "data/pickled/",
+                     PLAYERS_INDIVIDUAL_INFO_FOLDER= gp1RootDirectory + "data/players_individual_info/",
+                     DB_FILE = gp1RootDirectory + "db/basketBall.db",
+                     SQL_FOLDER = gp1RootDirectory + "/db/sql/")
     return constants
 
 
@@ -51,7 +55,6 @@ def writeCsv(listOfDictionaries, filename):
     print "Writing the csv"
     if not filename.endswith('csv'):
         print "Please provide a filename that ends with csv"
-
     header = listOfDictionaries[0].keys() #Take the keys of the first dictionary as headers
     with open(filename, 'w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames = header)
@@ -117,3 +120,14 @@ def getListOfTuplesFromCsv(csvfilename):
             listOfTuples.append(tuple(everyRow))
     return listOfTuples
 
+# This defines a simple decorator
+# This decorator is used to time functions, that take in arguments
+
+def generalWrapper(func, *args, **kwargs):
+    def wrapped():
+        return func(*args, **kwargs)
+    return wrapped
+
+
+if __name__ == "__main__":
+    constants()

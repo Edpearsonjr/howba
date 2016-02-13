@@ -32,12 +32,13 @@ def getHtmlForPlayers(character):
     html_players = handle.read() #Contains all the players beginning with `character`
     return html_players
 
-def getPlayerUrlUsingBS4(directory):
+def getPlayerUsingBs4(directory):
     """
         directory: Directory containing all the players-list files
         :param directory:
     """
     players_initial_info = [] #This list contains dictionaries
+    print "directory inside bs4 scrapping: ", directory
     for (dirpath, dirnames, filenames) in os.walk(directory):
         for filename in filenames:
             print "generating the dictionaries for: ", filename
@@ -104,7 +105,7 @@ def getPlayerUrlUsingBS4(directory):
                     players_initial_info.append(player_dict)
             else:
                 print "Filenames without .txt extension are fad :p"
-    writeCsv(players_initial_info, csvFolder + "playersInitialInfo.csv")
+    # writeCsv(players_initial_info, csvFolder + "playersInitialInfo.csv")
 
 
 def getPlayerUsingRegEx(directory):
@@ -138,8 +139,6 @@ def getPlayerUsingRegEx(directory):
                 tdMatchIterator = re.finditer(actualContentRegex, tds, re.VERBOSE)
                 for i, match in enumerate(tdMatchIterator):
                     tdContent = match.group(1)
-                    print i
-                    print tdContent
                     if i==0:
                         if "<strong>" in tdContent:
                             active = True
@@ -197,7 +196,7 @@ def getPlayerUsingRegEx(directory):
                 listOfDictionaries = getPlayersForAFilenameUsingRegex(filename)
                 if listOfDictionaries:
                     playersInitialInfo.extend(listOfDictionaries)
-    writeCsv(playersInitialInfo, csvFolder + "playersInitialInfoUsingRegex.csv")
+    # writeCsv(playersInitialInfo, csvFolder + "playersInitialInfoUsingRegex.csv")
 
 def main(argv):
     try:
@@ -220,7 +219,7 @@ def main(argv):
                 writeFile(playerListsFolder + filename, html)
                 sleepForAWhile()
         elif opt == "-c":
-            getPlayerUrlUsingBS4(playerListsFolder)
+            getPlayerUsingBs4(playerListsFolder)
         elif opt == "-r":
             getPlayerUsingRegEx(playerListsFolder)
         else:
