@@ -102,7 +102,7 @@ class PlayerStatsInfoGenerator():
 
         html_for_player = self._getPlayerHtml(url)
         self._playerSoup = BeautifulSoup(html_for_player, "lxml")
-        basicInfoDict = self._getBasicInfoOfActivePlayer()
+        basicInfoDict = self._getBasicInfoOfPlayer()
         playerTotalsStatistics = self._getPlayerStatistics('all_totals')
         playerPerGameStatistics = self._getPlayerStatistics('all_per_game')
         playerPer36MinuteStatistics = self._getPlayerStatistics('all_per_minute')
@@ -164,7 +164,7 @@ class PlayerStatsInfoGenerator():
             sleepForAWhile()
         return html
 
-    def _getBasicInfoOfActivePlayer(self):
+    def _getBasicInfoOfPlayer(self):
         """
         This method makes use of the playerSoup and returns the basic info of the player that is not yet scrapped
         some of the basic info like the position and name are already scrapped from the player list page
