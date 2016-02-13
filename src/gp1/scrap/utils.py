@@ -3,9 +3,8 @@ import pickle
 import re
 import csv
 import os
-
-cwd =  os.getcwd()
-gp1RootDirectory = os.path.join(cwd) + "/"
+from src.gp1.root import getRootPath
+gp1RootDirectory = getRootPath() + "/"
 
 def constants():
     """
@@ -21,7 +20,7 @@ def constants():
                      PICKLED_FOLDER = gp1RootDirectory + "data/pickled/",
                      PLAYERS_INDIVIDUAL_INFO_FOLDER= gp1RootDirectory + "data/players_individual_info/",
                      DB_FILE = gp1RootDirectory + "db/basketBall.db",
-                     SQL_FOLDER = gp1RootDirectory + "/db/sql/")
+                     SQL_FOLDER = gp1RootDirectory + "db/sql/")
     return constants
 
 
