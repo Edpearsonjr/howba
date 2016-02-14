@@ -76,7 +76,9 @@ class PlayerStatsInfoGenerator():
         for i, eachPlayer in enumerate(self.allPlayersBasicInfo):
             player = self.__makePlayer(eachPlayer)
             if player:
-                pickleObject(player, pickledPlayerFolder + player.name.strip().replace(" ", "") + ".pkl")
+                url = player._url.split('/')
+                filename = url[len(url) - 1]
+                pickleObject(player, pickledPlayerFolder + filename  + ".pkl")
 
 
     def __makePlayer(self, player):
