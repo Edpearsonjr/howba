@@ -5,6 +5,7 @@ connection = getConnection() #This has to be used only once in the module
 
 usefulConstants = constants()
 sqlFolder = usefulConstants["SQL_FOLDER"]
+print sqlFolder
 
 def createTables(filename):
     createCommand = open(filename, "r").read()

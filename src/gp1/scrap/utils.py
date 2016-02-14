@@ -3,9 +3,8 @@ import pickle
 import re
 import csv
 import os
-
-cwd =  os.getcwd()
-gp1RootDirectory = os.path.join(cwd) + "/"
+from src.gp1.root import getRootPath
+gp1RootDirectory = getRootPath() + "/"
 
 def constants():
     """
@@ -21,7 +20,7 @@ def constants():
                      PICKLED_FOLDER = gp1RootDirectory + "data/pickled/",
                      PLAYERS_INDIVIDUAL_INFO_FOLDER= gp1RootDirectory + "data/players_individual_info/",
                      DB_FILE = gp1RootDirectory + "db/basketBall.db",
-                     SQL_FOLDER = gp1RootDirectory + "/db/sql/")
+                     SQL_FOLDER = gp1RootDirectory + "db/sql/")
     return constants
 
 
@@ -95,17 +94,22 @@ def scrapPlayerStatisticsTable(soup):
     tableContainerDiv = soup.find('div', {'class': 'table_container'})
     table = tableContainerDiv.find('table')
     tbody = table.find('tbody')
+    ths = table.find_all('th')
     trs = tbody.find_all('tr')
     statistics = []
     for tr in trs:
         tds = tr.find_all('td')
         rowData = []
-        for td in tds:
+        for i, td in enumerate(tds):
             anchorTag = td.find_all('a') #if there is an anchor tag then find it
             if anchorTag:
                 rowData.append(anchorTag[0].string.encode('utf-8'))
             elif td.string:
                 rowData.append(td.string.encode('utf-8'))
+            elif not td.string and not ths[i].string: #There are some weird columns with no th and no td
+                continue
+            else:
+                rowData.append('NA')
         statistics.append(rowData)
 
     return statistics
