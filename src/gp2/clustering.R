@@ -17,7 +17,7 @@ library('corrplot')
 library('ggplot2')
 library('cluster')
 
-basketballDb <- dbConnect(SQLite(), "/home/abhinav/abhinav/howba/src/gp1/db/basketBall.db")
+basketballDb <- dbConnect(SQLite(), "/Users/abhinav/Abhinav/howba/app/src/gp1/db/basketBall.db")
 
 # lets look at the SG- Shooting Guard position 
 # Main objective is to score points 
@@ -47,17 +47,17 @@ basketballDb <- dbConnect(SQLite(), "/home/abhinav/abhinav/howba/src/gp1/db/bask
 
 
 #Trying for the 2012-2013 season only now 
-sqlStatement  <- "SELECT * FROM SHOOTING_GUARDS_2012_2013"
+sqlStatement  <- "SELECT * FROM SG_PREVIOUS5YEARS_AVERAGE"
 playerTotals <- dbGetQuery(basketballDb, sqlStatement)
-shootingGuards2012 <- tbl_df(playerTotals)
+shootingGuardsPrevious5years <- tbl_df(playerTotals)
 
 # select a few columns and prepare the data for cluster analysis 
 # if the player has played shooting-guard and smallforward he is given a value of 1 in a separate column
 # likewise do it for sg-pf, sg-pg
-shootingGuards <- shootingGuards2012 %>% 
-                    select(AGE, GAMES, GAMES_STARTED, MINUTES_PLAYED, FIELD_GOALS, FIELD_GOALS_ATTEMPTS, TWO_POINTS_FG, TWO_POINTS_FG_ATTEMPTS, 
+shootingGuards <- shootingGuardsPrevious5years %>% 
+                    select(GAMES, GAMES_STARTED, MINUTES_PLAYED, FIELD_GOALS, FIELD_GOALS_ATTEMPTS, TWO_POINTS_FG, TWO_POINTS_FG_ATTEMPTS, 
                            THREE_POINTS_FG, THREE_POINTS_FG_ATTEMPTS, EFF_FIELD_GOAL_PERCENT, FREE_THROWS, FREE_THROWS_ATTEMPTS,
-                           ASSISTS, TURNOVERS, POINTS)
+                           ASSISTS, TURNOVERS, POINTS) 
     
 
 # in order to decide which variables to keep and which not to 
@@ -75,9 +75,9 @@ flatternCorrelationMatrix <- function(cormat, pmat) {
 correlation <- rcorr(as.matrix(shootingGuards))
 correlationFlattened = flatternCorrelationMatrix(correlation$r, correlation$P)
 corGreaterThan99 <- filter(correlationFlattened, cor>0.95 | cor < -0.95)
-# print(corGreaterThan99)
+print(corGreaterThan99)
 
-# corrplot(correlation$r, type="upper", order="hclust", tl.col="black", tl.srt=45)
+corrplot(correlation$r, type="upper", order="hclust", tl.col="black", tl.srt=45)
 
 
 #some of the variables that were identified to remove are as follows 
@@ -89,10 +89,9 @@ corGreaterThan99 <- filter(correlationFlattened, cor>0.95 | cor < -0.95)
 
 
 
-features <- shootingGuards2012 %>%
-    select(-c(PLAYER_ID, SEASON_ID,FIELD_GOALS, TEAM, FIELD_GOALS_ATTEMPTS, THREE_POINTS_FG_ATTEMPTS, FREE_THROWS_ATTEMPTS, TWO_POINTS_FG_ATTEMPTS)) %>%
+features <- shootingGuardsPrevious5years %>%
+    select(-c(PLAYER_ID,FIELD_GOALS, FIELD_GOALS_ATTEMPTS, THREE_POINTS_FG_ATTEMPTS, FREE_THROWS_ATTEMPTS, TWO_POINTS_FG_ATTEMPTS)) %>%
     mutate(
-       AGE = (AGE - mean(AGE))/ sd(AGE),
        GAMES = (GAMES - mean(GAMES))/sd(GAMES),
        GAMES_STARTED = (GAMES_STARTED - mean(GAMES_STARTED))/sd(GAMES_STARTED),
        MINUTES_PLAYED= (MINUTES_PLAYED - mean(MINUTES_PLAYED)) / sd(MINUTES_PLAYED),
@@ -103,7 +102,7 @@ features <- shootingGuards2012 %>%
        TURNOVERS = (TURNOVERS - mean(TURNOVERS)) / sd(TURNOVERS),
        POINTS = (POINTS - mean(POINTS)) / sd(POINTS)
         ) %>%
-    select(-c(POSITION, SALARY))
+    select(-c(SALARY))
 
 
 withinGroupSumSquares <- numeric(0)
@@ -117,11 +116,12 @@ for(i in range){
     betweenGroupSumSquares <- c(betweenGroupSumSquares, betweenSquares)
 }
 
+
 plotFrame <- data.frame(numClusters=range, sumOfSquares=withinGroupSumSquares, betweenGroupSumSquares=betweenGroupSumSquares)
 ggplot(plotFrame, aes(x=numClusters, y=sumOfSquares)) +
     geom_point() +
     geom_line()
- 
+print(plotFrame)
     
 # We chose the number of clusters for this position as 4 from the elbow method
 # I chose 4 rather than 3 because the between sum squares seem to be more for 4 clusters rather than 3 and intercluster sum squares is less for 4
@@ -132,7 +132,7 @@ ggplot(plotFrame, aes(x=numClusters, y=sumOfSquares)) +
     km <- kmeans(features, finalNumberOfClusters, iter.max = 1000, nstart = 10)
     clusters <- km$cluster
     for(i in 1:finalNumberOfClusters){
-      members_i <-shootingGuards2012[which(clusters == i),]
+      members_i <- shootingGuardsPrevious5years[which(clusters == i),]
       membersOfClusters[[i]] <- members_i
     }
     averageScores <- numeric(0)
@@ -141,7 +141,6 @@ ggplot(plotFrame, aes(x=numClusters, y=sumOfSquares)) +
       averageScore <- sum((0.8) * membersOfClusters[[i]]$POINTS + 0.2 * membersOfClusters[[i]]$ASSISTS) / length(membersOfClusters[[i]])
       averageScores <- c(averageScores, averageScore)
     }
-    print(averageScores)
     for(i in 1: finalNumberOfClusters){
       averageSalary <- sum(membersOfClusters[[i]]$SALARY) / length(membersOfClusters[[i]])
       averageSalaries <- c(averageSalaries, averageSalary)
@@ -149,8 +148,8 @@ ggplot(plotFrame, aes(x=numClusters, y=sumOfSquares)) +
    
   scoreSalariesFrame <- data.frame(scores= averageScores, salaries = averageSalaries)
   print(scoreSalariesFrame)
-  # clusplot(features, km$cluster, color=TRUE, shade=TRUE, labels=0, lines=0)
-  # dev.off()
+  clusplot(features, km$cluster, color=TRUE, shade=TRUE, labels=0, lines=0)
+  dev.off()
 
 
     
