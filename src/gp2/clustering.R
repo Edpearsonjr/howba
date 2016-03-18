@@ -9,6 +9,7 @@
 # Performing analysis of salaries on the entire basketball players doesn't provide good insights
 #---------------------------------------------------------------------------------------------------------------
 
+
 library('RSQLite') # Loads the pacakges that is reqiured for reading from the sql database
 library('dplyr') # perform operations on data frame 
 library('Hmisc')
@@ -16,7 +17,7 @@ library('corrplot')
 library('ggplot2')
 library('cluster')
 
-basketballDb <- dbConnect(SQLite(), "~/Abhinav/howba/app/src/gp1/db/basketBall.db")
+basketballDb <- dbConnect(SQLite(), "/home/abhinav/abhinav/howba/src/gp1/db/basketBall.db")
 
 # lets look at the SG- Shooting Guard position 
 # Main objective is to score points 
@@ -74,7 +75,7 @@ flatternCorrelationMatrix <- function(cormat, pmat) {
 correlation <- rcorr(as.matrix(shootingGuards))
 correlationFlattened = flatternCorrelationMatrix(correlation$r, correlation$P)
 corGreaterThan99 <- filter(correlationFlattened, cor>0.95 | cor < -0.95)
-print(corGreaterThan99)
+# print(corGreaterThan99)
 
 # corrplot(correlation$r, type="upper", order="hclust", tl.col="black", tl.srt=45)
 
@@ -102,64 +103,54 @@ features <- shootingGuards2012 %>%
        TURNOVERS = (TURNOVERS - mean(TURNOVERS)) / sd(TURNOVERS),
        POINTS = (POINTS - mean(POINTS)) / sd(POINTS)
         ) %>%
-    select(-c(POSITION, SALARY)) %>%
-    print
+    select(-c(POSITION, SALARY))
 
 
 withinGroupSumSquares <- numeric(0)
+betweenGroupSumSquares <- numeric(0)
 range <- 1:20
 for(i in range){
     km <- kmeans(features, i, iter.max=100, nstart=10)
     sumSquares <- km$tot.withinss
+    betweenSquares <- km$betweenss
     withinGroupSumSquares <- c(withinGroupSumSquares, sumSquares)
+    betweenGroupSumSquares <- c(betweenGroupSumSquares, betweenSquares)
 }
 
-plotFrame <- data.frame(numClusters=range, sumOfSquares=withinGroupSumSquares)
-print(plotFrame)
+plotFrame <- data.frame(numClusters=range, sumOfSquares=withinGroupSumSquares, betweenGroupSumSquares=betweenGroupSumSquares)
 ggplot(plotFrame, aes(x=numClusters, y=sumOfSquares)) +
     geom_point() +
     geom_line()
  
     
-# We chose the number of clusters for this position as 3 from the elbow method
+# We chose the number of clusters for this position as 4 from the elbow method
+# I chose 4 rather than 3 because the between sum squares seem to be more for 4 clusters rather than 3 and intercluster sum squares is less for 4
 #but we have to work with random centres
 
-    km <- kmeans(features, 3, iter.max = 1000, nstart = 10)
+    finalNumberOfClusters = 4
+    membersOfClusters <- list() 
+    km <- kmeans(features, finalNumberOfClusters, iter.max = 1000, nstart = 10)
     clusters <- km$cluster
-    membersFirstCluster <- shootingGuards2012[which(clusters==1),]
-    membersSecondCluster <- shootingGuards2012[which(clusters==2),]
-    membersThirdCluster <- shootingGuards2012[which(clusters == 3),]
-    
-    # Analysis of the clusters is done here for the position SG 
-    #since the sg position is supposed to score well and assist well we consider this for cluster analysis
-    # we say that the player is good if he has a good weighted combination of this 
-    # we will give the average score to a cluster 
-    averageScoreFirstCluster <- sum((0.8) * membersFirstCluster$POINTS + 0.2 * membersFirstCluster$ASSISTS) / length(membersFirstCluster)
-    averageScoreSecondCluster <- sum((0.8) * membersSecondCluster$POINTS + 0.2 * membersSecondCluster$ASSISTS) / length(membersSecondCluster)
-    averageScoreThirdCluster <- sum((0.8) * membersThirdCluster$POINTS + 0.2 * membersThirdCluster$ASSISTS) / length(membersThirdCluster)
-    
-    # The clusters thus give an idea of the skills of the players 
-    # The first second and third cluster give mediocre, exceptional and bad players 
-    
-    #lets check the average salaries now 
-    averageFirstClusterSalaries <- sum(membersFirstCluster$SALARY) / length(membersFirstCluster)
-    averageSecondClusterSalaries <- sum(membersSecondCluster$SALARY) / length(membersSecondCluster)
-    averageThirdClusterSalaries <- sum(membersThirdCluster$SALARY) / length(membersThirdCluster)
-    print(averageFirstClusterSalaries)
-    print(averageSecondClusterSalaries)
-    print(averageThirdClusterSalaries)
-    
-    
-    
-    
-    
-    
-    
-
-
-
-# clusplot(features, km$cluster, color=TRUE, shade=TRUE, labels=0, lines=0)
-# dev.off()
+    for(i in 1:finalNumberOfClusters){
+      members_i <-shootingGuards2012[which(clusters == i),]
+      membersOfClusters[[i]] <- members_i
+    }
+    averageScores <- numeric(0)
+    averageSalaries <- numeric(0)
+    for(i in 1:finalNumberOfClusters){
+      averageScore <- sum((0.8) * membersOfClusters[[i]]$POINTS + 0.2 * membersOfClusters[[i]]$ASSISTS) / length(membersOfClusters[[i]])
+      averageScores <- c(averageScores, averageScore)
+    }
+    print(averageScores)
+    for(i in 1: finalNumberOfClusters){
+      averageSalary <- sum(membersOfClusters[[i]]$SALARY) / length(membersOfClusters[[i]])
+      averageSalaries <- c(averageSalaries, averageSalary)
+    }
+   
+  scoreSalariesFrame <- data.frame(scores= averageScores, salaries = averageSalaries)
+  print(scoreSalariesFrame)
+  # clusplot(features, km$cluster, color=TRUE, shade=TRUE, labels=0, lines=0)
+  # dev.off()
 
 
     
