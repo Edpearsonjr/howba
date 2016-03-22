@@ -16,6 +16,7 @@ library('Hmisc')
 library('corrplot')
 library('ggplot2')
 library('cluster')
+library('LICORS')
 
 basketballDb <- dbConnect(SQLite(), "/Users/abhinav/Abhinav/howba/app/src/gp1/db/basketBall.db")
 
@@ -74,7 +75,7 @@ flatternCorrelationMatrix <- function(cormat, pmat) {
 
 correlation <- rcorr(as.matrix(shootingGuards))
 correlationFlattened = flatternCorrelationMatrix(correlation$r, correlation$P)
-corGreaterThan99 <- filter(correlationFlattened, cor>0.95 | cor < -0.95)
+corGreaterThan99 <- filter(correlationFlattened, cor>0.95)
 print(corGreaterThan99)
 
 corrplot(correlation$r, type="upper", order="hclust", tl.col="black", tl.srt=45)
@@ -129,7 +130,7 @@ print(plotFrame)
 
     finalNumberOfClusters = 4
     membersOfClusters <- list() 
-    km <- kmeans(features, finalNumberOfClusters, iter.max = 1000, nstart = 10)
+    km <- kmeanspp(features, k=finalNumberOfClusters, start="random", iter.max = 100, nstart = 45)
     clusters <- km$cluster
     for(i in 1:finalNumberOfClusters){
       members_i <- shootingGuardsPrevious5years[which(clusters == i),]
@@ -151,8 +152,9 @@ print(plotFrame)
   clusplot(features, km$cluster, color=TRUE, shade=TRUE, labels=0, lines=0)
   dev.off()
 
+ 
+        
 
-    
 
 
 
