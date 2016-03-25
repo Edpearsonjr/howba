@@ -16,23 +16,36 @@ library('corrplot')
 library('ggplot2')
 library('cluster')
 library('LICORS')
-
-flattenCorrelationMatrix <- function(cormat, pmat) {
-    ut <- upper.tri(cormat)
-    data.frame(
-        row = rownames(cormat)[row(cormat)[ut]],
-        col = rownames(cormat)[col(cormat)[ut]],
-        cor = (cormat)[ut],
-        p = pmat[ut]
-    )
-}
+library('fpc')
+source('utils.R')
 basketballDb <- dbConnect(SQLite(), "/Users/abhinav/Abhinav/howba/app/src/gp1/db/basketBall.db")
-sqlStatement  <- "SELECT * FROM PF_PREVIOUS5YEARS_AVERAGE"
+sqlStatement  <- "SELECT * FROM PF_PREVIOUS5YEARS"
 playerStats <- dbGetQuery(basketballDb, sqlStatement)
 playerStats <- tbl_df(playerStats)
 
+playerStats <- playerStats %>%
+            group_by(PLAYER_ID) %>%
+            summarise(GAMES= mean(GAMES), 
+                      GAMES_STARTED=mean(GAMES_STARTED),
+                      MINUTES_PLAYED = mean(MINUTES_PLAYED), 
+                      TWO_POINTS_FG = mean(TWO_POINTS_FG),
+                      TWO_POINTS_FG_ATTEMPTS= mean(TWO_POINTS_FG_ATTEMPTS),
+                      EFF_FIELD_GOAL_PERCENT = mean(EFF_FIELD_GOAL_PERCENT),
+                      OFFENSIVE_REBOUNDS = mean(OFFESNIVE_REBOUNDS),
+                      DEFENSIVE_REBOUNDS = mean(DEFENSIVE_REBOUNDS),
+                      BLOCKS = mean(BLOCKS),
+                      POINTS=mean(POINTS),
+                      SALARY=mean(SALARY),
+                      POSITION=paste(POSITION, collapse=",")) %>%
+            mutate(C_SG= ifelse(grepl("C-SG",POSITION, fixed=TRUE), 1 ,0)) %>%
+            mutate(C_sf=ifelse(grepl("C-SF",POSITION, fixed=TRUE), 1 ,0))%>%
+            mutate(c_pg=ifelse(grepl("C-PG",POSITION, fixed=TRUE), 1 ,0))%>%
+            mutate(c_pf=ifelse(grepl("C-PF",POSITION, fixed=TRUE), 1 ,0)) %>%
+            select(-c(POSITION))
+
 cAttributes <- playerStats %>%
     select(-(PLAYER_ID))
+    
 
 
 
@@ -52,54 +65,52 @@ features <- cAttributes %>%
     select(-c(TWO_POINTS_FG_ATTEMPTS, TWO_POINTS_FG, SALARY)) %>%
     mutate(GAMES = (GAMES - mean(GAMES))/sd(GAMES),
            GAMES_STARTED = (GAMES_STARTED - mean(GAMES_STARTED))/sd(GAMES_STARTED),
-           MINUTES_PLAYED= (MINUTES_PLAYED - mean(MINUTES_PLAYED)) / sd(MINUTES_PLAYED),
-           THREE_POINTS_FG = (THREE_POINTS_FG - mean(THREE_POINTS_FG)) / sd(THREE_POINTS_FG),
-           FREE_THROWS = (FREE_THROWS - mean(FREE_THROWS)) / sd(FREE_THROWS),
+           MINUTES_PLAYED= (MINUTES_PLAYED - mean(MINUTES_PLAYED)) / sd(MINUTES_PLAYED),#            #            
            OFFENSIVE_REBOUNDS = (OFFENSIVE_REBOUNDS -mean(OFFENSIVE_REBOUNDS)) / sd(OFFENSIVE_REBOUNDS),
            DEFENSIVE_REBOUNDS = (DEFENSIVE_REBOUNDS -mean(DEFENSIVE_REBOUNDS)) / sd(DEFENSIVE_REBOUNDS),
            BLOCKS = (BLOCKS -mean(BLOCKS)) / sd(BLOCKS),
            POINTS = (POINTS -mean(POINTS)) / sd(POINTS)
     ) 
 
-withinGroupSumSquares <- numeric(0)
-betweenGroupSumSquares <- numeric(0)
-range <- 1:20
-for(i in range){
-    km <- kmeans(features, i, iter.max=100, nstart=10)
-    sumSquares <- km$tot.withinss
-    betweenSquares <- km$betweenss
-    withinGroupSumSquares <- c(withinGroupSumSquares, sumSquares)
-    betweenGroupSumSquares <- c(betweenGroupSumSquares, betweenSquares)
-}
-
-
-plotFrame <- data.frame(numClusters=range, sumOfSquares=withinGroupSumSquares, betweenGroupSumSquares=betweenGroupSumSquares)
+plotFrame <- getPlotFrame(features)
 ggplot(plotFrame, aes(x=numClusters, y=sumOfSquares)) +
     geom_point() +
     geom_line()
 
-finalNumberOfClusters = 3
-membersOfClusters <- list() 
-km <- kmeanspp(features, k=finalNumberOfClusters, start="random", iter.max = 100, nstart = 45)
-clusters <- km$cluster
-for(i in 1:finalNumberOfClusters){
-    members_i <- playerStats[which(clusters == i),]
-    membersOfClusters[[i]] <- members_i
-}
-print(membersOfClusters[[1]])
-averageScores <- numeric(0)
-averageSalaries <- numeric(0)
-for(i in 1:finalNumberOfClusters){
-    averageScore <- sum((0.3* membersOfClusters[[i]]$DEFENSIVE_REBOUNDS) + (0.3 * membersOfClusters[[i]]$OFFENSIVE_REBOUNDS + (0.2* membersOfClusters[[i]]$POINTS) + (0.3 * membersOfClusters[[i]]$BLOCKS)))/ length(membersOfClusters[[i]])
-    averageScores <- c(averageScores, averageScore)
-}
-for(i in 1: finalNumberOfClusters){
-    averageSalary <- sum(membersOfClusters[[i]]$SALARY) / length(membersOfClusters[[i]])
-    averageSalaries <- c(averageSalaries, averageSalary)
-}
+print(plotFrame)
 
-scoreSalariesFrame <- data.frame(scores= averageScores, salaries = averageSalaries)
-print(scoreSalariesFrame)
+finalNumberOfClusters = 3
+km <- kmeanspp(features, k=finalNumberOfClusters, start="random", iter.max = 100, nstart = 45)
+kmeans <- kmeansruns(features, krange=2:10)
+bestNumberOfClusters <- kmeans$bestk
+
+comparison <- getComparisonBetweenKmeansppAndfpc(km, kmeans)
+
+
+membersOfClusters <- getMembersOfClusters(features, finalNumberOfClusters, playerStats)
+mean_matrix <- getMeanMatrix(membersOfClusters)
+
+topTwoPointScorerAttrbiutes <- getTopPlayersForAnAttribute(playerStats,finalNumberOfClusters, "TWO_POINTS_FG", membersOfClusters)
+topOffensiveReboundsAttributes <- getTopPlayersForAnAttribute(playerStats,finalNumberOfClusters, "OFFENSIVE_REBOUNDS", membersOfClusters)
+topDefensiveReboundsAttributes <- getTopPlayersForAnAttribute(playerStats, finalNumberOfClusters, "DEFENSIVE_REBOUNDS", membersOfClusters)
+topBlocksAttributes <- getTopPlayersForAnAttribute(playerStats, finalNumberOfClusters, "BLOCKS", membersOfClusters)
+
+bestPlayersPercentagesInEachCluster = data.frame(twoPointers= topTwoPointScorerAttrbiutes$percentages, ofrb=topOffensiveReboundsAttributes$percentages,
+                                                 dfrb=topDefensiveReboundsAttributes$percentages, blocks=topBlocksAttributes$percentages)
+
+print(bestPlayersPercentagesInEachCluster)
+
+bestCluster <- which.max(bestPlayersPercentagesInEachCluster$dfrb)
+meanSalaryBestCluster <- mean(membersOfClusters[[bestCluster]]$SALARY)
+makeAnOffer <- tbl_df(membersOfClusters[[bestCluster]]) %>%
+    filter(DEFENSIVE_REBOUNDS > topDefensiveReboundsAttributes$score,
+           OFFENSIVE_REBOUNDS >  topOffensiveReboundsAttributes$score,
+           BLOCKS > topBlocksAttributes$score,
+           SALARY < meanSalaryBestCluster)
+
+print(makeAnOffer)
+
+
 
 
 

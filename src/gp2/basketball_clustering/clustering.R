@@ -17,6 +17,8 @@ library('corrplot')
 library('ggplot2')
 library('cluster')
 library('LICORS')
+library('fpc')
+source('utils.R')
 
 basketballDb <- dbConnect(SQLite(), "/Users/abhinav/Abhinav/howba/app/src/gp1/db/basketBall.db")
 
@@ -48,9 +50,33 @@ basketballDb <- dbConnect(SQLite(), "/Users/abhinav/Abhinav/howba/app/src/gp1/db
 
 
 #Trying for the 2012-2013 season only now 
-sqlStatement  <- "SELECT * FROM SG_PREVIOUS5YEARS_AVERAGE"
+sqlStatement  <- "SELECT * FROM SG_PREVIOUS5YEARS"
 playerTotals <- dbGetQuery(basketballDb, sqlStatement)
 shootingGuardsPrevious5years <- tbl_df(playerTotals)
+shootingGuardsPrevious5years <- shootingGuardsPrevious5years %>%
+                                select(-c(SEQ_NO)) %>%
+                                group_by(PLAYER_ID) %>%
+                                summarise(GAMES= mean(GAMES), GAMES_STARTED=mean(GAMES_STARTED),
+                                          MINUTES_PLAYED = mean(MINUTES_PLAYED), FIELD_GOALS = mean(FIELD_GOALS),
+                                          FIELD_GOALS_ATTEMPTS= mean(FIELD_GOALS_ATTEMPTS),
+                                          THREE_POINTS_FG = mean(THREE_POINTS_FG),
+                                          THREE_POINTS_FG_ATTEMPTS = mean(THREE_POINTS_FG_ATTEMPTS),
+                                          TWO_POINTS_FG = mean(TWO_POINTS_FG),
+                                          TWO_POINTS_FG_ATTEMPTS = mean(TWO_POINTS_FG_ATTEMPTS),
+                                          EFF_FIELD_GOAL_PERCENT = mean(EFF_FIELD_GOAL_PERCENT),
+                                          FREE_THROWS=mean(FREE_THROWS),
+                                          FREE_THROWS_ATTEMPTS=mean(FREE_THROWS_ATTEMPTS),
+                                          ASSISTS = mean(ASSISTS),
+                                          TURNOVERS=mean(TURNOVERS),
+                                          POINTS=mean(POINTS),
+                                          SALARY=mean(SALARY),
+                                          POSITION=paste(POSITION, collapse=",")) %>%
+                                mutate(sg_sf= ifelse(grepl("SG-SF",POSITION, fixed=TRUE), 1 ,0)) %>%
+                                mutate(sg_pf=ifelse(grepl("SG-PF",POSITION, fixed=TRUE), 1 ,0))%>%
+                                mutate(sg_pg=ifelse(grepl("SG-PG",POSITION, fixed=TRUE), 1 ,0))%>%
+                                mutate(sg_c=ifelse(grepl("SG-C",POSITION, fixed=TRUE), 1 ,0)) %>%
+                                select(-c(POSITION))
+    
 
 # select a few columns and prepare the data for cluster analysis 
 # if the player has played shooting-guard and smallforward he is given a value of 1 in a separate column
@@ -61,24 +87,16 @@ shootingGuards <- shootingGuardsPrevious5years %>%
                            ASSISTS, TURNOVERS, POINTS) 
     
 
+
 # in order to decide which variables to keep and which not to 
 # here we perform co-relational analysis using the Hmisc library
-flatternCorrelationMatrix <- function(cormat, pmat) {
-    ut <- upper.tri(cormat)
-    data.frame(
-        row = rownames(cormat)[row(cormat)[ut]],
-        col = rownames(cormat)[col(cormat)[ut]],
-        cor = (cormat)[ut],
-        p = pmat[ut]
-    )
-}
-
 correlation <- rcorr(as.matrix(shootingGuards))
-correlationFlattened = flatternCorrelationMatrix(correlation$r, correlation$P)
+correlationFlattened = flattenCorrelationMatrix(correlation$r, correlation$P)
 corGreaterThan99 <- filter(correlationFlattened, cor>0.95)
 print(corGreaterThan99)
-
 corrplot(correlation$r, type="upper", order="hclust", tl.col="black", tl.srt=45)
+dev.off()
+
 
 
 #some of the variables that were identified to remove are as follows 
@@ -106,62 +124,71 @@ features <- shootingGuardsPrevious5years %>%
     select(-c(SALARY))
 
 
-withinGroupSumSquares <- numeric(0)
-betweenGroupSumSquares <- numeric(0)
-range <- 1:20
-for(i in range){
-    km <- kmeans(features, i, iter.max=100, nstart=10)
-    sumSquares <- km$tot.withinss
-    betweenSquares <- km$betweenss
-    withinGroupSumSquares <- c(withinGroupSumSquares, sumSquares)
-    betweenGroupSumSquares <- c(betweenGroupSumSquares, betweenSquares)
-}
 
 
-plotFrame <- data.frame(numClusters=range, sumOfSquares=withinGroupSumSquares, betweenGroupSumSquares=betweenGroupSumSquares)
+
+plotFrame <- getPlotFrame(features)
 ggplot(plotFrame, aes(x=numClusters, y=sumOfSquares)) +
     geom_point() +
     geom_line()
 print(plotFrame)
     
-# We chose the number of clusters for this position as 4 from the elbow method
-# I chose 4 rather than 3 because the between sum squares seem to be more for 4 clusters rather than 3 and intercluster sum squares is less for 4
-#but we have to work with random centres
 
-    finalNumberOfClusters = 4
+
+    # This is determined from the elbow graph 
+    finalNumberOfClusters = 3
     membersOfClusters <- list() 
     km <- kmeanspp(features, k=finalNumberOfClusters, start="random", iter.max = 100, nstart = 45)
-    clusters <- km$cluster
-    for(i in 1:finalNumberOfClusters){
-      members_i <- shootingGuardsPrevious5years[which(clusters == i),]
-      membersOfClusters[[i]] <- members_i
-    }
-    averageScores <- numeric(0)
-    averageSalaries <- numeric(0)
-    for(i in 1:finalNumberOfClusters){
-      averageScore <- sum((0.8) * membersOfClusters[[i]]$POINTS + 0.2 * membersOfClusters[[i]]$ASSISTS) / length(membersOfClusters[[i]])
-      averageScores <- c(averageScores, averageScore)
-    }
-    for(i in 1: finalNumberOfClusters){
-      averageSalary <- sum(membersOfClusters[[i]]$SALARY) / length(membersOfClusters[[i]])
-      averageSalaries <- c(averageSalaries, averageSalary)
-    }
-   
-  scoreSalariesFrame <- data.frame(scores= averageScores, salaries = averageSalaries)
-  print(scoreSalariesFrame)
-  clusplot(features, km$cluster, color=TRUE, shade=TRUE, labels=0, lines=0)
-  dev.off()
-
- 
-        
-
-
-
-
-
-
-
-
-
-
-
+    
+    kmeans <- kmeansruns(features, krange=2:10)
+    bestNumberOfClusters <- kmeans$bestk
+    
+    
+    comparison <- getComparisonBetweenKmeansppAndfpc(km, kmeans)
+    print(comparison)
+    
+    #The conclusion here is using the two packages are same 
+    # The difference is fpc gives the best number of clusters using the silhouette method 
+    # We have calculated using the elbow method 
+    # however we chose the elbow graph method because number of cluster being 3 achieved better 
+    # between group sum of squares being large means better in terms of making a judgement 
+    
+    membersOfClusters <- getMembersOfClusters(features, finalNumberOfClusters, shootingGuardsPrevious5years)
+    mean_matrix <- getMeanMatrix(membersOfClusters)
+    
+    #consider points variable - since shooting guard needs to score more and should have a better three point game
+    topPointAttributes  <- getTopPlayersForAnAttribute(shootingGuardsPrevious5years, finalNumberOfClusters, "POINTS", membersOfClusters)
+    topAssistAttributes <- getTopPlayersForAnAttribute(shootingGuardsPrevious5years, finalNumberOfClusters, "ASSISTS", membersOfClusters)
+    topThreePointersAttributes <- getTopPlayersForAnAttribute(shootingGuardsPrevious5years,finalNumberOfClusters, "THREE_POINTS_FG", membersOfClusters)
+    
+    topPointsClusterPercentages <- topPointAttributes$percentages
+    topAssistsClusterPerecentages <- topAssistAttributes$percentages
+    topThreePointerClusterPercentages <- topThreePointersAttributes$percentages
+    
+    bestPlayersPercentagesInEachCluster <- data.frame(points = topPointsClusterPercentages, assists=topAssistsClusterPerecentages, threepointers=topThreePointerClusterPercentages)
+    print(bestPlayersPercentagesInEachCluster)
+    
+    #This clearly justifies the high quality of the players in the clusters 
+    # The best cluster has 100%  of the top 10% good shooters 
+    # The best cluster has 77.77% if the top 10% good passers
+    # The number of best three pointers are shared between two of them 
+    
+    
+    # now look at the best cluster 
+    # calcluate the mean and the stanadard deviation of the salaries in that cluster 
+    # select someone who is a good shooter but is being paid less 
+    # This will be a good pick for the boss 
+    
+    # player with id 2898 has top 10% skills in points scoring and is in top 10% in assists
+    # he is paid around 3 million less than the mean of salaries in that cluster 
+    bestCluster <- which.max(bestPlayersPercentagesInEachCluster$points)
+    meanSalaryBestCluster <- mean(membersOfClusters[[bestCluster]]$SALARY)
+    makeAnOffer <- tbl_df(membersOfClusters[[bestCluster]]) %>%
+        filter(ASSISTS > topAssistAttributes$score, POINTS > topPointAttributes$score, SALARY < meanSalaryBestCluster)
+    print(makeAnOffer)
+    
+    
+    
+    
+    
+    

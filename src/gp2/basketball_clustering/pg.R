@@ -9,25 +9,39 @@ library('dplyr')
 library('Hmisc')
 library('corrplot')
 library('ggplot2')
-flattenCorrelationMatrix <- function(cormat, pmat) {
-    ut <- upper.tri(cormat)
-    data.frame(
-        row = rownames(cormat)[row(cormat)[ut]],
-        col = rownames(cormat)[col(cormat)[ut]],
-        cor = (cormat)[ut],
-        p = pmat[ut]
-    )
-}
+library('fpc')
+source("utils.R")
+
 
 basketballDb <- dbConnect(SQLite(), "/Users/abhinav/Abhinav/howba/app/src/gp1/db/basketBall.db")
-sqlStatement  <- "SELECT * FROM PG_PREVIOUS5YEARS_AVERAGE"
+sqlStatement  <- "SELECT * FROM PG_PREVIOUS5YEARS"
 playerStats <- dbGetQuery(basketballDb, sqlStatement)
 playerStats <- tbl_df(playerStats)
 
 
-# since assist to turnover ratio is obtained using division of two columns 
-# handle the NAs here 
+playerStats <- playerStats %>%
+                select(-c(SEQ_NO)) %>%
+                group_by(PLAYER_ID) %>%
+                summarise(GAMES= mean(GAMES), 
+                          GAMES_STARTED=mean(GAMES_STARTED),
+                          MINUTES_PLAYED = mean(MINUTES_PLAYED), 
+                          THREE_POINTS_FG = mean(THREE_POINTS_FG),
+                          THREE_POINTS_FG_ATTEMPTS = mean(THREE_POINTS_FG_ATTEMPTS),
+                          EFF_FIELD_GOAL_PERCENT = mean(EFF_FIELD_GOAL_PERCENT),
+                          FREE_THROWS=mean(FREE_THROWS),
+                          FREE_THROWS_ATTEMPTS=mean(FREE_THROWS_ATTEMPTS),
+                          ASSIST_TURNOVER_RATIO= mean(ASSISTS/TURNOVERS, na.rm=TRUE),
+                          SALARY=mean(SALARY),
+                          POSITION=paste(POSITION, collapse=",")) %>%
+                mutate(pg_sf= ifelse(grepl("PG-SF",POSITION, fixed=TRUE), 1 ,0)) %>%
+                mutate(pg_pf=ifelse(grepl("PG-PF",POSITION, fixed=TRUE), 1 ,0))%>%
+                mutate(pg_sg=ifelse(grepl("PG-SG",POSITION, fixed=TRUE), 1 ,0))%>%
+                mutate(pg_c=ifelse(grepl("PG-C",POSITION, fixed=TRUE), 1 ,0)) %>%
+                select(-c(POSITION))
+    
 playerStats$ASSIST_TURNOVER_RATIO[is.na(playerStats$ASSIST_TURNOVER_RATIO)] <- 0
+playerStats$ASSIST_TURNOVER_RATIO[is.infinite(playerStats$ASSIST_TURNOVER_RATIO)] <- 0
+
 
 pgAttributes <- playerStats %>%
                 select(-(PLAYER_ID))
@@ -58,48 +72,41 @@ features <- pgAttributes %>%
                    ASSIST_TURNOVER_RATIO = (ASSIST_TURNOVER_RATIO - mean(ASSIST_TURNOVER_RATIO)) / sd(ASSIST_TURNOVER_RATIO)
                    ) 
 
-
-
-withinGroupSumSquares <- numeric(0)
-betweenGroupSumSquares <- numeric(0)
-range <- 1:20
-for(i in range){
-    km <- kmeans(features, i, iter.max=100, nstart=10)
-    sumSquares <- km$tot.withinss
-    betweenSquares <- km$betweenss
-    withinGroupSumSquares <- c(withinGroupSumSquares, sumSquares)
-    betweenGroupSumSquares <- c(betweenGroupSumSquares, betweenSquares)
-}
-
-
-plotFrame <- data.frame(numClusters=range, sumOfSquares=withinGroupSumSquares, betweenGroupSumSquares=betweenGroupSumSquares)
+plotFrame <- getPlotFrame(features)
 ggplot(plotFrame, aes(x=numClusters, y=sumOfSquares)) +
     geom_point() +
     geom_line()
 
 
+
 finalNumberOfClusters = 3
 membersOfClusters <- list() 
 km <- kmeanspp(features, k=finalNumberOfClusters, start="random", iter.max = 100, nstart = 45)
-clusters <- km$cluster
-for(i in 1:finalNumberOfClusters){
-    members_i <- playerStats[which(clusters == i),]
-    membersOfClusters[[i]] <- members_i
-}
-print(membersOfClusters[[1]])
-averageScores <- numeric(0)
-averageSalaries <- numeric(0)
-for(i in 1:finalNumberOfClusters){
-    averageScore <- sum( (0.7* membersOfClusters[[i]]$ASSIST_TURNOVER_RATIO) + (0.3 * membersOfClusters[[i]]$EFF_FIELD_GOAL_PERCENT))/ length(membersOfClusters[[i]])
-    averageScores <- c(averageScores, averageScore)
-}
-for(i in 1: finalNumberOfClusters){
-    averageSalary <- sum(membersOfClusters[[i]]$SALARY) / length(membersOfClusters[[i]])
-    averageSalaries <- c(averageSalaries, averageSalary)
-}
+kmeans <- kmeansruns(features, krange=2:10)
+bestNumberOfClusters <- kmeans$bestk
 
-scoreSalariesFrame <- data.frame(scores= averageScores, salaries = averageSalaries)
-print(scoreSalariesFrame)
+comparison <- getComparisonBetweenKmeansppAndfpc(km, kmeans)
+
+
+membersOfClusters <- getMembersOfClusters(features, finalNumberOfClusters, playerStats)
+mean_matrix <- getMeanMatrix(membersOfClusters)
+
+topAssistsTurnOverRatioAttrbiutes <- getTopPlayersForAnAttribute(playerStats,finalNumberOfClusters, "ASSIST_TURNOVER_RATIO", membersOfClusters)
+topThreePointersAttributes <- getTopPlayersForAnAttribute(playerStats,finalNumberOfClusters, "THREE_POINTS_FG", membersOfClusters)
+bestPlayersPercentagesInEachCluster <- data.frame(assistsTurnOverRatio=topAssistsTurnOverRatioAttrbiutes$percentages, scores=topThreePointersAttributes$percentages)
+bestCluster <- which.max(bestPlayersPercentagesInEachCluster$assistsTurnOverRatio)
+meanSalaryBestCluster <- membersOfClusters[[bestCluster]]
+makeAnOffer <- tbl_df(membersOfClusters[[bestCluster]]) %>%
+    filter(ASSIST_TURNOVER_RATIO > topAssistsTurnOverRatioAttrbiutes$score)
+print(makeAnOffer)
+#player id 568
+
+
+
+
+
+
+
 
 
 
