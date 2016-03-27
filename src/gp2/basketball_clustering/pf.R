@@ -32,10 +32,10 @@ playerStats <- playerStats %>%
                           POINTS=mean(POINTS),
                           SALARY=mean(SALARY),
                           POSITION=paste(POSITION, collapse=",")) %>%
-                mutate(pf_sg= ifelse(grepl("PF-SG",POSITION, fixed=TRUE), 1 ,0)) %>%
-                mutate(pf_sf=ifelse(grepl("PF-SF",POSITION, fixed=TRUE), 1 ,0))%>%
-                mutate(pf_pg=ifelse(grepl("PF-PG",POSITION, fixed=TRUE), 1 ,0))%>%
-                mutate(pf_c=ifelse(grepl("PF-C",POSITION, fixed=TRUE), 1 ,0)) %>%
+                mutate(pf_sg= ifelse(grepl("PF-SG",POSITION, fixed=TRUE), 1 ,ifelse(grepl("SG", POSITION, fixed=TRUE), 1, 0))) %>%
+                mutate(pf_sf=ifelse(grepl("PF-SF",POSITION, fixed=TRUE), 1 ,ifelse(grepl("SF", POSITION, fixed=TRUE), 1, 0)))%>%
+                mutate(pf_pg=ifelse(grepl("PF-PG",POSITION, fixed=TRUE), 1 ,ifelse(grepl("PG", POSITION, fixed=TRUE), 1, 0)))%>%
+                mutate(pf_c=ifelse(grepl("PF-C",POSITION, fixed=TRUE), 1 ,ifelse(grepl("C", POSITION, fixed=TRUE), 1, 0))) %>%
                 select(-c(POSITION))
 
 pfAttributes <- playerStats %>%

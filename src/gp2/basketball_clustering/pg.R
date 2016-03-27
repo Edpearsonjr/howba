@@ -33,10 +33,10 @@ playerStats <- playerStats %>%
                           ASSIST_TURNOVER_RATIO= mean(ASSISTS/TURNOVERS, na.rm=TRUE),
                           SALARY=mean(SALARY),
                           POSITION=paste(POSITION, collapse=",")) %>%
-                mutate(pg_sf= ifelse(grepl("PG-SF",POSITION, fixed=TRUE), 1 ,0)) %>%
-                mutate(pg_pf=ifelse(grepl("PG-PF",POSITION, fixed=TRUE), 1 ,0))%>%
-                mutate(pg_sg=ifelse(grepl("PG-SG",POSITION, fixed=TRUE), 1 ,0))%>%
-                mutate(pg_c=ifelse(grepl("PG-C",POSITION, fixed=TRUE), 1 ,0)) %>%
+                mutate(pg_sf= ifelse(grepl("PG-SF",POSITION, fixed=TRUE), 1 ,ifelse(grepl("SF", POSITION, fixed=TRUE), 1, 0))) %>%
+                mutate(pg_pf=ifelse(grepl("PG-PF",POSITION, fixed=TRUE), 1 ,ifelse(grepl("PF", POSITION, fixed=TRUE), 1, 0)))%>%
+                mutate(pg_sg=ifelse(grepl("PG-SG",POSITION, fixed=TRUE), 1 ,ifelse(grepl("SG", POSITION, fixed=TRUE), 1, 0)))%>%
+                mutate(pg_c=ifelse(grepl("PG-C",POSITION, fixed=TRUE), 1 ,ifelse(grepl("C", POSITION, fixed=TRUE), 1, 0))) %>%
                 select(-c(POSITION))
     
 playerStats$ASSIST_TURNOVER_RATIO[is.na(playerStats$ASSIST_TURNOVER_RATIO)] <- 0

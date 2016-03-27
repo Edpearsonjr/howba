@@ -71,10 +71,10 @@ shootingGuardsPrevious5years <- shootingGuardsPrevious5years %>%
                                           POINTS=mean(POINTS),
                                           SALARY=mean(SALARY),
                                           POSITION=paste(POSITION, collapse=",")) %>%
-                                mutate(sg_sf= ifelse(grepl("SG-SF",POSITION, fixed=TRUE), 1 ,0)) %>%
-                                mutate(sg_pf=ifelse(grepl("SG-PF",POSITION, fixed=TRUE), 1 ,0))%>%
-                                mutate(sg_pg=ifelse(grepl("SG-PG",POSITION, fixed=TRUE), 1 ,0))%>%
-                                mutate(sg_c=ifelse(grepl("SG-C",POSITION, fixed=TRUE), 1 ,0)) %>%
+                                mutate(sg_sf= ifelse(grepl("SG-SF",POSITION, fixed=TRUE), 1 ,ifelse(grepl("SF", POSITION, fixed=TRUE), 1, 0))) %>%
+                                mutate(sg_pf=ifelse(grepl("SG-PF",POSITION, fixed=TRUE), 1 ,ifelse(grepl("PF", POSITION, fixed=TRUE), 1, 0)))%>%
+                                mutate(sg_pg=ifelse(grepl("SG-PG",POSITION, fixed=TRUE), 1 ,ifelse(grepl("PG", POSITION, fixed=TRUE), 1, 0)))%>%
+                                mutate(sg_c=ifelse(grepl("SG-C",POSITION, fixed=TRUE), 1 ,ifelse(grepl("C", POSITION, fixed=TRUE), 1, 0))) %>%
                                 select(-c(POSITION))
     
 

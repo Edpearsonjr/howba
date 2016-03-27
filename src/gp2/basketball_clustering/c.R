@@ -1,14 +1,3 @@
-# power forwards should have these attributes typically 
-# they should have 2point capabilities 
-# they should be defensive - good rebounds offensively and defensively 
-# they should have good blocks 
-
-# small forwards are the most versatile 
-# they need to be prolific scorers
-# They have defense responsibilities offensive and defensive rebounds 
-# They are fouled against more and they need to have good free throw skills 
-# Their height should be between 6.6 to 6.9
-
 library('RSQLite') # Loads the pacakges that is reqiured for reading from the sql database
 library('dplyr') # perform operations on data frame 
 library('Hmisc')
@@ -19,7 +8,7 @@ library('LICORS')
 library('fpc')
 source('utils.R')
 basketballDb <- dbConnect(SQLite(), "/Users/abhinav/Abhinav/howba/app/src/gp1/db/basketBall.db")
-sqlStatement  <- "SELECT * FROM PF_PREVIOUS5YEARS"
+sqlStatement  <- "SELECT * FROM C_PREVIOUS5YEARS"
 playerStats <- dbGetQuery(basketballDb, sqlStatement)
 playerStats <- tbl_df(playerStats)
 
@@ -37,10 +26,10 @@ playerStats <- playerStats %>%
                       POINTS=mean(POINTS),
                       SALARY=mean(SALARY),
                       POSITION=paste(POSITION, collapse=",")) %>%
-            mutate(C_SG= ifelse(grepl("C-SG",POSITION, fixed=TRUE), 1 ,0)) %>%
-            mutate(C_sf=ifelse(grepl("C-SF",POSITION, fixed=TRUE), 1 ,0))%>%
-            mutate(c_pg=ifelse(grepl("C-PG",POSITION, fixed=TRUE), 1 ,0))%>%
-            mutate(c_pf=ifelse(grepl("C-PF",POSITION, fixed=TRUE), 1 ,0)) %>%
+            mutate(C_SG= ifelse(grepl("C-SG",POSITION, fixed=TRUE), 1, ifelse(grepl("SG", POSITION, fixed=TRUE), 1, 0))) %>%
+            mutate(C_sf=ifelse(grepl("C-SF",POSITION, fixed=TRUE), 1 , ifelse(grepl("SF", POSITION, fixed=TRUE), 1, 0)))%>%
+            mutate(c_pg=ifelse(grepl("C-PG",POSITION, fixed=TRUE), 1 , ifelse(grepl("PG", POSITION, fixed=TRUE), 1, 0)))%>%
+            mutate(c_pf=ifelse(grepl("C-PF",POSITION, fixed=TRUE), 1 , ifelse(grepl("PF", POSITION, fixed=TRUE), 1, 0))) %>%
             select(-c(POSITION))
 
 cAttributes <- playerStats %>%

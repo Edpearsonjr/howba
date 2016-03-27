@@ -38,10 +38,10 @@ playerStats <- playerStats %>%
                   POINTS=mean(POINTS),
                   SALARY=mean(SALARY),
                   POSITION=paste(POSITION, collapse=",")) %>%
-        mutate(sf_sg= ifelse(grepl("SF-SG",POSITION, fixed=TRUE), 1 ,0)) %>%
-        mutate(sf_pf=ifelse(grepl("SF-PF",POSITION, fixed=TRUE), 1 ,0))%>%
-        mutate(sf_pg=ifelse(grepl("SF-PG",POSITION, fixed=TRUE), 1 ,0))%>%
-        mutate(sf_c=ifelse(grepl("SF-C",POSITION, fixed=TRUE), 1 ,0)) %>%
+        mutate(sf_sg= ifelse(grepl("SF-SG",POSITION, fixed=TRUE), 1 ,ifelse(grepl("SG", POSITION, fixed=TRUE), 1, 0))) %>%
+        mutate(sf_pf=ifelse(grepl("SF-PF",POSITION, fixed=TRUE), 1 ,ifelse(grepl("PF", POSITION, fixed=TRUE), 1, 0)))%>%
+        mutate(sf_pg=ifelse(grepl("SF-PG",POSITION, fixed=TRUE), 1 ,ifelse(grepl("PG", POSITION, fixed=TRUE), 1, 0)))%>%
+        mutate(sf_c=ifelse(grepl("SF-C",POSITION, fixed=TRUE), 1 ,ifelse(grepl("C", POSITION, fixed=TRUE), 1, 0))) %>%
         select(-c(POSITION))
 
 sfAttributes <- playerStats %>%
@@ -103,7 +103,7 @@ print(bestPlayersPercentagesInEachCluster)
 bestCluster <- which.max(bestPlayersPercentagesInEachCluster$dfrb)
 meanSalaryBestCluster <- mean(membersOfClusters[[bestCluster]]$SALARY)
 makeAnOffer <- tbl_df(membersOfClusters[[bestCluster]]) %>%
-    filter(DEFENSIVE_REBOUNDS > topDefensiveReboundsAttributes$score, OFFENSIVE_REBOUNDS >  topOffensiveReboundsAttributes$score, SALARY <= meanSalaryBestCluster)
+    filter(POINTS >topScorePlayersAttrbiutes$score,SALARY <= meanSalaryBestCluster)
 print(makeAnOffer)
 
 
