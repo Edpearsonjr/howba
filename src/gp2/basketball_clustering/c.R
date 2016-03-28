@@ -51,14 +51,12 @@ corrplot(correlation$r, type="upper", order="hclust", tl.col="black", tl.srt=45)
 
 
 features <- playerStats %>%
-    select(-c(PLAYER_ID, TWO_POINTS_FG_ATTEMPTS, TWO_POINTS_FG, SALARY)) %>%
+    select(-c(PLAYER_ID, TWO_POINTS_FG, POINTS, MINUTES_PLAYED, DEFENSIVE_REBOUNDS, SALARY)) %>%
     mutate(GAMES = (GAMES - mean(GAMES))/sd(GAMES),
            GAMES_STARTED = (GAMES_STARTED - mean(GAMES_STARTED))/sd(GAMES_STARTED),
-           MINUTES_PLAYED= (MINUTES_PLAYED - mean(MINUTES_PLAYED)) / sd(MINUTES_PLAYED),#            #            
+           TWO_POINTS_FG_ATTEMPTS = (TWO_POINTS_FG_ATTEMPTS - mean(TWO_POINTS_FG_ATTEMPTS))/sd(TWO_POINTS_FG_ATTEMPTS),
            OFFENSIVE_REBOUNDS = (OFFENSIVE_REBOUNDS -mean(OFFENSIVE_REBOUNDS)) / sd(OFFENSIVE_REBOUNDS),
-           DEFENSIVE_REBOUNDS = (DEFENSIVE_REBOUNDS -mean(DEFENSIVE_REBOUNDS)) / sd(DEFENSIVE_REBOUNDS),
-           BLOCKS = (BLOCKS -mean(BLOCKS)) / sd(BLOCKS),
-           POINTS = (POINTS -mean(POINTS)) / sd(POINTS)
+           BLOCKS = (BLOCKS -mean(BLOCKS)) / sd(BLOCKS)
     ) 
 
 plotFrame <- getPlotFrame(features)
