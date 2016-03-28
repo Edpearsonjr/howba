@@ -39,7 +39,7 @@ playerStats <- playerStats %>%
                 select(-c(POSITION))
 
 pfAttributes <- playerStats %>%
-    select(-(PLAYER_ID))
+    select(-c(PLAYER_ID, pf_sg, pf_sf, pf_pg, pg_c))
 
 
 
@@ -48,6 +48,7 @@ correlation <- rcorr(as.matrix(pfAttributes))
 correlationFlattened = flattenCorrelationMatrix(correlation$r, correlation$P)
 corGreaterThan99 <- filter(correlationFlattened, cor>0.95)
 print(corGreaterThan99)
+corrplot(correlation$r, type="upper", order="hclust", tl.col="black", tl.srt=45)
 
 
 #from the correlation matrix we identify that the these variables be removed 
@@ -55,8 +56,8 @@ print(corGreaterThan99)
 # TWO_POINTS_FG
 
 
-features <- pfAttributes %>%
-    select(-c(TWO_POINTS_FG_ATTEMPTS, TWO_POINTS_FG, SALARY)) %>%
+features <- playerStats %>%
+    select(-c(PLAYER_ID, TWO_POINTS_FG_ATTEMPTS, TWO_POINTS_FG, SALARY)) %>%
     mutate(GAMES = (GAMES - mean(GAMES))/sd(GAMES),
            GAMES_STARTED = (GAMES_STARTED - mean(GAMES_STARTED))/sd(GAMES_STARTED),
            MINUTES_PLAYED= (MINUTES_PLAYED - mean(MINUTES_PLAYED)) / sd(MINUTES_PLAYED),

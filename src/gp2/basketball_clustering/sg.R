@@ -84,7 +84,7 @@ shootingGuardsPrevious5years <- shootingGuardsPrevious5years %>%
 shootingGuards <- shootingGuardsPrevious5years %>% 
                     select(GAMES, GAMES_STARTED, MINUTES_PLAYED, FIELD_GOALS, FIELD_GOALS_ATTEMPTS, TWO_POINTS_FG, TWO_POINTS_FG_ATTEMPTS, 
                            THREE_POINTS_FG, THREE_POINTS_FG_ATTEMPTS, EFF_FIELD_GOAL_PERCENT, FREE_THROWS, FREE_THROWS_ATTEMPTS,
-                           ASSISTS, TURNOVERS, POINTS) 
+                           ASSISTS, TURNOVERS, POINTS, -c(sg_sf, sg_pf, sg_pg)) 
     
 
 

@@ -44,7 +44,7 @@ playerStats$ASSIST_TURNOVER_RATIO[is.infinite(playerStats$ASSIST_TURNOVER_RATIO)
 
 
 pgAttributes <- playerStats %>%
-                select(-(PLAYER_ID))
+                select(-c(PLAYER_ID, pg_sf, pg_pf, pg_sg, pg_c))
 
 
 
@@ -53,7 +53,7 @@ correlation <- rcorr(as.matrix(pgAttributes))
 correlationFlattened = flattenCorrelationMatrix(correlation$r, correlation$P)
 corGreaterThan99 <- filter(correlationFlattened, cor>0.95)
 print(corGreaterThan99)
-# corrplot(correlation$r, type="upper", order="hclust", tl.col="black", tl.srt=45)
+corrplot(correlation$r, type="upper", order="hclust", tl.col="black", tl.srt=45)
 
 
 # From the correlation matrix we find that 
@@ -62,8 +62,8 @@ print(corGreaterThan99)
 # are correlated 
 
 
-features <- pgAttributes %>%
-            select(-c(THREE_POINTS_FG_ATTEMPTS, FREE_THROWS_ATTEMPTS, SALARY)) %>%
+features <- playerStats %>%
+            select(-c(PLAYER_ID, THREE_POINTS_FG_ATTEMPTS, FREE_THROWS_ATTEMPTS, SALARY)) %>%
             mutate(GAMES = (GAMES - mean(GAMES))/sd(GAMES),
                    GAMES_STARTED = (GAMES_STARTED - mean(GAMES_STARTED))/sd(GAMES_STARTED),
                    MINUTES_PLAYED= (MINUTES_PLAYED - mean(MINUTES_PLAYED)) / sd(MINUTES_PLAYED),

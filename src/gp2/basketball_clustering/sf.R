@@ -45,7 +45,7 @@ playerStats <- playerStats %>%
         select(-c(POSITION))
 
 sfAttributes <- playerStats %>%
-    select(-(PLAYER_ID))
+    select(-c(PLAYER_ID, sf_sg, sf_pf, sf_pg, sf_c))
 
 
 
@@ -64,8 +64,8 @@ corrplot(correlation$r, type="upper", order="hclust", tl.col="black", tl.srt=45)
 # FREE_THROWS_ATTEMPTS
 # FIELD_GOALS 
 
-features <- sfAttributes %>%
-    select(-c(FIELD_GOALS_ATTEMPTS, TWO_POINTS_FG_ATTEMPTS, TWO_POINTS_FG, TWO_POINTS_FG_ATTEMPTS, FREE_THROWS_ATTEMPTS,
+features <- playerStats %>%
+    select(-c(PLAYER_ID, FIELD_GOALS_ATTEMPTS, TWO_POINTS_FG_ATTEMPTS, TWO_POINTS_FG, TWO_POINTS_FG_ATTEMPTS, FREE_THROWS_ATTEMPTS,
               FIELD_GOALS, SALARY)) %>%
     mutate(GAMES = (GAMES - mean(GAMES))/sd(GAMES),
            GAMES_STARTED = (GAMES_STARTED - mean(GAMES_STARTED))/sd(GAMES_STARTED),

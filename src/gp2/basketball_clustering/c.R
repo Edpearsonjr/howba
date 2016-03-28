@@ -26,14 +26,14 @@ playerStats <- playerStats %>%
                       POINTS=mean(POINTS),
                       SALARY=mean(SALARY),
                       POSITION=paste(POSITION, collapse=",")) %>%
-            mutate(C_SG= ifelse(grepl("C-SG",POSITION, fixed=TRUE), 1, ifelse(grepl("SG", POSITION, fixed=TRUE), 1, 0))) %>%
-            mutate(C_sf=ifelse(grepl("C-SF",POSITION, fixed=TRUE), 1 , ifelse(grepl("SF", POSITION, fixed=TRUE), 1, 0)))%>%
+            mutate(c_sg= ifelse(grepl("C-SG",POSITION, fixed=TRUE), 1, ifelse(grepl("SG", POSITION, fixed=TRUE), 1, 0))) %>%
+            mutate(c_sf=ifelse(grepl("C-SF",POSITION, fixed=TRUE), 1 , ifelse(grepl("SF", POSITION, fixed=TRUE), 1, 0)))%>%
             mutate(c_pg=ifelse(grepl("C-PG",POSITION, fixed=TRUE), 1 , ifelse(grepl("PG", POSITION, fixed=TRUE), 1, 0)))%>%
             mutate(c_pf=ifelse(grepl("C-PF",POSITION, fixed=TRUE), 1 , ifelse(grepl("PF", POSITION, fixed=TRUE), 1, 0))) %>%
             select(-c(POSITION))
 
 cAttributes <- playerStats %>%
-    select(-(PLAYER_ID))
+    select(-c(PLAYER_ID, c_sg, c_sf, c_pg, c_pf))
     
 
 
@@ -50,8 +50,8 @@ corrplot(correlation$r, type="upper", order="hclust", tl.col="black", tl.srt=45)
 # TWO_POINTS_FG
 
 
-features <- cAttributes %>%
-    select(-c(TWO_POINTS_FG_ATTEMPTS, TWO_POINTS_FG, SALARY)) %>%
+features <- playerStats %>%
+    select(-c(PLAYER_ID, TWO_POINTS_FG_ATTEMPTS, TWO_POINTS_FG, SALARY)) %>%
     mutate(GAMES = (GAMES - mean(GAMES))/sd(GAMES),
            GAMES_STARTED = (GAMES_STARTED - mean(GAMES_STARTED))/sd(GAMES_STARTED),
            MINUTES_PLAYED= (MINUTES_PLAYED - mean(MINUTES_PLAYED)) / sd(MINUTES_PLAYED),#            #            
