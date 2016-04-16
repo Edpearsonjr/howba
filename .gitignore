@@ -3,3 +3,4 @@
 *.pyc
 .idea
 .Rproj.user
+src/project/data/
