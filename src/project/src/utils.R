@@ -45,7 +45,7 @@ groupIntoTimeOfTheDay <- function(date){
 }
 
 
-isInsideBorough <- function(latitude, longitude, polygonx, polygony){
+isInsidePolygon <- function(latitude, longitude, polygonx, polygony){
   # @params: latitude -> float 
   #          longitude -> float
   #          polygonx -> list of x coordinates for the borough to check in 
@@ -117,13 +117,18 @@ getBoroughsData <- function(jsonfile){
     boroughData
 }
 
+
+
+
+
+
 data <- getBoroughsData(BOROUGH_GEOJSON)
-x <- 40.7831
-y <- -73.9712
-print(isInsideBorough(x, y,data$manhattan_x, data$manhattan_y))
+x <- 40.7265 # These are manhattan coordinates
+y <- -73.9815
+print(isInsidePolygon(x, y,data$manhattan_x, data$manhattan_y))
 
-
-
-
+x <- 40.8448 # These coordinates are the ones that are in bronx
+y <- -73.8648
+print(isInsidePolygon(x, y, data$manhattan_x, data$manhattan_y))
 
 
