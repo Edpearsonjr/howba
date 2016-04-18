@@ -14,13 +14,16 @@ rm(list=ls())
 
 
 ################################################################################
-# A few constants that you may need
+# A few constants that are needed
 ################################################################################
 DB_HOST = 'localhost'
 DB_PORT = '3306'
+DB_USER = 'root'
+DB_PASSWORD = '#Ab1992#'
 DB_NAME = 'howba'
 
-
-
-
-
+################################################################################
+# Connecting to the database
+################################################################################
+print("Connecting to the database")
+connection <- dbConnect(RMySQL::MySQL(), user=DB_USER, password=DB_PASSWORD, host=DB_HOST, dbname=DB_NAME)
