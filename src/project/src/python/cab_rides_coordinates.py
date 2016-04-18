@@ -3,6 +3,7 @@ import requests
 from polyline.codec import PolylineCodec
 import time
 import datetime
+import random
 
 class GooglePaths():
     """
@@ -15,7 +16,7 @@ class GooglePaths():
         self.startLongitude = startLongitude
         self.endLatitude = endLatitude
         self.endLongitude = endLongitude
-        self.pickupStructTime = pickupStruct
+        self.pickupTime = pickupStruct
         self.cabRideNumber = cabRideNumber
         self.apiKey = "AIzaSyCuzBdk6sIIrrJpgQmcJbwtfumumuRLStU"
         self.polylineCodec = PolylineCodec()
@@ -33,11 +34,20 @@ class GooglePaths():
         counter = 0
         for lat, long in points:
             counter += 1
-            stepsList.append({"time": datetime.datetime.fromtimestamp(time.mktime(self.pickupStructTime)) + datetime.timedelta(seconds=counter),
+            stepsList.append({"time": str(pickupTime + datetime.timedelta(seconds=counter+5)),
                               "cabRideNumber": self.cabRideNumber,
                               'latitude': lat,
                               'longitude': long})
-        return stepsList
+
+        stepsListFinal = [stepsList[0]]
+        length = len(stepsList)
+        sample = []
+        if len(stepsList)-2 > 20:
+            sample = random.sample(stepsList[1: (length-2)], length/6)
+
+        stepsListFinal = stepsListFinal + sample + [stepsList[length -1]]
+
+        return stepsListFinal
 
 
     def getPaths(self):
@@ -46,20 +56,20 @@ class GooglePaths():
         return self.lines
 
 if __name__ == "__main__":
-    csvFile = "../data/aroundTheBlast.csv"
+    csvFile = "20130112AroundTheBlast.csv"
     csvreader = csv.reader(open(csvFile))
     header = csvreader.next()
     allCabData =[]
     for i, row in enumerate(csvreader):
         print "processing for the cab", str(i)
-        if i == 100:
-            break
-        startLatitude = row[8]
-        startLongitude = row[7]
-        endLatitude = row[11]
-        endLongitude = row[10]
-        pickupTime = time.strptime(row[3],'%Y-%m-%d %H:%M:%S')
-        dropOffTime = time.strptime(row[4], '%Y-%m-%d %H:%M:%S')
+        startLatitude = row[12]
+        startLongitude = row[13]
+        endLatitude = row[3]
+        endLongitude = row[4]
+        pickupTime = row[14].replace("AM", "").strip().replace("/", "-")
+        pickupTime = datetime.datetime.strptime(pickupTime,'%d-%m-%Y %H:%M:%S')
+        dropOffTime = row[5].replace("AM", "").strip().replace("/", "-")
+        dropOffTime = datetime.datetime.strptime(dropOffTime, '%d-%m-%Y %H:%M:%S')
         paths = GooglePaths(startLatitude, startLongitude, endLatitude, endLongitude, pickupTime, i)
         lod = paths.getPaths()
         allCabData = allCabData + lod
@@ -67,7 +77,7 @@ if __name__ == "__main__":
         time.sleep(1)
 
     keys = allCabData[0].keys()
-    timeDataFile = open('../data/time_data_aroundTheBlast100.csv', 'w')
+    timeDataFile = open('201312Time1.csv', 'w')
     writer = csv.DictWriter(timeDataFile, keys)
     writer.writeheader()
     writer.writerows(allCabData)
