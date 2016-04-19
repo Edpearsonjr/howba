@@ -5,6 +5,7 @@
 library('lubridate')  # This helps in handling the day
 library('sp')         # This helps in finding whether a point is inside a polygon 
 library('geojsonio')  # helps in reading the geojson files
+library('mgcv')       # This helps in checking whether a point belongs to a polygon 
 
 ################################################################################
 # Clearing the environment variables 
@@ -44,12 +45,12 @@ groupIntoTimeOfTheDay <- function(date){
   category
 }
 
-
 isInsidePolygon <- function(latitude, longitude, polygonx, polygony){
   # @params: latitude -> float 
   #          longitude -> float
   #          polygonx -> list of x coordinates for the borough to check in 
   #          ploygony -> list of x coordinates for the borough to check in 
+  print(paste("inside the isInsidePolygon function", polygonx))
   value <- point.in.polygon(latitude, longitude, pol.x = polygonx, pol.y = polygony)
   isInside <- FALSE
   if(value == 1 | value == 3){
@@ -80,18 +81,20 @@ getBoroughsData <- function(jsonfile){
         xcoord <- c()
         ycoord <- c()
         # process it here
-        for(listOfCoordinates in coordinates){
-            for(coordinates in listOfCoordinates){
-                x <- coordinates[[2]]
-                y <- coordinates[[1]]
-                xcoord <- c(xcoord, x)
-                ycoord <- c(ycoord, y)
+        if(polygonType== "Polygon"){
+            for(listOfCoordinates in coordinates){
+                for(coordinates in listOfCoordinates){
+                    x <- coordinates[[2]]
+                    y <- coordinates[[1]]
+                    xcoord <- c(xcoord, x)
+                    ycoord <- c(ycoord, y)
+                }
             }
+            boroughX <- paste(gsub(" ", "",tolower(boroughName)),"_x", sep="")
+            boroughY <- paste(gsub(" ", "",tolower(boroughName)),"_y", sep="")
+            boroughData[[boroughX]] <- xcoord
+            boroughData[[boroughY]] <- ycoord
         }
-        boroughX <- paste(gsub(" ", "",tolower(boroughName)),"_x", sep="")
-        boroughY <- paste(gsub(" ", "",tolower(boroughName)),"_y", sep="")
-        boroughData[[boroughX]] <- xcoord
-        boroughData[[boroughY]] <- ycoord
         
         else if(polygonType == "MultiPolygon"){
             for(polygon in coordinates){
@@ -113,7 +116,6 @@ getBoroughsData <- function(jsonfile){
     
     boroughData
 }
-
 
 getNeighborhoodData <- function(jsonfile){# @params jsonfile - geojson file containing the polygon coordinates
     json <- geojson_read(x = jsonfile)
@@ -152,13 +154,53 @@ getNeighborhoodData <- function(jsonfile){# @params jsonfile - geojson file cont
     boroughData
     
 }
-data <- getNeighborhoodData(NEIGHBORHOOD_GEOJSON)
+
+
+whichBorough <- function(lat,long, boroughs_data){
+    # Returns the borough name for the lat long 
+    # A wrapper function 
+    boroughs_names <- names(boroughs_data)
+    print(boroughs_names)
+    unique_names <- unique(sapply(strsplit(boroughs_names,"_"), function(x){x[[1]]}))
+    name <- ""
+    for(everyBorough in unique_names){
+        xCoord <- paste(everyBorough,"_x", sep="")
+        yCoord <- paste(everyBorough,"_y", sep="")
+        print(xCoord)
+        boroughXCoordinates <- as.list(boroughs_data[[xCoord]])
+        boroughYCoordinates <- as.list(boroughs_data[[yCoord]])
+        print(boroughXCoordinates)
+        if(isInsidePolygon(lat, long, boroughXCoordinates, boroughYCoordinates)== TRUE){
+            name <- everyBorough
+            break;
+        }
+   
+        
+    }
+    name
+    
+}
+
+
+################################################################################
+# Test the code 
+################################################################################
+data <- getBoroughsData(BOROUGH_GEOJSON)
 x <- 40.7265 # These are manhattan coordinates
 y <- -73.9815
 print(isInsidePolygon(x, y,data$manhattan_x, data$manhattan_y))
+borough_name <- whichBorough(x, y, data)
+print(borough_name)
 
-x <- 40.8448 # These coordinates are the ones that are in bronx
-y <- -73.8648
-print(isInsidePolygon(x, y, data$manhattan_x, data$manhattan_y))
-
-
+# x <- 40.8448 # These coordinates are the ones that are in bronx
+# y <- -73.8648
+# print(isInsidePolygon(x, y, data$manhattan_x, data$manhattan_y))
+# 
+# #Checks to see whether the point is inside the bounding box defined inside the coordinates
+# x <- 40.7096
+# y <- -73.83066
+# lat_max <- 40.7457829458 
+# lat_min <- 40.6734170542
+# lon_max <- -73.7829268215
+# lon_min <- -73.8783931785   
+# isInsidePolygon(x, y, c(lat_max, lat_max, lat_min, lat_min), c(lon_min, lon_max, lon_max, lon_min))
