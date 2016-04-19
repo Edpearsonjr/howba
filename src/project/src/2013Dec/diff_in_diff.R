@@ -77,7 +77,7 @@ lat_max_around_the_derailment <- 40.915905168
 lon_min_around_the_derailment <- -73.9706334275
 lon_max_around_the_derailment  <- -73.8749221281
 bounding_box_derailment_x_coordinates <- c(lat_max_around_the_derailment, lat_max_around_the_derailment, lat_min_around_the_derailment, lat_min_around_the_derailment) 
-bounding_box_derailment_y_coorindates <- c(lon_min_around_the_derailment, lon_max_around_the_derailment, lon_max_around_the_derailment, lon_min_around_the_derailment)
+bounding_box_derailment_y_coordinates <- c(lon_min_around_the_derailment, lon_max_around_the_derailment, lon_max_around_the_derailment, lon_min_around_the_derailment)
 
 # Remove bad data
 cleanData <- data %>%
@@ -92,15 +92,15 @@ cleanData <- data %>%
 #take only those data for which the pickup is within the bounding box of the derailment
 aroundTheDerailmentPickup <- cleanData %>%
                                 mutate(pickup_geom =paste(pickup_latitude, pickup_longitude, sep=","))
-isInside <- lapply(aroundTheDerailmentPickup$pickup_geom, function(x){isInsideDerailmentArea(x, bounding_box_derailment_x_coordinates, bounding_box_derailment_y_coorindates)})
+isInside <- lapply(aroundTheDerailmentPickup$pickup_geom, function(x){isInsideDerailmentArea(x, bounding_box_derailment_x_coordinates, bounding_box_derailment_y_coordinates)})
 aroundTheDerailmentPickup <- aroundTheDerailmentPickup %>%
                              mutate(within=isInside) %>%
                              filter(within==TRUE)
 
 
 aroundTheDerailmentDropoff <- cleanData %>%
-                                mutate(pickup_geom =paste(dropoff_latitude, dropoff_longitude, sep=","))
-isInside <- lapply(aroundTheDerailmentDropoff$pickup_geom, function(x){isInsideDerailmentArea(x, bounding_box_derailment_x_coordinates, bounding_box_derailment_y_coordinates)})
+                                mutate(dropoff_geom =paste(dropoff_latitude, dropoff_longitude, sep=","))
+isInside <- lapply(aroundTheDerailmentDropoff$dropoff_geom, function(x){isInsideDerailmentArea(x, bounding_box_derailment_x_coordinates, bounding_box_derailment_y_coordinates)})
 aroundTheDerailmentDropoff <- aroundTheDerailmentDropoff %>%
                                 mutate(within=isInside) %>%
                                 filter(within==TRUE)
