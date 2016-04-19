@@ -15,7 +15,7 @@ rm(list = ls())
 # Some of the constants that are required 
 ################################################################################
 BOROUGH_GEOJSON <- "../data/misc/boroughs.json"
-
+NEIGHBORHOOD_GEOJSON <- "../data/misc/neighborhood.json"
 groupIntoTimeOfTheDay <- function(date){
   # @params date -> lubridate object 
   # 3-6 am is EarlyMorning
@@ -51,7 +51,6 @@ isInsidePolygon <- function(latitude, longitude, polygonx, polygony){
   #          polygonx -> list of x coordinates for the borough to check in 
   #          ploygony -> list of x coordinates for the borough to check in 
   value <- point.in.polygon(latitude, longitude, pol.x = polygonx, pol.y = polygony)
-  print(value)
   isInside <- FALSE
   if(value == 1 | value == 3){
       isInside <- TRUE
@@ -65,7 +64,7 @@ isInsidePolygon <- function(latitude, longitude, polygonx, polygony){
 
 getBoroughsData <- function(jsonfile){
     # @params jsonfile - geojson file containing the polygon coordinates
-    json <- geojson_read(x = BOROUGH_GEOJSON)
+    json <- geojson_read(x = jsonfile)
     features <- json$features
     boroughData <- c()
     #coordinates has many lists inside it 
@@ -78,24 +77,22 @@ getBoroughsData <- function(jsonfile){
         coordinates <- feature$geometry$coordinates
         boroughName <- feature$properties$BoroName
         polygonType <- feature$geometry$type
-        print(polygonType)
         xcoord <- c()
         ycoord <- c()
         # process it here
-        if(polygonType == "Polygon"){
-            for(listOfCoordinates in coordinates){
-                for(coordinates in listOfCoordinates){
-                    x <- coordinates[[2]]
-                    y <- coordinates[[1]]
-                    xcoord <- c(xcoord, x)
-                    ycoord <- c(ycoord, y)
-                }
+        for(listOfCoordinates in coordinates){
+            for(coordinates in listOfCoordinates){
+                x <- coordinates[[2]]
+                y <- coordinates[[1]]
+                xcoord <- c(xcoord, x)
+                ycoord <- c(ycoord, y)
             }
+        }
         boroughX <- paste(gsub(" ", "",tolower(boroughName)),"_x", sep="")
         boroughY <- paste(gsub(" ", "",tolower(boroughName)),"_y", sep="")
         boroughData[[boroughX]] <- xcoord
         boroughData[[boroughY]] <- ycoord
-        }
+        
         else if(polygonType == "MultiPolygon"){
             for(polygon in coordinates){
                 for(listOfCoordinates in polygon){
@@ -118,11 +115,44 @@ getBoroughsData <- function(jsonfile){
 }
 
 
-
-
-
-
-data <- getBoroughsData(BOROUGH_GEOJSON)
+getNeighborhoodData <- function(jsonfile){# @params jsonfile - geojson file containing the polygon coordinates
+    json <- geojson_read(x = jsonfile)
+    features <- json$features
+    boroughData <- c()
+    #coordinates has many lists inside it 
+    # for eachList in coordinates:
+    #   for latlng in eachList:
+    #       x <- latlng[1]
+    #       y <- latlng[2]
+    for(l in 1:length(features)){
+        feature <- features[[l]]
+        coordinates <- feature$geometry$coordinates
+        boroughName <- feature$properties$borough
+        neighborhood <- feature$properties$neighborhood 
+        polygonType <- feature$geometry$type
+        xcoord <- c()
+        ycoord <- c()
+        # process it here
+        if(polygonType == "Polygon"){
+            for(listOfCoordinates in coordinates){
+                for(coordinates in listOfCoordinates){
+                    x <- coordinates[[2]]
+                    y <- coordinates[[1]]
+                    xcoord <- c(xcoord, x)
+                    ycoord <- c(ycoord, y)
+                }
+            }
+            boroughX <- paste(gsub(" ", "",tolower(boroughName)), "_", gsub(" ", "", tolower(neighborhood)),"_x", sep="")
+            boroughY <- paste(gsub(" ", "",tolower(boroughName)), "_", gsub(" ", "", tolower(neighborhood)), "_y", sep="")
+            boroughData[[boroughX]] <- xcoord
+            boroughData[[boroughY]] <- ycoord
+        }
+    }
+    
+    boroughData
+    
+}
+data <- getNeighborhoodData(NEIGHBORHOOD_GEOJSON)
 x <- 40.7265 # These are manhattan coordinates
 y <- -73.9815
 print(isInsidePolygon(x, y,data$manhattan_x, data$manhattan_y))
