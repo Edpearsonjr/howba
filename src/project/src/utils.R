@@ -5,7 +5,7 @@
 library('lubridate')  # This helps in handling the day
 library('sp')         # This helps in finding whether a point is inside a polygon 
 library('geojsonio')  # helps in reading the geojson files
-library('mgcv')       # This helps in checking whether a point belongs to a polygon 
+
 
 ################################################################################
 # Clearing the environment variables 
@@ -50,7 +50,6 @@ isInsidePolygon <- function(latitude, longitude, polygonx, polygony){
   #          longitude -> float
   #          polygonx -> list of x coordinates for the borough to check in 
   #          ploygony -> list of x coordinates for the borough to check in 
-  print(paste("inside the isInsidePolygon function", polygonx))
   value <- point.in.polygon(latitude, longitude, pol.x = polygonx, pol.y = polygony)
   isInside <- FALSE
   if(value == 1 | value == 3){
@@ -174,13 +173,9 @@ whichBorough <- function(lat,long, boroughs_data){
             name <- everyBorough
             break;
         }
-   
-        
     }
     name
-    
 }
-
 
 ################################################################################
 # Test the code 
@@ -192,15 +187,15 @@ print(isInsidePolygon(x, y,data$manhattan_x, data$manhattan_y))
 borough_name <- whichBorough(x, y, data)
 print(borough_name)
 
-# x <- 40.8448 # These coordinates are the ones that are in bronx
-# y <- -73.8648
-# print(isInsidePolygon(x, y, data$manhattan_x, data$manhattan_y))
+x <- 40.8448 # These coordinates are the ones that are in bronx
+y <- -73.8648
+print(isInsidePolygon(x, y, data$manhattan_x, data$manhattan_y))
 # 
 # #Checks to see whether the point is inside the bounding box defined inside the coordinates
-# x <- 40.7096
-# y <- -73.83066
-# lat_max <- 40.7457829458 
-# lat_min <- 40.6734170542
-# lon_max <- -73.7829268215
-# lon_min <- -73.8783931785   
-# isInsidePolygon(x, y, c(lat_max, lat_max, lat_min, lat_min), c(lon_min, lon_max, lon_max, lon_min))
+x <- 40.7204
+y <- -73.8412
+lat_max <- 40.7457829458
+lat_min <- 40.6734170542
+lon_max <- -73.7829268215
+lon_min <- -73.8783931785
+isInsidePolygon(x, y, c(lat_max, lat_max, lat_min, lat_min), c(lon_min, lon_max, lon_max, lon_min))

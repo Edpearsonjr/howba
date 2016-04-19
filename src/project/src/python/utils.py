@@ -51,6 +51,12 @@ def get_bounding_box(latitude_in_degrees, longitude_in_degrees, half_side_in_mil
    return (box)
 
 if __name__ == "__main__":
-    latitude, longitude = convertIntoCoordinates([(40, 47, 59), (73, 56, 37)])
+    latitude, longitude = convertIntoCoordinates([(40, 52, 47), (73, 55, 22)])
+    print latitude 
+    print longitude
     boundingBox = get_bounding_box(latitude, longitude, 2.5)
-    print boundingBox
+    print boundingBox.lat_min
+    print boundingBox.lat_max
+    print boundingBox.lon_min
+    print boundingBox.lon_max
+

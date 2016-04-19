@@ -3,8 +3,8 @@ DROP TABLE IF EXISTS NOV2013;
 CREATE TABLE NOV2013 (
 	row_number BIGINT,
 	vendor_id VARCHAR(10),
-	pickup_time TIMESTAMP,
-	dropoff_time TIMESTAMP,
+	pickup_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	dropoff_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 	rate_code_id BIGINT,
 	pickup_longitude FLOAT,
 	pickup_latitude FLOAT,
