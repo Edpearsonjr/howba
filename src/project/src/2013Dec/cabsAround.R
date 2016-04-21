@@ -59,7 +59,7 @@ connection <- dbConnect(RMySQL::MySQL(), user=DB_USER, password=DB_PASSWORD, hos
 ################################################################################
 # Getting the November 24th 2013 data 
 ################################################################################
-queryNovemberSunday <-"SELECT * FROM DEC2013 WHERE DATE(pickup_time)='2013-12-01'"
+queryNovemberSunday <-"SELECT * FROM NOV2013 WHERE DATE(pickup_time)='2013-11-24'"
 data <- tbl_df(dbGetQuery(connection, queryNovemberSunday))
 
 
